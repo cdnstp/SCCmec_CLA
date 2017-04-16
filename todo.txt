@@ -1,0 +1,5 @@
+ADD ccrA ccrB ccrC
+ADD mecA mecB mecC
+att core sequence
+Exception if BLASTn without hits
+
