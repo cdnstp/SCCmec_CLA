@@ -253,7 +253,7 @@ def main():
 
 		os.chdir(raw_data)
 		""" EDIT """
-		with open("sccmec_"+nombre, "w") as f:
+		with open("sccmec_"+nombre+".fasta", "w") as f:
 			f.write(">sccmec_"+nombre+"_"+str(len(sccmec))+"\n")
 			for i in range(0, len(sccmec), 60):
 				f.write(sccmec[i:i+60]+'\n')
