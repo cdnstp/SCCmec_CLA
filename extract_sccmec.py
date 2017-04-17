@@ -135,20 +135,20 @@ def checkSense(sequence, contig):
 		return contig, "+"
 	contig = reverse_complement(contig)
 	if re.findall("{pattern}".format(pattern=sequence), contig):
-		return contig, "-"
+		return contig, "+"
 
 def clean_att(atts_location):
 	"""
 	Conditions to verify if seq is att,
 	"""
 	core = "TATCA"
-	adjacent_core = "GA*G"
+	adjacent_core = "GA.G"
 	stop_codons = ["TAA", "TGA"]
 
-	for k in atts_location.keys():
+	#for k in atts_location.keys():
 		#print k
-		if not k[-3:] in stop_codons:
-			del atts_location[k]
+	#	if not k[-3:] in stop_codons:
+	#		del atts_location[k]
 	for k in atts_location.keys():
 		if not core in k:
 			del atts_location[k]
@@ -175,10 +175,12 @@ def create_dir(base, dir_name):
 def find_position(sequence, gene, name):
 	if re.findall("{pattern}".format(pattern=gene), sequence):
 		for i in re.findall("{pattern}".format(pattern=gene), sequence):
-			print "- %s located at: " % name, [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), sequence)]
+			print "+ %s located at: " % name, [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), sequence)]
 	else:
 		for i in re.findall("{pattern}".format(pattern=reverse_complement(gene)), sequence):
-			print "+ %s located at: " % name, [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), sequence)]		
+			print "- %s located at: " % name, [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), sequence)]
+
+		
 # ------------------------------------------------------------------------- #
 # ------------------------------------------------------------------------- #
 # ------------------------------------------------------------------------- #
@@ -258,13 +260,14 @@ def main():
 		print
 
 		""" Extract 19 nucleotides located at the 3'- end of orfX gene corresponding to attL """
-		att_actual_orfx = actual_orfx[len(actual_orfx)-21:-3]
+		att_actual_orfx = actual_orfx[len(actual_orfx)-20:-2]
+		print att_actual_orfx
 
 		""" Search for attachment site sequences """
-		atts_location = {}
-		for i in re.findall("({att}){{s<=6}}".format(att=att_actual_orfx), seq):
-			[(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), seq)]
-			atts_location[seq[m.start(0):(m.end(0)+3)]] = [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), seq)]
+		atts_location = {}	
+		for i in re.findall("({att}){{s<=5}}".format(att=att_actual_orfx), seq):
+			print [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), seq)], i
+			atts_location[seq[m.start(0)-5:(m.end(0))]] = [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), seq)]
 
 		""" Filter att sequences according to literature """
 		coordinates, cleaned_atts_location = clean_att(atts_location)

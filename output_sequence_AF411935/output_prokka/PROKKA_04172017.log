@@ -1,0 +1,118 @@
+[20:26:11] This is prokka 1.12
+[20:26:11] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[20:26:11] Homepage is https://github.com/tseemann/prokka
+[20:26:11] Local time is Mon Apr 17 20:26:11 2017
+[20:26:11] You are fsepulveda
+[20:26:11] Operating system is linux
+[20:26:11] You have BioPerl 1.006924
+[20:26:11] System has 4 cores.
+[20:26:11] Option --cpu asked for 8 cores, but system only has 4
+[20:26:11] Will use maximum of 4 cores.
+[20:26:11] Annotating as >>> Bacteria <<<
+[20:26:11] Enabling options to ensure Genbank/ENA/DDJB submission compliance.
+[20:26:11] Creating new output folder: /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka
+[20:26:11] Running: mkdir -p \/home\/fsepulveda\/Desktop\/test_script\/output_sequence_AF411935\/output_prokka
+[20:26:11] Using filename prefix: PROKKA_04172017.XXX
+[20:26:11] Setting HMMER_NCPU=1
+[20:26:11] Writing log to: /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/PROKKA_04172017.log
+[20:26:11] Command: /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/prokka --kingdom Bacteria --outdir /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka --quiet --genus Staphylococcus --locustag saureus --centre 10 --compliant /home/fsepulveda/Desktop/test_script/input/sequence_AF411935.fasta
+[20:26:11] Appending to PATH: /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../binaries/linux
+[20:26:11] Appending to PATH: /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../binaries/linux/../common
+[20:26:11] Appending to PATH: /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin
+[20:26:11] Looking for 'aragorn' - found /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../binaries/linux/aragorn
+[20:26:11] Determined aragorn version is 1.2
+[20:26:11] Looking for 'blastp' - found /usr/bin/blastp
+[20:26:11] Determined blastp version is 2.2
+[20:26:11] Looking for 'cmpress' - found /usr/bin/cmpress
+[20:26:11] Determined cmpress version is 1.1
+[20:26:11] Looking for 'cmscan' - found /usr/bin/cmscan
+[20:26:11] Determined cmscan version is 1.1
+[20:26:11] Looking for 'egrep' - found /bin/egrep
+[20:26:11] Looking for 'find' - found /usr/bin/find
+[20:26:11] Looking for 'grep' - found /bin/grep
+[20:26:11] Looking for 'hmmpress' - found /usr/bin/hmmpress
+[20:26:11] Determined hmmpress version is 3.1
+[20:26:11] Looking for 'hmmscan' - found /usr/bin/hmmscan
+[20:26:11] Determined hmmscan version is 3.1
+[20:26:11] Looking for 'java' - found /usr/bin/java
+[20:26:11] Looking for 'less' - found /usr/bin/less
+[20:26:11] Looking for 'makeblastdb' - found /usr/bin/makeblastdb
+[20:26:11] Determined makeblastdb version is 2.2
+[20:26:11] Looking for 'minced' - found /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../binaries/linux/../common/minced
+[20:26:12] Determined minced version is 2.0
+[20:26:12] Looking for 'parallel' - found /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../binaries/linux/../common/parallel
+[20:26:12] Determined parallel version is 20150122
+[20:26:12] Looking for 'prodigal' - found /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../binaries/linux/prodigal
+[20:26:12] Determined prodigal version is 2.6
+[20:26:12] Looking for 'prokka-genbank_to_fasta_db' - found /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/prokka-genbank_to_fasta_db
+[20:26:12] Looking for 'sed' - found /bin/sed
+[20:26:12] Looking for 'tbl2asn' - found /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../binaries/linux/tbl2asn
+[20:26:12] Determined tbl2asn version is 25.3
+[20:26:12] Using genetic code table 11.
+[20:26:12] Loading and checking input file: /home/fsepulveda/Desktop/test_script/input/sequence_AF411935.fasta
+[20:26:12] Wrote 1 contigs totalling 23293 bp.
+[20:26:12] Predicting tRNAs and tmRNAs
+[20:26:12] Running: aragorn -l -gc11  -w \/home\/fsepulveda\/Desktop\/test_script\/output_sequence_AF411935\/output_prokka\/PROKKA_04172017\.fna
+[20:26:12] Found 0 tRNAs
+[20:26:12] Predicting Ribosomal RNAs
+[20:26:12] You need either Barrnap or RNAmmer installed to predict rRNAs!
+[20:26:12] Skipping ncRNA search, enable with --rfam if desired.
+[20:26:12] Total of 0 tRNA + rRNA features
+[20:26:12] Searching for CRISPR repeats
+[20:26:13] Found 0 CRISPRs
+[20:26:13] Predicting coding sequences
+[20:26:13] Contigs total 23293 bp, so using meta mode
+[20:26:13] Running: prodigal -i \/home\/fsepulveda\/Desktop\/test_script\/output_sequence_AF411935\/output_prokka\/PROKKA_04172017\.fna -c -m -g 11 -p meta -f sco -q
+[20:26:13] Found 26 CDS
+[20:26:13] Connecting features back to sequences
+[20:26:13] Not using genus-specific database. Try --usegenus to enable it.
+[20:26:13] Annotating CDS, please be patient.
+[20:26:13] Will use 4 CPUs for similarity searching.
+[20:26:13] There are still 26 unannotated CDS left (started with 26)
+[20:26:13] Will use blast to search against /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../db/kingdom/Bacteria/sprot with 4 CPUs
+[20:26:13] Running: cat \/home\/fsepulveda\/Desktop\/test_script\/output_sequence_AF411935\/output_prokka\/sprot\.faa | parallel --gnu --plain -j 4 --block 811 --recstart '>' --pipe blastp -query - -db /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../db/kingdom/Bacteria/sprot -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \/home\/fsepulveda\/Desktop\/test_script\/output_sequence_AF411935\/output_prokka\/sprot\.blast 2> /dev/null
+[20:26:14] Deleting unwanted file: /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/sprot.faa
+[20:26:14] Deleting unwanted file: /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/sprot.blast
+[20:26:15] There are still 19 unannotated CDS left (started with 26)
+[20:26:15] Will use hmmer3 to search against /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../db/hmm/HAMAP.hmm with 4 CPUs
+[20:26:15] Running: cat \/home\/fsepulveda\/Desktop\/test_script\/output_sequence_AF411935\/output_prokka\/HAMAP\.hmm\.faa | parallel --gnu --plain -j 4 --block 512 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../db/hmm/HAMAP.hmm /dev/stdin > \/home\/fsepulveda\/Desktop\/test_script\/output_sequence_AF411935\/output_prokka\/HAMAP\.hmm\.hmmer3 2> /dev/null
+[20:26:18] Deleting unwanted file: /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/HAMAP.hmm.faa
+[20:26:18] Deleting unwanted file: /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/HAMAP.hmm.hmmer3
+[20:26:18] Labelling remaining 19 proteins as 'hypothetical protein'
+[20:26:18] Possible /pseudo 'DNA-invertase hin' at gnl|10|saureus_1 position 9207
+[20:26:18] Found 6 unique /gene codes.
+[20:26:18] Fixed 2 duplicate /gene - hin_1 hin_2
+[20:26:18] Fixed 1 colliding /gene names.
+[20:26:18] Adding /locus_tag identifiers
+[20:26:18] Assigned 26 locus_tags to CDS and RNA features.
+[20:26:18] Writing outputs to /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/
+[20:26:18] Generating annotation statistics file
+[20:26:18] Generating Genbank and Sequin files
+[20:26:18] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.12 from https://github.com/tseemann/prokka' -Z \/home\/fsepulveda\/Desktop\/test_script\/output_sequence_AF411935\/output_prokka\/PROKKA_04172017\.err -i \/home\/fsepulveda\/Desktop\/test_script\/output_sequence_AF411935\/output_prokka\/PROKKA_04172017\.fsa 2> /dev/null
+[20:26:19] Deleting unwanted file: /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/errorsummary.val
+[20:26:19] Deleting unwanted file: /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/PROKKA_04172017.dr
+[20:26:19] Deleting unwanted file: /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/PROKKA_04172017.fixedproducts
+[20:26:19] Deleting unwanted file: /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/PROKKA_04172017.ecn
+[20:26:19] Deleting unwanted file: /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/PROKKA_04172017.val
+[20:26:19] Repairing broken .GBK output that tbl2asn produces...
+[20:26:19] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < \/home\/fsepulveda\/Desktop\/test_script\/output_sequence_AF411935\/output_prokka\/PROKKA_04172017\.gbf > \/home\/fsepulveda\/Desktop\/test_script\/output_sequence_AF411935\/output_prokka\/PROKKA_04172017\.gbk
+[20:26:19] Deleting unwanted file: /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/PROKKA_04172017.gbf
+[20:26:19] Output files:
+[20:26:19] /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/PROKKA_04172017.tsv
+[20:26:19] /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/PROKKA_04172017.txt
+[20:26:19] /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/PROKKA_04172017.ffn
+[20:26:19] /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/PROKKA_04172017.gbk
+[20:26:19] /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/PROKKA_04172017.faa
+[20:26:19] /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/PROKKA_04172017.log
+[20:26:19] /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/PROKKA_04172017.err
+[20:26:19] /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/PROKKA_04172017.fsa
+[20:26:19] /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/PROKKA_04172017.sqn
+[20:26:19] /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/PROKKA_04172017.fna
+[20:26:19] /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/PROKKA_04172017.gff
+[20:26:19] /home/fsepulveda/Desktop/test_script/output_sequence_AF411935/output_prokka/PROKKA_04172017.tbl
+[20:26:19] Annotation finished successfully.
+[20:26:19] Walltime used: 0.13 minutes
+[20:26:19] If you use this result please cite the Prokka paper:
+[20:26:19] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[20:26:19] Type 'prokka --citation' for more details.
+[20:26:19] Thank you, come again.
