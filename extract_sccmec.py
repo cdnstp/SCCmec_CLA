@@ -24,13 +24,13 @@ def simple_sequence(file):
     with open(file) as f:
         lines = f.read()
         sequences = [line for line in lines.split('\n') if not ">" in line]
-    nucl = ''.join(map(str,sequences))
+    sequence = ''.join(map(str,sequences))
 
-    return nucl
+    return sequence
 
-def blast(blastn_exe, database, query):
+def blast(blast_exe, database, query):
 	outfmt = "6 qseqid qlen sseqid slen qstart qend sstart send length nident pident evalue"
-	cmd = [blastn_exe, "-outfmt", outfmt, "-db", database]
+	cmd = [blast_exe, "-outfmt", outfmt, "-db", database]
 	proc = subprocess.Popen(cmd,
 		stdin=subprocess.PIPE,
 		stdout=subprocess.PIPE,
@@ -89,12 +89,12 @@ def fasta2dict(file):
 
 	return fastadict
 
-def get_sequence(contigs_dict, contig_id):
-	seq = ""
-	for i in contigs_dict.get(contig_id)[:]:
-		seq += ''.join(i)
+def get_sequence(sequences_dict, sequence_id):
+	sequence = ""
+	for i in sequences_dict.get(sequence_id)[:]:
+		sequence += ''.join(i)
 
-	return seq
+	return sequence
 
 #import string
 #import random
@@ -111,8 +111,8 @@ def reverse_complement(seq):
 	reverse = complement[::-1]
 	return reverse
 
-def blast_parser(blastn_exe, db, query):
-	blastfile, err = blast(blastn_exe, db, query)
+def blast_parser(blast_exe, db, query):
+	blastfile, err = blast(blast_exe, db, query)
 	best_hit = blastfile.split()[2]
 
 	return best_hit
@@ -146,7 +146,7 @@ def clean_att(atts_location):
 	stop_codons = ["TAA", "TGA"]
 
 	for k in atts_location.keys():
-		print k
+		#print k
 		if not k[-3:] in stop_codons:
 			del atts_location[k]
 	for k in atts_location.keys():
@@ -171,6 +171,8 @@ def create_dir(base, dir_name):
 	if not os.path.isdir(new_dir):
 		os.makedirs(new_dir)
 	return new_dir
+
+
 # ------------------------------------------------------------------------- #
 # ------------------------------------------------------------------------- #
 # ------------------------------------------------------------------------- #
@@ -232,12 +234,11 @@ def main():
 		actual_orfx = get_sequence(nucl_dict, orfx_nucl_hit)
 		actual_mecA = get_sequence(nucl_dict, mecA_hit)
 		actual_ccr = get_sequence(nucl_dict, ccr_hit)
-
+		print ccr_hit
 		""" Check if orfX has the same sense as the contig or use the reverse complementary sequence """
-		seq, sense = checkSense(actual_orfx, seq)
-		#print sense
+		seq, orfx_sense = checkSense(actual_orfx, seq)
 		for i in re.findall("{pattern}".format(pattern=actual_orfx), seq):
-			print "orfX Location at: ", [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), seq)]
+			print "orfX located at: ", [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), seq)]
 
 		print
 		print("-"*78)
@@ -248,7 +249,7 @@ def main():
 
 		""" Search for attachment site sequences """
 		atts_location = {}
-		for i in re.findall("({att}){{s<=4}}".format(att=att_actual_orfx), seq):
+		for i in re.findall("({att}){{s<=6}}".format(att=att_actual_orfx), seq):
 			[(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), seq)]
 			atts_location[seq[m.start(0):(m.end(0)+3)]] = [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), seq)]
 
@@ -271,7 +272,7 @@ def main():
 				f.write(sccmec[i:i+60]+'\n')
 		with open("info.txt", "w") as f:
 			f.write("General Information"+ '\n'+'\n')
-			f.write("Strand Sense: "+sense+'\n')
+			f.write("Strand Sense: "+orfx_sense+'\n')
 			f.write("Contig Length: "+str(len(seq))+'\n')
 			f.write("SCCmec Length: "+str(len(sccmec))+'\n'+'\n')
 			f.write("Attachment Site Sequences"+'\n'+'\n')

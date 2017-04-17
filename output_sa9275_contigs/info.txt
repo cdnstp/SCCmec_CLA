@@ -1,0 +1,11 @@
+General Information
+
+Strand Sense: -
+Contig Length: 97022
+SCCmec Length: 69710
+
+Attachment Site Sequences
+
+att: TGAGCAACGTATCAAACATGA location: (79604, 79622)
+att: TAAGAAGCTTATCATAAGTAA location: (10014, 10032)
+att: GGAGAAGCATATCATAAATGA location: (9912, 9930)
