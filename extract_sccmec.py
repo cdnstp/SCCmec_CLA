@@ -9,6 +9,7 @@ def config():
 	config.readfp(open(r'config.txt'))
 	prokka_exe = config.get('configuration', 'prokka')
 	blastn_exe = config.get('configuration', 'blastn')
+	blastp_exe = config.get('configuration', 'blastp')
 	makeblastdb_exe = config.get('configuration', 'makeblastdb')
 	inputFiles = config.get('configuration', 'input')
 	contigs = config.get('configuration', 'contig')
@@ -16,7 +17,7 @@ def config():
 	orfX = config.get('configuration', 'orfX')
 	mecA = config.get('configuration', 'mecA')
 
-	return prokka_exe, blastn_exe, makeblastdb_exe, inputFiles, contigs, ccr, orfX, mecA
+	return prokka_exe, blastn_exe, blastp_exe, makeblastdb_exe, inputFiles, contigs, ccr, orfX, mecA
 
 
 def simple_sequence(file):
@@ -27,7 +28,7 @@ def simple_sequence(file):
 
     return nucl
 
-def blastn(blastn_exe, database, query):
+def blast(blastn_exe, database, query):
 	outfmt = "6 qseqid qlen sseqid slen qstart qend sstart send length nident pident evalue"
 	cmd = [blastn_exe, "-outfmt", outfmt, "-db", database]
 	proc = subprocess.Popen(cmd,
@@ -53,8 +54,10 @@ def prokka_files(location):
 			gff = os.path.join(location, file)
 		if file.endswith(".fna"):
 			fna = os.path.join(location, file)
+		if file.endswith(".faa"):
+			faa = os.path.join(location, file)
 
-	return ffn, gff, fna
+	return ffn, gff, fna, faa
 
 def execute_prokka(prokka_exe, output_prokka, contigs):
 	kingdom = "Bacteria"
@@ -109,7 +112,7 @@ def reverse_complement(seq):
 	return reverse
 
 def blast_parser(blastn_exe, db, query):
-	blastfile, err = blastn(blastn_exe, db, query)
+	blastfile, err = blast(blastn_exe, db, query)
 	best_hit = blastfile.split()[2]
 
 	return best_hit
@@ -143,6 +146,7 @@ def clean_att(atts_location):
 	stop_codons = ["TAA", "TGA"]
 
 	for k in atts_location.keys():
+		print k
 		if not k[-3:] in stop_codons:
 			del atts_location[k]
 	for k in atts_location.keys():
@@ -162,13 +166,17 @@ def clean_att(atts_location):
 
 	return coordinates, atts_location
 
-
+def create_dir(base, dir_name):
+	new_dir = os.path.join(base, dir_name)
+	if not os.path.isdir(new_dir):
+		os.makedirs(new_dir)
+	return new_dir
 # ------------------------------------------------------------------------- #
 # ------------------------------------------------------------------------- #
 # ------------------------------------------------------------------------- #
 
 def main():
-	prokka_exe, blastn_exe, makeblastdb_exe, inputFiles, contigs, ccr, orfX, mecA = config()
+	prokka_exe, blastn_exe, blastp_exe, makeblastdb_exe, inputFiles, contigs, ccr, orfX, mecA = config()
 
 	orfx_base = simple_sequence(os.path.join(inputFiles, orfX))
 	mecA_base = simple_sequence(os.path.join(inputFiles, mecA))
@@ -186,38 +194,42 @@ def main():
 
 	# execute prokka 
 	execute_prokka(prokka_exe, output_prokka, contigs)
-	ffn, gff, fna = prokka_files(output_prokka)
+	ffn, gff, fna, faa = prokka_files(output_prokka)
 
 	# create nucleotide db
-	db_dir = os.path.join(raw_data, "db_dir")
-	if not os.path.isdir(db_dir):
-		os.makedirs(db_dir)
-	database = makeblastdb(makeblastdb_exe, db_dir, ffn, "nucl", "test_db")
-	db = os.path.join(db_dir, database)
-
+	nucl_db_dir = create_dir(raw_data, "nucl_db_dir")
+	nucl_db = makeblastdb(makeblastdb_exe, nucl_db_dir, ffn, "nucl", "nucl_db")
+	nucl_db_path = os.path.join(nucl_db_dir, nucl_db)
 	# run blastn and parse output
-	orfx_hit = blast_parser(blastn_exe, db, orfx_base)
-	mecA_hit = blast_parser(blastn_exe, db, mecA_base)
-	ccr_hit = blast_parser(blastn_exe, db, ccr_base)
+	orfx_nucl_hit = blast_parser(blastn_exe, nucl_db_path, orfx_base)
+
+
+	prot_db_dir = create_dir(raw_data, "prot_db_dir")
+	prot_db = makeblastdb(makeblastdb_exe, prot_db_dir, faa, "prot", "prot_db")
+	prot_db_path = os.path.join(prot_db_dir, prot_db)
+	# run blastp for mecA and ccrs
+	mecA_hit = blast_parser(blastp_exe, prot_db_path, mecA_base)
+	ccr_hit = blast_parser(blastp_exe, prot_db_path, ccr_base)
 
 	# find contig which contains orfx, mec and ccr
-	contig_id_orfx = get_contig(gff, orfx_hit)
+	contig_id_orfx = get_contig(gff, orfx_nucl_hit)
 	contig_id_mecA = get_contig(gff, mecA_hit)
 	contig_id_ccr = get_contig(gff, ccr_hit)
 	contig_ids = [contig_id_orfx, contig_id_mecA, contig_id_ccr]
+
 
 	print
 	print("-"*78)
 	print
 
-
+	print contig_ids
 	""" Check if sccmec core components are in the same contig to continue """
 	if checkContig(contig_ids):
 
 		contigs_dict = fasta2dict(fna)
 		seq = get_sequence(contigs_dict, contig_id_orfx)
 		nucl_dict = fasta2dict(ffn)
-		actual_orfx = get_sequence(nucl_dict, orfx_hit)
+		actual_orfx = get_sequence(nucl_dict, orfx_nucl_hit)
 		actual_mecA = get_sequence(nucl_dict, mecA_hit)
 		actual_ccr = get_sequence(nucl_dict, ccr_hit)
 

@@ -8,9 +8,10 @@
 [configuration]
 prokka = /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/prokka
 blastn = /usr/bin/blastn
+blastp = /usr/bin/blastp
 makeblastdb = /usr/bin/makeblastdb
 input = /home/fsepulveda/Desktop/test_script/input
-contig = sequence_secret.fasta
+contig = sequence_AB425823.fasta
 orfX = orfx.fasta
-mecA = mecA.fasta
-ccr = ccr.fasta
+mecA = mecA_prot.fasta
+ccr = ccrX_prot.fasta
