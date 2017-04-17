@@ -172,10 +172,17 @@ def create_dir(base, dir_name):
 		os.makedirs(new_dir)
 	return new_dir
 
+def find_position(sequence, gene, name):
+	if re.findall("{pattern}".format(pattern=gene), sequence):
+		for i in re.findall("{pattern}".format(pattern=gene), sequence):
+			print "- %s located at: " % name, [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), sequence)]
+	else:
+		for i in re.findall("{pattern}".format(pattern=reverse_complement(gene)), sequence):
+			print "+ %s located at: " % name, [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), sequence)]		
+# ------------------------------------------------------------------------- #
+# ------------------------------------------------------------------------- #
+# ------------------------------------------------------------------------- #
 
-# ------------------------------------------------------------------------- #
-# ------------------------------------------------------------------------- #
-# ------------------------------------------------------------------------- #
 
 def main():
 	prokka_exe, blastn_exe, blastp_exe, makeblastdb_exe, inputFiles, contigs, ccr, orfX, mecA = config()
@@ -234,11 +241,17 @@ def main():
 		actual_orfx = get_sequence(nucl_dict, orfx_nucl_hit)
 		actual_mecA = get_sequence(nucl_dict, mecA_hit)
 		actual_ccr = get_sequence(nucl_dict, ccr_hit)
-		print ccr_hit
-		""" Check if orfX has the same sense as the contig or use the reverse complementary sequence """
+
+
+		""" Check if orfX has the same sense as the contig or use the reverse complementary sequence
+			of the given contig
+		"""
 		seq, orfx_sense = checkSense(actual_orfx, seq)
 		for i in re.findall("{pattern}".format(pattern=actual_orfx), seq):
-			print "orfX located at: ", [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), seq)]
+			print orfx_sense, "orfX located at: ", [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), seq)]
+
+		find_position(seq, actual_mecA, "mecA")
+		find_position(seq, actual_ccr, "ccr")
 
 		print
 		print("-"*78)
