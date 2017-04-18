@@ -161,10 +161,11 @@ def clean_att(atts_location):
 		print "att: ", k, "location: ", v
 		cassette_coordinates.append(v[0])
 
+	sites = sorted(atts_location.items(), key=lambda e: e[1][0])
 	from itertools import chain
 	coordinates = sorted(list(chain(*cassette_coordinates)))
 
-	return coordinates, atts_location
+	return coordinates, sites, atts_location
 
 def create_dir(base, dir_name):
 	new_dir = os.path.join(base, dir_name)
@@ -180,7 +181,7 @@ def find_position(sequence, gene, name):
 		for i in re.findall("{pattern}".format(pattern=reverse_complement(gene)), sequence):
 			print "- %s located at: " % name, [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), sequence)]
 
-		
+
 # ------------------------------------------------------------------------- #
 # ------------------------------------------------------------------------- #
 # ------------------------------------------------------------------------- #
@@ -266,12 +267,26 @@ def main():
 		""" Search for attachment site sequences """
 		atts_location = {}	
 		for i in re.findall("({att}){{s<=5}}".format(att=att_actual_orfx), seq):
-			print [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), seq)], i
-			atts_location[seq[m.start(0)-5:(m.end(0))]] = [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), seq)]
+			#print [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), seq)], i
+			atts_location[seq[m.start(0):(m.end(0))]] = [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), seq)]
 
 		""" Filter att sequences according to literature """
-		coordinates, cleaned_atts_location = clean_att(atts_location)
+		coordinates, sites, cleaned_atts_location = clean_att(atts_location)
 		sccmec = seq[coordinates[0]:coordinates[-1]]
+
+
+		#print sites[0][1][0]
+		attL = sites[0][1][0]
+		#print attL[0], attL[1]
+		#print seq[attL[0]-30:attL[1]+30]
+		attL_seq = seq[attL[0]-30:attL[1]+30]
+
+		#print sites[-1][1][0]
+		attR = sites[-1][1][0]
+		#print attR[0], attR[1]
+		#print seq[attR[0]-30:attR[1]+30]
+		attR_seq = seq[attR[0]-30:attR[1]+30]
+
 
 		print
 		print("-"*78)
@@ -281,7 +296,14 @@ def main():
 		print "SCCmec Length: ", len(sccmec)
 
 		os.chdir(raw_data)
-		""" EDIT """
+
+		""" EDITAR """
+		with open("attL_"+nombre+".fasta", "w") as f:
+			f.write(">attL_"+nombre+"\n")
+			f.write(attL_seq+'\n')
+		with open("attR_"+nombre+".fasta", "w") as f:
+			f.write(">attL_"+nombre+"\n")
+			f.write(attR_seq+'\n')
 		with open("sccmec_"+nombre+".fasta", "w") as f:
 			f.write(">sccmec_"+nombre+"_"+str(len(sccmec))+"\n")
 			for i in range(0, len(sccmec), 60):

@@ -1,5 +1,0 @@
-organism: Staphylococcus species strain 
-contigs: 1
-bases: 23124
-CDS: 23
-gene: 23
