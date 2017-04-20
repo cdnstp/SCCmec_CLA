@@ -31,6 +31,14 @@ def simple_sequence(file):
 
     return sequence
 
+def blastAlign(blast_exe, query, subject):
+	formato = "6 qseqid qlen sseqid slen qstart qend sstart send length nident pident evalue"
+	process = subprocess.Popen([blast_exe, "-query", query, "-subject", subject, "-outfmt", formato], stdin=subprocess.PIPE,
+		stdout=subprocess.PIPE,
+		stderr=subprocess.STDOUT)
+	out, err = process.communicate()
+	
+	return out, err
 
 def blast(blast_exe, database, query):
 	outfmt = "6 qseqid qlen sseqid slen qstart qend sstart send length nident pident evalue"
@@ -209,16 +217,18 @@ def findAtts(nombre, output, sequence, att):
 		with open("attL_"+nombre+".fasta", "w") as f:
 			f.write(">attL_"+nombre+"\n")
 			f.write(attL_sequence+'\n')
-
-		with open("attR_"+nombre+".fasta", "w") as f:
+		output_attR = "attR_%s.fasta" % nombre
+		with open(output_attR, "w") as f:
 			for attr in attR_list:
 				#print attr
-				f.write(">attR_"+nombre+"_"+str(attr[1][0]-20)+"_"+str(attr[1][1]+20)+"\n")
+				f.write(">attR_"+nombre+"_"+str(attr[1][0]-20)+"-"+str(attr[1][1]+20)+"\n")
 				f.write(str(sequence[attr[1][0]-20:attr[1][1]+20])+'\n')
 				#print seq[attr[1][0]-20:attr[1][1]+20]
 
-	print attL_list[0][1][0], "caca"
-	print attR_list[-1][1][1], "xxx"
+	"""ADDING CHECK UP FOR ATTR"""
+
+	#print "attL starting at: ", attL_list[0][1][0]
+	#print "attR ends at: ", attR_list[-1][1][1]
 	coordinates = [attL_list[0][1][0], attR_list[-1][1][1]]
 
 	return coordinates
@@ -313,7 +323,10 @@ def main():
 
 		print "Contig Length: ", len(seq)
 		print "SCCmec Length: ", len(sccmec)
+
+
 		""" EDITAR """
+		""" ADD POSITION CHECK """
 		with open("sccmec_"+nombre+".fasta", "w") as f:
 			f.write(">sccmec_"+nombre+"_"+str(len(sccmec))+"\n")
 			for i in range(0, len(sccmec), 60):
