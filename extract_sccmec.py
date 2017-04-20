@@ -34,11 +34,11 @@ def simple_sequence(file):
 
 def blastAlign(blast_exe, query, subject):
 	formato = "6 qseqid qlen sseqid slen qstart qend sstart send length nident pident evalue"
-	process = subprocess.Popen([blast_exe, "-query", query, "-subject", subject, "-outfmt", formato], stdin=subprocess.PIPE,
+	process = subprocess.Popen([blast_exe, "-word_size", "8", "-query", query, "-subject", subject, "-outfmt", formato], stdin=subprocess.PIPE,
 		stdout=subprocess.PIPE,
 		stderr=subprocess.STDOUT)
 	out, err = process.communicate()
-	
+
 	return out, err
 
 def blast(blast_exe, database, query):

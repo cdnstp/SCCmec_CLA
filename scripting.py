@@ -54,12 +54,12 @@ import os
 from subprocess import Popen, PIPE
 
 blast_exe = "/usr/bin/blastn"
-attr_db = "/home/fsepulveda/Desktop/test_script/input/attR/attR_database.txt"
-attr = "/home/fsepulveda/Desktop/test_script/output_CP007676/attR_CP007676.fasta"
+attr_db = "/home/fsepulveda/Desktop/test_script/input/attR_database.txt"
+attr = "/home/fsepulveda/Desktop/test_script/attR_Sa4327.fasta"
 
 def blastAlign(blast_exe, query, subject):
 	formato = "6 qseqid qlen sseqid slen qstart qend sstart send length nident pident evalue"
-	process = subprocess.Popen([blast_exe, "-query", query, "-subject", subject, "-outfmt", formato], stdin=subprocess.PIPE,
+	process = subprocess.Popen([blast_exe, "-word_size", "8", "-query", query, "-subject", subject, "-outfmt", formato], stdin=subprocess.PIPE,
 		stdout=subprocess.PIPE,
 		stderr=subprocess.STDOUT)
 	out, err = process.communicate()
@@ -68,6 +68,7 @@ def blastAlign(blast_exe, query, subject):
 
 
 result, err = blastAlign(blast_exe, attr, attr_db)
+print result, err
 
 hit = result.split()[0]
 print hit
@@ -75,3 +76,5 @@ from_loc = hit.split("_")[-1].split("-")[0]
 to_loc = hit.split("_")[-1].split("-")[1]
 
 print "Desde posicion: ", from_loc, "hasta: ", to_loc
+
+

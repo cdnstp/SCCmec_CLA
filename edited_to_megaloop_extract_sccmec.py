@@ -34,11 +34,11 @@ def simple_sequence(file):
 
 def blastAlign(blast_exe, query, subject):
 	formato = "6 qseqid qlen sseqid slen qstart qend sstart send length nident pident evalue"
-	process = subprocess.Popen([blast_exe, "-query", query, "-subject", subject, "-outfmt", formato], stdin=subprocess.PIPE,
+	process = subprocess.Popen([blast_exe, "-word_size", "8", "-query", query, "-subject", subject, "-outfmt", formato], stdin=subprocess.PIPE,
 		stdout=subprocess.PIPE,
 		stderr=subprocess.STDOUT)
 	out, err = process.communicate()
-	
+
 	return out, err
 
 def blast(blast_exe, database, query):
@@ -213,7 +213,7 @@ def findAtts(nombre, output, sequence, att, attr_database_path, blastn_exe):
 
 		attL_list = sorted(hipotetical_attL.items(), key=lambda e: e[1][0])
 		attR_list = sorted(hipotetical_attR.items(), key=lambda e: e[1][0])
-
+		print attL_list
 		attL_sequence = sequence[attL_list[0][1][0]-20:attL_list[0][1][1]+20]
 		with open("attL_"+nombre+".fasta", "w") as f:
 			f.write(">attL_"+nombre+"\n")
@@ -231,6 +231,7 @@ def findAtts(nombre, output, sequence, att, attr_database_path, blastn_exe):
 	attR_list_path = os.path.join(output, output_attR)
 	print attR_list_path
 	result, err = blastAlign(blastn_exe, attR_list_path, attr_database_path)
+	print result, err 
 	hit = result.split()[0]
 	if hit:
 		attR_start = hit.split("_")[-1].split("-")[0]
@@ -258,7 +259,7 @@ def main():
 
 	contigs = sys.argv[1]
 	nombre = contigs.split("/")[-2].split("_")[1]
-	
+
 	#print nombre
 	contigs = os.path.join(inputFiles, contigs)
 	working_dir = os.getcwd()
