@@ -4,6 +4,7 @@
 # contig, orfx, mecA and ccr (nucleotide sequences)
 # $ python extract_sccmec.py 
 # script must be in the same dir as inputdir and config file
+# install regex (pip install regex)
 
 [configuration]
 prokka = /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/prokka
@@ -11,7 +12,8 @@ blastn = /usr/bin/blastn
 blastp = /usr/bin/blastp
 makeblastdb = /usr/bin/makeblastdb
 input = /home/fsepulveda/Desktop/test_script/input
-contig = CP007676.fasta
+attr_db = attR_database.txt
+contig = usa300_secret.fasta
 orfX = orfx.fasta
 mecA = mecA_prot.fasta
 ccr = ccrX_prot.fasta

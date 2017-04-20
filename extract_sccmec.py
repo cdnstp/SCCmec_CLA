@@ -19,8 +19,9 @@ def config():
 	ccr = config.get('configuration', 'ccr')
 	orfX = config.get('configuration', 'orfX')
 	mecA = config.get('configuration', 'mecA')
+	attr_db = config.get('configuration', 'attr_db')
 
-	return prokka_exe, blastn_exe, blastp_exe, makeblastdb_exe, inputFiles, contigs, ccr, orfX, mecA
+	return prokka_exe, blastn_exe, blastp_exe, makeblastdb_exe, inputFiles, contigs, ccr, orfX, mecA, attr_db
 
 
 def simple_sequence(file):
@@ -176,7 +177,7 @@ def find_position(sequence, gene, name):
 			print "- %s located at: " % name, [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), sequence)]
 
 
-def findAtts(nombre, output, sequence, att):
+def findAtts(nombre, output, sequence, att, attr_database_path, blastn_exe):
 	os.chdir(output)
 	"""?att patron basico corresponde a los nucl finales del gen orfX"""
 	atts_location = {}
@@ -225,13 +226,21 @@ def findAtts(nombre, output, sequence, att):
 				f.write(str(sequence[attr[1][0]-20:attr[1][1]+20])+'\n')
 				#print seq[attr[1][0]-20:attr[1][1]+20]
 
-	"""ADDING CHECK UP FOR ATTR"""
+	"""ADDING CHECK UP FOR ATTR """
+	print os.getcwd()
+	attR_list_path = os.path.join(output, output_attR)
+	print attR_list_path
+	result, err = blastAlign(blastn_exe, attR_list_path, attr_database_path)
+	hit = result.split()[0]
+	if hit:
+		attR_start = hit.split("_")[-1].split("-")[0]
+		attR_end = hit.split("_")[-1].split("-")[1]
+		#print "attL starting at: ", attL_list[0][1][0]
+		#print "attR ends at: ", attR_list[-1][1][1]
+		coordinates = [attL_list[0][1][0], int(attR_end)]
+		print coordinates
 
-	#print "attL starting at: ", attL_list[0][1][0]
-	#print "attR ends at: ", attR_list[-1][1][1]
-	coordinates = [attL_list[0][1][0], attR_list[-1][1][1]]
-
-	return coordinates
+		return coordinates, hit
 
 
 # ------------------------------------------------------------------------- #
@@ -240,12 +249,12 @@ def findAtts(nombre, output, sequence, att):
 
 
 def main():
-	prokka_exe, blastn_exe, blastp_exe, makeblastdb_exe, inputFiles, contigs, ccr, orfX, mecA = config()
+	prokka_exe, blastn_exe, blastp_exe, makeblastdb_exe, inputFiles, contigs, ccr, orfX, mecA, attr_db = config()
 
 	orfx_base = simple_sequence(os.path.join(inputFiles, orfX))
 	mecA_base = simple_sequence(os.path.join(inputFiles, mecA))
 	ccr_base = simple_sequence(os.path.join(inputFiles, ccr))
-
+	attr_database_path = os.path.join(inputFiles, attr_db)
 	nombre = contigs.split(".")[0]
 	#print nombre
 	contigs = os.path.join(inputFiles, contigs)
@@ -302,15 +311,6 @@ def main():
 			of the given contig
 		"""
 		seq, orfx_sense = checkSense(actual_orfx, seq)
-		for i in re.findall("{pattern}".format(pattern=actual_orfx), seq):
-			print orfx_sense, "orfX located at: ", [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), seq)]
-
-		find_position(seq, actual_mecA, "mecA")
-		find_position(seq, actual_ccr, "ccr")
-
-		print
-		print("-"*78)
-		print
 
 		""" Extract 19 nucleotides located at the 3'- end of orfX gene corresponding to attL """
 		att_actual_orfx = actual_orfx[len(actual_orfx)-20:-2]
@@ -318,15 +318,20 @@ def main():
 
 		""" Search for attachment site sequences """
 		""" Filter att sequences according to literature """
-		coordinates = findAtts(nombre, raw_data, seq, att_actual_orfx)
+
+		coordinates, hit = findAtts(nombre, raw_data, seq, att_actual_orfx, attr_database_path, blastn_exe)
 		sccmec = seq[coordinates[0]:coordinates[-1]]
 
 		print "Contig Length: ", len(seq)
 		print "SCCmec Length: ", len(sccmec)
+		print "attR match: ", hit
 
 
 		""" EDITAR """
 		""" ADD POSITION CHECK """
+		#find_position(seq, actual_mecA, "mecA")
+		#find_position(seq, actual_ccr, "ccr")
+
 		with open("sccmec_"+nombre+".fasta", "w") as f:
 			f.write(">sccmec_"+nombre+"_"+str(len(sccmec))+"\n")
 			for i in range(0, len(sccmec), 60):

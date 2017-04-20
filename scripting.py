@@ -54,7 +54,7 @@ import os
 from subprocess import Popen, PIPE
 
 blast_exe = "/usr/bin/blastn"
-attr_db = "/home/fsepulveda/Desktop/test_script/input/attR_database.txt"
+attr_db = "/home/fsepulveda/Desktop/test_script/input/attR/attR_database.txt"
 attr = "/home/fsepulveda/Desktop/test_script/output_CP007676/attR_CP007676.fasta"
 
 def blastAlign(blast_exe, query, subject):
