@@ -337,6 +337,7 @@ def main():
 		x = find_position(seq, actual_mecA, "mecA")
 		y = find_position(seq, actual_ccr, "ccr")
 		z = find_position(seq, actual_orfx, "orfX")
+
 		with open("sccmec_"+nombre+".fasta", "w") as f:
 			f.write(">sccmec_"+nombre+"_l"+str(len(sccmec))+"\n")
 			for i in range(0, len(sccmec), 60):
@@ -354,6 +355,9 @@ def main():
 
 	else:
 		print "Error: core components are not in the same contig"
+		os.chdir(raw_data)
+		with open("info_"+nombre+".txt", "w") as f:
+			f.write("Contig_ID:"+str(contig_ids)+'\n')
 		sys.exit()
 
 
