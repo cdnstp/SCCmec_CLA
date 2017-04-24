@@ -1,0 +1,1 @@
+Contig_ID:['gnl|10|saureus_7', 'gnl|10|saureus_42', 'gnl|10|saureus_42']
