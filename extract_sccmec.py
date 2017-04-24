@@ -171,10 +171,14 @@ def create_dir(base, dir_name):
 def find_position(sequence, gene, name):
 	if re.findall("{pattern}".format(pattern=gene), sequence):
 		for i in re.findall("{pattern}".format(pattern=gene), sequence):
-			print "+ %s located at: " % name, [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), sequence)]
+			print "+_%s_located_at:" % name, [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), sequence)]
+			x = "+_%s_located_at:" % name, [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), sequence)]
+			return x
 	else:
 		for i in re.findall("{pattern}".format(pattern=reverse_complement(gene)), sequence):
-			print "- %s located at: " % name, [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), sequence)]
+			print "-_%s_located_at:" % name, [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), sequence)]
+			x = "-_%s_located_at:" % name, [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), sequence)]
+			return x
 
 
 def findAtts(nombre, output, sequence, att, attr_database_path, blastn_exe):
@@ -238,7 +242,7 @@ def findAtts(nombre, output, sequence, att, attr_database_path, blastn_exe):
 		#print "attL starting at: ", attL_list[0][1][0]
 		#print "attR ends at: ", attR_list[-1][1][1]
 		coordinates = [attL_list[0][1][0], int(attR_end)]
-		print coordinates
+		#print coordinates
 
 		return coordinates, hit
 
@@ -295,7 +299,7 @@ def main():
 	print("-"*78)
 	print
 
-	print contig_ids
+	
 	""" Check if sccmec core components are in the same contig to continue """
 	if checkContig(contig_ids):
 
@@ -314,7 +318,7 @@ def main():
 
 		""" Extract 19 nucleotides located at the 3'- end of orfX gene corresponding to attL """
 		att_actual_orfx = actual_orfx[len(actual_orfx)-20:-2]
-		print att_actual_orfx
+		#print att_actual_orfx
 
 		""" Search for attachment site sequences """
 		""" Filter att sequences according to literature """
@@ -322,6 +326,7 @@ def main():
 		coordinates, hit = findAtts(nombre, raw_data, seq, att_actual_orfx, attr_database_path, blastn_exe)
 		sccmec = seq[coordinates[0]:coordinates[-1]]
 
+		print "Contigs IDs: ", contig_ids
 		print "Contig Length: ", len(seq)
 		print "SCCmec Length: ", len(sccmec)
 		print "attR match: ", hit
@@ -329,13 +334,23 @@ def main():
 
 		""" EDITAR """
 		""" ADD POSITION CHECK """
-		#find_position(seq, actual_mecA, "mecA")
-		#find_position(seq, actual_ccr, "ccr")
-
+		x = find_position(seq, actual_mecA, "mecA")
+		y = find_position(seq, actual_ccr, "ccr")
+		z = find_position(seq, actual_orfx, "orfX")
 		with open("sccmec_"+nombre+".fasta", "w") as f:
-			f.write(">sccmec_"+nombre+"_"+str(len(sccmec))+"\n")
+			f.write(">sccmec_"+nombre+"_l"+str(len(sccmec))+"\n")
 			for i in range(0, len(sccmec), 60):
 				f.write(sccmec[i:i+60]+'\n')
+		with open("info_"+nombre+".txt", "w") as f:
+			f.write("Contig_ID:"+str(contig_ids)+'\n')
+			f.write("Contig_length:"+str(len(seq))+'\n')
+			f.write("SCCmec_length:"+str(len(sccmec))+'\n')
+			f.write("attR_match:"+hit+'\n')
+			f.write(str(z[0])+str(z[1])+'\n')
+			f.write(str(x[0])+str(x[1])+'\n')
+			f.write(str(y[0])+str(y[1])+'\n')
+			f.write("Location:"+str(coordinates[0])+"-"+str(coordinates[-1])+'\n')
+
 
 	else:
 		print "Error: core components are not in the same contig"
