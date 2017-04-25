@@ -1,0 +1,100 @@
+Discrepancy Report Results
+
+Summary
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:gene: 32 present
+DISC_FEATURE_COUNT:CDS: 32 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+OVERLAPPING_GENES:6 genes overlap another gene on the same strand.
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:2 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:33 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::gene: 32 present
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 32 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_1 (length 32797)
+
+DiscRep_ALL:OVERLAPPING_GENES::6 genes overlap another gene on the same strand.
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:Gene	saureus_00004	saureus_1:c3913-3542	saureus_00004
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:Gene	saureus_00005	saureus_1:c4047-3910	saureus_00005
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:Gene	saureus_00009	saureus_1:8760-9050	saureus_00009
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:Gene	saureus_00010	saureus_1:9050-10837	saureus_00010
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:Gene	saureus_00017	saureus_1:c17783-17511	saureus_00017
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:Gene	mecR1	saureus_1:c18627-17743	saureus_00018
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_1:Annotated using prokka 1.12 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::2 protein sequences are shorter than 50 aa.
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00002 (length 45)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00005 (length 45)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_1 (length 32797)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_1 (length 32797)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_1 (length 32797)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_1 (length 32797)
+
+DiscRep_ALL:MISSING_PROJECT::33 sequences do not include project.
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_1 (length 32797)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00001 (length 581)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00002 (length 45)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00003 (length 206)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00004 (length 123)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00005 (length 45)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00006 (length 334)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00007 (length 496)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00008 (length 363)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00009 (length 96)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00010 (length 595)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00011 (length 455)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00012 (length 542)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00013 (length 116)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00014 (length 103)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00015 (length 169)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00016 (length 506)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00017 (length 90)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00018 (length 294)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00019 (length 668)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00020 (length 142)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00021 (length 247)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00022 (length 76)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00023 (length 55)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00024 (length 224)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00025 (length 420)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00026 (length 132)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00027 (length 256)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00028 (length 334)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00029 (length 224)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00030 (length 79)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00031 (length 431)
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_00032 (length 159)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+/home/fsepulveda/Desktop/test_script/output_AM943017/output_prokka/PROKKA_04252017:10:saureus_1 (length 32797)
+

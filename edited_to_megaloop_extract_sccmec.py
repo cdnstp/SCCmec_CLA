@@ -213,7 +213,7 @@ def findAtts(nombre, output, sequence, att, attr_database_path, blastn_exe):
 
 		attL_list = sorted(hipotetical_attL.items(), key=lambda e: e[1][0])
 		attR_list = sorted(hipotetical_attR.items(), key=lambda e: e[1][0])
-		print attL_list
+
 		attL_sequence = sequence[attL_list[0][1][0]-20:attL_list[0][1][1]+20]
 		with open("attL_"+nombre+".fasta", "w") as f:
 			f.write(">attL_"+nombre+"\n")
@@ -231,7 +231,6 @@ def findAtts(nombre, output, sequence, att, attr_database_path, blastn_exe):
 	attR_list_path = os.path.join(output, output_attR)
 	print attR_list_path
 	result, err = blastAlign(blastn_exe, attR_list_path, attr_database_path)
-	print result, err 
 	hit = result.split()[0]
 	if hit:
 		attR_start = hit.split("_")[-1].split("-")[0]
@@ -239,7 +238,7 @@ def findAtts(nombre, output, sequence, att, attr_database_path, blastn_exe):
 		#print "attL starting at: ", attL_list[0][1][0]
 		#print "attR ends at: ", attR_list[-1][1][1]
 		coordinates = [attL_list[0][1][0], int(attR_end)]
-		print coordinates
+		#print coordinates
 
 		return coordinates, hit
 
@@ -299,8 +298,6 @@ def main():
 	print("-"*78)
 	print
 
-	print contig_ids
-	""" Check if sccmec core components are in the same contig to continue """
 	if checkContig(contig_ids):
 
 		contigs_dict = fasta2dict(fna)
@@ -318,7 +315,7 @@ def main():
 
 		""" Extract 19 nucleotides located at the 3'- end of orfX gene corresponding to attL """
 		att_actual_orfx = actual_orfx[len(actual_orfx)-20:-2]
-		print att_actual_orfx
+		#print att_actual_orfx
 
 		""" Search for attachment site sequences """
 		""" Filter att sequences according to literature """
@@ -326,6 +323,7 @@ def main():
 		coordinates, hit = findAtts(nombre, raw_data, seq, att_actual_orfx, attr_database_path, blastn_exe)
 		sccmec = seq[coordinates[0]:coordinates[-1]]
 
+		print "Contigs IDs: ", contig_ids
 		print "Contig Length: ", len(seq)
 		print "SCCmec Length: ", len(sccmec)
 		print "attR match: ", hit
@@ -333,16 +331,30 @@ def main():
 
 		""" EDITAR """
 		""" ADD POSITION CHECK """
-		#find_position(seq, actual_mecA, "mecA")
-		#find_position(seq, actual_ccr, "ccr")
+		x = find_position(seq, actual_mecA, "mecA")
+		y = find_position(seq, actual_ccr, "ccr")
+		z = find_position(seq, actual_orfx, "orfX")
 
 		with open("sccmec_"+nombre+".fasta", "w") as f:
-			f.write(">sccmec_"+nombre+"_"+str(len(sccmec))+"\n")
+			f.write(">sccmec_"+nombre+"_l"+str(len(sccmec))+"\n")
 			for i in range(0, len(sccmec), 60):
 				f.write(sccmec[i:i+60]+'\n')
+		with open("info_"+nombre+".txt", "w") as f:
+			f.write("Contig_ID:"+str(contig_ids)+'\n')
+			f.write("Contig_length:"+str(len(seq))+'\n')
+			f.write("SCCmec_length:"+str(len(sccmec))+'\n')
+			f.write("attR_match:"+hit+'\n')
+			f.write(str(z[0])+str(z[1])+'\n')
+			f.write(str(x[0])+str(x[1])+'\n')
+			f.write(str(y[0])+str(y[1])+'\n')
+			f.write("Location:"+str(coordinates[0])+"-"+str(coordinates[-1])+'\n')
+
 
 	else:
 		print "Error: core components are not in the same contig"
+		os.chdir(raw_data)
+		with open("info_"+nombre+".txt", "w") as f:
+			f.write("Contig_ID:"+str(contig_ids)+'\n')
 		sys.exit()
 
 

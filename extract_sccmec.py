@@ -38,8 +38,23 @@ def blastAlign(blast_exe, query, subject):
 		stdout=subprocess.PIPE,
 		stderr=subprocess.STDOUT)
 	out, err = process.communicate()
+	#salida = out.split('\n')
+	#for line in salida:
+	#	args = [x for x in line.split('\t')]
+	#	print "caca", args[1]
+	#print type(out), len(out)
+	salida = ""
+	for hit in out.split('\n'):
+		if hit:
+			#print hit
+			args = [arg for arg in hit.split('\t')]
+			#print args
+			porcentaje = (((float(args[5])-float(args[4]))+1)/float(args[1]))*100
+			#print "porcentaje alineamiento: ", porcentaje
+			if porcentaje >= 70.0:
+				salida += hit
 
-	return out, err
+	return salida, err
 
 def blast(blast_exe, database, query):
 	outfmt = "6 qseqid qlen sseqid slen qstart qend sstart send length nident pident evalue"
@@ -133,6 +148,8 @@ def reverse_complement(seq):
 
 def blast_parser(blast_exe, db, query):
 	blastfile, err = blast(blast_exe, db, query)
+	print query
+	print blastfile
 	best_hit = blastfile.split()[2]
 
 	return best_hit
@@ -200,6 +217,7 @@ def findAtts(nombre, output, sequence, att, attr_database_path, blastn_exe):
 
 	""" ordenar elementos en att_location segun posicion (creciente)"""
 	sites = sorted(atts_location.items(), key=lambda e: e[1][0])
+	print sites
 	attL_pos = int([x+y for (x,y) in sites[0][1]][0])
 
 	hipotetical_attL = {}
@@ -236,13 +254,16 @@ def findAtts(nombre, output, sequence, att, attr_database_path, blastn_exe):
 	print attR_list_path
 	result, err = blastAlign(blastn_exe, attR_list_path, attr_database_path)
 	hit = result.split()[0]
+	print result
 	if hit:
 		attR_start = hit.split("_")[-1].split("-")[0]
+		print attR_start
 		attR_end = hit.split("_")[-1].split("-")[1]
-		#print "attL starting at: ", attL_list[0][1][0]
-		#print "attR ends at: ", attR_list[-1][1][1]
+		print attR_end
+		print "attL starting at: ", attL_list[0][1][0]
+		print "attR ends at: ", attR_list[-1][1][1]
 		coordinates = [attL_list[0][1][0], int(attR_end)]
-		#print coordinates
+		print coordinates
 
 		return coordinates, hit
 
