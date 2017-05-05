@@ -4,8 +4,6 @@ import regex as re
 import subprocess
 
 
-
-
 def config():
 	import ConfigParser
 	config = ConfigParser.ConfigParser()
@@ -274,25 +272,37 @@ def findAtts(nombre, output, sequence, att, attr_database_path, blastn_exe):
 
 
 def main():
+# ------------------------------------------------------------------------- #
+#
+# ------------------------------------------------------------------------- #
 	prokka_exe, blastn_exe, blastp_exe, makeblastdb_exe, inputFiles, contigs, ccr, orfX, mecA, attr_db = config()
 
 	orfx_base = simple_sequence(os.path.join(inputFiles, orfX))
+
 	mecA_base = simple_sequence(os.path.join(inputFiles, mecA))
+
 	ccr_base = simple_sequence(os.path.join(inputFiles, ccr))
+
 	attr_database_path = os.path.join(inputFiles, attr_db)
+
 	nombre = contigs.split(".")[0]
-	#print nombre
+
 	contigs = os.path.join(inputFiles, contigs)
+
 	working_dir = os.getcwd()
-	#print working_dir
-	#output = "output_" + id_generator()
+
 	output = "output_"+nombre
+
 	raw_data = os.path.join(working_dir, output)
+
 	output_prokka = os.path.join(raw_data, "output_prokka")
 
-	# execute prokka 
 	execute_prokka(prokka_exe, output_prokka, contigs)
+
 	ffn, gff, fna, faa = prokka_files(output_prokka)
+
+# ------------------------------------------------------------------------- #
+# ------------------------------------------------------------------------- #
 
 	# create nucleotide db
 	nucl_db_dir = create_dir(raw_data, "nucl_db_dir")
