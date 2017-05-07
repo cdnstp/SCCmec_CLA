@@ -1,9 +1,2 @@
-def magia(num):
-	if num > 2:
-		return "#"
-	else:
-		return "hola", "hola"
-
-args = magia(4)
-print args
-print len(args)
+	contigs = sys.argv[1]
+	nombre = contigs.split("/")[-2].split("_")[1]
