@@ -1,0 +1,87 @@
+
+
+Building a new DB, current time: 05/07/2017 21:56:05
+New DB name:   /home/fsepulveda/Desktop/working_dir/output_sa7172/nucl_db_dir/nucl_db
+New DB title:  /home/fsepulveda/Desktop/working_dir/output_sa7172/output_prokka/PROKKA_05072017.ffn
+Sequence type: Nucleotide
+Deleted existing Nucleotide BLAST database named /home/fsepulveda/Desktop/working_dir/output_sa7172/nucl_db_dir/nucl_db
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 2815 sequences in 0.110236 seconds.
+
+
+Building a new DB, current time: 05/07/2017 21:56:05
+New DB name:   /home/fsepulveda/Desktop/working_dir/output_sa7172/prot_db_dir/prot_db
+New DB title:  /home/fsepulveda/Desktop/working_dir/output_sa7172/output_prokka/PROKKA_05072017.faa
+Sequence type: Protein
+Deleted existing Protein BLAST database named /home/fsepulveda/Desktop/working_dir/output_sa7172/prot_db_dir/prot_db
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 2767 sequences in 0.0742619 seconds.
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+('Porcentaje de Alineamiento: ', 99.16666666666667)
+('Porcentaje de Identidad: ', '99.79')
+Query_1	480	saureus_00283	480	1	476	1	476	476	475	99.79	0.0
+('orfX Hit: ', 'saureus_00283')
+
+('Porcentaje de Alineamiento: ', 100.0)
+('Porcentaje de Identidad: ', '99.70')
+unnamed	668	saureus_02340	668	1	668	1	668	668	666	99.70	0.0
+('Porcentaje de Alineamiento: ', 76.64670658682635)
+('Porcentaje de Identidad: ', '24.91')
+unnamed	668	saureus_01680	744	148	659	62	580	558	139	24.91	1e-16
+('mec Hit: ', 'saureus_02340')
+
+('Porcentaje de Alineamiento: ', 100.0)
+('Porcentaje de Identidad: ', '74.83')
+unnamed	449	saureus_02331	449	1	449	1	449	449	336	74.83	0.0
+('ccr Hit: ', 'saureus_02331')
+
+------------------------------------------------------------------------------
+
+Buscando Contig ID de orfX, mec y ccr: 
+
+('orfx in: ', 'gnl|10|saureus_2')
+('mec in: ', 'gnl|10|saureus_37')
+('ccr in: ', 'gnl|10|saureus_37')
+
+------------------------------------------------------------------------------
+
+Different Contigs
+2
+mec + ccr
+('(+) orfX located_at:', 144328, 144808)
+('Largo Contig One: ', 147052)
+('Largo Contig Two: ', 24560)
+('HIPOTETICAL SITES: ', [('GAGATGAATATCATAAAT', [(23267, 23285)])])
+('attr: ', ('GAGATGAATATCATAAAT', [(23267, 23285)]))
+('attR_start: ', 23267)
+('attR_end: ', 23285)
+PROBABLI ATTR
+ACTTTTATTTCCATTAAAAAGAGATGAATATCATAAATAAAGAAGTCGATAGATTCGT
+
+['attR_sa7172_23247-23305', '58', 'AF411935_attR', '58', '29', '41', '29', '41', '13', '12', '92.31', '0.003', '22.41']
+('HIT: ', 'attR_sa7172_23247-23305')
+attR starts at:  23247
+attR ends at:  23305
+('Largo sccmec right end: ', 23305)
+('HIPOTETICAL SITES: ', [('AAAATGATTATCATAAAT', [(15804, 15822)])])
+('attr: ', ('AAAATGATTATCATAAAT', [(15804, 15822)]))
+('attR_start: ', 15804)
+('attR_end: ', 15822)
+PROBABLI ATTR
+AAAAATAATAAAAGGAATGAAAAATGATTATCATAAATTTACAGATTCATTCAGTGAT
+
+ARGS IGUAL A 2
+('SCCmec Length: ', 23785)
+('ORFX INFO: ', '(+) orfX located_at:', 0, 480)
+('MEC INFO: ', '(+) PBP2a located_at:', 20345, 22352)
+('CCR INFO: ', '(+) ccr located_at:', 12647, 13997)
+gnl|10|saureus_2
+gnl|10|saureus_37
+gnl|10|saureus_2-gnl|10|saureus_37

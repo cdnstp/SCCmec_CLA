@@ -36,6 +36,26 @@ def blastAlign(blast_exe, query, subject):
 		stdout=subprocess.PIPE,
 		stderr=subprocess.STDOUT)
 	out, err = process.communicate()
+	#print out
+	salida = ""
+	for hit in out.split('\n'):
+		if hit:
+			args = [arg for arg in hit.split('\t')]
+			#print args
+			porcentaje = (((float(args[5])-float(args[4]))+1)/float(args[1]))*100
+			#print porcentaje
+			""" OJOOOOOO  """
+			if porcentaje >= 60.0:
+				salida += hit
+
+	return salida, err
+
+def blastAlign2(blast_exe, query, subject):
+	formato = "6 qseqid qlen sseqid slen qstart qend sstart send length nident pident evalue"
+	process = subprocess.Popen([blast_exe, "-word_size", "6", "-query", query, "-subject", subject, "-outfmt", formato], stdin=subprocess.PIPE,
+		stdout=subprocess.PIPE,
+		stderr=subprocess.STDOUT)
+	out, err = process.communicate()
 
 	salida = ""
 	for hit in out.split('\n'):
@@ -44,9 +64,9 @@ def blastAlign(blast_exe, query, subject):
 			#print args
 			porcentaje = (((float(args[5])-float(args[4]))+1)/float(args[1]))*100
 			#print porcentaje
-			"""60% porque al agregar 40b extra a actual_att_orfx y compararlo con el att de 19b"""
-			if porcentaje >= 70.0:
-				salida += hit
+			""" OJOOOOOO  """
+			if porcentaje >= 20.0:
+				salida += hit+'\t'+str(format(porcentaje, '.2f'))+"\n" 
 
 	return salida, err
 
@@ -138,16 +158,6 @@ def reverse_complement(seq):
 	complement = ''.join(bases)
 	reverse = complement[::-1]
 	return reverse
-
-
-def blast_parser(blast_exe, db, query):
-	blastfile, err = blast(blast_exe, db, query)
-	print query
-	print blastfile
-	best_hit = blastfile.split()[2]
-
-	return best_hit
-
 
 def get_contig(gff, query):
 	with open(gff) as f:
@@ -281,17 +291,19 @@ def findAtts(nombre, output, template_dna, att_actual_orfx, attr_database_path, 
 
 def blast_parser(blast_exe, db, query, qname):
 	blastfile, err = blast(blast_exe, db, query)
+
 	salida = ""
 	for hit in blastfile.split('\n'):
 		if hit:
 			args = [arg for arg in hit.split('\t')]
 			porcentaje = (((float(args[5])-float(args[4]))+1)/float(args[1]))*100
 			if porcentaje >= 70.0:
-				if float(args[10]) >= 60.0:
-					print("Porcentaje de Alineamiento: ", porcentaje)
-					print("Porcentaje de Identidad: ", args[10])
-					print hit
-					salida += hit
+				#print args
+				#if float(args[10]) >= 60.0:
+				print("Porcentaje de Alineamiento: ", porcentaje)
+				print("Porcentaje de Identidad: ", args[10])
+				print hit
+				salida += hit
 	if not salida:
 		print("Query {0} not found in SeqFile").format(qname)
 		return None
@@ -303,12 +315,12 @@ def ordenar_contigs(orfx, mec, ccr):
 	ids = [orfx, mec, ccr]
 	print len(set(ids))
 	if not len(set(ids)) > 2:
-		if orfx is mec:
+		if orfx == mec:
 			contig_one = orfx
 			contig_two = ccr
 			print("orfx + mec")
 			return contig_one, contig_two
-		if orfx is ccr:
+		if orfx == ccr:
 			contig_one = orfx
 			contig_two = mec
 			print("orfx + ccr")
@@ -322,27 +334,28 @@ def ordenar_contigs(orfx, mec, ccr):
 		print("Cannot be sorted")
 		sys.exit()
 
-def attR(contig_sequence, raw_data, att_actual_orfx, nombre, blastn_exe, attr_database_path):
+def attR(contig_sequence, raw_data, att_actual_orfx, nombre, blastn_exe, attr_database_path, sense):
 
 	os.chdir(raw_data)
 	atts_location = {}
 	for i in re.findall("({s}){{s<=5}}".format(s=att_actual_orfx), contig_sequence):
 		atts_location[contig_sequence[m.start(0):(m.end(0))]] = [(m.start(0), m.end(0)) for m in re.finditer("{}".format(i), contig_sequence)]
-		core = "TATCATAA"
-		adjacent_core = "GA[ACTG]G"
-		for key in atts_location.keys():
-			if not core in key:
-				del atts_location[key]
-				for k in atts_location.keys():
-					if not re.findall("{s}".format(s=adjacent_core), k):
-						del atts_location[k]
+
+	core = "TATCATAA"
+	adjacent_core = "GA[ACTG]G"
+	for key in atts_location.keys():
+		if not core in key:
+			del atts_location[key]
+	for k in atts_location.keys():
+		if not re.findall("{s}".format(s=adjacent_core), k):
+			del atts_location[k]
 
 	sites = sorted(atts_location.items(), key=lambda e: e[1][0])
 
-	#print sites
+	print("HIPOTETICAL SITES: ", sites)
 
-	if len(sites) > 1:
-		output_attR = "attR_%s.fasta" % nombre
+	if len(sites) > 0:
+		output_attR = "attR_%s_%s.fasta" % (nombre, sense)
 		with open(output_attR, "w") as f:
 			for attr in sites:
 				print("attr: ", attr)
@@ -354,19 +367,34 @@ def attR(contig_sequence, raw_data, att_actual_orfx, nombre, blastn_exe, attr_da
 				f.write(">attR_"+nombre+"_"+str(attR_start-20)+"-"+str(attR_end+20)+"\n")
 				f.write(str(contig_sequence[attR_start-20:attR_end+20])+'\n')
 
+		print("PROBABLI ATTR")		
+		print(str(contig_sequence[attR_start-20:attR_end+20])+'\n')
+
 		attR_list_path = os.path.join(raw_data, output_attR)
-		print attR_list_path
-		result, err = blastAlign(blastn_exe, attR_list_path, attr_database_path)
-		#print result
-		hit = result.split()[0]
-		if hit:
+
+		#os.system("cat {0}".format(attR_list_path))
+
+		result, err = blastAlign2(blastn_exe, attR_list_path, attr_database_path)
+		print type(result)
+		
+		if result:
+			print result
+			lines = [s.split('\t') for s in result.split('\n')]
+			list2 = [x for x in lines if x != [""]]
+			#print len(list2)
+			from operator import itemgetter
+			list3 = sorted(list2, key=itemgetter(12), reverse = True)
+			hit = result.split()[0]
+			print list3[0]
+			hit = list3[0][0]
 			print("HIT: ", hit)
 			attR_start = hit.split("_")[-1].split("-")[0]
 			attR_end = hit.split("_")[-1].split("-")[1]
 			print "attR starts at: ", attR_start
 			print "attR ends at: ", attR_end
-			sccmec_rightEnd = contig_sequence[:int(attR_end)]
+			sccmec_rightEnd = contig_sequence[0:int(attR_end)]
 			print("Largo sccmec right end: ", len(sccmec_rightEnd))
+			#print hit
 			return sccmec_rightEnd, hit 
 		else:
 			return "empty"
@@ -423,8 +451,10 @@ def main():
 
 	orfx_nucl_hit = blast_parser(blastn_exe, nucl_db_path, orfx_base, "orfX")
 	print("orfX Hit: ", orfx_nucl_hit)
+	print
 	mecA_hit = blast_parser(blastp_exe, prot_db_path, mecA_base, "mec")
 	print("mec Hit: ", mecA_hit)
+	print
 	ccr_hit = blast_parser(blastp_exe, prot_db_path, ccr_base, "ccr")
 	print("ccr Hit: ", ccr_hit)
 
@@ -475,7 +505,7 @@ def main():
 
 		""" Extract 19 nucleotides located at the 3'- end of orfX gene corresponding to attL """
 		att_actual_orfx = actual_orfx[len(actual_orfx)-20:-2]
-		print att_actual_orfx
+		print("ATT ACTUAL ORFX: ", att_actual_orfx)
 
 		""" Search for attachment site sequences """
 		""" Filter att sequences according to literature """
@@ -486,6 +516,7 @@ def main():
 		# ------------------------------------------------------------------------- #
 		#  Si core elements en el mismo contig, diferenciar si encuentra o no attR  #
 			print("Hay coordenadas")
+			texto_orfx, inicio_orfx, final_orfx = find_position(template_dna, actual_orfx, "orfX")
 			coordinates = args[0]
 			hit = args[1]
 			sccmec = template_dna[inicio_orfx:coordinates[-1]]
@@ -579,16 +610,18 @@ def main():
 		
 
 		contigOne, contigTwo = ordenar_contigs(contig_id_orfx, contig_id_mecA, contig_id_ccr)
-
+		
 		contigOne_sequence = get_sequence(contigs_dict, contigOne)
 		contigTwo_sequence = get_sequence(contigs_dict, contigTwo)
 
 		contigOne_sequence = checkSense(actual_orfx, contigOne_sequence)
 
 		texto_orfx, inicio_orfx, final_orfx = find_position(contigOne_sequence, actual_orfx, "orfX")
+		print("ORFX INFO: ", texto_orfx, inicio_orfx, final_orfx)
 
-
-		sccmec_leftEnd = contigOne_sequence[inicio_orfx:final_orfx]
+		
+		sccmec_leftEnd = contigOne_sequence[inicio_orfx:]
+		print("Largo SCCmec LeftEnd: ", len(sccmec_leftEnd))
 
 		att_actual_orfx = actual_orfx[len(actual_orfx)-20:-2]
 		#print att_actual_orfx
@@ -602,9 +635,18 @@ def main():
 
 		os.chdir(raw_data)
 		#contigTwo_sequence = reverse_complement(contigTwo_sequence)
-		args = attR(contigTwo_sequence, raw_data, att_actual_orfx, nombre, blastn_exe, attr_database_path)
-		sgra = attR(reverse_complement(contigTwo_sequence), raw_data, att_actual_orfx, nombre, blastn_exe, attr_database_path)
+		print("-"*78)
+		print("TESTING SAME SeNSE")
+		args = attR(contigTwo_sequence, raw_data, att_actual_orfx, nombre, blastn_exe, attr_database_path, "positive")
+		print("-"*78)
+		print("TESTING INVERTED SeNSE")
+		sgra = attR(reverse_complement(contigTwo_sequence), raw_data, att_actual_orfx, nombre, blastn_exe, attr_database_path, "negativo")
+
+
+
+
 		if len(args) == 2:
+			print("ARGS IGUAL A 2")
 			sccmec_rightEnd, hit = args[0], args[1]
 			sccmec_final = ''.join([sccmec_leftEnd, sccmec_rightEnd])
 			print("SCCmec Length: ", len(sccmec_final))
@@ -638,8 +680,10 @@ def main():
 			print contigOne
 			print contigTwo
 			print contigs_ids
+			#sys.exit()
 
 		elif len(sgra) == 2:
+			print("SGRA IGUAL A 2")
 			sccmec_rightEnd, hit = sgra[0], sgra[1]
 			sccmec_final = ''.join([sccmec_leftEnd, sccmec_rightEnd])
 			print("SCCmec Length: ", len(sccmec_final))
