@@ -1,10 +1,10 @@
 # SET UP 
 # prokka, blastn, makeblastdb absolute path
 # input dir absolute path with the following files inside
-# contig, orfx, mecA and ccr (nucleotide sequences)
-# $ python extract_sccmec.py 
+# contig, orfx, mecA and ccr 
+# $ python main.py
 # script must be in the same dir as inputdir and config file
-# install regex (pip install regex)
+
 
 [configuration]
 prokka = /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/prokka
