@@ -1,7 +1,9 @@
-# SCCmec_CLA
-Extract SCCmec
+# Parte 1 SCCmec Class
 
-EDIT CONFIG FILE WITH YOUR OWN PATHS
+Extraer SCCmec
+
+Editar CONFIG FILE (config.txt)
 
 Usage:
-	python extract_sccmec.py
+	python main.py / 
+	cat "file_with_path" | while read line; do python megaloop.py $line; done
