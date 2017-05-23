@@ -1,0 +1,127 @@
+locus_tag	ftype	gene	EC_number	product
+CP009828_SCCmec_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+CP009828_SCCmec_00001	gene	rlmH
+CP009828_SCCmec_00001	mRNA	rlmH
+CP009828_SCCmec_00002	CDS	hypothetical protein
+CP009828_SCCmec_00002	gene
+CP009828_SCCmec_00002	mRNA
+CP009828_SCCmec_00003	CDS	hypothetical protein
+CP009828_SCCmec_00003	gene
+CP009828_SCCmec_00003	mRNA
+CP009828_SCCmec_00004	CDS	hypothetical protein
+CP009828_SCCmec_00004	gene
+CP009828_SCCmec_00004	mRNA
+CP009828_SCCmec_00005	CDS	hypothetical protein
+CP009828_SCCmec_00005	gene
+CP009828_SCCmec_00005	mRNA
+CP009828_SCCmec_00006	CDS	hypothetical protein
+CP009828_SCCmec_00006	gene
+CP009828_SCCmec_00006	mRNA
+CP009828_SCCmec_00007	CDS	hypothetical protein
+CP009828_SCCmec_00007	gene
+CP009828_SCCmec_00007	mRNA
+CP009828_SCCmec_00008	CDS	hypothetical protein
+CP009828_SCCmec_00008	gene
+CP009828_SCCmec_00008	mRNA
+CP009828_SCCmec_00009	CDS	hin_1	DNA-invertase hin
+CP009828_SCCmec_00009	gene	hin_1
+CP009828_SCCmec_00009	mRNA	hin_1
+CP009828_SCCmec_00010	CDS	hypothetical protein
+CP009828_SCCmec_00010	gene
+CP009828_SCCmec_00010	mRNA
+CP009828_SCCmec_00011	CDS	hypothetical protein
+CP009828_SCCmec_00011	gene
+CP009828_SCCmec_00011	mRNA
+CP009828_SCCmec_00012	CDS	hypothetical protein
+CP009828_SCCmec_00012	gene
+CP009828_SCCmec_00012	mRNA
+CP009828_SCCmec_00013	CDS	hypothetical protein
+CP009828_SCCmec_00013	gene
+CP009828_SCCmec_00013	mRNA
+CP009828_SCCmec_00014	CDS	hypothetical protein
+CP009828_SCCmec_00014	gene
+CP009828_SCCmec_00014	mRNA
+CP009828_SCCmec_00015	CDS	hypothetical protein
+CP009828_SCCmec_00015	gene
+CP009828_SCCmec_00015	mRNA
+CP009828_SCCmec_00016	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+CP009828_SCCmec_00016	gene	ugpQ
+CP009828_SCCmec_00016	mRNA	ugpQ
+CP009828_SCCmec_00017	CDS	paaZ	Bifunctional protein PaaZ
+CP009828_SCCmec_00017	gene	paaZ
+CP009828_SCCmec_00017	mRNA	paaZ
+CP009828_SCCmec_00018	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+CP009828_SCCmec_00018	gene	pbp
+CP009828_SCCmec_00018	mRNA	pbp
+CP009828_SCCmec_00019	CDS	hypothetical protein
+CP009828_SCCmec_00019	gene
+CP009828_SCCmec_00019	mRNA
+CP009828_SCCmec_00020	CDS	hypothetical protein
+CP009828_SCCmec_00020	gene
+CP009828_SCCmec_00020	mRNA
+CP009828_SCCmec_00021	CDS	hypothetical protein
+CP009828_SCCmec_00021	gene
+CP009828_SCCmec_00021	mRNA
+CP009828_SCCmec_00022	CDS	hypothetical protein
+CP009828_SCCmec_00022	gene
+CP009828_SCCmec_00022	mRNA
+CP009828_SCCmec_00023	CDS	hypothetical protein
+CP009828_SCCmec_00023	gene
+CP009828_SCCmec_00023	mRNA
+CP009828_SCCmec_00024	CDS	hypothetical protein
+CP009828_SCCmec_00024	gene
+CP009828_SCCmec_00024	mRNA
+CP009828_SCCmec_00025	CDS	hypothetical protein
+CP009828_SCCmec_00025	gene
+CP009828_SCCmec_00025	mRNA
+CP009828_SCCmec_00026	CDS	hypothetical protein
+CP009828_SCCmec_00026	gene
+CP009828_SCCmec_00026	mRNA
+CP009828_SCCmec_00027	CDS	hypothetical protein
+CP009828_SCCmec_00027	gene
+CP009828_SCCmec_00027	mRNA
+CP009828_SCCmec_00028	CDS	hypothetical protein
+CP009828_SCCmec_00028	gene
+CP009828_SCCmec_00028	mRNA
+CP009828_SCCmec_00029	CDS	hypothetical protein
+CP009828_SCCmec_00029	gene
+CP009828_SCCmec_00029	mRNA
+CP009828_SCCmec_00030	CDS	hin_2	DNA-invertase hin
+CP009828_SCCmec_00030	gene	hin_2
+CP009828_SCCmec_00030	mRNA	hin_2
+CP009828_SCCmec_00031	CDS	hypothetical protein
+CP009828_SCCmec_00031	gene
+CP009828_SCCmec_00031	mRNA
+CP009828_SCCmec_00032	CDS	hypothetical protein
+CP009828_SCCmec_00032	gene
+CP009828_SCCmec_00032	mRNA
+CP009828_SCCmec_00033	CDS	hypothetical protein
+CP009828_SCCmec_00033	gene
+CP009828_SCCmec_00033	mRNA
+CP009828_SCCmec_00034	CDS	hypothetical protein
+CP009828_SCCmec_00034	gene
+CP009828_SCCmec_00034	mRNA
+CP009828_SCCmec_00035	CDS	hsdR	3.1.21.3	Type-1 restriction enzyme R protein
+CP009828_SCCmec_00035	gene	hsdR
+CP009828_SCCmec_00035	mRNA	hsdR
+CP009828_SCCmec_00036	CDS	hypothetical protein
+CP009828_SCCmec_00036	gene
+CP009828_SCCmec_00036	mRNA
+CP009828_SCCmec_00037	CDS	hsdM	2.1.1.72	Type I restriction enzyme EcoKI M protein
+CP009828_SCCmec_00037	gene	hsdM
+CP009828_SCCmec_00037	mRNA	hsdM
+CP009828_SCCmec_00038	CDS	3.6.1.-	ATP/GTP phosphatase
+CP009828_SCCmec_00038	gene
+CP009828_SCCmec_00038	mRNA
+CP009828_SCCmec_00039	CDS	pcrA	3.6.4.12	ATP-dependent DNA helicase PcrA
+CP009828_SCCmec_00039	gene	pcrA
+CP009828_SCCmec_00039	mRNA	pcrA
+CP009828_SCCmec_00040	CDS	hypothetical protein
+CP009828_SCCmec_00040	gene
+CP009828_SCCmec_00040	mRNA
+CP009828_SCCmec_00041	CDS	ddc	4.1.1.86	L-2,4-diaminobutyrate decarboxylase
+CP009828_SCCmec_00041	gene	ddc
+CP009828_SCCmec_00041	mRNA	ddc
+CP009828_SCCmec_00042	CDS	hypothetical protein
+CP009828_SCCmec_00042	gene
+CP009828_SCCmec_00042	mRNA

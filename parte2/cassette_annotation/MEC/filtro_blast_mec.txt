@@ -1,0 +1,23 @@
+
+
+
+-1)
+
+sed -e 's/\(^>.*$\)/#\1#/' 229_faaFiles.fasta | tr -d "\r" | tr -d "\n" | sed -e 's/$/#/' | tr "#" "\n" | sed -e '/^$/d' | cut -d " " -f1 > 229SCCmec_protseqs.fasta
+
+1)
+
+blastp -outfmt "6 qseqid qlen sseqid slen qstart qend sstart send length nident pident evalue" -db ./database/prot_db_229 -query mecABC_PBP2a.fasta > kek
+
+2)
+
+cat kek | awk '((($6-$5)+1)/$2)*100 > 70.0 {print}' | cut -f3 | sort | uniq -c | grep '      3' | cut -c9-
+
+
+----
+
+1) 
+makeblastdb -dbtype prot -in 233_mecs.fasta
+2)
+blastp -outfmt "6 qseqid qlen sseqid slen qstart qend sstart send length nident pident evalue" -db 233_mecs.fasta -query 233_mecs.fasta > outblastp_233x233.txt
+

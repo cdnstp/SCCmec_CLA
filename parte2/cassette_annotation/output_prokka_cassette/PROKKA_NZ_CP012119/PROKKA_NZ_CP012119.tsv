@@ -1,0 +1,175 @@
+locus_tag	ftype	gene	EC_number	product
+NZ_CP012119_SCCmec_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+NZ_CP012119_SCCmec_00001	gene	rlmH
+NZ_CP012119_SCCmec_00001	mRNA	rlmH
+NZ_CP012119_SCCmec_00002	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00002	gene
+NZ_CP012119_SCCmec_00002	mRNA
+NZ_CP012119_SCCmec_00003	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00003	gene
+NZ_CP012119_SCCmec_00003	mRNA
+NZ_CP012119_SCCmec_00004	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00004	gene
+NZ_CP012119_SCCmec_00004	mRNA
+NZ_CP012119_SCCmec_00005	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00005	gene
+NZ_CP012119_SCCmec_00005	mRNA
+NZ_CP012119_SCCmec_00006	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+NZ_CP012119_SCCmec_00006	gene	ugpQ
+NZ_CP012119_SCCmec_00006	mRNA	ugpQ
+NZ_CP012119_SCCmec_00007	CDS	paaZ	Bifunctional protein PaaZ
+NZ_CP012119_SCCmec_00007	gene	paaZ
+NZ_CP012119_SCCmec_00007	mRNA	paaZ
+NZ_CP012119_SCCmec_00008	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+NZ_CP012119_SCCmec_00008	gene	pbp
+NZ_CP012119_SCCmec_00008	mRNA	pbp
+NZ_CP012119_SCCmec_00009	CDS	mecR1	Methicillin resistance mecR1 protein
+NZ_CP012119_SCCmec_00009	gene	mecR1
+NZ_CP012119_SCCmec_00009	mRNA	mecR1
+NZ_CP012119_SCCmec_00010	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00010	gene
+NZ_CP012119_SCCmec_00010	mRNA
+NZ_CP012119_SCCmec_00011	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00011	gene
+NZ_CP012119_SCCmec_00011	mRNA
+NZ_CP012119_SCCmec_00012	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00012	gene
+NZ_CP012119_SCCmec_00012	mRNA
+NZ_CP012119_SCCmec_00013	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00013	gene
+NZ_CP012119_SCCmec_00013	mRNA
+NZ_CP012119_SCCmec_00014	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00014	gene
+NZ_CP012119_SCCmec_00014	mRNA
+NZ_CP012119_SCCmec_00015	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00015	gene
+NZ_CP012119_SCCmec_00015	mRNA
+NZ_CP012119_SCCmec_00016	CDS	hin_1	DNA-invertase hin
+NZ_CP012119_SCCmec_00016	gene	hin_1
+NZ_CP012119_SCCmec_00016	mRNA	hin_1
+NZ_CP012119_SCCmec_00017	CDS	hin_2	DNA-invertase hin
+NZ_CP012119_SCCmec_00017	gene	hin_2
+NZ_CP012119_SCCmec_00017	mRNA	hin_2
+NZ_CP012119_SCCmec_00018	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00018	gene
+NZ_CP012119_SCCmec_00018	mRNA
+NZ_CP012119_SCCmec_00019	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00019	gene
+NZ_CP012119_SCCmec_00019	mRNA
+NZ_CP012119_SCCmec_00020	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00020	gene
+NZ_CP012119_SCCmec_00020	mRNA
+NZ_CP012119_SCCmec_00021	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00021	gene
+NZ_CP012119_SCCmec_00021	mRNA
+NZ_CP012119_SCCmec_00022	CDS	gloC	3.1.2.6	Hydroxyacylglutathione hydrolase GloC
+NZ_CP012119_SCCmec_00022	gene	gloC
+NZ_CP012119_SCCmec_00022	mRNA	gloC
+NZ_CP012119_SCCmec_00023	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00023	gene
+NZ_CP012119_SCCmec_00023	mRNA
+NZ_CP012119_SCCmec_00024	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00024	gene
+NZ_CP012119_SCCmec_00024	mRNA
+NZ_CP012119_SCCmec_00025	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00025	gene
+NZ_CP012119_SCCmec_00025	mRNA
+NZ_CP012119_SCCmec_00026	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00026	gene
+NZ_CP012119_SCCmec_00026	mRNA
+NZ_CP012119_SCCmec_00027	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00027	gene
+NZ_CP012119_SCCmec_00027	mRNA
+NZ_CP012119_SCCmec_00028	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00028	gene
+NZ_CP012119_SCCmec_00028	mRNA
+NZ_CP012119_SCCmec_00029	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00029	gene
+NZ_CP012119_SCCmec_00029	mRNA
+NZ_CP012119_SCCmec_00030	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00030	gene
+NZ_CP012119_SCCmec_00030	mRNA
+NZ_CP012119_SCCmec_00031	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00031	gene
+NZ_CP012119_SCCmec_00031	mRNA
+NZ_CP012119_SCCmec_00032	CDS	speG	2.3.1.57	Spermidine N(1)-acetyltransferase
+NZ_CP012119_SCCmec_00032	gene	speG
+NZ_CP012119_SCCmec_00032	mRNA	speG
+NZ_CP012119_SCCmec_00033	CDS	adhD	1.1.1.1	Putative alcohol dehydrogenase D
+NZ_CP012119_SCCmec_00033	gene	adhD
+NZ_CP012119_SCCmec_00033	mRNA	adhD
+NZ_CP012119_SCCmec_00034	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00034	gene
+NZ_CP012119_SCCmec_00034	mRNA
+NZ_CP012119_SCCmec_00035	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00035	gene
+NZ_CP012119_SCCmec_00035	mRNA
+NZ_CP012119_SCCmec_00036	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00036	gene
+NZ_CP012119_SCCmec_00036	mRNA
+NZ_CP012119_SCCmec_00037	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00037	gene
+NZ_CP012119_SCCmec_00037	mRNA
+NZ_CP012119_SCCmec_00038	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00038	gene
+NZ_CP012119_SCCmec_00038	mRNA
+NZ_CP012119_SCCmec_00039	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00039	gene
+NZ_CP012119_SCCmec_00039	mRNA
+NZ_CP012119_SCCmec_00040	CDS	arcC1	2.7.2.2	Carbamate kinase 1
+NZ_CP012119_SCCmec_00040	gene	arcC1
+NZ_CP012119_SCCmec_00040	mRNA	arcC1
+NZ_CP012119_SCCmec_00041	CDS	argF	2.1.3.3	Ornithine carbamoyltransferase
+NZ_CP012119_SCCmec_00041	gene	argF
+NZ_CP012119_SCCmec_00041	mRNA	argF
+NZ_CP012119_SCCmec_00042	CDS	arcR	HTH-type transcriptional regulator ArcR
+NZ_CP012119_SCCmec_00042	gene	arcR
+NZ_CP012119_SCCmec_00042	mRNA	arcR
+NZ_CP012119_SCCmec_00043	CDS	arcD	Arginine/ornithine antiporter
+NZ_CP012119_SCCmec_00043	gene	arcD
+NZ_CP012119_SCCmec_00043	mRNA	arcD
+NZ_CP012119_SCCmec_00044	CDS	arcA	3.5.3.6	Arginine deiminase
+NZ_CP012119_SCCmec_00044	gene	arcA
+NZ_CP012119_SCCmec_00044	mRNA	arcA
+NZ_CP012119_SCCmec_00045	CDS	argR	Arginine repressor
+NZ_CP012119_SCCmec_00045	gene	argR
+NZ_CP012119_SCCmec_00045	mRNA	argR
+NZ_CP012119_SCCmec_00046	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00046	gene
+NZ_CP012119_SCCmec_00046	mRNA
+NZ_CP012119_SCCmec_00047	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00047	gene
+NZ_CP012119_SCCmec_00047	mRNA
+NZ_CP012119_SCCmec_00048	CDS	3.1.1.23	Monoacylglycerol lipase
+NZ_CP012119_SCCmec_00048	gene
+NZ_CP012119_SCCmec_00048	mRNA
+NZ_CP012119_SCCmec_00049	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00049	gene
+NZ_CP012119_SCCmec_00049	mRNA
+NZ_CP012119_SCCmec_00050	CDS	cmoB	2.1.1.-	tRNA (mo5U34)-methyltransferase
+NZ_CP012119_SCCmec_00050	gene	cmoB
+NZ_CP012119_SCCmec_00050	mRNA	cmoB
+NZ_CP012119_SCCmec_00051	CDS	nikA	Nickel-binding periplasmic protein
+NZ_CP012119_SCCmec_00051	gene	nikA
+NZ_CP012119_SCCmec_00051	mRNA	nikA
+NZ_CP012119_SCCmec_00052	CDS	gsiC	Glutathione transport system permease protein GsiC
+NZ_CP012119_SCCmec_00052	gene	gsiC
+NZ_CP012119_SCCmec_00052	mRNA	gsiC
+NZ_CP012119_SCCmec_00053	CDS	nikB	Nickel transport system permease protein NikB
+NZ_CP012119_SCCmec_00053	gene	nikB
+NZ_CP012119_SCCmec_00053	mRNA	nikB
+NZ_CP012119_SCCmec_00054	CDS	gsiD	Glutathione transport system permease protein GsiD
+NZ_CP012119_SCCmec_00054	gene	gsiD
+NZ_CP012119_SCCmec_00054	mRNA	gsiD
+NZ_CP012119_SCCmec_00055	CDS	oppD	Oligopeptide transport ATP-binding protein OppD
+NZ_CP012119_SCCmec_00055	gene	oppD
+NZ_CP012119_SCCmec_00055	mRNA	oppD
+NZ_CP012119_SCCmec_00056	CDS	nikE	3.6.3.24	Nickel import ATP-binding protein NikE
+NZ_CP012119_SCCmec_00056	gene	nikE
+NZ_CP012119_SCCmec_00056	mRNA	nikE
+NZ_CP012119_SCCmec_00057	CDS	copB	3.6.3.54	Copper-exporting P-type ATPase B
+NZ_CP012119_SCCmec_00057	gene	copB
+NZ_CP012119_SCCmec_00057	mRNA	copB
+NZ_CP012119_SCCmec_00058	CDS	hypothetical protein
+NZ_CP012119_SCCmec_00058	gene
+NZ_CP012119_SCCmec_00058	mRNA

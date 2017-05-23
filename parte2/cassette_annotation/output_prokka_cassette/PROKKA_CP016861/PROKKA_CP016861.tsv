@@ -1,0 +1,178 @@
+locus_tag	ftype	gene	EC_number	product
+CP016861_SCCmec_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+CP016861_SCCmec_00001	gene	rlmH
+CP016861_SCCmec_00001	mRNA	rlmH
+CP016861_SCCmec_00002	CDS	hypothetical protein
+CP016861_SCCmec_00002	gene
+CP016861_SCCmec_00002	mRNA
+CP016861_SCCmec_00003	CDS	hypothetical protein
+CP016861_SCCmec_00003	gene
+CP016861_SCCmec_00003	mRNA
+CP016861_SCCmec_00004	CDS	hypothetical protein
+CP016861_SCCmec_00004	gene
+CP016861_SCCmec_00004	mRNA
+CP016861_SCCmec_00005	CDS	hypothetical protein
+CP016861_SCCmec_00005	gene
+CP016861_SCCmec_00005	mRNA
+CP016861_SCCmec_00006	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+CP016861_SCCmec_00006	gene	ugpQ
+CP016861_SCCmec_00006	mRNA	ugpQ
+CP016861_SCCmec_00007	CDS	paaZ	Bifunctional protein PaaZ
+CP016861_SCCmec_00007	gene	paaZ
+CP016861_SCCmec_00007	mRNA	paaZ
+CP016861_SCCmec_00008	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+CP016861_SCCmec_00008	gene	pbp
+CP016861_SCCmec_00008	mRNA	pbp
+CP016861_SCCmec_00009	CDS	mecR1	Methicillin resistance mecR1 protein
+CP016861_SCCmec_00009	gene	mecR1
+CP016861_SCCmec_00009	mRNA	mecR1
+CP016861_SCCmec_00010	CDS	hypothetical protein
+CP016861_SCCmec_00010	gene
+CP016861_SCCmec_00010	mRNA
+CP016861_SCCmec_00011	CDS	hypothetical protein
+CP016861_SCCmec_00011	gene
+CP016861_SCCmec_00011	mRNA
+CP016861_SCCmec_00012	CDS	hypothetical protein
+CP016861_SCCmec_00012	gene
+CP016861_SCCmec_00012	mRNA
+CP016861_SCCmec_00013	CDS	hypothetical protein
+CP016861_SCCmec_00013	gene
+CP016861_SCCmec_00013	mRNA
+CP016861_SCCmec_00014	CDS	hypothetical protein
+CP016861_SCCmec_00014	gene
+CP016861_SCCmec_00014	mRNA
+CP016861_SCCmec_00015	CDS	hin_1	DNA-invertase hin
+CP016861_SCCmec_00015	gene	hin_1
+CP016861_SCCmec_00015	mRNA	hin_1
+CP016861_SCCmec_00016	CDS	hin_2	DNA-invertase hin
+CP016861_SCCmec_00016	gene	hin_2
+CP016861_SCCmec_00016	mRNA	hin_2
+CP016861_SCCmec_00017	CDS	hypothetical protein
+CP016861_SCCmec_00017	gene
+CP016861_SCCmec_00017	mRNA
+CP016861_SCCmec_00018	CDS	hypothetical protein
+CP016861_SCCmec_00018	gene
+CP016861_SCCmec_00018	mRNA
+CP016861_SCCmec_00019	CDS	hypothetical protein
+CP016861_SCCmec_00019	gene
+CP016861_SCCmec_00019	mRNA
+CP016861_SCCmec_00020	CDS	hypothetical protein
+CP016861_SCCmec_00020	gene
+CP016861_SCCmec_00020	mRNA
+CP016861_SCCmec_00021	CDS	hypothetical protein
+CP016861_SCCmec_00021	gene
+CP016861_SCCmec_00021	mRNA
+CP016861_SCCmec_00022	CDS	gloC	3.1.2.6	Hydroxyacylglutathione hydrolase GloC
+CP016861_SCCmec_00022	gene	gloC
+CP016861_SCCmec_00022	mRNA	gloC
+CP016861_SCCmec_00023	CDS	hypothetical protein
+CP016861_SCCmec_00023	gene
+CP016861_SCCmec_00023	mRNA
+CP016861_SCCmec_00024	CDS	hypothetical protein
+CP016861_SCCmec_00024	gene
+CP016861_SCCmec_00024	mRNA
+CP016861_SCCmec_00025	CDS	hypothetical protein
+CP016861_SCCmec_00025	gene
+CP016861_SCCmec_00025	mRNA
+CP016861_SCCmec_00026	CDS	hypothetical protein
+CP016861_SCCmec_00026	gene
+CP016861_SCCmec_00026	mRNA
+CP016861_SCCmec_00027	CDS	hypothetical protein
+CP016861_SCCmec_00027	gene
+CP016861_SCCmec_00027	mRNA
+CP016861_SCCmec_00028	CDS	hypothetical protein
+CP016861_SCCmec_00028	gene
+CP016861_SCCmec_00028	mRNA
+CP016861_SCCmec_00029	CDS	hypothetical protein
+CP016861_SCCmec_00029	gene
+CP016861_SCCmec_00029	mRNA
+CP016861_SCCmec_00030	CDS	hypothetical protein
+CP016861_SCCmec_00030	gene
+CP016861_SCCmec_00030	mRNA
+CP016861_SCCmec_00031	CDS	hypothetical protein
+CP016861_SCCmec_00031	gene
+CP016861_SCCmec_00031	mRNA
+CP016861_SCCmec_00032	CDS	speG	2.3.1.57	Spermidine N(1)-acetyltransferase
+CP016861_SCCmec_00032	gene	speG
+CP016861_SCCmec_00032	mRNA	speG
+CP016861_SCCmec_00033	CDS	xylB	1.1.1.90	Aryl-alcohol dehydrogenase
+CP016861_SCCmec_00033	gene	xylB
+CP016861_SCCmec_00033	mRNA	xylB
+CP016861_SCCmec_00034	CDS	hypothetical protein
+CP016861_SCCmec_00034	gene
+CP016861_SCCmec_00034	mRNA
+CP016861_SCCmec_00035	CDS	hypothetical protein
+CP016861_SCCmec_00035	gene
+CP016861_SCCmec_00035	mRNA
+CP016861_SCCmec_00036	CDS	hypothetical protein
+CP016861_SCCmec_00036	gene
+CP016861_SCCmec_00036	mRNA
+CP016861_SCCmec_00037	CDS	hypothetical protein
+CP016861_SCCmec_00037	gene
+CP016861_SCCmec_00037	mRNA
+CP016861_SCCmec_00038	CDS	hypothetical protein
+CP016861_SCCmec_00038	gene
+CP016861_SCCmec_00038	mRNA
+CP016861_SCCmec_00039	CDS	hypothetical protein
+CP016861_SCCmec_00039	gene
+CP016861_SCCmec_00039	mRNA
+CP016861_SCCmec_00040	CDS	hypothetical protein
+CP016861_SCCmec_00040	gene
+CP016861_SCCmec_00040	mRNA
+CP016861_SCCmec_00041	CDS	arcC1	2.7.2.2	Carbamate kinase 1
+CP016861_SCCmec_00041	gene	arcC1
+CP016861_SCCmec_00041	mRNA	arcC1
+CP016861_SCCmec_00042	CDS	argF	2.1.3.3	Ornithine carbamoyltransferase
+CP016861_SCCmec_00042	gene	argF
+CP016861_SCCmec_00042	mRNA	argF
+CP016861_SCCmec_00043	CDS	arcD	Arginine/ornithine antiporter
+CP016861_SCCmec_00043	gene	arcD
+CP016861_SCCmec_00043	mRNA	arcD
+CP016861_SCCmec_00044	CDS	arcA_1	3.5.3.6	Arginine deiminase
+CP016861_SCCmec_00044	gene	arcA_1
+CP016861_SCCmec_00044	mRNA	arcA_1
+CP016861_SCCmec_00045	CDS	arcA_2	3.5.3.6	Arginine deiminase
+CP016861_SCCmec_00045	gene	arcA_2
+CP016861_SCCmec_00045	mRNA	arcA_2
+CP016861_SCCmec_00046	CDS	argR	Arginine repressor
+CP016861_SCCmec_00046	gene	argR
+CP016861_SCCmec_00046	mRNA	argR
+CP016861_SCCmec_00047	CDS	hypothetical protein
+CP016861_SCCmec_00047	gene
+CP016861_SCCmec_00047	mRNA
+CP016861_SCCmec_00048	CDS	hypothetical protein
+CP016861_SCCmec_00048	gene
+CP016861_SCCmec_00048	mRNA
+CP016861_SCCmec_00049	CDS	3.1.1.23	Monoacylglycerol lipase
+CP016861_SCCmec_00049	gene
+CP016861_SCCmec_00049	mRNA
+CP016861_SCCmec_00050	CDS	hypothetical protein
+CP016861_SCCmec_00050	gene
+CP016861_SCCmec_00050	mRNA
+CP016861_SCCmec_00051	CDS	hypothetical protein
+CP016861_SCCmec_00051	gene
+CP016861_SCCmec_00051	mRNA
+CP016861_SCCmec_00052	CDS	cmoB	2.1.1.-	tRNA (mo5U34)-methyltransferase
+CP016861_SCCmec_00052	gene	cmoB
+CP016861_SCCmec_00052	mRNA	cmoB
+CP016861_SCCmec_00053	CDS	nikA	Nickel-binding periplasmic protein
+CP016861_SCCmec_00053	gene	nikA
+CP016861_SCCmec_00053	mRNA	nikA
+CP016861_SCCmec_00054	CDS	nikB	Nickel transport system permease protein NikB
+CP016861_SCCmec_00054	gene	nikB
+CP016861_SCCmec_00054	mRNA	nikB
+CP016861_SCCmec_00055	CDS	gsiD	Glutathione transport system permease protein GsiD
+CP016861_SCCmec_00055	gene	gsiD
+CP016861_SCCmec_00055	mRNA	gsiD
+CP016861_SCCmec_00056	CDS	oppD	Oligopeptide transport ATP-binding protein OppD
+CP016861_SCCmec_00056	gene	oppD
+CP016861_SCCmec_00056	mRNA	oppD
+CP016861_SCCmec_00057	CDS	nikE	3.6.3.24	Nickel import ATP-binding protein NikE
+CP016861_SCCmec_00057	gene	nikE
+CP016861_SCCmec_00057	mRNA	nikE
+CP016861_SCCmec_00058	CDS	copB	3.6.3.54	Copper-exporting P-type ATPase B
+CP016861_SCCmec_00058	gene	copB
+CP016861_SCCmec_00058	mRNA	copB
+CP016861_SCCmec_00059	CDS	hypothetical protein
+CP016861_SCCmec_00059	gene
+CP016861_SCCmec_00059	mRNA

@@ -1,0 +1,148 @@
+locus_tag	ftype	gene	EC_number	product
+AB505628_SCCmec_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+AB505628_SCCmec_00001	gene	rlmH
+AB505628_SCCmec_00001	mRNA	rlmH
+AB505628_SCCmec_00002	CDS	hypothetical protein
+AB505628_SCCmec_00002	gene
+AB505628_SCCmec_00002	mRNA
+AB505628_SCCmec_00003	CDS	taqIM	2.1.1.72	Modification methylase TaqI
+AB505628_SCCmec_00003	gene	taqIM
+AB505628_SCCmec_00003	mRNA	taqIM
+AB505628_SCCmec_00004	CDS	hypothetical protein
+AB505628_SCCmec_00004	gene
+AB505628_SCCmec_00004	mRNA
+AB505628_SCCmec_00005	CDS	hypothetical protein
+AB505628_SCCmec_00005	gene
+AB505628_SCCmec_00005	mRNA
+AB505628_SCCmec_00006	CDS	hypothetical protein
+AB505628_SCCmec_00006	gene
+AB505628_SCCmec_00006	mRNA
+AB505628_SCCmec_00007	CDS	hypothetical protein
+AB505628_SCCmec_00007	gene
+AB505628_SCCmec_00007	mRNA
+AB505628_SCCmec_00008	CDS	hypothetical protein
+AB505628_SCCmec_00008	gene
+AB505628_SCCmec_00008	mRNA
+AB505628_SCCmec_00009	CDS	fabG3	1.1.1.53	3-alpha-(or 20-beta)-hydroxysteroid dehydrogenase
+AB505628_SCCmec_00009	gene	fabG3
+AB505628_SCCmec_00009	mRNA	fabG3
+AB505628_SCCmec_00010	CDS	hin	DNA-invertase hin
+AB505628_SCCmec_00010	gene	hin
+AB505628_SCCmec_00010	mRNA	hin
+AB505628_SCCmec_00011	CDS	tnpR	Transposon gamma-delta resolvase
+AB505628_SCCmec_00011	gene	tnpR
+AB505628_SCCmec_00011	mRNA	tnpR
+AB505628_SCCmec_00012	CDS	hypothetical protein
+AB505628_SCCmec_00012	gene
+AB505628_SCCmec_00012	mRNA
+AB505628_SCCmec_00013	CDS	hypothetical protein
+AB505628_SCCmec_00013	gene
+AB505628_SCCmec_00013	mRNA
+AB505628_SCCmec_00014	CDS	hypothetical protein
+AB505628_SCCmec_00014	gene
+AB505628_SCCmec_00014	mRNA
+AB505628_SCCmec_00015	CDS	hypothetical protein
+AB505628_SCCmec_00015	gene
+AB505628_SCCmec_00015	mRNA
+AB505628_SCCmec_00016	CDS	hypothetical protein
+AB505628_SCCmec_00016	gene
+AB505628_SCCmec_00016	mRNA
+AB505628_SCCmec_00017	CDS	hypothetical protein
+AB505628_SCCmec_00017	gene
+AB505628_SCCmec_00017	mRNA
+AB505628_SCCmec_00018	CDS	hypothetical protein
+AB505628_SCCmec_00018	gene
+AB505628_SCCmec_00018	mRNA
+AB505628_SCCmec_00019	CDS	hypothetical protein
+AB505628_SCCmec_00019	gene
+AB505628_SCCmec_00019	mRNA
+AB505628_SCCmec_00020	CDS	hypothetical protein
+AB505628_SCCmec_00020	gene
+AB505628_SCCmec_00020	mRNA
+AB505628_SCCmec_00021	CDS	hypothetical protein
+AB505628_SCCmec_00021	gene
+AB505628_SCCmec_00021	mRNA
+AB505628_SCCmec_00022	CDS	hypothetical protein
+AB505628_SCCmec_00022	gene
+AB505628_SCCmec_00022	mRNA
+AB505628_SCCmec_00023	CDS	hypothetical protein
+AB505628_SCCmec_00023	gene
+AB505628_SCCmec_00023	mRNA
+AB505628_SCCmec_00024	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+AB505628_SCCmec_00024	gene	ugpQ
+AB505628_SCCmec_00024	mRNA	ugpQ
+AB505628_SCCmec_00025	CDS	paaZ	Bifunctional protein PaaZ
+AB505628_SCCmec_00025	gene	paaZ
+AB505628_SCCmec_00025	mRNA	paaZ
+AB505628_SCCmec_00026	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+AB505628_SCCmec_00026	gene	pbp
+AB505628_SCCmec_00026	mRNA	pbp
+AB505628_SCCmec_00027	CDS	hypothetical protein
+AB505628_SCCmec_00027	gene
+AB505628_SCCmec_00027	mRNA
+AB505628_SCCmec_00028	CDS	putative HTH-type transcriptional regulator
+AB505628_SCCmec_00028	gene
+AB505628_SCCmec_00028	mRNA
+AB505628_SCCmec_00029	CDS	hchA	4.2.1.130	Molecular chaperone Hsp31 and glyoxalase 3
+AB505628_SCCmec_00029	gene	hchA
+AB505628_SCCmec_00029	mRNA	hchA
+AB505628_SCCmec_00030	CDS	yhfK	4.-.-.-	putative sugar epimerase YhfK
+AB505628_SCCmec_00030	gene	yhfK
+AB505628_SCCmec_00030	mRNA	yhfK
+AB505628_SCCmec_00031	CDS	yfmJ	1.-.-.-	Putative NADP-dependent oxidoreductase YfmJ
+AB505628_SCCmec_00031	gene	yfmJ
+AB505628_SCCmec_00031	mRNA	yfmJ
+AB505628_SCCmec_00032	CDS	hypothetical protein
+AB505628_SCCmec_00032	gene
+AB505628_SCCmec_00032	mRNA
+AB505628_SCCmec_00033	CDS	hypothetical protein
+AB505628_SCCmec_00033	gene
+AB505628_SCCmec_00033	mRNA
+AB505628_SCCmec_00034	CDS	cadC	Cadmium resistance transcriptional regulatory protein CadC
+AB505628_SCCmec_00034	gene	cadC
+AB505628_SCCmec_00034	mRNA	cadC
+AB505628_SCCmec_00035	CDS	arsC_1	1.20.4.1	Glutaredoxin arsenate reductase
+AB505628_SCCmec_00035	gene	arsC_1
+AB505628_SCCmec_00035	mRNA	arsC_1
+AB505628_SCCmec_00036	CDS	arsB_1	Arsenical pump membrane protein
+AB505628_SCCmec_00036	gene	arsB_1
+AB505628_SCCmec_00036	mRNA	arsB_1
+AB505628_SCCmec_00037	CDS	sdpR_1	Transcriptional repressor SdpR
+AB505628_SCCmec_00037	gene	sdpR_1
+AB505628_SCCmec_00037	mRNA	sdpR_1
+AB505628_SCCmec_00038	CDS	copB	3.6.3.54	Copper-exporting P-type ATPase B
+AB505628_SCCmec_00038	gene	copB
+AB505628_SCCmec_00038	mRNA	copB
+AB505628_SCCmec_00039	CDS	mco	1.-.-.-	Multicopper oxidase mco
+AB505628_SCCmec_00039	gene	mco
+AB505628_SCCmec_00039	mRNA	mco
+AB505628_SCCmec_00040	CDS	hypothetical protein
+AB505628_SCCmec_00040	gene
+AB505628_SCCmec_00040	mRNA
+AB505628_SCCmec_00041	CDS	arsC_2	1.20.4.1	Glutaredoxin arsenate reductase
+AB505628_SCCmec_00041	gene	arsC_2
+AB505628_SCCmec_00041	mRNA	arsC_2
+AB505628_SCCmec_00042	CDS	arsB_2	Arsenical pump membrane protein
+AB505628_SCCmec_00042	gene	arsB_2
+AB505628_SCCmec_00042	mRNA	arsB_2
+AB505628_SCCmec_00043	CDS	sdpR_2	Transcriptional repressor SdpR
+AB505628_SCCmec_00043	gene	sdpR_2
+AB505628_SCCmec_00043	mRNA	sdpR_2
+AB505628_SCCmec_00044	CDS	arsA	3.6.3.16	Arsenical pump-driving ATPase
+AB505628_SCCmec_00044	gene	arsA
+AB505628_SCCmec_00044	mRNA	arsA
+AB505628_SCCmec_00045	CDS	arsD	Arsenical resistance operon trans-acting repressor ArsD
+AB505628_SCCmec_00045	gene	arsD
+AB505628_SCCmec_00045	mRNA	arsD
+AB505628_SCCmec_00046	CDS	hypothetical protein
+AB505628_SCCmec_00046	gene
+AB505628_SCCmec_00046	mRNA
+AB505628_SCCmec_00047	CDS	arsR	Arsenical resistance operon repressor
+AB505628_SCCmec_00047	gene	arsR
+AB505628_SCCmec_00047	mRNA	arsR
+AB505628_SCCmec_00048	CDS	Putative two-component membrane permease complex subunit SMU_747c
+AB505628_SCCmec_00048	gene
+AB505628_SCCmec_00048	mRNA
+AB505628_SCCmec_00049	CDS	hypothetical protein
+AB505628_SCCmec_00049	gene
+AB505628_SCCmec_00049	mRNA

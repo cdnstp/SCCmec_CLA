@@ -1,0 +1,576 @@
+>Feature sccmec_saures_HF937103_l54362
+1	480	CDS
+			EC_number	2.1.1.177
+			gene	rlmH
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0C1V0
+			locus_tag	HF937103_SCCmec_00001
+			product	Ribosomal RNA large subunit methyltransferase H
+1	480	gene
+			gene	rlmH
+			locus_tag	HF937103_SCCmec_00001
+1	480	mRNA
+			gene	rlmH
+			locus_tag	HF937103_SCCmec_00001
+581	724	CDS
+			EC_number	3.1.21.3
+			gene	hsdR
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q7A801
+			locus_tag	HF937103_SCCmec_00002
+			product	Type-1 restriction enzyme R protein
+581	724	gene
+			gene	hsdR
+			locus_tag	HF937103_SCCmec_00002
+581	724	mRNA
+			gene	hsdR
+			locus_tag	HF937103_SCCmec_00002
+717	1919	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00003
+			product	hypothetical protein
+717	1919	gene
+			locus_tag	HF937103_SCCmec_00003
+717	1919	mRNA
+			locus_tag	HF937103_SCCmec_00003
+2174	1923	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00004
+			product	hypothetical protein
+2174	1923	gene
+			locus_tag	HF937103_SCCmec_00004
+2174	1923	mRNA
+			locus_tag	HF937103_SCCmec_00004
+2739	2242	CDS
+			EC_number	2.3.1.57
+			gene	speG
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q9KL03
+			locus_tag	HF937103_SCCmec_00005
+			product	Spermidine N(1)-acetyltransferase
+2739	2242	gene
+			gene	speG
+			locus_tag	HF937103_SCCmec_00005
+2739	2242	mRNA
+			gene	speG
+			locus_tag	HF937103_SCCmec_00005
+3821	3411	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00006
+			product	hypothetical protein
+3821	3411	gene
+			locus_tag	HF937103_SCCmec_00006
+3821	3411	mRNA
+			locus_tag	HF937103_SCCmec_00006
+4722	4219	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00007
+			product	hypothetical protein
+4722	4219	gene
+			locus_tag	HF937103_SCCmec_00007
+4722	4219	mRNA
+			locus_tag	HF937103_SCCmec_00007
+5049	4738	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00008
+			product	hypothetical protein
+5049	4738	gene
+			locus_tag	HF937103_SCCmec_00008
+5049	4738	mRNA
+			locus_tag	HF937103_SCCmec_00008
+5143	5051	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00009
+			product	hypothetical protein
+5143	5051	gene
+			locus_tag	HF937103_SCCmec_00009
+5143	5051	mRNA
+			locus_tag	HF937103_SCCmec_00009
+5486	5136	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00010
+			product	hypothetical protein
+5486	5136	gene
+			locus_tag	HF937103_SCCmec_00010
+5486	5136	mRNA
+			locus_tag	HF937103_SCCmec_00010
+7615	5987	CDS
+			gene	hin_1
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P03013
+			locus_tag	HF937103_SCCmec_00011
+			product	DNA-invertase hin
+7615	5987	gene
+			gene	hin_1
+			locus_tag	HF937103_SCCmec_00011
+7615	5987	mRNA
+			gene	hin_1
+			locus_tag	HF937103_SCCmec_00011
+8973	7612	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00012
+			product	hypothetical protein
+8973	7612	gene
+			locus_tag	HF937103_SCCmec_00012
+8973	7612	mRNA
+			locus_tag	HF937103_SCCmec_00012
+9774	9160	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00013
+			product	hypothetical protein
+9774	9160	gene
+			locus_tag	HF937103_SCCmec_00013
+9774	9160	mRNA
+			locus_tag	HF937103_SCCmec_00013
+10157	10300	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00014
+			product	hypothetical protein
+10157	10300	gene
+			locus_tag	HF937103_SCCmec_00014
+10157	10300	mRNA
+			locus_tag	HF937103_SCCmec_00014
+10607	10248	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00015
+			product	hypothetical protein
+10607	10248	gene
+			locus_tag	HF937103_SCCmec_00015
+10607	10248	mRNA
+			locus_tag	HF937103_SCCmec_00015
+10814	11140	CDS
+			gene	czrA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:O31844
+			locus_tag	HF937103_SCCmec_00016
+			product	HTH-type transcriptional repressor CzrA
+10814	11140	gene
+			gene	czrA
+			locus_tag	HF937103_SCCmec_00016
+10814	11140	mRNA
+			gene	czrA
+			locus_tag	HF937103_SCCmec_00016
+11243	11341	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00017
+			product	hypothetical protein
+11243	11341	gene
+			locus_tag	HF937103_SCCmec_00017
+11243	11341	mRNA
+			locus_tag	HF937103_SCCmec_00017
+11470	13395	CDS
+			EC_number	3.6.3.-
+			gene	zosA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:O31688
+			locus_tag	HF937103_SCCmec_00018
+			product	Zinc-transporting ATPase
+11470	13395	gene
+			gene	zosA
+			locus_tag	HF937103_SCCmec_00018
+11470	13395	mRNA
+			gene	zosA
+			locus_tag	HF937103_SCCmec_00018
+14490	15119	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00019
+			product	hypothetical protein
+14490	15119	gene
+			locus_tag	HF937103_SCCmec_00019
+14490	15119	mRNA
+			locus_tag	HF937103_SCCmec_00019
+15134	15376	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00020
+			product	hypothetical protein
+15134	15376	gene
+			locus_tag	HF937103_SCCmec_00020
+15134	15376	mRNA
+			locus_tag	HF937103_SCCmec_00020
+15748	16626	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00021
+			product	hypothetical protein
+15748	16626	gene
+			locus_tag	HF937103_SCCmec_00021
+15748	16626	mRNA
+			locus_tag	HF937103_SCCmec_00021
+17655	16726	CDS
+			EC_number	2.7.2.2
+			gene	arcC1
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q7A627
+			locus_tag	HF937103_SCCmec_00022
+			product	Carbamate kinase 1
+17655	16726	gene
+			gene	arcC1
+			locus_tag	HF937103_SCCmec_00022
+17655	16726	mRNA
+			gene	arcC1
+			locus_tag	HF937103_SCCmec_00022
+18673	17675	CDS
+			EC_number	2.1.3.3
+			gene	argF
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P99073
+			locus_tag	HF937103_SCCmec_00023
+			product	Ornithine carbamoyltransferase
+18673	17675	gene
+			gene	argF
+			locus_tag	HF937103_SCCmec_00023
+18673	17675	mRNA
+			gene	argF
+			locus_tag	HF937103_SCCmec_00023
+19400	18711	CDS
+			gene	arcR
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q7A381
+			locus_tag	HF937103_SCCmec_00024
+			product	HTH-type transcriptional regulator ArcR
+19400	18711	gene
+			gene	arcR
+			locus_tag	HF937103_SCCmec_00024
+19400	18711	mRNA
+			gene	arcR
+			locus_tag	HF937103_SCCmec_00024
+20863	19442	CDS
+			gene	arcD
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P18275
+			locus_tag	HF937103_SCCmec_00025
+			product	Arginine/ornithine antiporter
+20863	19442	gene
+			gene	arcD
+			locus_tag	HF937103_SCCmec_00025
+20863	19442	mRNA
+			gene	arcD
+			locus_tag	HF937103_SCCmec_00025
+22184	20949	CDS
+			EC_number	3.5.3.6
+			gene	arcA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P63554
+			locus_tag	HF937103_SCCmec_00026
+			product	Arginine deiminase
+22184	20949	gene
+			gene	arcA
+			locus_tag	HF937103_SCCmec_00026
+22184	20949	mRNA
+			gene	arcA
+			locus_tag	HF937103_SCCmec_00026
+22899	22453	CDS
+			gene	argR
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P63580
+			locus_tag	HF937103_SCCmec_00027
+			product	Arginine repressor
+22899	22453	gene
+			gene	argR
+			locus_tag	HF937103_SCCmec_00027
+22899	22453	mRNA
+			gene	argR
+			locus_tag	HF937103_SCCmec_00027
+23999	24154	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00028
+			product	hypothetical protein
+23999	24154	gene
+			locus_tag	HF937103_SCCmec_00028
+23999	24154	mRNA
+			locus_tag	HF937103_SCCmec_00028
+24856	24425	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00029
+			product	hypothetical protein
+24856	24425	gene
+			locus_tag	HF937103_SCCmec_00029
+24856	24425	mRNA
+			locus_tag	HF937103_SCCmec_00029
+26064	25738	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00030
+			product	hypothetical protein
+26064	25738	gene
+			locus_tag	HF937103_SCCmec_00030
+26064	25738	mRNA
+			locus_tag	HF937103_SCCmec_00030
+26080	26754	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00031
+			product	hypothetical protein
+26080	26754	gene
+			locus_tag	HF937103_SCCmec_00031
+26080	26754	mRNA
+			locus_tag	HF937103_SCCmec_00031
+27188	27514	CDS
+			gene	immR
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P96631
+			locus_tag	HF937103_SCCmec_00032
+			product	HTH-type transcriptional regulator ImmR
+27188	27514	gene
+			gene	immR
+			locus_tag	HF937103_SCCmec_00032
+27188	27514	mRNA
+			gene	immR
+			locus_tag	HF937103_SCCmec_00032
+27551	28384	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00033
+			product	hypothetical protein
+27551	28384	gene
+			locus_tag	HF937103_SCCmec_00033
+27551	28384	mRNA
+			locus_tag	HF937103_SCCmec_00033
+28589	28753	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00034
+			product	hypothetical protein
+28589	28753	gene
+			locus_tag	HF937103_SCCmec_00034
+28589	28753	mRNA
+			locus_tag	HF937103_SCCmec_00034
+29070	29843	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00035
+			product	hypothetical protein
+29070	29843	gene
+			locus_tag	HF937103_SCCmec_00035
+29070	29843	mRNA
+			locus_tag	HF937103_SCCmec_00035
+30440	30081	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00036
+			product	hypothetical protein
+30440	30081	gene
+			locus_tag	HF937103_SCCmec_00036
+30440	30081	mRNA
+			locus_tag	HF937103_SCCmec_00036
+31675	30605	CDS
+			EC_number	1.13.12.-
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:O06179
+			locus_tag	HF937103_SCCmec_00037
+			product	Putative monooxygenase
+31675	30605	gene
+			locus_tag	HF937103_SCCmec_00037
+31675	30605	mRNA
+			locus_tag	HF937103_SCCmec_00037
+32335	31688	CDS
+			gene	gltR
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P94501
+			locus_tag	HF937103_SCCmec_00038
+			product	HTH-type transcriptional regulator GltR
+32335	31688	gene
+			gene	gltR
+			locus_tag	HF937103_SCCmec_00038
+32335	31688	mRNA
+			gene	gltR
+			locus_tag	HF937103_SCCmec_00038
+33033	32359	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00039
+			product	hypothetical protein
+33033	32359	gene
+			locus_tag	HF937103_SCCmec_00039
+33033	32359	mRNA
+			locus_tag	HF937103_SCCmec_00039
+33291	33458	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00040
+			product	hypothetical protein
+33291	33458	gene
+			locus_tag	HF937103_SCCmec_00040
+33291	33458	mRNA
+			locus_tag	HF937103_SCCmec_00040
+33556	33786	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00041
+			product	hypothetical protein
+33556	33786	gene
+			locus_tag	HF937103_SCCmec_00041
+33556	33786	mRNA
+			locus_tag	HF937103_SCCmec_00041
+34335	35078	CDS
+			EC_number	3.1.4.46
+			gene	ugpQ
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P10908
+			locus_tag	HF937103_SCCmec_00042
+			product	Glycerophosphodiester phosphodiesterase, cytoplasmic
+34335	35078	gene
+			gene	ugpQ
+			locus_tag	HF937103_SCCmec_00042
+34335	35078	mRNA
+			gene	ugpQ
+			locus_tag	HF937103_SCCmec_00042
+35175	35603	CDS
+			gene	paaZ
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P77455
+			locus_tag	HF937103_SCCmec_00043
+			product	Bifunctional protein PaaZ
+35175	35603	gene
+			gene	paaZ
+			locus_tag	HF937103_SCCmec_00043
+35175	35603	mRNA
+			gene	paaZ
+			locus_tag	HF937103_SCCmec_00043
+37655	35649	CDS
+			gene	pbp
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P07944
+			locus_tag	HF937103_SCCmec_00044
+			product	Beta-lactam-inducible penicillin-binding protein
+37655	35649	gene
+			gene	pbp
+			locus_tag	HF937103_SCCmec_00044
+37655	35649	mRNA
+			gene	pbp
+			locus_tag	HF937103_SCCmec_00044
+37755	38741	CDS
+			gene	mecR1
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0A0B0
+			locus_tag	HF937103_SCCmec_00045
+			product	Methicillin resistance mecR1 protein
+37755	38741	gene
+			gene	mecR1
+			locus_tag	HF937103_SCCmec_00045
+37755	38741	mRNA
+			gene	mecR1
+			locus_tag	HF937103_SCCmec_00045
+38701	38973	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00046
+			product	hypothetical protein
+38701	38973	gene
+			locus_tag	HF937103_SCCmec_00046
+38701	38973	mRNA
+			locus_tag	HF937103_SCCmec_00046
+40487	38964	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00047
+			product	hypothetical protein
+40487	38964	gene
+			locus_tag	HF937103_SCCmec_00047
+40487	38964	mRNA
+			locus_tag	HF937103_SCCmec_00047
+41129	40623	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00048
+			product	hypothetical protein
+41129	40623	gene
+			locus_tag	HF937103_SCCmec_00048
+41129	40623	mRNA
+			locus_tag	HF937103_SCCmec_00048
+41455	41144	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00049
+			product	hypothetical protein
+41455	41144	gene
+			locus_tag	HF937103_SCCmec_00049
+41455	41144	mRNA
+			locus_tag	HF937103_SCCmec_00049
+41892	41542	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00050
+			product	hypothetical protein
+41892	41542	gene
+			locus_tag	HF937103_SCCmec_00050
+41892	41542	mRNA
+			locus_tag	HF937103_SCCmec_00050
+44042	42414	CDS
+			gene	hin_2
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P03013
+			locus_tag	HF937103_SCCmec_00051
+			product	DNA-invertase hin
+44042	42414	gene
+			gene	hin_2
+			locus_tag	HF937103_SCCmec_00051
+44042	42414	mRNA
+			gene	hin_2
+			locus_tag	HF937103_SCCmec_00051
+45413	44064	CDS
+			gene	hin_3
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P03013
+			locus_tag	HF937103_SCCmec_00052
+			product	DNA-invertase hin
+45413	44064	gene
+			gene	hin_3
+			locus_tag	HF937103_SCCmec_00052
+45413	44064	mRNA
+			gene	hin_3
+			locus_tag	HF937103_SCCmec_00052
+47434	45647	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00053
+			product	hypothetical protein
+47434	45647	gene
+			locus_tag	HF937103_SCCmec_00053
+47434	45647	mRNA
+			locus_tag	HF937103_SCCmec_00053
+47724	47434	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00054
+			product	hypothetical protein
+47724	47434	gene
+			locus_tag	HF937103_SCCmec_00054
+47724	47434	mRNA
+			locus_tag	HF937103_SCCmec_00054
+47821	48912	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00055
+			product	hypothetical protein
+47821	48912	gene
+			locus_tag	HF937103_SCCmec_00055
+47821	48912	mRNA
+			locus_tag	HF937103_SCCmec_00055
+49530	51020	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00056
+			product	hypothetical protein
+49530	51020	gene
+			locus_tag	HF937103_SCCmec_00056
+49530	51020	mRNA
+			locus_tag	HF937103_SCCmec_00056
+52648	51644	CDS
+			EC_number	3.1.2.6
+			gene	gloC
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P75849
+			locus_tag	HF937103_SCCmec_00057
+			product	Hydroxyacylglutathione hydrolase GloC
+52648	51644	gene
+			gene	gloC
+			locus_tag	HF937103_SCCmec_00057
+52648	51644	mRNA
+			gene	gloC
+			locus_tag	HF937103_SCCmec_00057
+52767	52904	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00058
+			product	hypothetical protein
+52767	52904	gene
+			locus_tag	HF937103_SCCmec_00058
+52767	52904	mRNA
+			locus_tag	HF937103_SCCmec_00058
+52901	53272	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00059
+			product	hypothetical protein
+52901	53272	gene
+			locus_tag	HF937103_SCCmec_00059
+52901	53272	mRNA
+			locus_tag	HF937103_SCCmec_00059
+53401	54021	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	HF937103_SCCmec_00060
+			product	hypothetical protein
+53401	54021	gene
+			locus_tag	HF937103_SCCmec_00060
+53401	54021	mRNA
+			locus_tag	HF937103_SCCmec_00060

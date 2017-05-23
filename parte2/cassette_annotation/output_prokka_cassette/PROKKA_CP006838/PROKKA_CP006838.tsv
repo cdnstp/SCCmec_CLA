@@ -1,0 +1,229 @@
+locus_tag	ftype	gene	EC_number	product
+CP006838_SCCmec_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+CP006838_SCCmec_00001	gene	rlmH
+CP006838_SCCmec_00001	mRNA	rlmH
+CP006838_SCCmec_00002	CDS	hypothetical protein
+CP006838_SCCmec_00002	gene
+CP006838_SCCmec_00002	mRNA
+CP006838_SCCmec_00003	CDS	hypothetical protein
+CP006838_SCCmec_00003	gene
+CP006838_SCCmec_00003	mRNA
+CP006838_SCCmec_00004	CDS	hypothetical protein
+CP006838_SCCmec_00004	gene
+CP006838_SCCmec_00004	mRNA
+CP006838_SCCmec_00005	CDS	hypothetical protein
+CP006838_SCCmec_00005	gene
+CP006838_SCCmec_00005	mRNA
+CP006838_SCCmec_00006	CDS	hypothetical protein
+CP006838_SCCmec_00006	gene
+CP006838_SCCmec_00006	mRNA
+CP006838_SCCmec_00007	CDS	hypothetical protein
+CP006838_SCCmec_00007	gene
+CP006838_SCCmec_00007	mRNA
+CP006838_SCCmec_00008	CDS	hypothetical protein
+CP006838_SCCmec_00008	gene
+CP006838_SCCmec_00008	mRNA
+CP006838_SCCmec_00009	CDS	hin_1	DNA-invertase hin
+CP006838_SCCmec_00009	gene	hin_1
+CP006838_SCCmec_00009	mRNA	hin_1
+CP006838_SCCmec_00010	CDS	hypothetical protein
+CP006838_SCCmec_00010	gene
+CP006838_SCCmec_00010	mRNA
+CP006838_SCCmec_00011	CDS	hypothetical protein
+CP006838_SCCmec_00011	gene
+CP006838_SCCmec_00011	mRNA
+CP006838_SCCmec_00012	CDS	hypothetical protein
+CP006838_SCCmec_00012	gene
+CP006838_SCCmec_00012	mRNA
+CP006838_SCCmec_00013	CDS	hypothetical protein
+CP006838_SCCmec_00013	gene
+CP006838_SCCmec_00013	mRNA
+CP006838_SCCmec_00014	CDS	hypothetical protein
+CP006838_SCCmec_00014	gene
+CP006838_SCCmec_00014	mRNA
+CP006838_SCCmec_00015	CDS	xerC_1	Tyrosine recombinase XerC
+CP006838_SCCmec_00015	gene	xerC_1
+CP006838_SCCmec_00015	mRNA	xerC_1
+CP006838_SCCmec_00016	CDS	xerC_2	Tyrosine recombinase XerC
+CP006838_SCCmec_00016	gene	xerC_2
+CP006838_SCCmec_00016	mRNA	xerC_2
+CP006838_SCCmec_00017	CDS	hypothetical protein
+CP006838_SCCmec_00017	gene
+CP006838_SCCmec_00017	mRNA
+CP006838_SCCmec_00018	CDS	hypothetical protein
+CP006838_SCCmec_00018	gene
+CP006838_SCCmec_00018	mRNA
+CP006838_SCCmec_00019	CDS	ant1	2.7.7.47	Streptomycin 3''-adenylyltransferase
+CP006838_SCCmec_00019	gene	ant1
+CP006838_SCCmec_00019	mRNA	ant1
+CP006838_SCCmec_00020	CDS	ermA1	2.1.1.184	rRNA adenine N-6-methyltransferase
+CP006838_SCCmec_00020	gene	ermA1
+CP006838_SCCmec_00020	mRNA	ermA1
+CP006838_SCCmec_00021	CDS	ycgJ	2.1.1.-	putative methyltransferase YcgJ
+CP006838_SCCmec_00021	gene	ycgJ
+CP006838_SCCmec_00021	mRNA	ycgJ
+CP006838_SCCmec_00022	CDS	hypothetical protein
+CP006838_SCCmec_00022	gene
+CP006838_SCCmec_00022	mRNA
+CP006838_SCCmec_00023	CDS	hypothetical protein
+CP006838_SCCmec_00023	gene
+CP006838_SCCmec_00023	mRNA
+CP006838_SCCmec_00024	CDS	hypothetical protein
+CP006838_SCCmec_00024	gene
+CP006838_SCCmec_00024	mRNA
+CP006838_SCCmec_00025	CDS	hypothetical protein
+CP006838_SCCmec_00025	gene
+CP006838_SCCmec_00025	mRNA
+CP006838_SCCmec_00026	CDS	hypothetical protein
+CP006838_SCCmec_00026	gene
+CP006838_SCCmec_00026	mRNA
+CP006838_SCCmec_00027	CDS	hypothetical protein
+CP006838_SCCmec_00027	gene
+CP006838_SCCmec_00027	mRNA
+CP006838_SCCmec_00028	CDS	hypothetical protein
+CP006838_SCCmec_00028	gene
+CP006838_SCCmec_00028	mRNA
+CP006838_SCCmec_00029	CDS	hsdR	3.1.21.3	Type-1 restriction enzyme R protein
+CP006838_SCCmec_00029	gene	hsdR
+CP006838_SCCmec_00029	mRNA	hsdR
+CP006838_SCCmec_00030	CDS	hypothetical protein
+CP006838_SCCmec_00030	gene
+CP006838_SCCmec_00030	mRNA
+CP006838_SCCmec_00031	CDS	garB	1.8.1.16	Glutathione amide reductase
+CP006838_SCCmec_00031	gene	garB
+CP006838_SCCmec_00031	mRNA	garB
+CP006838_SCCmec_00032	CDS	merR1	Mercuric resistance operon regulatory protein
+CP006838_SCCmec_00032	gene	merR1
+CP006838_SCCmec_00032	mRNA	merR1
+CP006838_SCCmec_00033	CDS	stoA	Sporulation thiol-disulfide oxidoreductase A
+CP006838_SCCmec_00033	gene	stoA
+CP006838_SCCmec_00033	mRNA	stoA
+CP006838_SCCmec_00034	CDS	hypothetical protein
+CP006838_SCCmec_00034	gene
+CP006838_SCCmec_00034	mRNA
+CP006838_SCCmec_00035	CDS	hypothetical protein
+CP006838_SCCmec_00035	gene
+CP006838_SCCmec_00035	mRNA
+CP006838_SCCmec_00036	CDS	merA	1.16.1.1	Mercuric reductase
+CP006838_SCCmec_00036	gene	merA
+CP006838_SCCmec_00036	mRNA	merA
+CP006838_SCCmec_00037	CDS	merB	4.99.1.2	Alkylmercury lyase
+CP006838_SCCmec_00037	gene	merB
+CP006838_SCCmec_00037	mRNA	merB
+CP006838_SCCmec_00038	CDS	hypothetical protein
+CP006838_SCCmec_00038	gene
+CP006838_SCCmec_00038	mRNA
+CP006838_SCCmec_00039	CDS	hypothetical protein
+CP006838_SCCmec_00039	gene
+CP006838_SCCmec_00039	mRNA
+CP006838_SCCmec_00040	CDS	hsrA	putative transport protein HsrA
+CP006838_SCCmec_00040	gene	hsrA
+CP006838_SCCmec_00040	mRNA	hsrA
+CP006838_SCCmec_00041	CDS	hypothetical protein
+CP006838_SCCmec_00041	gene
+CP006838_SCCmec_00041	mRNA
+CP006838_SCCmec_00042	CDS	pre	Plasmid recombination enzyme
+CP006838_SCCmec_00042	gene	pre
+CP006838_SCCmec_00042	mRNA	pre
+CP006838_SCCmec_00043	CDS	hypothetical protein
+CP006838_SCCmec_00043	gene
+CP006838_SCCmec_00043	mRNA
+CP006838_SCCmec_00044	CDS	repN	Replication initiation protein
+CP006838_SCCmec_00044	gene	repN
+CP006838_SCCmec_00044	mRNA	repN
+CP006838_SCCmec_00045	CDS	hypothetical protein
+CP006838_SCCmec_00045	gene
+CP006838_SCCmec_00045	mRNA
+CP006838_SCCmec_00046	CDS	hypothetical protein
+CP006838_SCCmec_00046	gene
+CP006838_SCCmec_00046	mRNA
+CP006838_SCCmec_00047	CDS	hypothetical protein
+CP006838_SCCmec_00047	gene
+CP006838_SCCmec_00047	mRNA
+CP006838_SCCmec_00048	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+CP006838_SCCmec_00048	gene	ugpQ
+CP006838_SCCmec_00048	mRNA	ugpQ
+CP006838_SCCmec_00049	CDS	paaZ	Bifunctional protein PaaZ
+CP006838_SCCmec_00049	gene	paaZ
+CP006838_SCCmec_00049	mRNA	paaZ
+CP006838_SCCmec_00050	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+CP006838_SCCmec_00050	gene	pbp
+CP006838_SCCmec_00050	mRNA	pbp
+CP006838_SCCmec_00051	CDS	mecR1	Methicillin resistance mecR1 protein
+CP006838_SCCmec_00051	gene	mecR1
+CP006838_SCCmec_00051	mRNA	mecR1
+CP006838_SCCmec_00052	CDS	mecI	Methicillin resistance regulatory protein MecI
+CP006838_SCCmec_00052	gene	mecI
+CP006838_SCCmec_00052	mRNA	mecI
+CP006838_SCCmec_00053	CDS	nagC	N-acetylglucosamine repressor
+CP006838_SCCmec_00053	gene	nagC
+CP006838_SCCmec_00053	mRNA	nagC
+CP006838_SCCmec_00054	CDS	pspE_1	2.8.1.1	Thiosulfate sulfurtransferase PspE
+CP006838_SCCmec_00054	gene	pspE_1
+CP006838_SCCmec_00054	mRNA	pspE_1
+CP006838_SCCmec_00055	CDS	gloC	3.1.2.6	Hydroxyacylglutathione hydrolase GloC
+CP006838_SCCmec_00055	gene	gloC
+CP006838_SCCmec_00055	mRNA	gloC
+CP006838_SCCmec_00056	CDS	pspE_2	2.8.1.1	Thiosulfate sulfurtransferase PspE
+CP006838_SCCmec_00056	gene	pspE_2
+CP006838_SCCmec_00056	mRNA	pspE_2
+CP006838_SCCmec_00057	CDS	csoR	Copper-sensing transcriptional repressor CsoR
+CP006838_SCCmec_00057	gene	csoR
+CP006838_SCCmec_00057	mRNA	csoR
+CP006838_SCCmec_00058	CDS	hypothetical protein
+CP006838_SCCmec_00058	gene
+CP006838_SCCmec_00058	mRNA
+CP006838_SCCmec_00059	CDS	hypothetical protein
+CP006838_SCCmec_00059	gene
+CP006838_SCCmec_00059	mRNA
+CP006838_SCCmec_00060	CDS	hypothetical protein
+CP006838_SCCmec_00060	gene
+CP006838_SCCmec_00060	mRNA
+CP006838_SCCmec_00061	CDS	cadA	3.6.3.3	putative cadmium-transporting ATPase
+CP006838_SCCmec_00061	gene	cadA
+CP006838_SCCmec_00061	mRNA	cadA
+CP006838_SCCmec_00062	CDS	cadC	Cadmium resistance transcriptional regulatory protein CadC
+CP006838_SCCmec_00062	gene	cadC
+CP006838_SCCmec_00062	mRNA	cadC
+CP006838_SCCmec_00063	CDS	hypothetical protein
+CP006838_SCCmec_00063	gene
+CP006838_SCCmec_00063	mRNA
+CP006838_SCCmec_00064	CDS	xerC_3	Tyrosine recombinase XerC
+CP006838_SCCmec_00064	gene	xerC_3
+CP006838_SCCmec_00064	mRNA	xerC_3
+CP006838_SCCmec_00065	CDS	hypothetical protein
+CP006838_SCCmec_00065	gene
+CP006838_SCCmec_00065	mRNA
+CP006838_SCCmec_00066	CDS	hypothetical protein
+CP006838_SCCmec_00066	gene
+CP006838_SCCmec_00066	mRNA
+CP006838_SCCmec_00067	CDS	hypothetical protein
+CP006838_SCCmec_00067	gene
+CP006838_SCCmec_00067	mRNA
+CP006838_SCCmec_00068	CDS	hypothetical protein
+CP006838_SCCmec_00068	gene
+CP006838_SCCmec_00068	mRNA
+CP006838_SCCmec_00069	CDS	hypothetical protein
+CP006838_SCCmec_00069	gene
+CP006838_SCCmec_00069	mRNA
+CP006838_SCCmec_00070	CDS	hin_2	DNA-invertase hin
+CP006838_SCCmec_00070	gene	hin_2
+CP006838_SCCmec_00070	mRNA	hin_2
+CP006838_SCCmec_00071	CDS	tnpR	Transposon gamma-delta resolvase
+CP006838_SCCmec_00071	gene	tnpR
+CP006838_SCCmec_00071	mRNA	tnpR
+CP006838_SCCmec_00072	CDS	hypothetical protein
+CP006838_SCCmec_00072	gene
+CP006838_SCCmec_00072	mRNA
+CP006838_SCCmec_00073	CDS	hypothetical protein
+CP006838_SCCmec_00073	gene
+CP006838_SCCmec_00073	mRNA
+CP006838_SCCmec_00074	CDS	hypothetical protein
+CP006838_SCCmec_00074	gene
+CP006838_SCCmec_00074	mRNA
+CP006838_SCCmec_00075	CDS	hypothetical protein
+CP006838_SCCmec_00075	gene
+CP006838_SCCmec_00075	mRNA
+CP006838_SCCmec_00076	CDS	hypothetical protein
+CP006838_SCCmec_00076	gene
+CP006838_SCCmec_00076	mRNA

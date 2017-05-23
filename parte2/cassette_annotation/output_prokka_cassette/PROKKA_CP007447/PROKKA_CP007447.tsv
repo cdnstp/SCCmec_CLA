@@ -1,0 +1,133 @@
+locus_tag	ftype	gene	EC_number	product
+CP007447_SCCmec_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+CP007447_SCCmec_00001	gene	rlmH
+CP007447_SCCmec_00001	mRNA	rlmH
+CP007447_SCCmec_00002	CDS	hypothetical protein
+CP007447_SCCmec_00002	gene
+CP007447_SCCmec_00002	mRNA
+CP007447_SCCmec_00003	CDS	hypothetical protein
+CP007447_SCCmec_00003	gene
+CP007447_SCCmec_00003	mRNA
+CP007447_SCCmec_00004	CDS	hypothetical protein
+CP007447_SCCmec_00004	gene
+CP007447_SCCmec_00004	mRNA
+CP007447_SCCmec_00005	CDS	hypothetical protein
+CP007447_SCCmec_00005	gene
+CP007447_SCCmec_00005	mRNA
+CP007447_SCCmec_00006	CDS	hypothetical protein
+CP007447_SCCmec_00006	gene
+CP007447_SCCmec_00006	mRNA
+CP007447_SCCmec_00007	CDS	hypothetical protein
+CP007447_SCCmec_00007	gene
+CP007447_SCCmec_00007	mRNA
+CP007447_SCCmec_00008	CDS	hypothetical protein
+CP007447_SCCmec_00008	gene
+CP007447_SCCmec_00008	mRNA
+CP007447_SCCmec_00009	CDS	hypothetical protein
+CP007447_SCCmec_00009	gene
+CP007447_SCCmec_00009	mRNA
+CP007447_SCCmec_00010	CDS	hin_1	DNA-invertase hin
+CP007447_SCCmec_00010	gene	hin_1
+CP007447_SCCmec_00010	mRNA	hin_1
+CP007447_SCCmec_00011	CDS	hypothetical protein
+CP007447_SCCmec_00011	gene
+CP007447_SCCmec_00011	mRNA
+CP007447_SCCmec_00012	CDS	hypothetical protein
+CP007447_SCCmec_00012	gene
+CP007447_SCCmec_00012	mRNA
+CP007447_SCCmec_00013	CDS	hypothetical protein
+CP007447_SCCmec_00013	gene
+CP007447_SCCmec_00013	mRNA
+CP007447_SCCmec_00014	CDS	hypothetical protein
+CP007447_SCCmec_00014	gene
+CP007447_SCCmec_00014	mRNA
+CP007447_SCCmec_00015	CDS	hypothetical protein
+CP007447_SCCmec_00015	gene
+CP007447_SCCmec_00015	mRNA
+CP007447_SCCmec_00016	CDS	hypothetical protein
+CP007447_SCCmec_00016	gene
+CP007447_SCCmec_00016	mRNA
+CP007447_SCCmec_00017	CDS	hypothetical protein
+CP007447_SCCmec_00017	gene
+CP007447_SCCmec_00017	mRNA
+CP007447_SCCmec_00018	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+CP007447_SCCmec_00018	gene	ugpQ
+CP007447_SCCmec_00018	mRNA	ugpQ
+CP007447_SCCmec_00019	CDS	paaZ	Bifunctional protein PaaZ
+CP007447_SCCmec_00019	gene	paaZ
+CP007447_SCCmec_00019	mRNA	paaZ
+CP007447_SCCmec_00020	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+CP007447_SCCmec_00020	gene	pbp
+CP007447_SCCmec_00020	mRNA	pbp
+CP007447_SCCmec_00021	CDS	mecR1	Methicillin resistance mecR1 protein
+CP007447_SCCmec_00021	gene	mecR1
+CP007447_SCCmec_00021	mRNA	mecR1
+CP007447_SCCmec_00022	CDS	mecI	Methicillin resistance regulatory protein MecI
+CP007447_SCCmec_00022	gene	mecI
+CP007447_SCCmec_00022	mRNA	mecI
+CP007447_SCCmec_00023	CDS	nagC	N-acetylglucosamine repressor
+CP007447_SCCmec_00023	gene	nagC
+CP007447_SCCmec_00023	mRNA	nagC
+CP007447_SCCmec_00024	CDS	pspE	2.8.1.1	Thiosulfate sulfurtransferase PspE
+CP007447_SCCmec_00024	gene	pspE
+CP007447_SCCmec_00024	mRNA	pspE
+CP007447_SCCmec_00025	CDS	gloC	3.1.2.6	Hydroxyacylglutathione hydrolase GloC
+CP007447_SCCmec_00025	gene	gloC
+CP007447_SCCmec_00025	mRNA	gloC
+CP007447_SCCmec_00026	CDS	hypothetical protein
+CP007447_SCCmec_00026	gene
+CP007447_SCCmec_00026	mRNA
+CP007447_SCCmec_00027	CDS	csoR	Copper-sensing transcriptional repressor CsoR
+CP007447_SCCmec_00027	gene	csoR
+CP007447_SCCmec_00027	mRNA	csoR
+CP007447_SCCmec_00028	CDS	hypothetical protein
+CP007447_SCCmec_00028	gene
+CP007447_SCCmec_00028	mRNA
+CP007447_SCCmec_00029	CDS	hypothetical protein
+CP007447_SCCmec_00029	gene
+CP007447_SCCmec_00029	mRNA
+CP007447_SCCmec_00030	CDS	cadA	3.6.3.3	putative cadmium-transporting ATPase
+CP007447_SCCmec_00030	gene	cadA
+CP007447_SCCmec_00030	mRNA	cadA
+CP007447_SCCmec_00031	CDS	cadC	Cadmium resistance transcriptional regulatory protein CadC
+CP007447_SCCmec_00031	gene	cadC
+CP007447_SCCmec_00031	mRNA	cadC
+CP007447_SCCmec_00032	CDS	hypothetical protein
+CP007447_SCCmec_00032	gene
+CP007447_SCCmec_00032	mRNA
+CP007447_SCCmec_00033	CDS	xerC	Tyrosine recombinase XerC
+CP007447_SCCmec_00033	gene	xerC
+CP007447_SCCmec_00033	mRNA	xerC
+CP007447_SCCmec_00034	CDS	hypothetical protein
+CP007447_SCCmec_00034	gene
+CP007447_SCCmec_00034	mRNA
+CP007447_SCCmec_00035	CDS	hypothetical protein
+CP007447_SCCmec_00035	gene
+CP007447_SCCmec_00035	mRNA
+CP007447_SCCmec_00036	CDS	hypothetical protein
+CP007447_SCCmec_00036	gene
+CP007447_SCCmec_00036	mRNA
+CP007447_SCCmec_00037	CDS	hypothetical protein
+CP007447_SCCmec_00037	gene
+CP007447_SCCmec_00037	mRNA
+CP007447_SCCmec_00038	CDS	hin_2	DNA-invertase hin
+CP007447_SCCmec_00038	gene	hin_2
+CP007447_SCCmec_00038	mRNA	hin_2
+CP007447_SCCmec_00039	CDS	tnpR	Transposon gamma-delta resolvase
+CP007447_SCCmec_00039	gene	tnpR
+CP007447_SCCmec_00039	mRNA	tnpR
+CP007447_SCCmec_00040	CDS	hypothetical protein
+CP007447_SCCmec_00040	gene
+CP007447_SCCmec_00040	mRNA
+CP007447_SCCmec_00041	CDS	hypothetical protein
+CP007447_SCCmec_00041	gene
+CP007447_SCCmec_00041	mRNA
+CP007447_SCCmec_00042	CDS	hypothetical protein
+CP007447_SCCmec_00042	gene
+CP007447_SCCmec_00042	mRNA
+CP007447_SCCmec_00043	CDS	hypothetical protein
+CP007447_SCCmec_00043	gene
+CP007447_SCCmec_00043	mRNA
+CP007447_SCCmec_00044	CDS	hypothetical protein
+CP007447_SCCmec_00044	gene
+CP007447_SCCmec_00044	mRNA

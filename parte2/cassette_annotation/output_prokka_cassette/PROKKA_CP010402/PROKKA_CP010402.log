@@ -1,0 +1,117 @@
+[17:07:04] This is prokka 1.12
+[17:07:04] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[17:07:04] Homepage is https://github.com/tseemann/prokka
+[17:07:04] Local time is Mon May 15 17:07:04 2017
+[17:07:04] You are fsepulveda
+[17:07:04] Operating system is linux
+[17:07:04] You have BioPerl 1.006924
+[17:07:04] System has 4 cores.
+[17:07:04] Option --cpu asked for 8 cores, but system only has 4
+[17:07:04] Will use maximum of 4 cores.
+[17:07:04] Annotating as >>> Bacteria <<<
+[17:07:04] Creating new output folder: PROKKA_CP010402
+[17:07:04] Running: mkdir -p PROKKA_CP010402
+[17:07:04] Using filename prefix: PROKKA_CP010402.XXX
+[17:07:04] Setting HMMER_NCPU=1
+[17:07:04] Writing log to: PROKKA_CP010402/PROKKA_CP010402.log
+[17:07:04] Command: /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/prokka --genus Staphylococcus --prefix PROKKA_CP010402 --addgenes --addmrna --locustag CP010402_SCCmec /home/fsepulveda/Documents/parte2/229_sccmec/sccmec_CP010402.fasta
+[17:07:04] Appending to PATH: /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../binaries/linux
+[17:07:04] Appending to PATH: /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../binaries/linux/../common
+[17:07:04] Appending to PATH: /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin
+[17:07:04] Looking for 'aragorn' - found /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../binaries/linux/aragorn
+[17:07:04] Determined aragorn version is 1.2
+[17:07:04] Looking for 'blastp' - found /usr/bin/blastp
+[17:07:04] Determined blastp version is 2.2
+[17:07:04] Looking for 'cmpress' - found /usr/bin/cmpress
+[17:07:04] Determined cmpress version is 1.1
+[17:07:04] Looking for 'cmscan' - found /usr/bin/cmscan
+[17:07:04] Determined cmscan version is 1.1
+[17:07:04] Looking for 'egrep' - found /bin/egrep
+[17:07:04] Looking for 'find' - found /usr/bin/find
+[17:07:04] Looking for 'grep' - found /bin/grep
+[17:07:04] Looking for 'hmmpress' - found /usr/bin/hmmpress
+[17:07:04] Determined hmmpress version is 3.1
+[17:07:04] Looking for 'hmmscan' - found /usr/bin/hmmscan
+[17:07:04] Determined hmmscan version is 3.1
+[17:07:04] Looking for 'java' - found /usr/bin/java
+[17:07:04] Looking for 'less' - found /usr/bin/less
+[17:07:04] Looking for 'makeblastdb' - found /usr/bin/makeblastdb
+[17:07:05] Determined makeblastdb version is 2.2
+[17:07:05] Looking for 'minced' - found /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../binaries/linux/../common/minced
+[17:07:05] Determined minced version is 2.0
+[17:07:05] Looking for 'parallel' - found /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../binaries/linux/../common/parallel
+[17:07:05] Determined parallel version is 20150122
+[17:07:05] Looking for 'prodigal' - found /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../binaries/linux/prodigal
+[17:07:05] Determined prodigal version is 2.6
+[17:07:05] Looking for 'prokka-genbank_to_fasta_db' - found /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/prokka-genbank_to_fasta_db
+[17:07:05] Looking for 'sed' - found /bin/sed
+[17:07:05] Looking for 'tbl2asn' - found /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../binaries/linux/tbl2asn
+[17:07:05] Determined tbl2asn version is 25.3
+[17:07:05] Using genetic code table 11.
+[17:07:05] Loading and checking input file: /home/fsepulveda/Documents/parte2/229_sccmec/sccmec_CP010402.fasta
+[17:07:05] Wrote 1 contigs totalling 36977 bp.
+[17:07:05] Predicting tRNAs and tmRNAs
+[17:07:05] Running: aragorn -l -gc11  -w PROKKA_CP010402\/PROKKA_CP010402\.fna
+[17:07:05] Found 0 tRNAs
+[17:07:05] Predicting Ribosomal RNAs
+[17:07:05] You need either Barrnap or RNAmmer installed to predict rRNAs!
+[17:07:05] Skipping ncRNA search, enable with --rfam if desired.
+[17:07:05] Total of 0 tRNA + rRNA features
+[17:07:05] Searching for CRISPR repeats
+[17:07:05] Found 0 CRISPRs
+[17:07:05] Predicting coding sequences
+[17:07:05] Contigs total 36977 bp, so using meta mode
+[17:07:05] Running: prodigal -i PROKKA_CP010402\/PROKKA_CP010402\.fna -c -m -g 11 -p meta -f sco -q
+[17:07:05] Found 40 CDS
+[17:07:05] Connecting features back to sequences
+[17:07:05] Not using genus-specific database. Try --usegenus to enable it.
+[17:07:05] Annotating CDS, please be patient.
+[17:07:05] Will use 4 CPUs for similarity searching.
+[17:07:05] There are still 40 unannotated CDS left (started with 40)
+[17:07:05] Will use blast to search against /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../db/kingdom/Bacteria/sprot with 4 CPUs
+[17:07:05] Running: cat PROKKA_CP010402\/sprot\.faa | parallel --gnu --plain -j 4 --block 1308 --recstart '>' --pipe blastp -query - -db /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../db/kingdom/Bacteria/sprot -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > PROKKA_CP010402\/sprot\.blast 2> /dev/null
+[17:07:06] Deleting unwanted file: PROKKA_CP010402/sprot.faa
+[17:07:06] Deleting unwanted file: PROKKA_CP010402/sprot.blast
+[17:07:06] There are still 27 unannotated CDS left (started with 40)
+[17:07:06] Will use hmmer3 to search against /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../db/hmm/HAMAP.hmm with 4 CPUs
+[17:07:06] Running: cat PROKKA_CP010402\/HAMAP\.hmm\.faa | parallel --gnu --plain -j 4 --block 776 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../db/hmm/HAMAP.hmm /dev/stdin > PROKKA_CP010402\/HAMAP\.hmm\.hmmer3 2> /dev/null
+[17:07:07] Deleting unwanted file: PROKKA_CP010402/HAMAP.hmm.faa
+[17:07:07] Deleting unwanted file: PROKKA_CP010402/HAMAP.hmm.hmmer3
+[17:07:07] Labelling remaining 25 proteins as 'hypothetical protein'
+[17:07:07] Possible /pseudo 'DNA-invertase hin' at sccmec_saures_CP010402_l36977 position 29525
+[17:07:07] Found 12 unique /gene codes.
+[17:07:07] Fixed 3 duplicate /gene - hin_1 hin_2 hin_3
+[17:07:07] Fixed 1 colliding /gene names.
+[17:07:07] Adding /locus_tag identifiers
+[17:07:07] Assigned 40 locus_tags to CDS and RNA features.
+[17:07:07] Writing outputs to PROKKA_CP010402/
+[17:07:07] Generating annotation statistics file
+[17:07:07] Generating Genbank and Sequin files
+[17:07:07] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.12 from https://github.com/tseemann/prokka' -Z PROKKA_CP010402\/PROKKA_CP010402\.err -i PROKKA_CP010402\/PROKKA_CP010402\.fsa 2> /dev/null
+[17:07:07] Deleting unwanted file: PROKKA_CP010402/errorsummary.val
+[17:07:07] Deleting unwanted file: PROKKA_CP010402/PROKKA_CP010402.dr
+[17:07:07] Deleting unwanted file: PROKKA_CP010402/PROKKA_CP010402.fixedproducts
+[17:07:07] Deleting unwanted file: PROKKA_CP010402/PROKKA_CP010402.ecn
+[17:07:07] Deleting unwanted file: PROKKA_CP010402/PROKKA_CP010402.val
+[17:07:07] Repairing broken .GBK output that tbl2asn produces...
+[17:07:07] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < PROKKA_CP010402\/PROKKA_CP010402\.gbf > PROKKA_CP010402\/PROKKA_CP010402\.gbk
+[17:07:07] Deleting unwanted file: PROKKA_CP010402/PROKKA_CP010402.gbf
+[17:07:07] Output files:
+[17:07:07] PROKKA_CP010402/PROKKA_CP010402.tbl
+[17:07:07] PROKKA_CP010402/PROKKA_CP010402.gbk
+[17:07:07] PROKKA_CP010402/PROKKA_CP010402.log
+[17:07:07] PROKKA_CP010402/PROKKA_CP010402.txt
+[17:07:07] PROKKA_CP010402/PROKKA_CP010402.err
+[17:07:07] PROKKA_CP010402/PROKKA_CP010402.sqn
+[17:07:07] PROKKA_CP010402/PROKKA_CP010402.ffn
+[17:07:07] PROKKA_CP010402/PROKKA_CP010402.fsa
+[17:07:07] PROKKA_CP010402/PROKKA_CP010402.faa
+[17:07:07] PROKKA_CP010402/PROKKA_CP010402.tsv
+[17:07:07] PROKKA_CP010402/PROKKA_CP010402.gff
+[17:07:07] PROKKA_CP010402/PROKKA_CP010402.fna
+[17:07:07] Annotation finished successfully.
+[17:07:07] Walltime used: 0.05 minutes
+[17:07:07] If you use this result please cite the Prokka paper:
+[17:07:07] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[17:07:07] Type 'prokka --citation' for more details.
+[17:07:07] Share and enjoy!

@@ -1,0 +1,464 @@
+>Feature sccmec_saures_NZ_CP013616_l43874
+1	480	CDS
+			EC_number	2.1.1.177
+			gene	rlmH
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0C1V0
+			locus_tag	NZ_CP013616_SCCmec_00001
+			product	Ribosomal RNA large subunit methyltransferase H
+1	480	gene
+			gene	rlmH
+			locus_tag	NZ_CP013616_SCCmec_00001
+1	480	mRNA
+			gene	rlmH
+			locus_tag	NZ_CP013616_SCCmec_00001
+726	1031	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00002
+			product	hypothetical protein
+726	1031	gene
+			locus_tag	NZ_CP013616_SCCmec_00002
+726	1031	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00002
+1230	2093	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00003
+			product	hypothetical protein
+1230	2093	gene
+			locus_tag	NZ_CP013616_SCCmec_00003
+1230	2093	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00003
+2177	3676	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00004
+			product	hypothetical protein
+2177	3676	gene
+			locus_tag	NZ_CP013616_SCCmec_00004
+2177	3676	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00004
+3902	5002	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00005
+			product	hypothetical protein
+3902	5002	gene
+			locus_tag	NZ_CP013616_SCCmec_00005
+3902	5002	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00005
+4995	5366	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00006
+			product	hypothetical protein
+4995	5366	gene
+			locus_tag	NZ_CP013616_SCCmec_00006
+4995	5366	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00006
+5363	7006	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00007
+			product	hypothetical protein
+5363	7006	gene
+			locus_tag	NZ_CP013616_SCCmec_00007
+5363	7006	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00007
+7232	8908	CDS
+			gene	hin_1
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P03013
+			locus_tag	NZ_CP013616_SCCmec_00008
+			product	DNA-invertase hin
+7232	8908	gene
+			gene	hin_1
+			locus_tag	NZ_CP013616_SCCmec_00008
+7232	8908	mRNA
+			gene	hin_1
+			locus_tag	NZ_CP013616_SCCmec_00008
+9014	9352	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00009
+			product	hypothetical protein
+9014	9352	gene
+			locus_tag	NZ_CP013616_SCCmec_00009
+9014	9352	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00009
+9448	9759	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00010
+			product	hypothetical protein
+9448	9759	gene
+			locus_tag	NZ_CP013616_SCCmec_00010
+9448	9759	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00010
+9775	10281	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00011
+			product	hypothetical protein
+9775	10281	gene
+			locus_tag	NZ_CP013616_SCCmec_00011
+9775	10281	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00011
+11104	10430	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00012
+			product	hypothetical protein
+11104	10430	gene
+			locus_tag	NZ_CP013616_SCCmec_00012
+11104	10430	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00012
+11362	11529	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00013
+			product	hypothetical protein
+11362	11529	gene
+			locus_tag	NZ_CP013616_SCCmec_00013
+11362	11529	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00013
+11627	11890	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00014
+			product	hypothetical protein
+11627	11890	gene
+			locus_tag	NZ_CP013616_SCCmec_00014
+11627	11890	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00014
+12439	13182	CDS
+			EC_number	3.1.4.46
+			gene	ugpQ
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P10908
+			locus_tag	NZ_CP013616_SCCmec_00015
+			product	Glycerophosphodiester phosphodiesterase, cytoplasmic
+12439	13182	gene
+			gene	ugpQ
+			locus_tag	NZ_CP013616_SCCmec_00015
+12439	13182	mRNA
+			gene	ugpQ
+			locus_tag	NZ_CP013616_SCCmec_00015
+13279	13707	CDS
+			gene	paaZ
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P77455
+			locus_tag	NZ_CP013616_SCCmec_00016
+			product	Bifunctional protein PaaZ
+13279	13707	gene
+			gene	paaZ
+			locus_tag	NZ_CP013616_SCCmec_00016
+13279	13707	mRNA
+			gene	paaZ
+			locus_tag	NZ_CP013616_SCCmec_00016
+15759	13753	CDS
+			gene	pbp
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P07944
+			locus_tag	NZ_CP013616_SCCmec_00017
+			product	Beta-lactam-inducible penicillin-binding protein
+15759	13753	gene
+			gene	pbp
+			locus_tag	NZ_CP013616_SCCmec_00017
+15759	13753	mRNA
+			gene	pbp
+			locus_tag	NZ_CP013616_SCCmec_00017
+16007	16150	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00018
+			product	hypothetical protein
+16007	16150	gene
+			locus_tag	NZ_CP013616_SCCmec_00018
+16007	16150	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00018
+17169	16741	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00019
+			product	hypothetical protein
+17169	16741	gene
+			locus_tag	NZ_CP013616_SCCmec_00019
+17169	16741	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00019
+17250	18179	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00020
+			product	hypothetical protein
+17250	18179	gene
+			locus_tag	NZ_CP013616_SCCmec_00020
+17250	18179	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00020
+18213	18311	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00021
+			product	hypothetical protein
+18213	18311	gene
+			locus_tag	NZ_CP013616_SCCmec_00021
+18213	18311	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00021
+18341	20329	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00022
+			product	hypothetical protein
+18341	20329	gene
+			locus_tag	NZ_CP013616_SCCmec_00022
+18341	20329	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00022
+20524	21633	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00023
+			product	hypothetical protein
+20524	21633	gene
+			locus_tag	NZ_CP013616_SCCmec_00023
+20524	21633	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00023
+21626	21994	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00024
+			product	hypothetical protein
+21626	21994	gene
+			locus_tag	NZ_CP013616_SCCmec_00024
+21626	21994	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00024
+21994	23610	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00025
+			product	hypothetical protein
+21994	23610	gene
+			locus_tag	NZ_CP013616_SCCmec_00025
+21994	23610	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00025
+23835	25514	CDS
+			gene	hin_2
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P03013
+			locus_tag	NZ_CP013616_SCCmec_00026
+			product	DNA-invertase hin
+23835	25514	gene
+			gene	hin_2
+			locus_tag	NZ_CP013616_SCCmec_00026
+23835	25514	mRNA
+			gene	hin_2
+			locus_tag	NZ_CP013616_SCCmec_00026
+25567	25941	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00027
+			product	hypothetical protein
+25567	25941	gene
+			locus_tag	NZ_CP013616_SCCmec_00027
+25567	25941	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00027
+26035	26346	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00028
+			product	hypothetical protein
+26035	26346	gene
+			locus_tag	NZ_CP013616_SCCmec_00028
+26035	26346	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00028
+26358	26831	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00029
+			product	hypothetical protein
+26358	26831	gene
+			locus_tag	NZ_CP013616_SCCmec_00029
+26358	26831	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00029
+27546	26872	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00030
+			product	hypothetical protein
+27546	26872	gene
+			locus_tag	NZ_CP013616_SCCmec_00030
+27546	26872	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00030
+27833	29122	CDS
+			gene	hsrA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P31474
+			locus_tag	NZ_CP013616_SCCmec_00031
+			product	putative transport protein HsrA
+27833	29122	gene
+			gene	hsrA
+			locus_tag	NZ_CP013616_SCCmec_00031
+27833	29122	mRNA
+			gene	hsrA
+			locus_tag	NZ_CP013616_SCCmec_00031
+29308	30549	CDS
+			gene	pre
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P13925
+			locus_tag	NZ_CP013616_SCCmec_00032
+			product	Plasmid recombination enzyme
+29308	30549	gene
+			gene	pre
+			locus_tag	NZ_CP013616_SCCmec_00032
+29308	30549	mRNA
+			gene	pre
+			locus_tag	NZ_CP013616_SCCmec_00032
+30735	30836	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00033
+			product	hypothetical protein
+30735	30836	gene
+			locus_tag	NZ_CP013616_SCCmec_00033
+30735	30836	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00033
+31227	32030	CDS
+			gene	repN
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P19529
+			locus_tag	NZ_CP013616_SCCmec_00034
+			product	Replication initiation protein
+31227	32030	gene
+			gene	repN
+			locus_tag	NZ_CP013616_SCCmec_00034
+31227	32030	mRNA
+			gene	repN
+			locus_tag	NZ_CP013616_SCCmec_00034
+32792	32118	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00035
+			product	hypothetical protein
+32792	32118	gene
+			locus_tag	NZ_CP013616_SCCmec_00035
+32792	32118	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00035
+32836	33465	CDS
+			EC_number	5.99.1.2
+			gene	topB
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P14294
+			locus_tag	NZ_CP013616_SCCmec_00036
+			product	DNA topoisomerase 3
+32836	33465	gene
+			gene	topB
+			locus_tag	NZ_CP013616_SCCmec_00036
+32836	33465	mRNA
+			gene	topB
+			locus_tag	NZ_CP013616_SCCmec_00036
+33609	33809	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00037
+			product	hypothetical protein
+33609	33809	gene
+			locus_tag	NZ_CP013616_SCCmec_00037
+33609	33809	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00037
+34323	33742	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00038
+			product	hypothetical protein
+34323	33742	gene
+			locus_tag	NZ_CP013616_SCCmec_00038
+34323	33742	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00038
+34730	34882	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00039
+			product	hypothetical protein
+34730	34882	gene
+			locus_tag	NZ_CP013616_SCCmec_00039
+34730	34882	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00039
+35189	34830	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00040
+			product	hypothetical protein
+35189	34830	gene
+			locus_tag	NZ_CP013616_SCCmec_00040
+35189	34830	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00040
+35396	35722	CDS
+			gene	czrA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:O31844
+			locus_tag	NZ_CP013616_SCCmec_00041
+			product	HTH-type transcriptional repressor CzrA
+35396	35722	gene
+			gene	czrA
+			locus_tag	NZ_CP013616_SCCmec_00041
+35396	35722	mRNA
+			gene	czrA
+			locus_tag	NZ_CP013616_SCCmec_00041
+35825	35923	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00042
+			product	hypothetical protein
+35825	35923	gene
+			locus_tag	NZ_CP013616_SCCmec_00042
+35825	35923	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00042
+36052	37977	CDS
+			EC_number	3.6.3.-
+			gene	zosA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:O31688
+			locus_tag	NZ_CP013616_SCCmec_00043
+			product	Zinc-transporting ATPase
+36052	37977	gene
+			gene	zosA
+			locus_tag	NZ_CP013616_SCCmec_00043
+36052	37977	mRNA
+			gene	zosA
+			locus_tag	NZ_CP013616_SCCmec_00043
+40451	39123	CDS
+			EC_number	3.1.2.6
+			gene	gloC
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P75849
+			locus_tag	NZ_CP013616_SCCmec_00044
+			product	Hydroxyacylglutathione hydrolase GloC
+40451	39123	gene
+			gene	gloC
+			locus_tag	NZ_CP013616_SCCmec_00044
+40451	39123	mRNA
+			gene	gloC
+			locus_tag	NZ_CP013616_SCCmec_00044
+41537	40470	CDS
+			EC_number	2.8.1.1
+			gene	glpE
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0A6V5
+			locus_tag	NZ_CP013616_SCCmec_00045
+			product	Thiosulfate sulfurtransferase GlpE
+41537	40470	gene
+			gene	glpE
+			locus_tag	NZ_CP013616_SCCmec_00045
+41537	40470	mRNA
+			gene	glpE
+			locus_tag	NZ_CP013616_SCCmec_00045
+41694	41936	CDS
+			gene	ricR
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:O07434
+			locus_tag	NZ_CP013616_SCCmec_00046
+			product	Copper-sensing transcriptional repressor RicR
+41694	41936	gene
+			gene	ricR
+			locus_tag	NZ_CP013616_SCCmec_00046
+41694	41936	mRNA
+			gene	ricR
+			locus_tag	NZ_CP013616_SCCmec_00046
+41933	42691	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00047
+			product	hypothetical protein
+41933	42691	gene
+			locus_tag	NZ_CP013616_SCCmec_00047
+41933	42691	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00047
+42900	43070	CDS
+			EC_number	3.6.3.54
+			gene	copB
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P05425
+			locus_tag	NZ_CP013616_SCCmec_00048
+			product	Copper-exporting P-type ATPase B
+42900	43070	gene
+			gene	copB
+			locus_tag	NZ_CP013616_SCCmec_00048
+42900	43070	mRNA
+			gene	copB
+			locus_tag	NZ_CP013616_SCCmec_00048
+43088	43633	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	NZ_CP013616_SCCmec_00049
+			product	hypothetical protein
+43088	43633	gene
+			locus_tag	NZ_CP013616_SCCmec_00049
+43088	43633	mRNA
+			locus_tag	NZ_CP013616_SCCmec_00049

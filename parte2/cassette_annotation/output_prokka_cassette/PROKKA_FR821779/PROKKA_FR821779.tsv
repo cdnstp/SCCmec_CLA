@@ -1,0 +1,94 @@
+locus_tag	ftype	gene	EC_number	product
+FR821779_SCCmec_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+FR821779_SCCmec_00001	gene	rlmH
+FR821779_SCCmec_00001	mRNA	rlmH
+FR821779_SCCmec_00002	CDS	blaZ	3.5.2.6	Beta-lactamase
+FR821779_SCCmec_00002	gene	blaZ
+FR821779_SCCmec_00002	mRNA	blaZ
+FR821779_SCCmec_00003	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+FR821779_SCCmec_00003	gene	pbp
+FR821779_SCCmec_00003	mRNA	pbp
+FR821779_SCCmec_00004	CDS	mecR1	Methicillin resistance mecR1 protein
+FR821779_SCCmec_00004	gene	mecR1
+FR821779_SCCmec_00004	mRNA	mecR1
+FR821779_SCCmec_00005	CDS	mecI	Methicillin resistance regulatory protein MecI
+FR821779_SCCmec_00005	gene	mecI
+FR821779_SCCmec_00005	mRNA	mecI
+FR821779_SCCmec_00006	CDS	hypothetical protein
+FR821779_SCCmec_00006	gene
+FR821779_SCCmec_00006	mRNA
+FR821779_SCCmec_00007	CDS	hypothetical protein
+FR821779_SCCmec_00007	gene
+FR821779_SCCmec_00007	mRNA
+FR821779_SCCmec_00008	CDS	hypothetical protein
+FR821779_SCCmec_00008	gene
+FR821779_SCCmec_00008	mRNA
+FR821779_SCCmec_00009	CDS	hypothetical protein
+FR821779_SCCmec_00009	gene
+FR821779_SCCmec_00009	mRNA
+FR821779_SCCmec_00010	CDS	hypothetical protein
+FR821779_SCCmec_00010	gene
+FR821779_SCCmec_00010	mRNA
+FR821779_SCCmec_00011	CDS	hypothetical protein
+FR821779_SCCmec_00011	gene
+FR821779_SCCmec_00011	mRNA
+FR821779_SCCmec_00012	CDS	hypothetical protein
+FR821779_SCCmec_00012	gene
+FR821779_SCCmec_00012	mRNA
+FR821779_SCCmec_00013	CDS	hypothetical protein
+FR821779_SCCmec_00013	gene
+FR821779_SCCmec_00013	mRNA
+FR821779_SCCmec_00014	CDS	hypothetical protein
+FR821779_SCCmec_00014	gene
+FR821779_SCCmec_00014	mRNA
+FR821779_SCCmec_00015	CDS	hin_1	DNA-invertase hin
+FR821779_SCCmec_00015	gene	hin_1
+FR821779_SCCmec_00015	mRNA	hin_1
+FR821779_SCCmec_00016	CDS	hin_2	DNA-invertase hin
+FR821779_SCCmec_00016	gene	hin_2
+FR821779_SCCmec_00016	mRNA	hin_2
+FR821779_SCCmec_00017	CDS	hypothetical protein
+FR821779_SCCmec_00017	gene
+FR821779_SCCmec_00017	mRNA
+FR821779_SCCmec_00018	CDS	hypothetical protein
+FR821779_SCCmec_00018	gene
+FR821779_SCCmec_00018	mRNA
+FR821779_SCCmec_00019	CDS	hypothetical protein
+FR821779_SCCmec_00019	gene
+FR821779_SCCmec_00019	mRNA
+FR821779_SCCmec_00020	CDS	hypothetical protein
+FR821779_SCCmec_00020	gene
+FR821779_SCCmec_00020	mRNA
+FR821779_SCCmec_00021	CDS	dinG	3.6.4.12	putative ATP-dependent helicase DinG 
+FR821779_SCCmec_00021	gene	dinG
+FR821779_SCCmec_00021	mRNA	dinG
+FR821779_SCCmec_00022	CDS	hypothetical protein
+FR821779_SCCmec_00022	gene
+FR821779_SCCmec_00022	mRNA
+FR821779_SCCmec_00023	CDS	lip	3.1.1.3	Lipase
+FR821779_SCCmec_00023	gene	lip
+FR821779_SCCmec_00023	mRNA	lip
+FR821779_SCCmec_00024	CDS	hypothetical protein
+FR821779_SCCmec_00024	gene
+FR821779_SCCmec_00024	mRNA
+FR821779_SCCmec_00025	CDS	1.3.99.-	KsdD-like steroid dehydrogenase
+FR821779_SCCmec_00025	gene
+FR821779_SCCmec_00025	mRNA
+FR821779_SCCmec_00026	CDS	putative ABC transporter permease
+FR821779_SCCmec_00026	gene
+FR821779_SCCmec_00026	mRNA
+FR821779_SCCmec_00027	CDS	yxdL	ABC transporter ATP-binding protein YxdL
+FR821779_SCCmec_00027	gene	yxdL
+FR821779_SCCmec_00027	mRNA	yxdL
+FR821779_SCCmec_00028	CDS	hypothetical protein
+FR821779_SCCmec_00028	gene
+FR821779_SCCmec_00028	mRNA
+FR821779_SCCmec_00029	CDS	arsC	1.20.4.1	Glutaredoxin arsenate reductase
+FR821779_SCCmec_00029	gene	arsC
+FR821779_SCCmec_00029	mRNA	arsC
+FR821779_SCCmec_00030	CDS	arsB	Arsenical pump membrane protein
+FR821779_SCCmec_00030	gene	arsB
+FR821779_SCCmec_00030	mRNA	arsB
+FR821779_SCCmec_00031	CDS	sdpR	Transcriptional repressor SdpR
+FR821779_SCCmec_00031	gene	sdpR
+FR821779_SCCmec_00031	mRNA	sdpR

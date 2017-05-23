@@ -1,0 +1,169 @@
+locus_tag	ftype	gene	EC_number	product
+NC_007793_SCCmec_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+NC_007793_SCCmec_00001	gene	rlmH
+NC_007793_SCCmec_00001	mRNA	rlmH
+NC_007793_SCCmec_00002	CDS	hypothetical protein
+NC_007793_SCCmec_00002	gene
+NC_007793_SCCmec_00002	mRNA
+NC_007793_SCCmec_00003	CDS	hypothetical protein
+NC_007793_SCCmec_00003	gene
+NC_007793_SCCmec_00003	mRNA
+NC_007793_SCCmec_00004	CDS	hypothetical protein
+NC_007793_SCCmec_00004	gene
+NC_007793_SCCmec_00004	mRNA
+NC_007793_SCCmec_00005	CDS	hypothetical protein
+NC_007793_SCCmec_00005	gene
+NC_007793_SCCmec_00005	mRNA
+NC_007793_SCCmec_00006	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+NC_007793_SCCmec_00006	gene	ugpQ
+NC_007793_SCCmec_00006	mRNA	ugpQ
+NC_007793_SCCmec_00007	CDS	paaZ	Bifunctional protein PaaZ
+NC_007793_SCCmec_00007	gene	paaZ
+NC_007793_SCCmec_00007	mRNA	paaZ
+NC_007793_SCCmec_00008	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+NC_007793_SCCmec_00008	gene	pbp
+NC_007793_SCCmec_00008	mRNA	pbp
+NC_007793_SCCmec_00009	CDS	mecR1	Methicillin resistance mecR1 protein
+NC_007793_SCCmec_00009	gene	mecR1
+NC_007793_SCCmec_00009	mRNA	mecR1
+NC_007793_SCCmec_00010	CDS	hypothetical protein
+NC_007793_SCCmec_00010	gene
+NC_007793_SCCmec_00010	mRNA
+NC_007793_SCCmec_00011	CDS	hypothetical protein
+NC_007793_SCCmec_00011	gene
+NC_007793_SCCmec_00011	mRNA
+NC_007793_SCCmec_00012	CDS	hypothetical protein
+NC_007793_SCCmec_00012	gene
+NC_007793_SCCmec_00012	mRNA
+NC_007793_SCCmec_00013	CDS	hypothetical protein
+NC_007793_SCCmec_00013	gene
+NC_007793_SCCmec_00013	mRNA
+NC_007793_SCCmec_00014	CDS	hypothetical protein
+NC_007793_SCCmec_00014	gene
+NC_007793_SCCmec_00014	mRNA
+NC_007793_SCCmec_00015	CDS	hin_1	DNA-invertase hin
+NC_007793_SCCmec_00015	gene	hin_1
+NC_007793_SCCmec_00015	mRNA	hin_1
+NC_007793_SCCmec_00016	CDS	hin_2	DNA-invertase hin
+NC_007793_SCCmec_00016	gene	hin_2
+NC_007793_SCCmec_00016	mRNA	hin_2
+NC_007793_SCCmec_00017	CDS	hypothetical protein
+NC_007793_SCCmec_00017	gene
+NC_007793_SCCmec_00017	mRNA
+NC_007793_SCCmec_00018	CDS	hypothetical protein
+NC_007793_SCCmec_00018	gene
+NC_007793_SCCmec_00018	mRNA
+NC_007793_SCCmec_00019	CDS	hypothetical protein
+NC_007793_SCCmec_00019	gene
+NC_007793_SCCmec_00019	mRNA
+NC_007793_SCCmec_00020	CDS	hypothetical protein
+NC_007793_SCCmec_00020	gene
+NC_007793_SCCmec_00020	mRNA
+NC_007793_SCCmec_00021	CDS	gloC	3.1.2.6	Hydroxyacylglutathione hydrolase GloC
+NC_007793_SCCmec_00021	gene	gloC
+NC_007793_SCCmec_00021	mRNA	gloC
+NC_007793_SCCmec_00022	CDS	hypothetical protein
+NC_007793_SCCmec_00022	gene
+NC_007793_SCCmec_00022	mRNA
+NC_007793_SCCmec_00023	CDS	hypothetical protein
+NC_007793_SCCmec_00023	gene
+NC_007793_SCCmec_00023	mRNA
+NC_007793_SCCmec_00024	CDS	hypothetical protein
+NC_007793_SCCmec_00024	gene
+NC_007793_SCCmec_00024	mRNA
+NC_007793_SCCmec_00025	CDS	hypothetical protein
+NC_007793_SCCmec_00025	gene
+NC_007793_SCCmec_00025	mRNA
+NC_007793_SCCmec_00026	CDS	hypothetical protein
+NC_007793_SCCmec_00026	gene
+NC_007793_SCCmec_00026	mRNA
+NC_007793_SCCmec_00027	CDS	hypothetical protein
+NC_007793_SCCmec_00027	gene
+NC_007793_SCCmec_00027	mRNA
+NC_007793_SCCmec_00028	CDS	hypothetical protein
+NC_007793_SCCmec_00028	gene
+NC_007793_SCCmec_00028	mRNA
+NC_007793_SCCmec_00029	CDS	hypothetical protein
+NC_007793_SCCmec_00029	gene
+NC_007793_SCCmec_00029	mRNA
+NC_007793_SCCmec_00030	CDS	hypothetical protein
+NC_007793_SCCmec_00030	gene
+NC_007793_SCCmec_00030	mRNA
+NC_007793_SCCmec_00031	CDS	speG	2.3.1.57	Spermidine N(1)-acetyltransferase
+NC_007793_SCCmec_00031	gene	speG
+NC_007793_SCCmec_00031	mRNA	speG
+NC_007793_SCCmec_00032	CDS	adhD	1.1.1.1	Putative alcohol dehydrogenase D
+NC_007793_SCCmec_00032	gene	adhD
+NC_007793_SCCmec_00032	mRNA	adhD
+NC_007793_SCCmec_00033	CDS	hypothetical protein
+NC_007793_SCCmec_00033	gene
+NC_007793_SCCmec_00033	mRNA
+NC_007793_SCCmec_00034	CDS	hypothetical protein
+NC_007793_SCCmec_00034	gene
+NC_007793_SCCmec_00034	mRNA
+NC_007793_SCCmec_00035	CDS	hypothetical protein
+NC_007793_SCCmec_00035	gene
+NC_007793_SCCmec_00035	mRNA
+NC_007793_SCCmec_00036	CDS	hypothetical protein
+NC_007793_SCCmec_00036	gene
+NC_007793_SCCmec_00036	mRNA
+NC_007793_SCCmec_00037	CDS	hypothetical protein
+NC_007793_SCCmec_00037	gene
+NC_007793_SCCmec_00037	mRNA
+NC_007793_SCCmec_00038	CDS	hypothetical protein
+NC_007793_SCCmec_00038	gene
+NC_007793_SCCmec_00038	mRNA
+NC_007793_SCCmec_00039	CDS	arcC1	2.7.2.2	Carbamate kinase 1
+NC_007793_SCCmec_00039	gene	arcC1
+NC_007793_SCCmec_00039	mRNA	arcC1
+NC_007793_SCCmec_00040	CDS	argF	2.1.3.3	Ornithine carbamoyltransferase
+NC_007793_SCCmec_00040	gene	argF
+NC_007793_SCCmec_00040	mRNA	argF
+NC_007793_SCCmec_00041	CDS	arcR	HTH-type transcriptional regulator ArcR
+NC_007793_SCCmec_00041	gene	arcR
+NC_007793_SCCmec_00041	mRNA	arcR
+NC_007793_SCCmec_00042	CDS	arcD	Arginine/ornithine antiporter
+NC_007793_SCCmec_00042	gene	arcD
+NC_007793_SCCmec_00042	mRNA	arcD
+NC_007793_SCCmec_00043	CDS	arcA	3.5.3.6	Arginine deiminase
+NC_007793_SCCmec_00043	gene	arcA
+NC_007793_SCCmec_00043	mRNA	arcA
+NC_007793_SCCmec_00044	CDS	argR	Arginine repressor
+NC_007793_SCCmec_00044	gene	argR
+NC_007793_SCCmec_00044	mRNA	argR
+NC_007793_SCCmec_00045	CDS	hypothetical protein
+NC_007793_SCCmec_00045	gene
+NC_007793_SCCmec_00045	mRNA
+NC_007793_SCCmec_00046	CDS	hypothetical protein
+NC_007793_SCCmec_00046	gene
+NC_007793_SCCmec_00046	mRNA
+NC_007793_SCCmec_00047	CDS	3.1.1.23	Monoacylglycerol lipase
+NC_007793_SCCmec_00047	gene
+NC_007793_SCCmec_00047	mRNA
+NC_007793_SCCmec_00048	CDS	hypothetical protein
+NC_007793_SCCmec_00048	gene
+NC_007793_SCCmec_00048	mRNA
+NC_007793_SCCmec_00049	CDS	cmoB	2.1.1.-	tRNA (mo5U34)-methyltransferase
+NC_007793_SCCmec_00049	gene	cmoB
+NC_007793_SCCmec_00049	mRNA	cmoB
+NC_007793_SCCmec_00050	CDS	nikA	Nickel-binding periplasmic protein
+NC_007793_SCCmec_00050	gene	nikA
+NC_007793_SCCmec_00050	mRNA	nikA
+NC_007793_SCCmec_00051	CDS	nikB	Nickel transport system permease protein NikB
+NC_007793_SCCmec_00051	gene	nikB
+NC_007793_SCCmec_00051	mRNA	nikB
+NC_007793_SCCmec_00052	CDS	gsiD	Glutathione transport system permease protein GsiD
+NC_007793_SCCmec_00052	gene	gsiD
+NC_007793_SCCmec_00052	mRNA	gsiD
+NC_007793_SCCmec_00053	CDS	oppD	Oligopeptide transport ATP-binding protein OppD
+NC_007793_SCCmec_00053	gene	oppD
+NC_007793_SCCmec_00053	mRNA	oppD
+NC_007793_SCCmec_00054	CDS	nikE	3.6.3.24	Nickel import ATP-binding protein NikE
+NC_007793_SCCmec_00054	gene	nikE
+NC_007793_SCCmec_00054	mRNA	nikE
+NC_007793_SCCmec_00055	CDS	copB	3.6.3.54	Copper-exporting P-type ATPase B
+NC_007793_SCCmec_00055	gene	copB
+NC_007793_SCCmec_00055	mRNA	copB
+NC_007793_SCCmec_00056	CDS	hypothetical protein
+NC_007793_SCCmec_00056	gene
+NC_007793_SCCmec_00056	mRNA

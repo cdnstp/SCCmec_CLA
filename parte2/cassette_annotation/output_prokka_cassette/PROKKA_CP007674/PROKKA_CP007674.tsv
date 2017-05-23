@@ -1,0 +1,88 @@
+locus_tag	ftype	gene	EC_number	product
+CP007674_SCCmec_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+CP007674_SCCmec_00001	gene	rlmH
+CP007674_SCCmec_00001	mRNA	rlmH
+CP007674_SCCmec_00002	CDS	hypothetical protein
+CP007674_SCCmec_00002	gene
+CP007674_SCCmec_00002	mRNA
+CP007674_SCCmec_00003	CDS	hypothetical protein
+CP007674_SCCmec_00003	gene
+CP007674_SCCmec_00003	mRNA
+CP007674_SCCmec_00004	CDS	hypothetical protein
+CP007674_SCCmec_00004	gene
+CP007674_SCCmec_00004	mRNA
+CP007674_SCCmec_00005	CDS	thyA	2.1.1.45	Thymidylate synthase
+CP007674_SCCmec_00005	gene	thyA
+CP007674_SCCmec_00005	mRNA	thyA
+CP007674_SCCmec_00006	CDS	dfrA	1.5.1.3	Dihydrofolate reductase type 1 from
+CP007674_SCCmec_00006	gene	dfrA
+CP007674_SCCmec_00006	mRNA	dfrA
+CP007674_SCCmec_00007	CDS	DegV domain-containing protein
+CP007674_SCCmec_00007	gene
+CP007674_SCCmec_00007	mRNA
+CP007674_SCCmec_00008	CDS	hypothetical protein
+CP007674_SCCmec_00008	gene
+CP007674_SCCmec_00008	mRNA
+CP007674_SCCmec_00009	CDS	hypothetical protein
+CP007674_SCCmec_00009	gene
+CP007674_SCCmec_00009	mRNA
+CP007674_SCCmec_00010	CDS	hypothetical protein
+CP007674_SCCmec_00010	gene
+CP007674_SCCmec_00010	mRNA
+CP007674_SCCmec_00011	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+CP007674_SCCmec_00011	gene	ugpQ
+CP007674_SCCmec_00011	mRNA	ugpQ
+CP007674_SCCmec_00012	CDS	paaZ	Bifunctional protein PaaZ
+CP007674_SCCmec_00012	gene	paaZ
+CP007674_SCCmec_00012	mRNA	paaZ
+CP007674_SCCmec_00013	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+CP007674_SCCmec_00013	gene	pbp
+CP007674_SCCmec_00013	mRNA	pbp
+CP007674_SCCmec_00014	CDS	mecR1	Methicillin resistance mecR1 protein
+CP007674_SCCmec_00014	gene	mecR1
+CP007674_SCCmec_00014	mRNA	mecR1
+CP007674_SCCmec_00015	CDS	hypothetical protein
+CP007674_SCCmec_00015	gene
+CP007674_SCCmec_00015	mRNA
+CP007674_SCCmec_00016	CDS	hypothetical protein
+CP007674_SCCmec_00016	gene
+CP007674_SCCmec_00016	mRNA
+CP007674_SCCmec_00017	CDS	hypothetical protein
+CP007674_SCCmec_00017	gene
+CP007674_SCCmec_00017	mRNA
+CP007674_SCCmec_00018	CDS	hypothetical protein
+CP007674_SCCmec_00018	gene
+CP007674_SCCmec_00018	mRNA
+CP007674_SCCmec_00019	CDS	hypothetical protein
+CP007674_SCCmec_00019	gene
+CP007674_SCCmec_00019	mRNA
+CP007674_SCCmec_00020	CDS	hin_1	DNA-invertase hin
+CP007674_SCCmec_00020	gene	hin_1
+CP007674_SCCmec_00020	mRNA	hin_1
+CP007674_SCCmec_00021	CDS	hin_2	DNA-invertase hin
+CP007674_SCCmec_00021	gene	hin_2
+CP007674_SCCmec_00021	mRNA	hin_2
+CP007674_SCCmec_00022	CDS	hypothetical protein
+CP007674_SCCmec_00022	gene
+CP007674_SCCmec_00022	mRNA
+CP007674_SCCmec_00023	CDS	hypothetical protein
+CP007674_SCCmec_00023	gene
+CP007674_SCCmec_00023	mRNA
+CP007674_SCCmec_00024	CDS	hypothetical protein
+CP007674_SCCmec_00024	gene
+CP007674_SCCmec_00024	mRNA
+CP007674_SCCmec_00025	CDS	hypothetical protein
+CP007674_SCCmec_00025	gene
+CP007674_SCCmec_00025	mRNA
+CP007674_SCCmec_00026	CDS	gloC	3.1.2.6	Hydroxyacylglutathione hydrolase GloC
+CP007674_SCCmec_00026	gene	gloC
+CP007674_SCCmec_00026	mRNA	gloC
+CP007674_SCCmec_00027	CDS	hypothetical protein
+CP007674_SCCmec_00027	gene
+CP007674_SCCmec_00027	mRNA
+CP007674_SCCmec_00028	CDS	hypothetical protein
+CP007674_SCCmec_00028	gene
+CP007674_SCCmec_00028	mRNA
+CP007674_SCCmec_00029	CDS	hypothetical protein
+CP007674_SCCmec_00029	gene
+CP007674_SCCmec_00029	mRNA

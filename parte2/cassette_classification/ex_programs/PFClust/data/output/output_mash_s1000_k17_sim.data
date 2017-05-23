@@ -1,0 +1,5 @@
+numclust	sil	dunn	threshold
+Clusters = 32	Silhouette = 0.888	Dunn = 2.86	Threshold = 0.996
+Clusters = 97	Silhouette = 0.869	Dunn = 0	Threshold = 1
+Clusters = 97	Silhouette = 0.869	Dunn = 0	Threshold = 1
+Clusters = 97	Silhouette = 0.869	Dunn = 0	Threshold = 1

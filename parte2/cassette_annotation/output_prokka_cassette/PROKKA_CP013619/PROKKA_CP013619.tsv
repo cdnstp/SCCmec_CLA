@@ -1,0 +1,151 @@
+locus_tag	ftype	gene	EC_number	product
+CP013619_SCCmec_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+CP013619_SCCmec_00001	gene	rlmH
+CP013619_SCCmec_00001	mRNA	rlmH
+CP013619_SCCmec_00002	CDS	hypothetical protein
+CP013619_SCCmec_00002	gene
+CP013619_SCCmec_00002	mRNA
+CP013619_SCCmec_00003	CDS	hypothetical protein
+CP013619_SCCmec_00003	gene
+CP013619_SCCmec_00003	mRNA
+CP013619_SCCmec_00004	CDS	hypothetical protein
+CP013619_SCCmec_00004	gene
+CP013619_SCCmec_00004	mRNA
+CP013619_SCCmec_00005	CDS	hypothetical protein
+CP013619_SCCmec_00005	gene
+CP013619_SCCmec_00005	mRNA
+CP013619_SCCmec_00006	CDS	hypothetical protein
+CP013619_SCCmec_00006	gene
+CP013619_SCCmec_00006	mRNA
+CP013619_SCCmec_00007	CDS	hypothetical protein
+CP013619_SCCmec_00007	gene
+CP013619_SCCmec_00007	mRNA
+CP013619_SCCmec_00008	CDS	hypothetical protein
+CP013619_SCCmec_00008	gene
+CP013619_SCCmec_00008	mRNA
+CP013619_SCCmec_00009	CDS	hin_1	DNA-invertase hin
+CP013619_SCCmec_00009	gene	hin_1
+CP013619_SCCmec_00009	mRNA	hin_1
+CP013619_SCCmec_00010	CDS	hypothetical protein
+CP013619_SCCmec_00010	gene
+CP013619_SCCmec_00010	mRNA
+CP013619_SCCmec_00011	CDS	hypothetical protein
+CP013619_SCCmec_00011	gene
+CP013619_SCCmec_00011	mRNA
+CP013619_SCCmec_00012	CDS	hypothetical protein
+CP013619_SCCmec_00012	gene
+CP013619_SCCmec_00012	mRNA
+CP013619_SCCmec_00013	CDS	hypothetical protein
+CP013619_SCCmec_00013	gene
+CP013619_SCCmec_00013	mRNA
+CP013619_SCCmec_00014	CDS	hypothetical protein
+CP013619_SCCmec_00014	gene
+CP013619_SCCmec_00014	mRNA
+CP013619_SCCmec_00015	CDS	hypothetical protein
+CP013619_SCCmec_00015	gene
+CP013619_SCCmec_00015	mRNA
+CP013619_SCCmec_00016	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+CP013619_SCCmec_00016	gene	ugpQ
+CP013619_SCCmec_00016	mRNA	ugpQ
+CP013619_SCCmec_00017	CDS	paaZ	Bifunctional protein PaaZ
+CP013619_SCCmec_00017	gene	paaZ
+CP013619_SCCmec_00017	mRNA	paaZ
+CP013619_SCCmec_00018	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+CP013619_SCCmec_00018	gene	pbp
+CP013619_SCCmec_00018	mRNA	pbp
+CP013619_SCCmec_00019	CDS	hypothetical protein
+CP013619_SCCmec_00019	gene
+CP013619_SCCmec_00019	mRNA
+CP013619_SCCmec_00020	CDS	hypothetical protein
+CP013619_SCCmec_00020	gene
+CP013619_SCCmec_00020	mRNA
+CP013619_SCCmec_00021	CDS	hypothetical protein
+CP013619_SCCmec_00021	gene
+CP013619_SCCmec_00021	mRNA
+CP013619_SCCmec_00022	CDS	hypothetical protein
+CP013619_SCCmec_00022	gene
+CP013619_SCCmec_00022	mRNA
+CP013619_SCCmec_00023	CDS	hypothetical protein
+CP013619_SCCmec_00023	gene
+CP013619_SCCmec_00023	mRNA
+CP013619_SCCmec_00024	CDS	hypothetical protein
+CP013619_SCCmec_00024	gene
+CP013619_SCCmec_00024	mRNA
+CP013619_SCCmec_00025	CDS	hypothetical protein
+CP013619_SCCmec_00025	gene
+CP013619_SCCmec_00025	mRNA
+CP013619_SCCmec_00026	CDS	hypothetical protein
+CP013619_SCCmec_00026	gene
+CP013619_SCCmec_00026	mRNA
+CP013619_SCCmec_00027	CDS	hin_2	DNA-invertase hin
+CP013619_SCCmec_00027	gene	hin_2
+CP013619_SCCmec_00027	mRNA	hin_2
+CP013619_SCCmec_00028	CDS	hypothetical protein
+CP013619_SCCmec_00028	gene
+CP013619_SCCmec_00028	mRNA
+CP013619_SCCmec_00029	CDS	hypothetical protein
+CP013619_SCCmec_00029	gene
+CP013619_SCCmec_00029	mRNA
+CP013619_SCCmec_00030	CDS	hypothetical protein
+CP013619_SCCmec_00030	gene
+CP013619_SCCmec_00030	mRNA
+CP013619_SCCmec_00031	CDS	hypothetical protein
+CP013619_SCCmec_00031	gene
+CP013619_SCCmec_00031	mRNA
+CP013619_SCCmec_00032	CDS	hsrA	putative transport protein HsrA
+CP013619_SCCmec_00032	gene	hsrA
+CP013619_SCCmec_00032	mRNA	hsrA
+CP013619_SCCmec_00033	CDS	pre	Plasmid recombination enzyme
+CP013619_SCCmec_00033	gene	pre
+CP013619_SCCmec_00033	mRNA	pre
+CP013619_SCCmec_00034	CDS	hypothetical protein
+CP013619_SCCmec_00034	gene
+CP013619_SCCmec_00034	mRNA
+CP013619_SCCmec_00035	CDS	repN	Replication initiation protein
+CP013619_SCCmec_00035	gene	repN
+CP013619_SCCmec_00035	mRNA	repN
+CP013619_SCCmec_00036	CDS	hypothetical protein
+CP013619_SCCmec_00036	gene
+CP013619_SCCmec_00036	mRNA
+CP013619_SCCmec_00037	CDS	topB	5.99.1.2	DNA topoisomerase 3
+CP013619_SCCmec_00037	gene	topB
+CP013619_SCCmec_00037	mRNA	topB
+CP013619_SCCmec_00038	CDS	hypothetical protein
+CP013619_SCCmec_00038	gene
+CP013619_SCCmec_00038	mRNA
+CP013619_SCCmec_00039	CDS	hypothetical protein
+CP013619_SCCmec_00039	gene
+CP013619_SCCmec_00039	mRNA
+CP013619_SCCmec_00040	CDS	hypothetical protein
+CP013619_SCCmec_00040	gene
+CP013619_SCCmec_00040	mRNA
+CP013619_SCCmec_00041	CDS	hypothetical protein
+CP013619_SCCmec_00041	gene
+CP013619_SCCmec_00041	mRNA
+CP013619_SCCmec_00042	CDS	czrA	HTH-type transcriptional repressor CzrA
+CP013619_SCCmec_00042	gene	czrA
+CP013619_SCCmec_00042	mRNA	czrA
+CP013619_SCCmec_00043	CDS	hypothetical protein
+CP013619_SCCmec_00043	gene
+CP013619_SCCmec_00043	mRNA
+CP013619_SCCmec_00044	CDS	zosA	3.6.3.-	Zinc-transporting ATPase
+CP013619_SCCmec_00044	gene	zosA
+CP013619_SCCmec_00044	mRNA	zosA
+CP013619_SCCmec_00045	CDS	gloC	3.1.2.6	Hydroxyacylglutathione hydrolase GloC
+CP013619_SCCmec_00045	gene	gloC
+CP013619_SCCmec_00045	mRNA	gloC
+CP013619_SCCmec_00046	CDS	glpE	2.8.1.1	Thiosulfate sulfurtransferase GlpE
+CP013619_SCCmec_00046	gene	glpE
+CP013619_SCCmec_00046	mRNA	glpE
+CP013619_SCCmec_00047	CDS	ricR	Copper-sensing transcriptional repressor RicR
+CP013619_SCCmec_00047	gene	ricR
+CP013619_SCCmec_00047	mRNA	ricR
+CP013619_SCCmec_00048	CDS	hypothetical protein
+CP013619_SCCmec_00048	gene
+CP013619_SCCmec_00048	mRNA
+CP013619_SCCmec_00049	CDS	copB	3.6.3.54	Copper-exporting P-type ATPase B
+CP013619_SCCmec_00049	gene	copB
+CP013619_SCCmec_00049	mRNA	copB
+CP013619_SCCmec_00050	CDS	hypothetical protein
+CP013619_SCCmec_00050	gene
+CP013619_SCCmec_00050	mRNA

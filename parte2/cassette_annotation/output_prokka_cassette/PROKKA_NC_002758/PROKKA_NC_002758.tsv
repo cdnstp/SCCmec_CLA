@@ -1,0 +1,169 @@
+locus_tag	ftype	gene	EC_number	product
+NC_002758_SCCmec_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+NC_002758_SCCmec_00001	gene	rlmH
+NC_002758_SCCmec_00001	mRNA	rlmH
+NC_002758_SCCmec_00002	CDS	hypothetical protein
+NC_002758_SCCmec_00002	gene
+NC_002758_SCCmec_00002	mRNA
+NC_002758_SCCmec_00003	CDS	hypothetical protein
+NC_002758_SCCmec_00003	gene
+NC_002758_SCCmec_00003	mRNA
+NC_002758_SCCmec_00004	CDS	hypothetical protein
+NC_002758_SCCmec_00004	gene
+NC_002758_SCCmec_00004	mRNA
+NC_002758_SCCmec_00005	CDS	hypothetical protein
+NC_002758_SCCmec_00005	gene
+NC_002758_SCCmec_00005	mRNA
+NC_002758_SCCmec_00006	CDS	hypothetical protein
+NC_002758_SCCmec_00006	gene
+NC_002758_SCCmec_00006	mRNA
+NC_002758_SCCmec_00007	CDS	hypothetical protein
+NC_002758_SCCmec_00007	gene
+NC_002758_SCCmec_00007	mRNA
+NC_002758_SCCmec_00008	CDS	pre	Plasmid recombination enzyme
+NC_002758_SCCmec_00008	gene	pre
+NC_002758_SCCmec_00008	mRNA	pre
+NC_002758_SCCmec_00009	CDS	ble	Bleomycin resistance protein
+NC_002758_SCCmec_00009	gene	ble
+NC_002758_SCCmec_00009	mRNA	ble
+NC_002758_SCCmec_00010	CDS	knt	2.7.7.-	Kanamycin nucleotidyltransferase
+NC_002758_SCCmec_00010	gene	knt
+NC_002758_SCCmec_00010	mRNA	knt
+NC_002758_SCCmec_00011	CDS	hypothetical protein
+NC_002758_SCCmec_00011	gene
+NC_002758_SCCmec_00011	mRNA
+NC_002758_SCCmec_00012	CDS	hypothetical protein
+NC_002758_SCCmec_00012	gene
+NC_002758_SCCmec_00012	mRNA
+NC_002758_SCCmec_00013	CDS	hypothetical protein
+NC_002758_SCCmec_00013	gene
+NC_002758_SCCmec_00013	mRNA
+NC_002758_SCCmec_00014	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+NC_002758_SCCmec_00014	gene	ugpQ
+NC_002758_SCCmec_00014	mRNA	ugpQ
+NC_002758_SCCmec_00015	CDS	paaZ	Bifunctional protein PaaZ
+NC_002758_SCCmec_00015	gene	paaZ
+NC_002758_SCCmec_00015	mRNA	paaZ
+NC_002758_SCCmec_00016	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+NC_002758_SCCmec_00016	gene	pbp
+NC_002758_SCCmec_00016	mRNA	pbp
+NC_002758_SCCmec_00017	CDS	mecR1	Methicillin resistance mecR1 protein
+NC_002758_SCCmec_00017	gene	mecR1
+NC_002758_SCCmec_00017	mRNA	mecR1
+NC_002758_SCCmec_00018	CDS	mecI	Methicillin resistance regulatory protein MecI
+NC_002758_SCCmec_00018	gene	mecI
+NC_002758_SCCmec_00018	mRNA	mecI
+NC_002758_SCCmec_00019	CDS	hypothetical protein
+NC_002758_SCCmec_00019	gene
+NC_002758_SCCmec_00019	mRNA
+NC_002758_SCCmec_00020	CDS	nagC	N-acetylglucosamine repressor
+NC_002758_SCCmec_00020	gene	nagC
+NC_002758_SCCmec_00020	mRNA	nagC
+NC_002758_SCCmec_00021	CDS	pspE_1	2.8.1.1	Thiosulfate sulfurtransferase PspE
+NC_002758_SCCmec_00021	gene	pspE_1
+NC_002758_SCCmec_00021	mRNA	pspE_1
+NC_002758_SCCmec_00022	CDS	gloC	3.1.2.6	Hydroxyacylglutathione hydrolase GloC
+NC_002758_SCCmec_00022	gene	gloC
+NC_002758_SCCmec_00022	mRNA	gloC
+NC_002758_SCCmec_00023	CDS	pspE_2	2.8.1.1	Thiosulfate sulfurtransferase PspE
+NC_002758_SCCmec_00023	gene	pspE_2
+NC_002758_SCCmec_00023	mRNA	pspE_2
+NC_002758_SCCmec_00024	CDS	csoR	Copper-sensing transcriptional repressor CsoR
+NC_002758_SCCmec_00024	gene	csoR
+NC_002758_SCCmec_00024	mRNA	csoR
+NC_002758_SCCmec_00025	CDS	hypothetical protein
+NC_002758_SCCmec_00025	gene
+NC_002758_SCCmec_00025	mRNA
+NC_002758_SCCmec_00026	CDS	ycgJ	2.1.1.-	putative methyltransferase YcgJ
+NC_002758_SCCmec_00026	gene	ycgJ
+NC_002758_SCCmec_00026	mRNA	ycgJ
+NC_002758_SCCmec_00027	CDS	ermA1	2.1.1.184	rRNA adenine N-6-methyltransferase
+NC_002758_SCCmec_00027	gene	ermA1
+NC_002758_SCCmec_00027	mRNA	ermA1
+NC_002758_SCCmec_00028	CDS	ant1	2.7.7.47	Streptomycin 3''-adenylyltransferase
+NC_002758_SCCmec_00028	gene	ant1
+NC_002758_SCCmec_00028	mRNA	ant1
+NC_002758_SCCmec_00029	CDS	hypothetical protein
+NC_002758_SCCmec_00029	gene
+NC_002758_SCCmec_00029	mRNA
+NC_002758_SCCmec_00030	CDS	xerC_1	Tyrosine recombinase XerC
+NC_002758_SCCmec_00030	gene	xerC_1
+NC_002758_SCCmec_00030	mRNA	xerC_1
+NC_002758_SCCmec_00031	CDS	xerC_2	Tyrosine recombinase XerC
+NC_002758_SCCmec_00031	gene	xerC_2
+NC_002758_SCCmec_00031	mRNA	xerC_2
+NC_002758_SCCmec_00032	CDS	hypothetical protein
+NC_002758_SCCmec_00032	gene
+NC_002758_SCCmec_00032	mRNA
+NC_002758_SCCmec_00033	CDS	hypothetical protein
+NC_002758_SCCmec_00033	gene
+NC_002758_SCCmec_00033	mRNA
+NC_002758_SCCmec_00034	CDS	hypothetical protein
+NC_002758_SCCmec_00034	gene
+NC_002758_SCCmec_00034	mRNA
+NC_002758_SCCmec_00035	CDS	hypothetical protein
+NC_002758_SCCmec_00035	gene
+NC_002758_SCCmec_00035	mRNA
+NC_002758_SCCmec_00036	CDS	hin_1	DNA-invertase hin
+NC_002758_SCCmec_00036	gene	hin_1
+NC_002758_SCCmec_00036	mRNA	hin_1
+NC_002758_SCCmec_00037	CDS	hin_2	DNA-invertase hin
+NC_002758_SCCmec_00037	gene	hin_2
+NC_002758_SCCmec_00037	mRNA	hin_2
+NC_002758_SCCmec_00038	CDS	hypothetical protein
+NC_002758_SCCmec_00038	gene
+NC_002758_SCCmec_00038	mRNA
+NC_002758_SCCmec_00039	CDS	hypothetical protein
+NC_002758_SCCmec_00039	gene
+NC_002758_SCCmec_00039	mRNA
+NC_002758_SCCmec_00040	CDS	hypothetical protein
+NC_002758_SCCmec_00040	gene
+NC_002758_SCCmec_00040	mRNA
+NC_002758_SCCmec_00041	CDS	hypothetical protein
+NC_002758_SCCmec_00041	gene
+NC_002758_SCCmec_00041	mRNA
+NC_002758_SCCmec_00042	CDS	hypothetical protein
+NC_002758_SCCmec_00042	gene
+NC_002758_SCCmec_00042	mRNA
+NC_002758_SCCmec_00043	CDS	hypothetical protein
+NC_002758_SCCmec_00043	gene
+NC_002758_SCCmec_00043	mRNA
+NC_002758_SCCmec_00044	CDS	hypothetical protein
+NC_002758_SCCmec_00044	gene
+NC_002758_SCCmec_00044	mRNA
+NC_002758_SCCmec_00045	CDS	kdpE	KDP operon transcriptional regulatory protein KdpE
+NC_002758_SCCmec_00045	gene	kdpE
+NC_002758_SCCmec_00045	mRNA	kdpE
+NC_002758_SCCmec_00046	CDS	kdpD	2.7.13.3	Sensor protein KdpD
+NC_002758_SCCmec_00046	gene	kdpD
+NC_002758_SCCmec_00046	mRNA	kdpD
+NC_002758_SCCmec_00047	CDS	hypothetical protein
+NC_002758_SCCmec_00047	gene
+NC_002758_SCCmec_00047	mRNA
+NC_002758_SCCmec_00048	CDS	kdpA	Potassium-transporting ATPase potassium-binding subunit
+NC_002758_SCCmec_00048	gene	kdpA
+NC_002758_SCCmec_00048	mRNA	kdpA
+NC_002758_SCCmec_00049	CDS	kdpB	3.6.3.12	Potassium-transporting ATPase ATP-binding subunit
+NC_002758_SCCmec_00049	gene	kdpB
+NC_002758_SCCmec_00049	mRNA	kdpB
+NC_002758_SCCmec_00050	CDS	kdpC	Potassium-transporting ATPase KdpC subunit
+NC_002758_SCCmec_00050	gene	kdpC
+NC_002758_SCCmec_00050	mRNA	kdpC
+NC_002758_SCCmec_00051	CDS	hypothetical protein
+NC_002758_SCCmec_00051	gene
+NC_002758_SCCmec_00051	mRNA
+NC_002758_SCCmec_00052	CDS	hypothetical protein
+NC_002758_SCCmec_00052	gene
+NC_002758_SCCmec_00052	mRNA
+NC_002758_SCCmec_00053	CDS	hypothetical protein
+NC_002758_SCCmec_00053	gene
+NC_002758_SCCmec_00053	mRNA
+NC_002758_SCCmec_00054	CDS	hypothetical protein
+NC_002758_SCCmec_00054	gene
+NC_002758_SCCmec_00054	mRNA
+NC_002758_SCCmec_00055	CDS	hypothetical protein
+NC_002758_SCCmec_00055	gene
+NC_002758_SCCmec_00055	mRNA
+NC_002758_SCCmec_00056	CDS	prkC	2.7.11.1	Serine/threonine-protein kinase PrkC
+NC_002758_SCCmec_00056	gene	prkC
+NC_002758_SCCmec_00056	mRNA	prkC

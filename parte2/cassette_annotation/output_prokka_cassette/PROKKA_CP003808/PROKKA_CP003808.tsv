@@ -1,0 +1,108 @@
+locus_tag	ftype	gene	EC_number	product
+CP003808_SCCmec_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+CP003808_SCCmec_00001	gene	rlmH
+CP003808_SCCmec_00001	mRNA	rlmH
+CP003808_SCCmec_00002	CDS	hypothetical protein
+CP003808_SCCmec_00002	gene
+CP003808_SCCmec_00002	mRNA
+CP003808_SCCmec_00003	CDS	hypothetical protein
+CP003808_SCCmec_00003	gene
+CP003808_SCCmec_00003	mRNA
+CP003808_SCCmec_00004	CDS	ydjH	2.7.1.-	putative sugar kinase YdjH
+CP003808_SCCmec_00004	gene	ydjH
+CP003808_SCCmec_00004	mRNA	ydjH
+CP003808_SCCmec_00005	CDS	hypothetical protein
+CP003808_SCCmec_00005	gene
+CP003808_SCCmec_00005	mRNA
+CP003808_SCCmec_00006	CDS	hypothetical protein
+CP003808_SCCmec_00006	gene
+CP003808_SCCmec_00006	mRNA
+CP003808_SCCmec_00007	CDS	hypothetical protein
+CP003808_SCCmec_00007	gene
+CP003808_SCCmec_00007	mRNA
+CP003808_SCCmec_00008	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+CP003808_SCCmec_00008	gene	ugpQ
+CP003808_SCCmec_00008	mRNA	ugpQ
+CP003808_SCCmec_00009	CDS	paaZ	Bifunctional protein PaaZ
+CP003808_SCCmec_00009	gene	paaZ
+CP003808_SCCmec_00009	mRNA	paaZ
+CP003808_SCCmec_00010	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+CP003808_SCCmec_00010	gene	pbp
+CP003808_SCCmec_00010	mRNA	pbp
+CP003808_SCCmec_00011	CDS	hypothetical protein
+CP003808_SCCmec_00011	gene
+CP003808_SCCmec_00011	mRNA
+CP003808_SCCmec_00012	CDS	hypothetical protein
+CP003808_SCCmec_00012	gene
+CP003808_SCCmec_00012	mRNA
+CP003808_SCCmec_00013	CDS	hypothetical protein
+CP003808_SCCmec_00013	gene
+CP003808_SCCmec_00013	mRNA
+CP003808_SCCmec_00014	CDS	hypothetical protein
+CP003808_SCCmec_00014	gene
+CP003808_SCCmec_00014	mRNA
+CP003808_SCCmec_00015	CDS	hypothetical protein
+CP003808_SCCmec_00015	gene
+CP003808_SCCmec_00015	mRNA
+CP003808_SCCmec_00016	CDS	hypothetical protein
+CP003808_SCCmec_00016	gene
+CP003808_SCCmec_00016	mRNA
+CP003808_SCCmec_00017	CDS	hypothetical protein
+CP003808_SCCmec_00017	gene
+CP003808_SCCmec_00017	mRNA
+CP003808_SCCmec_00018	CDS	hin	DNA-invertase hin
+CP003808_SCCmec_00018	gene	hin
+CP003808_SCCmec_00018	mRNA	hin
+CP003808_SCCmec_00019	CDS	hypothetical protein
+CP003808_SCCmec_00019	gene
+CP003808_SCCmec_00019	mRNA
+CP003808_SCCmec_00020	CDS	hypothetical protein
+CP003808_SCCmec_00020	gene
+CP003808_SCCmec_00020	mRNA
+CP003808_SCCmec_00021	CDS	hypothetical protein
+CP003808_SCCmec_00021	gene
+CP003808_SCCmec_00021	mRNA
+CP003808_SCCmec_00022	CDS	hypothetical protein
+CP003808_SCCmec_00022	gene
+CP003808_SCCmec_00022	mRNA
+CP003808_SCCmec_00023	CDS	hypothetical protein
+CP003808_SCCmec_00023	gene
+CP003808_SCCmec_00023	mRNA
+CP003808_SCCmec_00024	CDS	hypothetical protein
+CP003808_SCCmec_00024	gene
+CP003808_SCCmec_00024	mRNA
+CP003808_SCCmec_00025	CDS	hypothetical protein
+CP003808_SCCmec_00025	gene
+CP003808_SCCmec_00025	mRNA
+repeat_region
+CP003808_SCCmec_00026	CDS	cas1	3.1.-.-	CRISPR-associated endonuclease Cas1
+CP003808_SCCmec_00026	gene	cas1
+CP003808_SCCmec_00026	mRNA	cas1
+CP003808_SCCmec_00027	CDS	cas2	3.1.-.-	CRISPR-associated endoribonuclease Cas2
+CP003808_SCCmec_00027	gene	cas2
+CP003808_SCCmec_00027	mRNA	cas2
+CP003808_SCCmec_00028	CDS	CRISPR-associated protein Cas10/Csm1
+CP003808_SCCmec_00028	gene
+CP003808_SCCmec_00028	mRNA
+CP003808_SCCmec_00029	CDS	csm2	CRISPR type III-associated protein Csm2
+CP003808_SCCmec_00029	gene	csm2
+CP003808_SCCmec_00029	mRNA	csm2
+CP003808_SCCmec_00030	CDS	csm3	CRISPR type III-associated RAMP protein Csm3
+CP003808_SCCmec_00030	gene	csm3
+CP003808_SCCmec_00030	mRNA	csm3
+CP003808_SCCmec_00031	CDS	csm4	CRISPR type III-associated RAMP protein Csm4
+CP003808_SCCmec_00031	gene	csm4
+CP003808_SCCmec_00031	mRNA	csm4
+CP003808_SCCmec_00032	CDS	hypothetical protein
+CP003808_SCCmec_00032	gene
+CP003808_SCCmec_00032	mRNA
+CP003808_SCCmec_00033	CDS	csm6	CRISPR-associated protein Csm6
+CP003808_SCCmec_00033	gene	csm6
+CP003808_SCCmec_00033	mRNA	csm6
+CP003808_SCCmec_00034	CDS	cas6	3.1.-.-	CRISPR-associated endoribonuclease Cas6
+CP003808_SCCmec_00034	gene	cas6
+CP003808_SCCmec_00034	mRNA	cas6
+repeat_region
+CP003808_SCCmec_00035	CDS	hypothetical protein
+CP003808_SCCmec_00035	gene
+CP003808_SCCmec_00035	mRNA

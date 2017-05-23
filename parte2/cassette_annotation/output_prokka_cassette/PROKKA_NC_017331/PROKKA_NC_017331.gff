@@ -1,0 +1,1383 @@
+##gff-version 3
+##sequence-region sccmec_saures_NC_017331_l68844 1 68844
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	1	480	.	+	0	ID=NC_017331_SCCmec_00001;Parent=NC_017331_SCCmec_00001_gene,NC_017331_SCCmec_00001_mRNA;eC_number=2.1.1.177;Name=rlmH;gene=rlmH;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P0C1V0;locus_tag=NC_017331_SCCmec_00001;product=Ribosomal RNA large subunit methyltransferase H
+sccmec_saures_NC_017331_l68844	prokka	gene	1	480	.	+	.	ID=NC_017331_SCCmec_00001_gene;Name=rlmH;gene=rlmH;locus_tag=NC_017331_SCCmec_00001
+sccmec_saures_NC_017331_l68844	prokka	mRNA	1	480	.	+	.	ID=NC_017331_SCCmec_00001_mRNA;Name=rlmH;gene=rlmH;locus_tag=NC_017331_SCCmec_00001
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	522	677	.	+	0	ID=NC_017331_SCCmec_00002;Parent=NC_017331_SCCmec_00002_gene,NC_017331_SCCmec_00002_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00002;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	522	677	.	+	.	ID=NC_017331_SCCmec_00002_gene;locus_tag=NC_017331_SCCmec_00002
+sccmec_saures_NC_017331_l68844	prokka	mRNA	522	677	.	+	.	ID=NC_017331_SCCmec_00002_mRNA;locus_tag=NC_017331_SCCmec_00002
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	726	1031	.	+	0	ID=NC_017331_SCCmec_00003;Parent=NC_017331_SCCmec_00003_gene,NC_017331_SCCmec_00003_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00003;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	726	1031	.	+	.	ID=NC_017331_SCCmec_00003_gene;locus_tag=NC_017331_SCCmec_00003
+sccmec_saures_NC_017331_l68844	prokka	mRNA	726	1031	.	+	.	ID=NC_017331_SCCmec_00003_mRNA;locus_tag=NC_017331_SCCmec_00003
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	1229	2092	.	+	0	ID=NC_017331_SCCmec_00004;Parent=NC_017331_SCCmec_00004_gene,NC_017331_SCCmec_00004_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00004;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	1229	2092	.	+	.	ID=NC_017331_SCCmec_00004_gene;locus_tag=NC_017331_SCCmec_00004
+sccmec_saures_NC_017331_l68844	prokka	mRNA	1229	2092	.	+	.	ID=NC_017331_SCCmec_00004_mRNA;locus_tag=NC_017331_SCCmec_00004
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	2176	2898	.	+	0	ID=NC_017331_SCCmec_00005;Parent=NC_017331_SCCmec_00005_gene,NC_017331_SCCmec_00005_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00005;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	2176	2898	.	+	.	ID=NC_017331_SCCmec_00005_gene;locus_tag=NC_017331_SCCmec_00005
+sccmec_saures_NC_017331_l68844	prokka	mRNA	2176	2898	.	+	.	ID=NC_017331_SCCmec_00005_mRNA;locus_tag=NC_017331_SCCmec_00005
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	2966	3688	.	+	0	ID=NC_017331_SCCmec_00006;Parent=NC_017331_SCCmec_00006_gene,NC_017331_SCCmec_00006_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00006;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	2966	3688	.	+	.	ID=NC_017331_SCCmec_00006_gene;locus_tag=NC_017331_SCCmec_00006
+sccmec_saures_NC_017331_l68844	prokka	mRNA	2966	3688	.	+	.	ID=NC_017331_SCCmec_00006_mRNA;locus_tag=NC_017331_SCCmec_00006
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	3902	5002	.	+	0	ID=NC_017331_SCCmec_00007;Parent=NC_017331_SCCmec_00007_gene,NC_017331_SCCmec_00007_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00007;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	3902	5002	.	+	.	ID=NC_017331_SCCmec_00007_gene;locus_tag=NC_017331_SCCmec_00007
+sccmec_saures_NC_017331_l68844	prokka	mRNA	3902	5002	.	+	.	ID=NC_017331_SCCmec_00007_mRNA;locus_tag=NC_017331_SCCmec_00007
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	4995	5366	.	+	0	ID=NC_017331_SCCmec_00008;Parent=NC_017331_SCCmec_00008_gene,NC_017331_SCCmec_00008_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00008;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	4995	5366	.	+	.	ID=NC_017331_SCCmec_00008_gene;locus_tag=NC_017331_SCCmec_00008
+sccmec_saures_NC_017331_l68844	prokka	mRNA	4995	5366	.	+	.	ID=NC_017331_SCCmec_00008_mRNA;locus_tag=NC_017331_SCCmec_00008
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	5363	7006	.	+	0	ID=NC_017331_SCCmec_00009;Parent=NC_017331_SCCmec_00009_gene,NC_017331_SCCmec_00009_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00009;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	5363	7006	.	+	.	ID=NC_017331_SCCmec_00009_gene;locus_tag=NC_017331_SCCmec_00009
+sccmec_saures_NC_017331_l68844	prokka	mRNA	5363	7006	.	+	.	ID=NC_017331_SCCmec_00009_mRNA;locus_tag=NC_017331_SCCmec_00009
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	7231	8916	.	+	0	ID=NC_017331_SCCmec_00010;Parent=NC_017331_SCCmec_00010_gene,NC_017331_SCCmec_00010_mRNA;Name=hin_1;gene=hin_1;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P03013;locus_tag=NC_017331_SCCmec_00010;product=DNA-invertase hin
+sccmec_saures_NC_017331_l68844	prokka	gene	7231	8916	.	+	.	ID=NC_017331_SCCmec_00010_gene;Name=hin_1;gene=hin_1;locus_tag=NC_017331_SCCmec_00010
+sccmec_saures_NC_017331_l68844	prokka	mRNA	7231	8916	.	+	.	ID=NC_017331_SCCmec_00010_mRNA;Name=hin_1;gene=hin_1;locus_tag=NC_017331_SCCmec_00010
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	8964	9449	.	+	0	ID=NC_017331_SCCmec_00011;Parent=NC_017331_SCCmec_00011_gene,NC_017331_SCCmec_00011_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00011;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	8964	9449	.	+	.	ID=NC_017331_SCCmec_00011_gene;locus_tag=NC_017331_SCCmec_00011
+sccmec_saures_NC_017331_l68844	prokka	mRNA	8964	9449	.	+	.	ID=NC_017331_SCCmec_00011_mRNA;locus_tag=NC_017331_SCCmec_00011
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	9705	10079	.	+	0	ID=NC_017331_SCCmec_00012;Parent=NC_017331_SCCmec_00012_gene,NC_017331_SCCmec_00012_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00012;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	9705	10079	.	+	.	ID=NC_017331_SCCmec_00012_gene;locus_tag=NC_017331_SCCmec_00012
+sccmec_saures_NC_017331_l68844	prokka	mRNA	9705	10079	.	+	.	ID=NC_017331_SCCmec_00012_mRNA;locus_tag=NC_017331_SCCmec_00012
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	10158	10484	.	+	0	ID=NC_017331_SCCmec_00013;Parent=NC_017331_SCCmec_00013_gene,NC_017331_SCCmec_00013_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00013;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	10158	10484	.	+	.	ID=NC_017331_SCCmec_00013_gene;locus_tag=NC_017331_SCCmec_00013
+sccmec_saures_NC_017331_l68844	prokka	mRNA	10158	10484	.	+	.	ID=NC_017331_SCCmec_00013_mRNA;locus_tag=NC_017331_SCCmec_00013
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	10500	11006	.	+	0	ID=NC_017331_SCCmec_00014;Parent=NC_017331_SCCmec_00014_gene,NC_017331_SCCmec_00014_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00014;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	10500	11006	.	+	.	ID=NC_017331_SCCmec_00014_gene;locus_tag=NC_017331_SCCmec_00014
+sccmec_saures_NC_017331_l68844	prokka	mRNA	10500	11006	.	+	.	ID=NC_017331_SCCmec_00014_mRNA;locus_tag=NC_017331_SCCmec_00014
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	11027	11209	.	+	0	ID=NC_017331_SCCmec_00015;Parent=NC_017331_SCCmec_00015_gene,NC_017331_SCCmec_00015_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00015;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	11027	11209	.	+	.	ID=NC_017331_SCCmec_00015_gene;locus_tag=NC_017331_SCCmec_00015
+sccmec_saures_NC_017331_l68844	prokka	mRNA	11027	11209	.	+	.	ID=NC_017331_SCCmec_00015_mRNA;locus_tag=NC_017331_SCCmec_00015
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	11463	12548	.	+	0	ID=NC_017331_SCCmec_00016;Parent=NC_017331_SCCmec_00016_gene,NC_017331_SCCmec_00016_mRNA;Name=xerC_1;gene=xerC_1;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P44818;locus_tag=NC_017331_SCCmec_00016;product=Tyrosine recombinase XerC
+sccmec_saures_NC_017331_l68844	prokka	gene	11463	12548	.	+	.	ID=NC_017331_SCCmec_00016_gene;Name=xerC_1;gene=xerC_1;locus_tag=NC_017331_SCCmec_00016
+sccmec_saures_NC_017331_l68844	prokka	mRNA	11463	12548	.	+	.	ID=NC_017331_SCCmec_00016_mRNA;Name=xerC_1;gene=xerC_1;locus_tag=NC_017331_SCCmec_00016
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	12545	14437	.	+	0	ID=NC_017331_SCCmec_00017;Parent=NC_017331_SCCmec_00017_gene,NC_017331_SCCmec_00017_mRNA;Name=xerC_2;gene=xerC_2;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P39776;locus_tag=NC_017331_SCCmec_00017;product=Tyrosine recombinase XerC
+sccmec_saures_NC_017331_l68844	prokka	gene	12545	14437	.	+	.	ID=NC_017331_SCCmec_00017_gene;Name=xerC_2;gene=xerC_2;locus_tag=NC_017331_SCCmec_00017
+sccmec_saures_NC_017331_l68844	prokka	mRNA	12545	14437	.	+	.	ID=NC_017331_SCCmec_00017_mRNA;Name=xerC_2;gene=xerC_2;locus_tag=NC_017331_SCCmec_00017
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	14444	14821	.	+	0	ID=NC_017331_SCCmec_00018;Parent=NC_017331_SCCmec_00018_gene,NC_017331_SCCmec_00018_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00018;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	14444	14821	.	+	.	ID=NC_017331_SCCmec_00018_gene;locus_tag=NC_017331_SCCmec_00018
+sccmec_saures_NC_017331_l68844	prokka	mRNA	14444	14821	.	+	.	ID=NC_017331_SCCmec_00018_mRNA;locus_tag=NC_017331_SCCmec_00018
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	14972	15754	.	+	0	ID=NC_017331_SCCmec_00019;Parent=NC_017331_SCCmec_00019_gene,NC_017331_SCCmec_00019_mRNA;eC_number=2.7.7.47;Name=ant1;gene=ant1;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P0A0D1;locus_tag=NC_017331_SCCmec_00019;product=Streptomycin 3''-adenylyltransferase
+sccmec_saures_NC_017331_l68844	prokka	gene	14972	15754	.	+	.	ID=NC_017331_SCCmec_00019_gene;Name=ant1;gene=ant1;locus_tag=NC_017331_SCCmec_00019
+sccmec_saures_NC_017331_l68844	prokka	mRNA	14972	15754	.	+	.	ID=NC_017331_SCCmec_00019_mRNA;Name=ant1;gene=ant1;locus_tag=NC_017331_SCCmec_00019
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	15880	16611	.	-	0	ID=NC_017331_SCCmec_00020;Parent=NC_017331_SCCmec_00020_gene,NC_017331_SCCmec_00020_mRNA;eC_number=2.1.1.184;Name=ermA1;gene=ermA1;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P0A0H2;locus_tag=NC_017331_SCCmec_00020;product=rRNA adenine N-6-methyltransferase
+sccmec_saures_NC_017331_l68844	prokka	gene	15880	16611	.	-	.	ID=NC_017331_SCCmec_00020_gene;Name=ermA1;gene=ermA1;locus_tag=NC_017331_SCCmec_00020
+sccmec_saures_NC_017331_l68844	prokka	mRNA	15880	16611	.	-	.	ID=NC_017331_SCCmec_00020_mRNA;Name=ermA1;gene=ermA1;locus_tag=NC_017331_SCCmec_00020
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	17120	17782	.	+	0	ID=NC_017331_SCCmec_00021;Parent=NC_017331_SCCmec_00021_gene,NC_017331_SCCmec_00021_mRNA;eC_number=2.1.1.-;Name=ycgJ;gene=ycgJ;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:O31474;locus_tag=NC_017331_SCCmec_00021;product=putative methyltransferase YcgJ
+sccmec_saures_NC_017331_l68844	prokka	gene	17120	17782	.	+	.	ID=NC_017331_SCCmec_00021_gene;Name=ycgJ;gene=ycgJ;locus_tag=NC_017331_SCCmec_00021
+sccmec_saures_NC_017331_l68844	prokka	mRNA	17120	17782	.	+	.	ID=NC_017331_SCCmec_00021_mRNA;Name=ycgJ;gene=ycgJ;locus_tag=NC_017331_SCCmec_00021
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	18330	19202	.	+	0	ID=NC_017331_SCCmec_00022;Parent=NC_017331_SCCmec_00022_gene,NC_017331_SCCmec_00022_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00022;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	18330	19202	.	+	.	ID=NC_017331_SCCmec_00022_gene;locus_tag=NC_017331_SCCmec_00022
+sccmec_saures_NC_017331_l68844	prokka	mRNA	18330	19202	.	+	.	ID=NC_017331_SCCmec_00022_mRNA;locus_tag=NC_017331_SCCmec_00022
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	19241	19549	.	+	0	ID=NC_017331_SCCmec_00023;Parent=NC_017331_SCCmec_00023_gene,NC_017331_SCCmec_00023_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00023;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	19241	19549	.	+	.	ID=NC_017331_SCCmec_00023_gene;locus_tag=NC_017331_SCCmec_00023
+sccmec_saures_NC_017331_l68844	prokka	mRNA	19241	19549	.	+	.	ID=NC_017331_SCCmec_00023_mRNA;locus_tag=NC_017331_SCCmec_00023
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	19565	20053	.	+	0	ID=NC_017331_SCCmec_00024;Parent=NC_017331_SCCmec_00024_gene,NC_017331_SCCmec_00024_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00024;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	19565	20053	.	+	.	ID=NC_017331_SCCmec_00024_gene;locus_tag=NC_017331_SCCmec_00024
+sccmec_saures_NC_017331_l68844	prokka	mRNA	19565	20053	.	+	.	ID=NC_017331_SCCmec_00024_mRNA;locus_tag=NC_017331_SCCmec_00024
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	20188	20715	.	+	0	ID=NC_017331_SCCmec_00025;Parent=NC_017331_SCCmec_00025_gene,NC_017331_SCCmec_00025_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00025;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	20188	20715	.	+	.	ID=NC_017331_SCCmec_00025_gene;locus_tag=NC_017331_SCCmec_00025
+sccmec_saures_NC_017331_l68844	prokka	mRNA	20188	20715	.	+	.	ID=NC_017331_SCCmec_00025_mRNA;locus_tag=NC_017331_SCCmec_00025
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	20778	21194	.	+	0	ID=NC_017331_SCCmec_00026;Parent=NC_017331_SCCmec_00026_gene,NC_017331_SCCmec_00026_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00026;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	20778	21194	.	+	.	ID=NC_017331_SCCmec_00026_gene;locus_tag=NC_017331_SCCmec_00026
+sccmec_saures_NC_017331_l68844	prokka	mRNA	20778	21194	.	+	.	ID=NC_017331_SCCmec_00026_mRNA;locus_tag=NC_017331_SCCmec_00026
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	21661	21882	.	+	0	ID=NC_017331_SCCmec_00027;Parent=NC_017331_SCCmec_00027_gene,NC_017331_SCCmec_00027_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00027;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	21661	21882	.	+	.	ID=NC_017331_SCCmec_00027_gene;locus_tag=NC_017331_SCCmec_00027
+sccmec_saures_NC_017331_l68844	prokka	mRNA	21661	21882	.	+	.	ID=NC_017331_SCCmec_00027_mRNA;locus_tag=NC_017331_SCCmec_00027
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	22032	22598	.	+	0	ID=NC_017331_SCCmec_00028;Parent=NC_017331_SCCmec_00028_gene,NC_017331_SCCmec_00028_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00028;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	22032	22598	.	+	.	ID=NC_017331_SCCmec_00028_gene;locus_tag=NC_017331_SCCmec_00028
+sccmec_saures_NC_017331_l68844	prokka	mRNA	22032	22598	.	+	.	ID=NC_017331_SCCmec_00028_mRNA;locus_tag=NC_017331_SCCmec_00028
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	22678	24867	.	-	0	ID=NC_017331_SCCmec_00029;Parent=NC_017331_SCCmec_00029_gene,NC_017331_SCCmec_00029_mRNA;eC_number=3.1.21.3;Name=hsdR;gene=hsdR;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:Q7A801;locus_tag=NC_017331_SCCmec_00029;product=Type-1 restriction enzyme R protein
+sccmec_saures_NC_017331_l68844	prokka	gene	22678	24867	.	-	.	ID=NC_017331_SCCmec_00029_gene;Name=hsdR;gene=hsdR;locus_tag=NC_017331_SCCmec_00029
+sccmec_saures_NC_017331_l68844	prokka	mRNA	22678	24867	.	-	.	ID=NC_017331_SCCmec_00029_mRNA;Name=hsdR;gene=hsdR;locus_tag=NC_017331_SCCmec_00029
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	24953	25627	.	-	0	ID=NC_017331_SCCmec_00030;Parent=NC_017331_SCCmec_00030_gene,NC_017331_SCCmec_00030_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00030;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	24953	25627	.	-	.	ID=NC_017331_SCCmec_00030_gene;locus_tag=NC_017331_SCCmec_00030
+sccmec_saures_NC_017331_l68844	prokka	mRNA	24953	25627	.	-	.	ID=NC_017331_SCCmec_00030_mRNA;locus_tag=NC_017331_SCCmec_00030
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	25895	27256	.	+	0	ID=NC_017331_SCCmec_00031;Parent=NC_017331_SCCmec_00031_gene,NC_017331_SCCmec_00031_mRNA;eC_number=1.8.1.16;Name=garB;gene=garB;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:D0VWY5;locus_tag=NC_017331_SCCmec_00031;product=Glutathione amide reductase
+sccmec_saures_NC_017331_l68844	prokka	gene	25895	27256	.	+	.	ID=NC_017331_SCCmec_00031_gene;Name=garB;gene=garB;locus_tag=NC_017331_SCCmec_00031
+sccmec_saures_NC_017331_l68844	prokka	mRNA	25895	27256	.	+	.	ID=NC_017331_SCCmec_00031_mRNA;Name=garB;gene=garB;locus_tag=NC_017331_SCCmec_00031
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	27556	27963	.	+	0	ID=NC_017331_SCCmec_00032;Parent=NC_017331_SCCmec_00032_gene,NC_017331_SCCmec_00032_mRNA;Name=merR1;gene=merR1;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P22853;locus_tag=NC_017331_SCCmec_00032;product=Mercuric resistance operon regulatory protein
+sccmec_saures_NC_017331_l68844	prokka	gene	27556	27963	.	+	.	ID=NC_017331_SCCmec_00032_gene;Name=merR1;gene=merR1;locus_tag=NC_017331_SCCmec_00032
+sccmec_saures_NC_017331_l68844	prokka	mRNA	27556	27963	.	+	.	ID=NC_017331_SCCmec_00032_mRNA;Name=merR1;gene=merR1;locus_tag=NC_017331_SCCmec_00032
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	27980	28333	.	+	0	ID=NC_017331_SCCmec_00033;Parent=NC_017331_SCCmec_00033_gene,NC_017331_SCCmec_00033_mRNA;Name=stoA;gene=stoA;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:O31687;locus_tag=NC_017331_SCCmec_00033;product=Sporulation thiol-disulfide oxidoreductase A
+sccmec_saures_NC_017331_l68844	prokka	gene	27980	28333	.	+	.	ID=NC_017331_SCCmec_00033_gene;Name=stoA;gene=stoA;locus_tag=NC_017331_SCCmec_00033
+sccmec_saures_NC_017331_l68844	prokka	mRNA	27980	28333	.	+	.	ID=NC_017331_SCCmec_00033_mRNA;Name=stoA;gene=stoA;locus_tag=NC_017331_SCCmec_00033
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	28330	29010	.	+	0	ID=NC_017331_SCCmec_00034;Parent=NC_017331_SCCmec_00034_gene,NC_017331_SCCmec_00034_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00034;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	28330	29010	.	+	.	ID=NC_017331_SCCmec_00034_gene;locus_tag=NC_017331_SCCmec_00034
+sccmec_saures_NC_017331_l68844	prokka	mRNA	28330	29010	.	+	.	ID=NC_017331_SCCmec_00034_mRNA;locus_tag=NC_017331_SCCmec_00034
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	29098	29484	.	+	0	ID=NC_017331_SCCmec_00035;Parent=NC_017331_SCCmec_00035_gene,NC_017331_SCCmec_00035_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00035;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	29098	29484	.	+	.	ID=NC_017331_SCCmec_00035_gene;locus_tag=NC_017331_SCCmec_00035
+sccmec_saures_NC_017331_l68844	prokka	mRNA	29098	29484	.	+	.	ID=NC_017331_SCCmec_00035_mRNA;locus_tag=NC_017331_SCCmec_00035
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	29542	31185	.	+	0	ID=NC_017331_SCCmec_00036;Parent=NC_017331_SCCmec_00036_gene,NC_017331_SCCmec_00036_mRNA;eC_number=1.16.1.1;Name=merA;gene=merA;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P16171;locus_tag=NC_017331_SCCmec_00036;product=Mercuric reductase
+sccmec_saures_NC_017331_l68844	prokka	gene	29542	31185	.	+	.	ID=NC_017331_SCCmec_00036_gene;Name=merA;gene=merA;locus_tag=NC_017331_SCCmec_00036
+sccmec_saures_NC_017331_l68844	prokka	mRNA	29542	31185	.	+	.	ID=NC_017331_SCCmec_00036_mRNA;Name=merA;gene=merA;locus_tag=NC_017331_SCCmec_00036
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	31267	31917	.	+	0	ID=NC_017331_SCCmec_00037;Parent=NC_017331_SCCmec_00037_gene,NC_017331_SCCmec_00037_mRNA;eC_number=4.99.1.2;Name=merB;gene=merB;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P77072;locus_tag=NC_017331_SCCmec_00037;product=Alkylmercury lyase
+sccmec_saures_NC_017331_l68844	prokka	gene	31267	31917	.	+	.	ID=NC_017331_SCCmec_00037_gene;Name=merB;gene=merB;locus_tag=NC_017331_SCCmec_00037
+sccmec_saures_NC_017331_l68844	prokka	mRNA	31267	31917	.	+	.	ID=NC_017331_SCCmec_00037_mRNA;Name=merB;gene=merB;locus_tag=NC_017331_SCCmec_00037
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	32112	32660	.	-	0	ID=NC_017331_SCCmec_00038;Parent=NC_017331_SCCmec_00038_gene,NC_017331_SCCmec_00038_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00038;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	32112	32660	.	-	.	ID=NC_017331_SCCmec_00038_gene;locus_tag=NC_017331_SCCmec_00038
+sccmec_saures_NC_017331_l68844	prokka	mRNA	32112	32660	.	-	.	ID=NC_017331_SCCmec_00038_mRNA;locus_tag=NC_017331_SCCmec_00038
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	32746	33420	.	-	0	ID=NC_017331_SCCmec_00039;Parent=NC_017331_SCCmec_00039_gene,NC_017331_SCCmec_00039_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00039;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	32746	33420	.	-	.	ID=NC_017331_SCCmec_00039_gene;locus_tag=NC_017331_SCCmec_00039
+sccmec_saures_NC_017331_l68844	prokka	mRNA	32746	33420	.	-	.	ID=NC_017331_SCCmec_00039_mRNA;locus_tag=NC_017331_SCCmec_00039
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	33853	34185	.	-	0	ID=NC_017331_SCCmec_00040;Parent=NC_017331_SCCmec_00040_gene,NC_017331_SCCmec_00040_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00040;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	33853	34185	.	-	.	ID=NC_017331_SCCmec_00040_gene;locus_tag=NC_017331_SCCmec_00040
+sccmec_saures_NC_017331_l68844	prokka	mRNA	33853	34185	.	-	.	ID=NC_017331_SCCmec_00040_mRNA;locus_tag=NC_017331_SCCmec_00040
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	34214	34456	.	-	0	ID=NC_017331_SCCmec_00041;Parent=NC_017331_SCCmec_00041_gene,NC_017331_SCCmec_00041_mRNA;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:Q5HDJ2;locus_tag=NC_017331_SCCmec_00041;product=putative HTH-type transcriptional regulator
+sccmec_saures_NC_017331_l68844	prokka	gene	34214	34456	.	-	.	ID=NC_017331_SCCmec_00041_gene;locus_tag=NC_017331_SCCmec_00041
+sccmec_saures_NC_017331_l68844	prokka	mRNA	34214	34456	.	-	.	ID=NC_017331_SCCmec_00041_mRNA;locus_tag=NC_017331_SCCmec_00041
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	34588	35262	.	-	0	ID=NC_017331_SCCmec_00042;Parent=NC_017331_SCCmec_00042_gene,NC_017331_SCCmec_00042_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00042;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	34588	35262	.	-	.	ID=NC_017331_SCCmec_00042_gene;locus_tag=NC_017331_SCCmec_00042
+sccmec_saures_NC_017331_l68844	prokka	mRNA	34588	35262	.	-	.	ID=NC_017331_SCCmec_00042_mRNA;locus_tag=NC_017331_SCCmec_00042
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	35549	36838	.	+	0	ID=NC_017331_SCCmec_00043;Parent=NC_017331_SCCmec_00043_gene,NC_017331_SCCmec_00043_mRNA;Name=hsrA;gene=hsrA;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P31474;locus_tag=NC_017331_SCCmec_00043;product=putative transport protein HsrA
+sccmec_saures_NC_017331_l68844	prokka	gene	35549	36838	.	+	.	ID=NC_017331_SCCmec_00043_gene;Name=hsrA;gene=hsrA;locus_tag=NC_017331_SCCmec_00043
+sccmec_saures_NC_017331_l68844	prokka	mRNA	35549	36838	.	+	.	ID=NC_017331_SCCmec_00043_mRNA;Name=hsrA;gene=hsrA;locus_tag=NC_017331_SCCmec_00043
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	37027	38268	.	+	0	ID=NC_017331_SCCmec_00044;Parent=NC_017331_SCCmec_00044_gene,NC_017331_SCCmec_00044_mRNA;Name=pre;gene=pre;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P13925;locus_tag=NC_017331_SCCmec_00044;product=Plasmid recombination enzyme
+sccmec_saures_NC_017331_l68844	prokka	gene	37027	38268	.	+	.	ID=NC_017331_SCCmec_00044_gene;Name=pre;gene=pre;locus_tag=NC_017331_SCCmec_00044
+sccmec_saures_NC_017331_l68844	prokka	mRNA	37027	38268	.	+	.	ID=NC_017331_SCCmec_00044_mRNA;Name=pre;gene=pre;locus_tag=NC_017331_SCCmec_00044
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	38454	38555	.	+	0	ID=NC_017331_SCCmec_00045;Parent=NC_017331_SCCmec_00045_gene,NC_017331_SCCmec_00045_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00045;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	38454	38555	.	+	.	ID=NC_017331_SCCmec_00045_gene;locus_tag=NC_017331_SCCmec_00045
+sccmec_saures_NC_017331_l68844	prokka	mRNA	38454	38555	.	+	.	ID=NC_017331_SCCmec_00045_mRNA;locus_tag=NC_017331_SCCmec_00045
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	38946	39749	.	+	0	ID=NC_017331_SCCmec_00046;Parent=NC_017331_SCCmec_00046_gene,NC_017331_SCCmec_00046_mRNA;Name=repN;gene=repN;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P19529;locus_tag=NC_017331_SCCmec_00046;product=Replication initiation protein
+sccmec_saures_NC_017331_l68844	prokka	gene	38946	39749	.	+	.	ID=NC_017331_SCCmec_00046_gene;Name=repN;gene=repN;locus_tag=NC_017331_SCCmec_00046
+sccmec_saures_NC_017331_l68844	prokka	mRNA	38946	39749	.	+	.	ID=NC_017331_SCCmec_00046_mRNA;Name=repN;gene=repN;locus_tag=NC_017331_SCCmec_00046
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	39838	40512	.	-	0	ID=NC_017331_SCCmec_00047;Parent=NC_017331_SCCmec_00047_gene,NC_017331_SCCmec_00047_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00047;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	39838	40512	.	-	.	ID=NC_017331_SCCmec_00047_gene;locus_tag=NC_017331_SCCmec_00047
+sccmec_saures_NC_017331_l68844	prokka	mRNA	39838	40512	.	-	.	ID=NC_017331_SCCmec_00047_mRNA;locus_tag=NC_017331_SCCmec_00047
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	40770	40937	.	+	0	ID=NC_017331_SCCmec_00048;Parent=NC_017331_SCCmec_00048_gene,NC_017331_SCCmec_00048_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00048;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	40770	40937	.	+	.	ID=NC_017331_SCCmec_00048_gene;locus_tag=NC_017331_SCCmec_00048
+sccmec_saures_NC_017331_l68844	prokka	mRNA	40770	40937	.	+	.	ID=NC_017331_SCCmec_00048_mRNA;locus_tag=NC_017331_SCCmec_00048
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	41035	41244	.	+	0	ID=NC_017331_SCCmec_00049;Parent=NC_017331_SCCmec_00049_gene,NC_017331_SCCmec_00049_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00049;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	41035	41244	.	+	.	ID=NC_017331_SCCmec_00049_gene;locus_tag=NC_017331_SCCmec_00049
+sccmec_saures_NC_017331_l68844	prokka	mRNA	41035	41244	.	+	.	ID=NC_017331_SCCmec_00049_mRNA;locus_tag=NC_017331_SCCmec_00049
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	41854	42597	.	+	0	ID=NC_017331_SCCmec_00050;Parent=NC_017331_SCCmec_00050_gene,NC_017331_SCCmec_00050_mRNA;eC_number=3.1.4.46;Name=ugpQ;gene=ugpQ;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P10908;locus_tag=NC_017331_SCCmec_00050;product=Glycerophosphodiester phosphodiesterase%2C cytoplasmic
+sccmec_saures_NC_017331_l68844	prokka	gene	41854	42597	.	+	.	ID=NC_017331_SCCmec_00050_gene;Name=ugpQ;gene=ugpQ;locus_tag=NC_017331_SCCmec_00050
+sccmec_saures_NC_017331_l68844	prokka	mRNA	41854	42597	.	+	.	ID=NC_017331_SCCmec_00050_mRNA;Name=ugpQ;gene=ugpQ;locus_tag=NC_017331_SCCmec_00050
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	42694	43122	.	+	0	ID=NC_017331_SCCmec_00051;Parent=NC_017331_SCCmec_00051_gene,NC_017331_SCCmec_00051_mRNA;Name=paaZ;gene=paaZ;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P77455;locus_tag=NC_017331_SCCmec_00051;product=Bifunctional protein PaaZ
+sccmec_saures_NC_017331_l68844	prokka	gene	42694	43122	.	+	.	ID=NC_017331_SCCmec_00051_gene;Name=paaZ;gene=paaZ;locus_tag=NC_017331_SCCmec_00051
+sccmec_saures_NC_017331_l68844	prokka	mRNA	42694	43122	.	+	.	ID=NC_017331_SCCmec_00051_mRNA;Name=paaZ;gene=paaZ;locus_tag=NC_017331_SCCmec_00051
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	43168	45174	.	-	0	ID=NC_017331_SCCmec_00052;Parent=NC_017331_SCCmec_00052_gene,NC_017331_SCCmec_00052_mRNA;Name=pbp;gene=pbp;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P07944;locus_tag=NC_017331_SCCmec_00052;product=Beta-lactam-inducible penicillin-binding protein
+sccmec_saures_NC_017331_l68844	prokka	gene	43168	45174	.	-	.	ID=NC_017331_SCCmec_00052_gene;Name=pbp;gene=pbp;locus_tag=NC_017331_SCCmec_00052
+sccmec_saures_NC_017331_l68844	prokka	mRNA	43168	45174	.	-	.	ID=NC_017331_SCCmec_00052_mRNA;Name=pbp;gene=pbp;locus_tag=NC_017331_SCCmec_00052
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	45376	47031	.	+	0	ID=NC_017331_SCCmec_00053;Parent=NC_017331_SCCmec_00053_gene,NC_017331_SCCmec_00053_mRNA;Name=mecR1;gene=mecR1;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P0A0B0;locus_tag=NC_017331_SCCmec_00053;product=Methicillin resistance mecR1 protein
+sccmec_saures_NC_017331_l68844	prokka	gene	45376	47031	.	+	.	ID=NC_017331_SCCmec_00053_gene;Name=mecR1;gene=mecR1;locus_tag=NC_017331_SCCmec_00053
+sccmec_saures_NC_017331_l68844	prokka	mRNA	45376	47031	.	+	.	ID=NC_017331_SCCmec_00053_mRNA;Name=mecR1;gene=mecR1;locus_tag=NC_017331_SCCmec_00053
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	47031	47234	.	+	0	ID=NC_017331_SCCmec_00054;Parent=NC_017331_SCCmec_00054_gene,NC_017331_SCCmec_00054_mRNA;Name=mecI;gene=mecI;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P68261;locus_tag=NC_017331_SCCmec_00054;product=Methicillin resistance regulatory protein MecI
+sccmec_saures_NC_017331_l68844	prokka	gene	47031	47234	.	+	.	ID=NC_017331_SCCmec_00054_gene;Name=mecI;gene=mecI;locus_tag=NC_017331_SCCmec_00054
+sccmec_saures_NC_017331_l68844	prokka	mRNA	47031	47234	.	+	.	ID=NC_017331_SCCmec_00054_mRNA;Name=mecI;gene=mecI;locus_tag=NC_017331_SCCmec_00054
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	47875	49023	.	+	0	ID=NC_017331_SCCmec_00055;Parent=NC_017331_SCCmec_00055_gene,NC_017331_SCCmec_00055_mRNA;Name=nagC;gene=nagC;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P0AF20;locus_tag=NC_017331_SCCmec_00055;product=N-acetylglucosamine repressor
+sccmec_saures_NC_017331_l68844	prokka	gene	47875	49023	.	+	.	ID=NC_017331_SCCmec_00055_gene;Name=nagC;gene=nagC;locus_tag=NC_017331_SCCmec_00055
+sccmec_saures_NC_017331_l68844	prokka	mRNA	47875	49023	.	+	.	ID=NC_017331_SCCmec_00055_mRNA;Name=nagC;gene=nagC;locus_tag=NC_017331_SCCmec_00055
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	49137	49442	.	-	0	ID=NC_017331_SCCmec_00056;Parent=NC_017331_SCCmec_00056_gene,NC_017331_SCCmec_00056_mRNA;eC_number=2.8.1.1;Name=pspE_1;gene=pspE_1;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P23857;locus_tag=NC_017331_SCCmec_00056;product=Thiosulfate sulfurtransferase PspE
+sccmec_saures_NC_017331_l68844	prokka	gene	49137	49442	.	-	.	ID=NC_017331_SCCmec_00056_gene;Name=pspE_1;gene=pspE_1;locus_tag=NC_017331_SCCmec_00056
+sccmec_saures_NC_017331_l68844	prokka	mRNA	49137	49442	.	-	.	ID=NC_017331_SCCmec_00056_mRNA;Name=pspE_1;gene=pspE_1;locus_tag=NC_017331_SCCmec_00056
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	49533	50471	.	-	0	ID=NC_017331_SCCmec_00057;Parent=NC_017331_SCCmec_00057_gene,NC_017331_SCCmec_00057_mRNA;eC_number=3.1.2.6;Name=gloC;gene=gloC;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P75849;locus_tag=NC_017331_SCCmec_00057;product=Hydroxyacylglutathione hydrolase GloC
+sccmec_saures_NC_017331_l68844	prokka	gene	49533	50471	.	-	.	ID=NC_017331_SCCmec_00057_gene;Name=gloC;gene=gloC;locus_tag=NC_017331_SCCmec_00057
+sccmec_saures_NC_017331_l68844	prokka	mRNA	49533	50471	.	-	.	ID=NC_017331_SCCmec_00057_mRNA;Name=gloC;gene=gloC;locus_tag=NC_017331_SCCmec_00057
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	50503	51567	.	-	0	ID=NC_017331_SCCmec_00058;Parent=NC_017331_SCCmec_00058_gene,NC_017331_SCCmec_00058_mRNA;eC_number=2.8.1.1;Name=pspE_2;gene=pspE_2;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P23857;locus_tag=NC_017331_SCCmec_00058;product=Thiosulfate sulfurtransferase PspE
+sccmec_saures_NC_017331_l68844	prokka	gene	50503	51567	.	-	.	ID=NC_017331_SCCmec_00058_gene;Name=pspE_2;gene=pspE_2;locus_tag=NC_017331_SCCmec_00058
+sccmec_saures_NC_017331_l68844	prokka	mRNA	50503	51567	.	-	.	ID=NC_017331_SCCmec_00058_mRNA;Name=pspE_2;gene=pspE_2;locus_tag=NC_017331_SCCmec_00058
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	51703	51963	.	+	0	ID=NC_017331_SCCmec_00059;Parent=NC_017331_SCCmec_00059_gene,NC_017331_SCCmec_00059_mRNA;Name=csoR;gene=csoR;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P9WP49;locus_tag=NC_017331_SCCmec_00059;product=Copper-sensing transcriptional repressor CsoR
+sccmec_saures_NC_017331_l68844	prokka	gene	51703	51963	.	+	.	ID=NC_017331_SCCmec_00059_gene;Name=csoR;gene=csoR;locus_tag=NC_017331_SCCmec_00059
+sccmec_saures_NC_017331_l68844	prokka	mRNA	51703	51963	.	+	.	ID=NC_017331_SCCmec_00059_mRNA;Name=csoR;gene=csoR;locus_tag=NC_017331_SCCmec_00059
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	51978	52607	.	+	0	ID=NC_017331_SCCmec_00060;Parent=NC_017331_SCCmec_00060_gene,NC_017331_SCCmec_00060_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00060;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	51978	52607	.	+	.	ID=NC_017331_SCCmec_00060_gene;locus_tag=NC_017331_SCCmec_00060
+sccmec_saures_NC_017331_l68844	prokka	mRNA	51978	52607	.	+	.	ID=NC_017331_SCCmec_00060_mRNA;locus_tag=NC_017331_SCCmec_00060
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	52875	53561	.	-	0	ID=NC_017331_SCCmec_00061;Parent=NC_017331_SCCmec_00061_gene,NC_017331_SCCmec_00061_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00061;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	52875	53561	.	-	.	ID=NC_017331_SCCmec_00061_gene;locus_tag=NC_017331_SCCmec_00061
+sccmec_saures_NC_017331_l68844	prokka	mRNA	52875	53561	.	-	.	ID=NC_017331_SCCmec_00061_mRNA;locus_tag=NC_017331_SCCmec_00061
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	53573	55987	.	-	0	ID=NC_017331_SCCmec_00062;Parent=NC_017331_SCCmec_00062_gene,NC_017331_SCCmec_00062_mRNA;eC_number=3.6.3.3;Name=cadA;gene=cadA;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:Q60048;locus_tag=NC_017331_SCCmec_00062;product=putative cadmium-transporting ATPase
+sccmec_saures_NC_017331_l68844	prokka	gene	53573	55987	.	-	.	ID=NC_017331_SCCmec_00062_gene;Name=cadA;gene=cadA;locus_tag=NC_017331_SCCmec_00062
+sccmec_saures_NC_017331_l68844	prokka	mRNA	53573	55987	.	-	.	ID=NC_017331_SCCmec_00062_mRNA;Name=cadA;gene=cadA;locus_tag=NC_017331_SCCmec_00062
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	55980	56345	.	-	0	ID=NC_017331_SCCmec_00063;Parent=NC_017331_SCCmec_00063_gene,NC_017331_SCCmec_00063_mRNA;Name=cadC;gene=cadC;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P20047;locus_tag=NC_017331_SCCmec_00063;product=Cadmium resistance transcriptional regulatory protein CadC
+sccmec_saures_NC_017331_l68844	prokka	gene	55980	56345	.	-	.	ID=NC_017331_SCCmec_00063_gene;Name=cadC;gene=cadC;locus_tag=NC_017331_SCCmec_00063
+sccmec_saures_NC_017331_l68844	prokka	mRNA	55980	56345	.	-	.	ID=NC_017331_SCCmec_00063_mRNA;Name=cadC;gene=cadC;locus_tag=NC_017331_SCCmec_00063
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	56531	56908	.	-	0	ID=NC_017331_SCCmec_00064;Parent=NC_017331_SCCmec_00064_gene,NC_017331_SCCmec_00064_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00064;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	56531	56908	.	-	.	ID=NC_017331_SCCmec_00064_gene;locus_tag=NC_017331_SCCmec_00064
+sccmec_saures_NC_017331_l68844	prokka	mRNA	56531	56908	.	-	.	ID=NC_017331_SCCmec_00064_mRNA;locus_tag=NC_017331_SCCmec_00064
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	56915	58807	.	-	0	ID=NC_017331_SCCmec_00065;Parent=NC_017331_SCCmec_00065_gene,NC_017331_SCCmec_00065_mRNA;Name=xerC_3;gene=xerC_3;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P39776;locus_tag=NC_017331_SCCmec_00065;product=Tyrosine recombinase XerC
+sccmec_saures_NC_017331_l68844	prokka	gene	56915	58807	.	-	.	ID=NC_017331_SCCmec_00065_gene;Name=xerC_3;gene=xerC_3;locus_tag=NC_017331_SCCmec_00065
+sccmec_saures_NC_017331_l68844	prokka	mRNA	56915	58807	.	-	.	ID=NC_017331_SCCmec_00065_mRNA;Name=xerC_3;gene=xerC_3;locus_tag=NC_017331_SCCmec_00065
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	59002	59325	.	-	0	ID=NC_017331_SCCmec_00066;Parent=NC_017331_SCCmec_00066_gene,NC_017331_SCCmec_00066_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00066;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	59002	59325	.	-	.	ID=NC_017331_SCCmec_00066_gene;locus_tag=NC_017331_SCCmec_00066
+sccmec_saures_NC_017331_l68844	prokka	mRNA	59002	59325	.	-	.	ID=NC_017331_SCCmec_00066_mRNA;locus_tag=NC_017331_SCCmec_00066
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	59318	59524	.	-	0	ID=NC_017331_SCCmec_00067;Parent=NC_017331_SCCmec_00067_gene,NC_017331_SCCmec_00067_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00067;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	59318	59524	.	-	.	ID=NC_017331_SCCmec_00067_gene;locus_tag=NC_017331_SCCmec_00067
+sccmec_saures_NC_017331_l68844	prokka	mRNA	59318	59524	.	-	.	ID=NC_017331_SCCmec_00067_mRNA;locus_tag=NC_017331_SCCmec_00067
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	59526	60047	.	-	0	ID=NC_017331_SCCmec_00068;Parent=NC_017331_SCCmec_00068_gene,NC_017331_SCCmec_00068_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00068;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	59526	60047	.	-	.	ID=NC_017331_SCCmec_00068_gene;locus_tag=NC_017331_SCCmec_00068
+sccmec_saures_NC_017331_l68844	prokka	mRNA	59526	60047	.	-	.	ID=NC_017331_SCCmec_00068_mRNA;locus_tag=NC_017331_SCCmec_00068
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	60066	60461	.	-	0	ID=NC_017331_SCCmec_00069;Parent=NC_017331_SCCmec_00069_gene,NC_017331_SCCmec_00069_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00069;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	60066	60461	.	-	.	ID=NC_017331_SCCmec_00069_gene;locus_tag=NC_017331_SCCmec_00069
+sccmec_saures_NC_017331_l68844	prokka	mRNA	60066	60461	.	-	.	ID=NC_017331_SCCmec_00069_mRNA;locus_tag=NC_017331_SCCmec_00069
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	60462	60812	.	-	0	ID=NC_017331_SCCmec_00070;Parent=NC_017331_SCCmec_00070_gene,NC_017331_SCCmec_00070_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00070;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	60462	60812	.	-	.	ID=NC_017331_SCCmec_00070_gene;locus_tag=NC_017331_SCCmec_00070
+sccmec_saures_NC_017331_l68844	prokka	mRNA	60462	60812	.	-	.	ID=NC_017331_SCCmec_00070_mRNA;locus_tag=NC_017331_SCCmec_00070
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	61283	62911	.	-	0	ID=NC_017331_SCCmec_00071;Parent=NC_017331_SCCmec_00071_gene,NC_017331_SCCmec_00071_mRNA;Name=hin_2;gene=hin_2;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P03013;locus_tag=NC_017331_SCCmec_00071;product=DNA-invertase hin
+sccmec_saures_NC_017331_l68844	prokka	gene	61283	62911	.	-	.	ID=NC_017331_SCCmec_00071_gene;Name=hin_2;gene=hin_2;locus_tag=NC_017331_SCCmec_00071
+sccmec_saures_NC_017331_l68844	prokka	mRNA	61283	62911	.	-	.	ID=NC_017331_SCCmec_00071_mRNA;Name=hin_2;gene=hin_2;locus_tag=NC_017331_SCCmec_00071
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	62932	64278	.	-	0	ID=NC_017331_SCCmec_00072;Parent=NC_017331_SCCmec_00072_gene,NC_017331_SCCmec_00072_mRNA;Name=tnpR;gene=tnpR;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:P03012;locus_tag=NC_017331_SCCmec_00072;product=Transposon gamma-delta resolvase
+sccmec_saures_NC_017331_l68844	prokka	gene	62932	64278	.	-	.	ID=NC_017331_SCCmec_00072_gene;Name=tnpR;gene=tnpR;locus_tag=NC_017331_SCCmec_00072
+sccmec_saures_NC_017331_l68844	prokka	mRNA	62932	64278	.	-	.	ID=NC_017331_SCCmec_00072_mRNA;Name=tnpR;gene=tnpR;locus_tag=NC_017331_SCCmec_00072
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	64471	64809	.	-	0	ID=NC_017331_SCCmec_00073;Parent=NC_017331_SCCmec_00073_gene,NC_017331_SCCmec_00073_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00073;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	64471	64809	.	-	.	ID=NC_017331_SCCmec_00073_gene;locus_tag=NC_017331_SCCmec_00073
+sccmec_saures_NC_017331_l68844	prokka	mRNA	64471	64809	.	-	.	ID=NC_017331_SCCmec_00073_mRNA;locus_tag=NC_017331_SCCmec_00073
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	64836	66623	.	-	0	ID=NC_017331_SCCmec_00074;Parent=NC_017331_SCCmec_00074_gene,NC_017331_SCCmec_00074_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00074;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	64836	66623	.	-	.	ID=NC_017331_SCCmec_00074_gene;locus_tag=NC_017331_SCCmec_00074
+sccmec_saures_NC_017331_l68844	prokka	mRNA	64836	66623	.	-	.	ID=NC_017331_SCCmec_00074_mRNA;locus_tag=NC_017331_SCCmec_00074
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	66623	66910	.	-	0	ID=NC_017331_SCCmec_00075;Parent=NC_017331_SCCmec_00075_gene,NC_017331_SCCmec_00075_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00075;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	66623	66910	.	-	.	ID=NC_017331_SCCmec_00075_gene;locus_tag=NC_017331_SCCmec_00075
+sccmec_saures_NC_017331_l68844	prokka	mRNA	66623	66910	.	-	.	ID=NC_017331_SCCmec_00075_mRNA;locus_tag=NC_017331_SCCmec_00075
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	67044	68093	.	+	0	ID=NC_017331_SCCmec_00076;Parent=NC_017331_SCCmec_00076_gene,NC_017331_SCCmec_00076_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00076;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	67044	68093	.	+	.	ID=NC_017331_SCCmec_00076_gene;locus_tag=NC_017331_SCCmec_00076
+sccmec_saures_NC_017331_l68844	prokka	mRNA	67044	68093	.	+	.	ID=NC_017331_SCCmec_00076_mRNA;locus_tag=NC_017331_SCCmec_00076
+sccmec_saures_NC_017331_l68844	Prodigal:2.6	CDS	68146	68718	.	+	0	ID=NC_017331_SCCmec_00077;Parent=NC_017331_SCCmec_00077_gene,NC_017331_SCCmec_00077_mRNA;inference=ab initio prediction:Prodigal:2.6;locus_tag=NC_017331_SCCmec_00077;product=hypothetical protein
+sccmec_saures_NC_017331_l68844	prokka	gene	68146	68718	.	+	.	ID=NC_017331_SCCmec_00077_gene;locus_tag=NC_017331_SCCmec_00077
+sccmec_saures_NC_017331_l68844	prokka	mRNA	68146	68718	.	+	.	ID=NC_017331_SCCmec_00077_mRNA;locus_tag=NC_017331_SCCmec_00077
+##FASTA
+>sccmec_saures_NC_017331_l68844
+ATGAAAATCACCATTTTAGCTGTAGGGAAACTAAAAGAGAAATATTGGAAGCAAGCCATA
+GCAGAATATGAAAAACGTTTAGGCCCATACACCAAGATAGACATCATAGAAGTTCCAGAC
+GAAAAAGCACCAGAAAATATGAGCGACAAAGAAATTGAGCAAGTAAAAGAAAAAGAAGGC
+CAACGAATACTAGCCAAAATCAAACCACAATCAACAGTCATTACATTAGAAATACAAGGA
+AAGATGCTATCTTCCGAAGGATTGGCCCAAGAATTGAACCAACGCATGACCCAAGGGCAA
+AGCGACTTTGTATTCGTCATTGGCGGATCAAACGGCCTGCACAAGGACGTCTTACAACGC
+AGTAACTACGCACTATCATTCAGCAAAATGACATTCCCACATCAAATGATGCGGGTTGTG
+TTAATTGAACAAGTGTACAGAGCATTTAAGATTATGCGTGGAGAAGCGTATCATAAATAA
+AACTAAAAATTAGGTTGTGTATAATTTAAAAATTTAATGAGATGTGGAGGAATTACATAT
+ATGAAATATTGGATTATACCTTGCAATATCATACGATGTTTATAGAGTGTTTAATAAACC
+ATTTTTCAACTATTGATGATCTAGAATATATAATAACTGTACAAATTATATTGATTATGG
+AACTACAATTAAATTAAGAAATTGATGATGAAATTTTAAATTTAAACTAATGGAATCAAG
+AAAGAATGAAAGGAAATATACAATGCCTACGATTAATAAAAGGAAGTTTATTAGATTTTG
+TGTTAGAAACAGTGGATGTTTTTGTAAATGGAAGTAAAAATGATTGTGAATTAGTAAATT
+TTAATTATAAAGAAGGAAAAGTAGTTTCACGTTATAGTACAAAATTTGAAAGCAATCCTA
+AATTAAGAAAAGAGCAATTGATATCGACGGTAAAAGTTGTAAGGTATGTTATTTTTGATT
+TTGAGAAAATTTTATGGGGCATAGGGAAAGTTTTATTGAAGTTCATCATATTAAGACAAT
+GTTTACTATAAGAAAGTTGAAATAAACTCAGAAACAGACTTGATTCCCGTTTATTCAAAT
+TGGCGCAAAATGATACATATAAACACCTATATATTGAAGATTTAAGTCAAACGGTAAATA
+ATATTTTTCACTTTTAAACAGAAACTTTTTTGGAAATTATATTAATTAGTATAAAAATGA
+ATATGTTCACAAAGAAGGAGAGATTTTATTGAAACACATTAATCATTTTTCTGAATCGAC
+ACTAGCATACTTGGAAAAAGACCATGAACATGCATTTTATGTATATTGTTTAATAGACCC
+AAGAAATGATGAATGCTTTTATGTTGGTAAAGGTAAGGGGAATAGAATATTTAAACATAA
+ACAAGATGCGCAGAGACAATTATTGTACGAAGATATATTCAGAGAAGAAAATAAAGATAA
+CTTGAAATTTAATAGAATTAACGAAATTTGTAGCAATGATTTGAATGTTTTAGGATATAT
+AATCAGTTATGGATTAACCGAATCTGAAGCATTTTCTGCAGAAAATGTTCTTATAAACTT
+TCTTAACCTAACAAATAAAACTACATTAACAAATATGATTAACGGTCATGGATCTAAGGC
+ATACTTAGTTGAAGATTTAGAAAATGAATTTGGCTACGATTCAATTAATCTTGAAAACAT
+AAATACGAATGAATTAATTTTAGCAGTGAAAATCAGAGATGCATTTCTATTAGATAAGGA
+TGAAAGTAAAGAGTATCCTATTAATGAAAGTAAACGTGATAGAAATAACCTTAAATCGCG
+TACATTAGGTAGTTGGATAATAGGAAAAGATAAAATACATAAAATAAAATATATTATTGG
+TATCAATACAGGTGCTAATAATGCAGTTGTCTCAGCTTATGAAGTATCATTTGAACAAGC
+GGAGAGTATCGAAACAAATAATGGTAGAATGAGATATGCGTTTATTGGGCTTTCAGAAAG
+AGATGCTACTCTAAAAAAATTGAATTTATACAAAAAAGCACTACCAGATTTAAGATTTGG
+TAGTGGTAGCGCTACAGCATATATAAATAATGGGACAATGAAAGTTGATTAAATGAATAA
+AAACATCCAATTCCTTAAATTAGCCTTTGAAAATTTTATACTCGTATATATAAGTGAAAA
+ACTTAAAAGAATTAGATGTTAATTAAAGGAGAGAATGCTATGCCATCAGATGATATTGTA
+AAAAAACTATACTCAAAAGAGGATATTCGATTAGAATTAGGACTTACTCCGCATAAGTTT
+AATAAAAAAATGGAAACTATTGCTAAGCTTTTTAAAATTGATATGAAAATTTTTCACAGT
+TACAAAGGCCAAGATAAAAATAATCAGTATACATTTAATGGTGTCGCAAAAGAATTAATC
+AAAGTGTTGCTAAAAAGTGTTGATTATTACCCAGTGGATATCAATTCCAAAAAATTTAAA
+CAAAATGGAAAATCTAAAAAAGAAATGATTGAAAATATAGATAACTCTAGTTACATGAAA
+TATATTTATCAGTTAATGAAATCTATCAATGAAATTCAATACAAAAGGTTAATTGCTGAT
+ATACATATGAAAGATGTGTACCAGAATACAAAAGCATGGTTAAATAATGGTGAATCAATT
+AATAAAAAAGAACAAGAGCTATACCAATATATGACAATTTTACCATTACATAAAAGAGTT
+GAACTGCAAAATGAGGTATTAAAATCTATAGACGAAACAATTTTTCAATTTCTCGCAAAA
+GAACATAGAAATAATCAAATTGAAGAAAATAATGAATTAGAAGCATATACAAAAGCAATA
+AAAGAAGGTAGAAATCCTAAAAATGATTATGAATTAAATCATCTCCTATATAAAAAAAAA
+TCAATTACCCTTAGATAGTCTAATAGAAGATATATGGGACTATGAGGAAACAGAGTATAC
+TGAGCTTGATTGGTTAATTGCAGATATGCTAAAACGTTCACAAAGAGCTGATAGTAATTT
+TATCGAAAGTTTAGAGAAGAAAAACAAATTGAGAAAAAATATTCATAAAGATTCCATTAA
+AAGTATATCTAAGTTGATTGATCATGAATTAGTTAAAAATAATAGAAAGTGGGACGTAGC
+AGAATTTTATAAAAATCAACAATTTTGGAATAATAGTACATTAAGACGTAGCTCTCAAAA
+TTTTGGAATTTTATATTACAAAAAGAATAGGTTACATACAATGAATCAAAGTAATATTAT
+TAAGAAAATAAAAATTATCGAAGCTAATATAGAGAGTGCAAATAAACAGCCGAGCTATTT
+AGATTTCTTTTTACAAGCTAAGTTTGATTTAGAGAGGTTAGAAAGTGAATTAATGAAATA
+TAGCATTAATCCGAAATATTTTAATAAGATAAATAGTGATTACGTAAGATATGCTATTGA
+AGATGTACATAATGCAATTATTAAAATTGACAGATATATAAGTAACGATAAAGTGAAGTT
+AAACTATTCAAATGTCCAAATGGTAGTGAGAAACGAAATAACAGAACAAGGAAGCTACTT
+TGTAACCCAGGCATTGAATACACTGTCAAAGGTAGAAGAGTCTGGCTACAGCTTTGATAA
+TTTCATGGTAGGACCTTTCGTAGAAGACTTTAAAAAGCAATTAAAAATCGTAGATTTGGT
+TCTAAAAAAGATTAAGATTGTTTTTTAGAGTTAAACATAAGAATAAATTTAAATAAAAAA
+ATAAACCCAACAAACCTCGTTATATCAATGTTTGTTGGGTTTATTTTTTTTGGTGATTTT
+TTAATAACTCAATTACATCTTAGGATAATATCGCTAAATTATACATTGTCGAGGCCAAGA
+CAAATAAAAAATTAAAGCAAAAGTTAGCGCGCAACTTTCTGCTATAAAGGAGCAAATTTA
+TATGGAGACAAGAGACAAACTGATGTCATTGACTCAAAGTGACAAAACACAGCAATGGCT
+AATGGACAAGTCATCTAACCAAGATGACATTCAACAATTGCAGCAACAATTCAGTCAGCA
+GCTTGATCAACAATATAATGCACTTTTAGCTGATGAAAAAGCTAAGTTAGACCAATACGT
+GGAAGTACATCAAGGATTGGAATCATTAAAGGAAGAGATTGAATCAGAACCTATTACGCT
+TAATATCGATAAATTACCCGATATCAAAGCAACAATGCTTGAAAGAGCCAAGAATGATGA
+ACATTCTGATAAAATCGAAAAGCTATTTGATAGGTTAGAACAGGCATTAAATGGTACGAA
+TCGATTATATACGCAATTATCGTTGATTGGTACACGAACACATCGAATTACAACTAAAAA
+TTTTAATCTTCAAGGCTTACCTAAAGCAGTCCAACATACGATTTTACCTTCAAAATTTAA
+GAAGGTGTATACAGTCGATTTTAAATCGTTTGAACCATCAGTTGCAGCGTACATGACTCA
+AGATTCAAAACTGATTGACTTGTTAAATCAGAAAGACGGACTGTATGACGCATTGCTAAG
+TGAATTAGGCTTATCAGATGAGCTACGTGTATTTGTTAAACGTGCATTTATTGGTTCGTT
+TCTATTTGGAGGTAACTTCAAAAATCCTAAATTCAAGCTGAATCAATATGTAAGTGAAGT
+ACAATGGTTGGATGCGGTCAGCCAATTTACAAAAGTCATTGAACTTAAGAAGCACGTTGA
+AAAGAGTAATTCCATGCCTATGCCTTATAGTATTGAGCATGATATGAGCGCATTTCAAGG
+TAGCAGTATTATGGCAATCTACGTACAAACTGTAGCGAGTTATATTTTCAAGCACATTCT
+GCTAAAAGTGTACAAAGCACAGTGCGATCAAAAAACGTTCAAGATTATAGTACCTATACA
+CGATGCGATTATGATTGAATGTGAAGATGAAGAAATTGCACAAAATGTGGGTCAGTTAAT
+GAAAGATACGGCTAACCAGTTGTTCAATGGTGAATTTGCACATGTGACAGTGGAAGAAAT
+AGGAGGCGTAGACCATGAATAATGATAGAGGACAAAGCCTACACATCCCAAGTAGTACAC
+CAATCAAAGAAAATAATATATATGTAGCTACGTTACATTCTGTGATCCAAACAGATTTCT
+CAGGTGAAATAAAGCACCAATTCACGTATGAAATTGAAGTGAACAATCAGATTGTATATG
+CGAATCGTAATATTCCAACAAAACCGAGCGCTAATCAGTTGTCAATTCATGATTGGCTGA
+AACGTCATAGCAACTATAGCGTGGGTCATGATACGTATGAACCTTATATTGACCGTAAGC
+ATTTAATCCATATTGGTCAATATAGCGGTAACTATTATGTACAAGATGTAGCATCGTTAG
+ATGCGTTTGGAGGCGTATTATCATGAATCATATATTACAAATGTTATCTAAGCTATTAAG
+TGTGGCCAAGGAGGCAATCGACCGTCAAGGTCTGATTGCTATCCTAACTATTCCTGTTAA
+TAATAACGATGAAATAGAAGAAACGGCTCAAGGTGAAACCGTGTATAACGAACTTATCGA
+TCAGTTACGACTTAATATCCCAAAAGATACGGATTATCAACCTAACATCTATAGTTATTT
+TGGTATTAAGAAGAATCCTAATGACACCGTACTCATGGAAATGATGATAAAGGTTTTTCA
+TATCAAACGCTTTAATTCAGAACTGTTTATTTTCAAAGTTAACGGGTGGCAAAAGATAAA
+TGGAGATGAATTACAAGGGTTGATATCTAAAATGATACAAGTATTGCTTGTAGATTATAA
+GCCTTCACTAAGCACTCTAAAAAATGTCGTAGATGGATTGCAAAAATCAACAGATGTAGA
+AGAACTTGTTGAGAATGAGCGCTATATTGGTTGTGGTGAAAATATGTTCGATCTTAATAC
+GTTTCAAGTCGTTAAAAATTCAATCGATATCTTTCCAAAAACACGATTGAATTTATCATT
+AAGTACAAATGATGTAATTACTGATAAGATACCGCCTTATTTTAAGCAATATATGTTACA
+ACTTGCGAATTATGACGATGATTTACAATACTTTCTTTTCCAACATACAGCAGTATTACT
+TACAGCTGATACTAAATACCGTAGGGGTCTCATATTATATGGTGGAGCTAAGAATGGTAA
+ATCTGTATATATTGAACTAGTTAAATCATTTTTCTATAGTAAAGATATTGTGTCTAAGCC
+ACTTAATGAGCTTGAAGGTCGTTTTGACAAAGAAAGTTTAATTGACAAAAGTCTAATGGC
+AAGTCATGAAATTGGGCAATCTAGGATTCAAGAAAAGATCGTAAATGACTTCAAAAAGTT
+ATTATCTGTAGAATCAATGCATGTTGATCGTAAAGGAAAAACTCAAGTGGAAGTCATTTT
+GGATTTGAAACTTATTTTTAGTACAAATGCGATACTTAATTTTCCTCCTGAACATGCGAA
+AGCTTTGGAGCGTCGAATTAATATTATTCCATGTGAGTATTATGTTGAAAAAGCGGACAC
+TTCATTAATTGATAAGCTCCAGAGTGAGAAGAAAGAAATCTTTCTTTACTTGATGTATGT
+GTATCAACAGATTGTAAAAGCAGATATCGAGTATCTTGAAAATAGCCGTGTCACTGAAAT
+TACTCACGATTGGTTAAATTTTGGATATGAATTTGTTTCTAGCAGGTCCGTAAGTAATGC
+AAATCAGAAAGCATGTATTAATTTACTCAGAAAACTTATAGAAATCAAATCAGGATCACG
+AATCAAAGTATCCGAGTTAAATAAAGTTATTAATGAAGAAATAAAGGTGAGTTCTCAGGT
+TATTAATCAGTTAATTCAAGCAAACTTTGATACTCAAACCAAACTATACAATGGCTACGA
+TTATTGGATTGATTTAGGTTGGAAAGAAGCCAATAAAAAAGAGATTCATGATATTTCGGA
+AAAAGATAATATTATTTCATTAGATAAAAATGAAAATATAACAGACGATGAGGCATTAGA
+TGAAGAGAATTTGGACTTTGATTGGGAGGACTTTGACGATGAATAATGAACAAATTGAAG
+CATTTGTAGAAGTGCTTGTGCCTATCATAGAAGAACGTATCAATAAAGGTAAGTAATCTA
+ATTACGTACTACAGGCAACTGCCTGTAGTACTCATATAATTAAGTGGTAAAAGTGATAAA
+AATGAAACGAAATTATAAATATATATTATCTATATGTTGTTACAAGACCGATAGTCTGTA
+GCAATAATCTAATAAAAGGAGCGGTATGAAATGAAGGGTAAAATTGCACTTTATTCACGT
+GTTAGTACGTCTGAGCAGTCAGAACATGGTTATTCTGTAAAAGAGCAGGAACAAGTACTC
+ATCAAAGAAGTTGTGAAAAATTTCCCAGGTTATGACTATGAGACATATACTGACTCAGGC
+ATTTCAGGTAAAAATATTGAAGGTCGTCCGGCAATGAAACGTCTATTACAAGATGTTAAG
+GATAATAAAATCGAAATGGTGTTAAGTTGGAAATTGAATCGTATCTCACGATCAATGAGA
+GACGTGTTTAATATTATTCATGAATTCAAAGAACATGATGTAGGGTATAAATCGATTTCT
+GAGAATATTGATACATCCAATGCTTCTGGAGAAGTACTCGTTACAATGTTTGGGTTAATA
+GGATCTATAGAACGCCAGACTTTGATTTCGAATGTGAAACTTTCTATGAATGCTAAGGCA
+AGGAGCGGAGAGGCAATCACCGGTCGTGTTTTAGGCTACAAATTATCACTTAATCCACTT
+ACACAGAAAAATGATTTAGTTATTAATGAAAATGAAGCTCATATTGTACGGGAAATCTTT
+GATTTATATTTGAATCACAATAAAGGACTTAAAGCAATCACGACAATTCTAAATCAAAAA
+GGATATCGCACCATTAATCAAAAACCATTTTCAGTGTTTGGCGTGAAATATATTTTGAAT
+AATCCAGTCTATAAAGGCTATGTCAGATTCAATAACCATCAAAATTGGGCTGTTCAGCGA
+AGAAGTGGTAAAAGTGATAAAAATGATGTGATATTGGTCAAAGGTAAGCATGAAGCCATT
+ATAAGTGAAGATGTATTTGATCAAGTTCATGAGAAACTAGCTTCTAAAAGTTTTAAACCG
+GGTCGACCTATTGGTGGAGATTTCTACTTACGTGGCCTTATTAAATGCCCAGAATGCGGA
+AATAATATGGTATGTCGACGGACGTATTATAAAACGAAAAAGTCCAAAGAACGAACAATC
+AAGCGTTATTACATTTGTTCCTTATTCAATCGTTCAGGGAGTTCTGCATGTCACAGTAAT
+TCCATCAATGCTGAAGTCGTCGAACGCGTAATCAATGTTCATTTGAATCGTATTCTTTCA
+CAACCTAATGTTATTAAGCAGATTGCGTCAAGTGTGATAGAAGAACTGAAACAAAAGCAT
+AGTAAACAAACAGAAATAAAATATGATATTGATAGTCTAGACAAACAAAAAGCAAAAGTT
+AAAACACAACAAGAACGATTATTGGAATTGTTTTTAGATGATGAAATGGATAGCGAAATG
+TTAAAAGCTAAACAAAGTAAAATGAATCAACAGTTAGAAGTATTAGACCAACAAATTAAA
+GAAGCAAAACAAGCAAATCAATCACAGGATGATATACCCAATTTTGATAAGTTAAAAGCA
+CGACTCATTTTGATGATAACACGATTCAGCGTGTACTTAAGAAAGGCTACACCCGAAGCT
+AAAAATCAACTTATGAAAATGTTAATTGATTCAATTGAAATTACGACAGATAAACAAGTA
+AAACTTGTAAGGTATAAAATTGATGAAAGTCTTATCCCTCAATCTTTGAAAAAAGATTGG
+GGGTCTTTTTGTAAAAAGAAAACCATACGCTATGCGTATGGTTCAGAAAAGGTTCTACCA
+TTGTCACAAAAAATGCATCTCTACGTGCTAGAATAAATATTGGTCAGCCAACCAAAATAA
+TCAACACGAGGAGATGCTATTTAATGTCATCTGACACAAACAGTTTAGCACATACAAAAT
+GGAATTGTAAGTATCATATTGTCTTTGCACCTAAATACAGAAGACAAGTGATATATGGAA
+AAATAAAAAAAGATATAGGGATTATATTGCGTCAATTATGTGAAAGAAAAGGTGTAGAGA
+TAATTGAAGCAGAGGCATGTAAAGATCATATCCATATGTTAGTTAGTATACCACCCAAAC
+TTGGGGTATCATCATTTGTTGGCTATTTAAAAGGAAAAAGTAGTTTAATGATATTTGATA
+GACATGCTAACTTAAAGTATAGATATGGAAATAGAAAGTTTTGGTGTAAAGGATTTTATG
+TGGATACAGTAGGTAGAAATAAAAAAGTGATTGAAAATTATATTCGTAATCAATTACAAG
+AGGATATCGTTGCAGACCAAATCTCAATGGAAGAATATTTAGATCCTTTCACTGGAGAGA
+AAAATAAAAAAAGAAAGAAAAAAGAGTAACCCTTTAGGGTTGCTGGAATAGTAGTGCAGT
+TGGCTGACTTGTCAGTGCCCTTTTAGGGCTGGCCAGTAAGGAAGGCTTATAGCCGCAGAA
+CAAACCACCCGTTCACACGGGTGGTTTTGATTTTATGCCTAAATTTAGCTTTGTGATAAA
+TGTCACAAATGAAAATAGGATTGAAAATTTATCACTTTTACCACTTTTTTAGAGTGACAA
+AAGTGGAGGGATTTTGAAATATTTTATAAATATATATTTTATTTATGGAGTACACATTAT
+TAATTAAGGAGGTCATTATAATGACGCTAAGCAAACAACTTAAAACGTATATTACTGAAC
+GATTTAAATTAAATTATCAAGAAACTTGGGCTCGTGAAACCGTAGATGCGGTGGCTGAAG
+ATGTATTACCTGAAAAATATATTAAAAATAGTCCACTTGAAAATAAAATTTTAAATACTT
+TTACCTATTACAATGATGAATTACATGAAATCAGCATTTACCCTTTTTTATGTTATCTAG
+ATAAAGAATTAGTAGCAATAGGTTATTTAGATAATTTTGATTTAGACTTTATATTTTTAA
+ATGACACTCATCAAGTCATTATTGATGAACGCTACTTGTTACAAAAAGGGGGTGAGTAAT
+TATGAATTGGATTAAGGTCGCTCAACTATCTGTCACAGTTATCAATGAAGTCATTGAGAT
+TATGAAAGAAAAACAAAATGGAGGGGAATAGTATGCAAATCAATCGATACATTACACGAG
+GCATTAGTGAACACCTATCTCTAGACCTTCAAATCTTACTTTGGAATATGGTAAAAGAAA
+GAGATAATCAACCTGATACAGATTACCTACACATTTTTAGACTGCAAGAAGATGAGAATA
+TACTCTCAATCACACATGAACAAGAACAACCTGCATACAAATTGGAATATCACTATACAA
+ACTATGAAAAAAATCAAAACGCATTACCTAAGAAAGTCTACGTCATTCGAGAAGATGATG
+TAGACCTTTCTTATTATGTCATGTTACTACCAGAAGAATACTAGAGGAGTGAAAATTACG
+TGAAAACAATCGAAAGTACATTAGAAACCGAAGCTATATTCAGTGATGACCAACAACATC
+GCTATCTACTTAAGAAAACATGGGACAGTGAAAAACAAAAGATCACAATCATCACAATGT
+ATCCAAATTATACGGGCCTTCTTCGTATAGATTTAACTACCCAATTGATAATGAACAAAG
+TTTCAGAAATGGATGCATTTGGTTCCATCAATTTTGTGAATCTATACTCTAATATTACAA
+CTCCTATCAATCTCAAACATTTAGAAAACGCCTATGATAATCATACAGATATTCAAATTA
+TGAAAGCCGTGAAAGAGTCAGATGAAGTGATACTAGCTTGGGGTGCTTACGCTAAAAAGC
+CCGTTGTTGAATCACGCGTCAATGAAGTATTAGAGATGTTGAAACCACATAAGAAAAAAG
+TGAAACGACTCATGAACCCCGCAACCAATGAAATCATGCATCCCCTTAATCCGAAAGCGA
+GACAGAAATGGACTTTGAAAGCATAACCTATATATGGAGGTAAACGATGAAGGAAATCAA
+TATTGTTTCACTACAAATGATAAAAACAGACACATTAAGTTATCTAAAAAATCGTATTTC
+AAACCCTGAGGATGCGGCAGAAATCTTGCGTTCATTCATTGGAAACAGTGACCGAGAACA
+TCTCATTCTCATATGTATGAATAGTAAAAATGAACCTACACACATTTAAATACTATCGAT
+TGGATCTATTAACCAAACAGTGATTCATCCCAGAGAAATATTCAAAACAGCAATACTCAG
+TAACGCCAACAGTATTATGCTCGGTCATAATCATCCAAGTGGGGATATATTAACCATAGT
+ATAATAAATAATAGTAGTTAAAGTAGTTTAAGAGGAGATATTAAAGGGATATTTTACTTT
+AAATAAAAATTAACAAGGTTTATAATTTGTAGTAGTTAAAGTATTTAAAGAGGTGGGAAC
+ATGTGAAGGTTCAAAGGATAGAAGTGGAGAATAAGCCGTATCCATTGTATTTATTACTAG
+ATAAAGAATACCAGCTAATAGAACCAGTAATGAAATTTATTAAATACTTAGATAATACTG
+GTAAGTCTCCTAATACCATTAAGGCATACTGCTATCATTTAAAGTTGCTGTACGAGTTCA
+TGGAACAGAGAGGTGTTATTCTTAATGATATTAACTTTGAGTTGTTAGCAGACTTCGTAG
+GTTGGTTGAGATATCCTTCAGCATCAAATGTAATTGATCTTCAGTCAAAAAAAGCCATAA
+GAGAAGAAACGACAGTGAATACAATTTTAAATGTAGTTATGAGTTTTCTTGATTATTTAA
+GTAGATTAGGAGAATTTAAATCAATTGATGTATTTAAACAAGCAAAGGGAAGAAATTTCA
+AAGGATTTTTACATCATGTTAATAAGGGTAGATACCAAAAGAATGTCTTAAAGTTAAGGG
+TTAAAAAGAAACAGATAAGAACATTGAGATCAAAGGAAGTTAAGCAAATTATTGATGCTT
+GTCATACGAAAAGAGATAAATTAATTTTAATGCTTATGTATGAGGGTGGTTTAAGAATCG
+GTGAAGTGTTATCGCTTAGGCTTGAAGATATTGTCACTTGGGACAATCAAATCCATTTAA
+CACCTAGAGATGTTAATGTTAATGAAGCTTATATTAAATTAAGGAAGGAAAGAACAATAC
+ATGTGAGTAAAGAACTTATGTCACTTTATACAGATTACTTGATATATGAGTATAGTGAGG
+AATTGGAGCATGATTATGTTTTTATTTCCTTAAAAGAAGGCTATTTTGGGAAACCACTAA
+AGTACCAAAGTGTTCTTGATCTAGTTAGAAGAATAGTTAAAAGGACTGGAATAGAATTTA
+CATCACATATGCTTCGCCACACTCACGCAACGCAGCTAATTAGGGAAGGATGGGATGTTG
+CGTTCGTTCAAAAGAGATTAGGTCACGCACATGTTCAGACAACGTTAAATACCTATGTTC
+ATCTTTCAGATCAGGATATGAAAAATGAGTTTAATAAATACCTCGAGAGAAAGGAGCATA
+AGAAATGAATGCTTCTAGTAAAAGGAAAATTATTAGTCAGAGTGAGATTAGCAAAAAAAT
+AGCTGTAATGAATGAAGAAATGCAAGGGTTTTGGGCTAATAATAGTTGGGATATAAGAAA
+ATGTCCACATCCTTCTGCCATAGAATTAAGTAAGAATCCTGCTTTAAGAAATCGTTGGGT
+TCGTTTTGAACGTGTTAAAAATCTGTGGTTAAGAACAGAATTGAAATATTTTTATTTTTA
+CCATTTAAACAATGGAATATGGAATGCAAAAACTGTCTGGATTAGAAAAGGAACAGTAAT
+TAATAAAATGTTGGATTTTTTAGATTTAAAGTATCCCAGCATTACTTCAATTACTGAAGT
+TCCTATTGATAAAGCAATGACGGAGTATAGAACTTATTTGACAAAACGGGGTGTTAGAAT
+TACCACTACTAATTATAAGATTACTGCTAATCAAGAAAAAACACCTGTAAAAGCTAATTC
+CTACTATGTTACTAATCTAAAACAATTTATGGAGTTTTATGAGAACTTTTATTTTGATGG
+AGAGGAGTGGGATAAAGACGTTTGGGATAGACGAAACTTACCTTTGCCAGATGATAAGGT
+TAACCCAACACAATATGAATATACAATTAACTTTAAAGGGTTTCGGAATACATATTTTAA
+ACAGCTTGTAAAAAGATATTGTAAGTTAAGATTGAACATGGATAGCTTTTCCTATGTAAG
+TGATATTGCCCAAAAACTTAAAGAGTTCTTTAATTTTCTGGACATAAAGTTTAAACACGT
+TCAGAGAGTACACCAATTAACGAGAGTGGAAATTGAAGCATATTTAAGTGAACTAAACAT
+GATGGGGATAAAACCTAGTACAATAACTGGGAGGATCTCTATATTGGAAGGACTATTTAG
+TACCCTTCATAGGCTAGAATGGGATGATGTTCCTTCCAAATTATTAATTTATCCCGAGGA
+CTATCCGAAAATACCAAGAGCAAAACCTCGCTTTATAGACGAATTCGTTCTAGAGCAATT
+GAACAGTCATCTTGATAAATTACCCGAATATATAGCTACGATGACTATGATTGTTCAAGA
+ATGTGGAATGAGGATAAGTGAATTGTGCACCTTGAAAAAAGGCTGTTTATTAGAGGACAA
+AGATGGAGATTACTTTTTAAAGTATTATCAATGGAAAATGAAAAAGGAGCATATAGTTCC
+AATATCTAAAGAGGTAGTTTTACTTATTAAAGTTCGGGAAGATAAAGTTTCAGAGGAATT
+TCCAGATAGTGAATACCTCTTTCCAAGAAAAGATGGATCGCCATTAAAACAAAAAACATT
+TAGAGGCGAATTAAATAAATTAGCTTATGAGCAAAATATAGTGGATAAATTAGGCGAGAT
+TTATAGATTCCATGCCCATGCCTTTCGCCATTCAGTAGGAACAAGAATGATTAACAACGG
+GGTGCCCCAGCATATTGTGCAGAAATTTTTGGGACATGAAAGCCCAGAAATGACAAGCAG
+ATACGCTCATATCTTTGATGAAACTCTAAAAAATGAATTTACTAAATTTCAAGAAAAACT
+GGTTACCAATAATGGAGATGTGCTCAATCTAGATGATGATAGTGAAGTCGATGATGTAGA
+GCTTCAATGGTTCAAGAAAAATATAAATGCACAAGTGCTTCCAAATGGTTATTGTAGATT
+GCCAGTAATAGCAGGTGGTTGTCCACATGCGAATGCATGCTTAGATTGCACTCACTTCTG
+TACCAGTAAGCAATTCTTACCACAGCACGAAGAACAGTTAGAGCGTACAGAAGAGTTATT
+AACCATAGCAAAGGATAAACAATGGCAAAGACAAATAGAGACTAATAGCCGTGTTAAAGA
+GCGTTTAGAACAAATCATTGGAAGTTTAACGGGGTAATTATCAATGAATAAACAAGTTAG
+AAATACAACAGAAATTGTACGTTTGGCGAAGCAGAAATCACAAAAGACAAGAGAAAAAGT
+AGACAAAGCGATTTCTAAATTTTCGATTGAAGGTAAAGCTATTAATTTTAATTCAATAGC
+AAAGGAAGCTAATGTTTCTAAATCATGGCTTTATAAGGAACACGATATTAGGCAAAGAAT
+CGAATCCCTTCGTGAGCGTCAAATAACAGCAAATGTAGTCTCAAAACCCAAGAAAAGTTC
+TCGTTCGGAGGAAATCCTTATTAAAACCTTAAAAAGAAGAGTAATGGAATTAGAAAAAGA
+AAATAAAAAATTACAGAACCAAATTCAAAAATTATATGGAGATCTGTATAATAAAGAATA
+ATTATTAATCTGTAGACAAATTGTGAAAGGATGTACTTAAACGCTAACGGTCAGCTTTAT
+TGAACAGTAATTTAAGTATATGTCCAATCTAGGGTAAGTAAATTGAGTATCAATATAAAC
+TTTATATGAACATAATCAACGAGGTGAAATCATGAGCAATTTGATTAACGGAAAAATACC
+AAATCAAGCGATTCAAACATTAAAAATCGTAAAAGATTTATTTGGAAGTTCAATAGTTGG
+AGTATATCTATTTGGTTCAGCAGTAAATGGTGGTTTACGCATTAACAGCGATGTAGATGT
+TCTAGTCGTCGTGAATCATAGTTTACCTCAATTAACTCGAAAAAAACTAACAGAAAGACT
+AATGACTATATCAGGAAAGATTGGAAATACGGATTCTGTTAGACCACTTGAAGTTACGGT
+TATAAATAGGAGTGAAGTTGTCCCTTGGCAATATCCTCCAAAAAGAGAATTTATATACGG
+TGAGTGGCTCAGGGGTGAATTTGAGAATGGACAAATTCAGGAACCAAGCTATGATCCTGA
+TTTGGCTATTGTTTTAGCACAAGCAAGAAAGAATAGTATTTCTCTATTTGGTCCTGATTC
+TTCAAGTATACTTGTCTCCGTACCTTTGACAGATATTCGAAGAGCAATTAAGGATTCTTT
+GCCAGAACTAATTGAGGGGATAAAAGGTGATGAGCGTAATGTAATTTTAACCCTAGCTCG
+AATGTGGCAAACAGTGACTACTGGTGAAATTACCTCGAAAGATGTCGCTGCAGAATGGGC
+TATACCTCTTTTACCTAAAGAGCATGTAACTTTACTGGATATAGCTAGAAAAGGCTATCG
+GGGAGAGTGTGATGATAAGTGGGAAGGACTATATTCAAAGGTGAAAGCACTCGTTAAGTA
+TATGAAAAATTCTATAGAAACTTCTCTCAATTAGGCTAATTTTATTGCAATAACAGGTGC
+TTACTTTTAAAACTACTGATTTATTGATAAATATTGAACAATTTTTGGGAAGAATAAAGC
+GTCCTCTTGTGAAATTAGAGAACGCTTTATTACTTTAATTTAGTGAAACAATTTGTAACT
+ATTGAAAATAGAAAGAAATTGTTCCTTCGATAGTTTATTAATATTAGTGACATTTGCATG
+CTTCAAAGCCTGTCGGAATTGGTTTTTAGTGAAAAGAACACGATATTCACGGTTTACCCA
+CTTATAAACAAAAGATCGATACTTTTTGTAGTCCTTCTTTGAAATCAATGGTTGATGTCG
+TTCAAGAACAATCAATACAGAGTCTACACTTGGCTTAGGATGAAAATATAGTGGTGGTAC
+TTTTTTGAGCATTTTTATATCCATCTCCACCATTAATAGTAAACCCAAAGCTCGTTGCAG
+ATTTTGCAATCTTTTCGCAAATCCCTTCTCAACGATAAGATAGCTATATTTAGCCTGACT
+TTCAAAGGTAATTCTTTTGACAATATCCGTACTGATGTTATAAGGAATATTACCATATAT
+CTTATAGTTTATATGTTTTGGGAAGGAAAATTTTAGAATATCCGTTTGAATCACTTTTAT
+ATTCTCAGAGGGGTTTACCGCTTCTTTAGTCACTTGACATAAGCCTCCATCAATTTCTAT
+AGCAGTAACTGATCGACTCATTTTGACTAGCTCTTTGGTAAAATGTCCTTTTCCTGATCC
+GATTTCTATTACGTTGTCTTGTTTACTGATATTCGTGTGATTCAATATTTCTTTTACATG
+CTTTTTAGAAGTAATAAAATTTTGCGTGTCTTTAGGGTTTTTCTGGTTCATTATAACCTT
+CTCCTTACTGGTTATAATGAACTGACATTAAGCGTTCATTATAACCAATTAATTTTGATT
+TGGTTGATAACGAACTTTATTAATAACAAATATAGAAAAAGTACCCATACTTTTATCTCC
+TTTCCATTTTTTTCATTATGAATGAGATAAAGTAATTTCTACTACTGCGATACTGGTGCA
+CATAATTGAAACCTCCTTATGTAACTGAATATGATTGTATCATCTTTTCATTTTAGAATA
+AACCTTTATATGTAATTTTGCACTTGACACTTCAGATGGACGTTTTCTTCAAAATAATAT
+GTTTTGAAACTTGATAAGAGAAGCCACTGTCTTTACTAAAAAGTAAAGGCTGCGATAAAG
+GACAGTGACTTTAATAAAGTTGCACTGTTGTATTGTCTTTGGATAAAATTGTCTAAAGGG
+AAGTTTTATCCCCAACGAAAAAACATCTAAAGTGGTAAGTAATGAAAGAATGTCGATAAA
+GTAGGAATGGGGGATCTTTTTGAATACAATAGAATCACAGTTTGATAAGGTTGCAGAAGA
+TTACGATTTCGTGAATGAGCTTTTGAATGATTATTCATTCTTTGTGTCTAATATGTCTCC
+AAAGAAAGGCAGAGCATTAGATATCGGATGTGGCTCGGGTTTGTTAGTGGAGAAATTAGC
+AAGTTATTATGATGAAGTGGTAGGGATTGATATTTCTAATCAAATGCTCGATCTTGCCAA
+ATCTAAACGTCAACTAACAAATACGGTCTATCTGAATATGAATGCAGAACAACTTAATTT
+TAATGAGAAGTTTGATTTTATTGTAAGCCGAACAACCTTTCATCATTTGGATGATATAGC
+CAGCGTAATACAGCAAATGAAGGAACTGTTGAATGAGGAAGGAAGAATAGTTATTCTTGA
+TAATGTATCTGAAGTCGAGACACCGCCTACCTATGTTTATAAATTAGGGGCAATCCAAGA
+GTTTTTACCGCATTGTTTCAAATTTGGAATAAAAAATGCGATTAGAATTTATAATCACAA
+CACATCTAAATCATGGCTTGAGCATTTAGCTTCAGATAAGTACCTATCTGAACAAAATTA
+TTACGATTTATATGAAAAGTTGTTGCCTGGATGCCAATTCCATAAAATGGGTTGGGCAAT
+GGGGGTTGTCTGGACAAAATAACTTAAAGCTGTGGCTTTGAAAAGTTGAATTTGTGATTG
+TTTTCAGAGCTATCGGGTGCTTTAGTATAAATAACAATGAATAAAAAATCAGCCTGTATC
+TTATGTTACTATTAAGTAATTTAAGATACAGGTTTTACTATTTTTGAAATAAGTACCTTC
+CACTTCAAATACATGTATTCAAAGTGAAAGTATTGATTTAAATGATTCTTTTGTAATTTA
+CTCTTGATAAAGTTTAACCCCCTCTCCTGAAGATATCAATGTAACCGAACGGTTAATGCT
+CATCAGTGAAATGATGGGCATTTTATTTTATGATCATATTATTTTTTCAGATAGTAACAC
+CTATTCCATTAGACAACATGATTTAGAAGTAGAGGTATAGCCGTATTTTGTCACTACCGT
+TATTTCTTCACTTATCAATATTTATAAAATCCCTTTATAACAACATTTTCAACTGAAAAA
+TATTTTTTACAACTTTTATTAAATATACGTAGGATTGACTTATTGTGACAAACCTATTTT
+GTAATATATAACTTAAAGGAGGTGACATATTGGATCGTGCATTTCGAATACTTACGATAT
+ACAATCGTTTACTACAAAATAAATCCGTCAACAAGCAATCACTCACATTAGAACTCGATA
+CAAGTCCTCGGACGATACAAAGAGATATCGACGATATAAGAAACTTCTTATATGAAAGTA
+AATCATGGATAAGTACACCTAAAGAAATCACGTACGATTATAAATCTGAAAGTTATAAGC
+TCGAACAAGATAAGAGTAAAAATGTGCATTTTATGTATAATATTTTGACTGCTTTATACC
+TGACGACACCTAAATTAAGTCATTACTTTTATCAATATCTTAAATTATTAATCATAAAAC
+ATCATTCAAATCATCGAACTACATTATTAAAATATCTTGAGCGCTTTGAAATTGATAAGA
+ATCAAACAGGTATTTCGACATCATCATTAGTTGTTCAAGCAATGAACGAAAATAAATATC
+TTCAATACAATCAAAAAATATTATTACCTTTATCGATGTACTATCAAATGCATGCTTTTC
+ACTTGGTATATCGAATGAACGATGAAATTTATATCGATGATATTAATCAAATGAATCTGA
+GTTTCTCTGAAAAATCTGTGGACACACATGAAAAAGCAAAGGTACAAACCTATATCACGT
+TTGAAATTTCTAAAGATGTGTGGTCAAAAATGCATCGATATTATCAAATTCATGTGATAG
+AAAAATATGATGCGCATTATCTTATCGTCACTTTTAAGATGACAAGGATCGAAGCGATTC
+AACTCTGTTTTATGTATCGATCCAATATACGTATCATTTCACCCCCTGATTTGAAGGAAC
+AAGTGATTGATGAATTACTTTTATTACAAACAACCTATTTAAAACAACAGGTTCAAAAGT
+AGAAATAACATACAATATTTAATAAATAACATTAATAATAATGAAAGGAATGGGAATTAT
+GAGTAACATCATAAAAACAATAGGCAAAGGTATTGGAAAAGGTGTCGGTGCAGCAGCATA
+TTATTCAGTTGCAACTGTTGGCGCAGCTATCGGTGCGATTTGGGAAACAACAGGCGATAG
+AGGTTTAATGAGAGATGCTTTAAGTGATAGTTCTAATCAAGATTTGATGGAAATATATGA
+GATACAAAAGAAAGATGATGGGGATTATGATACTTATATTGCAGCTAAATCTTTATTACA
+AGAGAGAGGATTCACTTATAATCACGAAACGAACAAGTGGGAAAAATAGTAAGGAGTGAA
+ATAAATGGAATTTACATATTATGAAACGAAATCTTTAAATGATTTTGAAAATGAACTGAA
+AACACTTGCTTTAAATAAAAAATATACATTCAGTAAGGAAACCGGAGTCCTTAAAGAAGA
+TGAAATCCTTGAAAAATCGAATAGCCATGAGCGCGAACTATTAAAAGTATTTAAAGATAA
+TGCACAGATAACAACTTATCATTTTAAGAGTCATAAAAGTAATTATTTAATTATTATGGG
+AGAAACAAAAGCGCCTAATATTATTGGATTAACAGTCATATTTAACAAAAAACCTTTTAA
+ACAAATGGGCAAAATTGCATTAGGATGGCTAATTGCTTTGACTTCAGGTGGAAGTATATT
+AGCCATTGGAGCAGTATTTGGAATACTTACCTCAGTTGCAAGACGTACACTTGTAATCAA
+AGGACCATTAGGAAAAGAAATTTCACAAATTATAGAAAATGAATTAGGAGAACCGATAGA
+AATTAAAAAATAATAGAAAGTAACTATTTTCAAAGACACATTGATTTCAAAATGTGTTCT
+TTTTCAATTATTTTAGAATAAATATAGAAAAGCGTAGCAAAATAGATTAATATAAAATTA
+AAATAAATATAGAATGGGGTTAGCAATGTGAAGAAAATTTTTGCAAGCTTAGGTGTTATT
+TTATTAGTTGCAATATTGGGAGTTGCTGTTGTATTTGCATATGGGAGTTACAAAGATTTA
+GAACTAAAAAAAGAAGAAGCTAAACTAGAGGATAAGAAGAATAAGAAAATCGATAAAAAC
+AAAACTACAGAAAATGAAAATCAAGACCAGATTAATAATCAAACAATTACAGCACCAAAT
+GAAAAAGCACAATATGGCAATAACCTAGGAGTTCAAGAAAAAAGTACGGATAAAAATGAT
+CCTAATGGTGTGCTTAGATTTGATACAAACGGAGATGGATTTATCTCCACTAGTGAAGTA
+ACACCAGAAGCTCAAAAATTAGTTGATGAAGGTAAACTACAGCCATCTTCAGATAGAATG
+GTTGAAGAGTGGACTAAGAATAAAAATAATGTAGATAATACATATGACTATGATGAATCA
+TATAAAAAACAACAAGAAATGTACAAAAAAGCTGCTCGTGGCGAAGTTCCTGAACCTGGA
+GAAACAATAAAATAAAAAAGCACTAGCTACAATTGCGATAATTATAATTTTTGGCATATT
+AGCACCTGTTGTTTTTTTTGTTACAACAAATATCAAGAAGTAGAATTAGAAAAAATAAAT
+TACAGGCTAAGCAAAAAGAAAACGAAGAAAGTAATTCTCAAACTACTAGTGAAACATCTA
+ATAATGAAAATCAATCGAATCAAAGTCAAAAGAATAGTCAAGATCAAGCTACAACAGAAG
+AAAATACAAATGATGAACAACAAGTGACTAGAGATAATATGTTTGATTACGCTATTGCTG
+CTGTAAATGAAGTAGGGGATGCTGATTTATTAAAATTCCAAGAACCGGAATACAATGGGT
+CAGAATGGACAATTAATGCAAATAATAAATCAGGTGCTGGAGCTAACACCATCGTAGTTA
+AAGATGATGGAACAGTTCAAATATGGAATGGACCTAAAACATCTATGAATCATGAAACTA
+AAATTGAATTATAGTGAAAGCGATTAACAAGCTCTACATCACCTTTACGAGTGATGTAGA
+GCTCTCTTATCATATCAAGTTACTTTGCCATGAATACTAGTCGGGTGAAAAATTATATGT
+AACATTCAAAGCGTATTATGAAAATAAATGATATTCATTCATCACCAATAACCACAACGC
+TTACTTAAAACAAGATGGAACCATGAAAAATAATTTACCACAGTTATTATTATGTAAATG
+CATTACGAAGAGATCCTTACTCTAAGCTTAACGACACAATTAATTATGAACAAAATTCAG
+AAATGGATGAATTTGAATTAATCTATATTCTGATTTCACCCTACTTATTAATCACCAAAA
+TTTTGAAACCGCATAAACAAAAAGTTAACTGGCTCATTAAACCAGCAACCAATAAAATTA
+TGCATCCACTCAACCCTAAAGCACGTCAAAAATGGACATTAAACTAAAGGAGAATTATCT
+ATGAACCAAGATTCAATTCAATCAGATTGGCAAACAGTTGCTAAGTGCTTAGCGTCACAA
+AACTATATTTCAATTGTGAAAGGTTTAGTTCATCATTTCACAAACATCGATGATGAGGAA
+ATACTTGATAAAACCTATGACGATTTTATGAATGATGACTCTATAACAACGGTACTTAAT
+AATGATTTTCAAGATATTATCAATCGCTACTTATCAAAATAAAATGTATATAATAGTAAA
+ACCAGAGCATCCCTTCACTTTTATAGTGAGGGATGCTCTCTATTTAATTTTTTTGCTATT
+TACCATTATATATATTTAATTTTATTTAAAATGTATTGTATAATTTAAAATAATGGAGTG
+ACATTTAATTTATGAAAAAATATATAATTAGTTTAGTACTTTTAACTTCTTTTTTACTAT
+CCGCTTGTACAATTAATATTGAGCGGGATGAGGAAAATAGTGAGAAAAATAAACAGAAAG
+AAAACACTCATACTGATTCAAACAATACAAGTTCGAATGAATCAGATACTTCTAAACAAT
+CATCTCAAGAAAATACTATAAATCAAACAGAACAAAATCAACCAGCTAATAATAATTCAA
+GTTCACAACAAAATCCGCAAATAATAACAGAAAATGAAGCTATTCAAAAGGTAAAAGATG
+AGTTTCCATCTACACGAACAGGAAATGACTATCGTATAGATACTACTAGAACTGATAATA
+ATGTGTACGCTATCAAATTTACTTCTCAAGATGCAGAAGGTTATCCTATGCAAGCTGCTG
+TTATTATTGATAAGCGAACAGGAGAATTTATTGATTATATTGATGATAGAAGCGATGAAG
+ATAAAGAGCGTCATGTCCAACATGCTAAAGAAAGTACTCTTTATAAAGGTCCATACGATG
+CTTTCAGAAAAGATTTTAGTCATAAAATAAATGAATGAAGTATATATATGAATTATCATC
+TTTAATATAAGAGCATCCCTCACTGCAAAGTGAAGGATGCTCTTTTAGTTTATTTTTTTA
+CTGATTACTCGCCATAAGTTCTGCTTGCTCTACAACCTGCTCTACAGCCATTTTTTGTAA
+ATCTGGTGGATAGCCATATTTTTTAAGCAATCGTCTAACAGCTACGCGCATTTTAGCTTT
+TGCGCTATCGCGTTTAGACCAATCAACACCCATGTTTTCTTTCACTGTTTTAGTTAGCTC
+ATGAGCAATCGCACGTAGTTCTTTATCTCCCATGGCTTCTTTTGCTGTTTCATGTGAAGC
+TAAAGCATCGTAAAACGCAATCTCATCTGAATTCAGGCCTAATTCATTTCCTCGTTGTTG
+TTCTTGTTTAATATCTTTAGCGAGTTGAATGAGTTCTTCAATCACTTTTGATGTTTCAAT
+AGAACGGCTATTATATTTATTAATCGAATTTCCTAACATTTCAGAGAAACGCTTAGATAC
+TGTCGCGTTCGTTTTCATTAATGATTTTACTTGCCCTTTGAGTAATCGATTTAATAATTC
+TACCGCAACATTTTTTTGTTTCAATCCTTCGACATCTTTTAGGAAGTCATCTGATAGGAT
+TGATAAATCGGGTTGTTCAAGACCTAGTGTTTGGTAAACATCAATCACATCTTCTGTCAC
+AACAGATTGTGACACAAGTTGATTAATCTCTGCTTCAACTTCTGCAGGTGTTTTACGTGT
+TTTTCCTTCTTTTGGCGGTTGTAACAATTTAACAAGTCCTGCTTTAACTGCTTTAAAGAA
+GGCAATTTCATCATTGAGTTCTTGGGCTGTAGGTTCAGTCGCACAAAGCGCAAAAGCTTT
+CCCTAACTCTGTGACCGTTTTAATAAAACGCTGGCGTTCATCTTCGCCTAAACCAATCAC
+ATAATCCATCGTATCTGAAATCGCATAATAACGTTCAGACTTTTTCTCTGAATTAAACTT
+AGAATAGTCAAGATTATATAACATATCTTGAATCACATCATATTTCAATAACATCAATTC
+AACCGCTTTATCTGTATCTATCGCCGTTTGTGCTTGATCAGATTCTGTATATTCTTTAAG
+TGCCTCTTTTAAACTTTCAGCGATACCCACATAATCGACAATCAATCCACCCGGTTTATC
+TTTAAACACTCGATTGACACGAGCAATCGCTTGCATTAAATTATGACCTTTCATCGGTTT
+ATCGATATACATGGTATGCATGGAAGGTACATCAAATCCTGTGAGCCACATATCTCGAAC
+AATCACGAGTTGTAATTCATCATTCATATCTTTCATACGTTTTTCTAATAAATTACGACG
+TTTTTTAGGACCAATATGTCTTTGGAAAGAAGTTGGGTCACTAGATGAGCCAGTCATCAC
+CACTTTAATGACCCCTTTATCATCATCATCTGAATGCCATTCTGGTTTTAGACGAATGAT
+TTCATCGTATAAATCAACAGCAATTCGACGACTCATCGTTACGATCATTCCTTTACCTTT
+CATCGCTTGCTGACGTGTTTCAAAATGTTGGATGATGTCTTTGGCTAAAGCTTCTACACG
+AGGTTTTGCGCCTGCTAAGGCTTCAATTCGTGACCATTTTGATTTTAAACGCTGTTTTAC
+ATCCTCTTCTTGATCCTCTGTAATGTCATTATATGCTTCGTCTAAGTCTAAATTTTGAGG
+TAAATTTAATGGAATTATGCGACTTTCATAGTAAATTTTCACCGTACTTCCATCAGCTAC
+GGCTTGTGTCATATCATAAACATCGATATAGTTCCCAAAGACCATTTGCGTATTTTTATC
+CGTTGAAGCTACGGGCGTGCCCGTAAATCCTACAAACGTCGCATTCGGTAAAGCATCTCT
+TAAATACTTCGCATAACCATATTTAATGCCTTCCCCTTTATCATCGTATTTTGCATTAAA
+ACCATATTGTGTACGATGCGCTTCATCTGCCATAACAATCACATTTTTACGTTCTGTTAG
+AGCAGACATGGTCGTTTCGTTTTGTTCAGGTTCAAATTTTTGCATCGTTGTAAATACAAT
+ACCGCCCGACTCAACAGATAATAACGATTTTAATTCTTTACGTGTTTCAGCTTGTTTTGG
+TGTTTGTCTTAATAAACCTTTACCAGACCGTCCTTTCGATTTAACAAACGTACTGTATAG
+TTGGTTATCTAAATCATTACGATCTGTTACGACAACTAAGGTAGGATTATTAAGCATTTG
+AATTAATTTTCCAGAGAAAAAGACCATGGTTAAACTTTTACCAGACCCTTGAGGGTTCTG
+TTGCAAAGTAAAAAAATATAGCTAACCACTAATTTATCATGTCAGTGTTCGCTTAACTTG
+CTAGCATGATGCTAATTTCGTGGCATGGCGAAAATCCGTAGATCTGAAGAGACCTGCGGT
+TCTTTTTATATAGAGCGTAAATACATTCAATACCTTTTAAAGTATTCTTTGCTGTATTGA
+TACTTTGATACCTTGTCTTTCTTACTTTAATATGACGGTGATCTTGCTCAATGAGGTTAT
+TCAGATATTTCGATGTACAATGACAGTCAGGTTTAAGTTTAAAAGCTTTAATTACTTTAG
+CCATTGCTACCTTCGTTGAAGGTGCCTGATCTGTAATTACCTTTTGAGGTTTACCAAATT
+GTTTAATGAGACGTTTGATAAACGCATATGCTGAATGATTATCTCGTTGCTTACGCAACC
+AAATATCTAATGTATGTCCCTCTGCATCAATGGCACGATATAAATAGCTCCATTTTCCTT
+TTATTTTGATGTACGTCTCATCAATACGCCATTTGTAATAAGCTTTTTTATGCTTTTTCT
+TCCAAATTCGATATAAAATTGGTGCATATTCTTGAACCCAACGGTAGACCGTTGAATGAT
+GAACGTTTACACCACGTTCCCTTAATATTTCAGATATATCACGATAACTCAATGCATATC
+TTAGATAGTAGCCAACGGCTACAGTGATAACATCCTTGTTAAATTGTTTATATCTGAAAT
+AGTTCATACAGAAGGCTCCTTTTTGTTAAAATTATACTATAAATTCAACTTTGCAACAGA
+ACCATTTGCGATACAACGAGGCGACATTAGCCGTTAATTTGCTTAACTGTAGAAGATTTA
+AAAGAACCCCTTGCCATATATTTAACAATGTTGTCCGGGATAACAACACAGTGAATCCAC
+CGTTTAGTTAAGATGATGGATTTTTTCAAACTGTGGATGAGGTACAGAGTTTCATTAGAT
+AAAAACAGGGAAAACTTATTAAAGAGTGATTTCTGTGAGGAGGATAATGATGACAAAGAA
+ATACGATCTTATTGTGATTGGTACAGGTTCTGCGGGGTCAATCACAGCAGCAAAATGTAA
+TAAAGCCGGCTGGAATGTAGCTATGGTAGATGACAGGCCGTTTGGAGGCACGTGTGCACT
+ACGTGGATGTGACCCAAAAAAGGTTCTACATGGTGCTGCCGAGCTTATTGATTGGAACAA
+ACGGATGGTTAAGAATGGAGTACCGTCTGAAGTCTCCATCAACTGGAAAGATCTTATGAA
+TTTTAAAAGAACCTTTACAGATGATGTCCCGGAAAAAAAAGAGGAAGCATTGAATAAACA
+GGGAATCGATACGTATCATGGCAATGCATCTTTCGTGAGTGAGGACAAACTTGAAGTGAA
+TAAAGAAGTGCTCGAGGGGAGTCATTTCTTGATCGCTAGTGGTGCGAAACCTACCCCTTT
+ACCCATAAAAGGAGAAGAACATCTTACTTATAGTGATGAGTTTTTGGAGTTGGATGAATT
+ACCACAAAGAATCGTCTTTGTTGGTGGTGGGTATATTTCGTTTGAATTTGCTCATATCGC
+GGCACGTGCTGGATCAGAAGTTCATATTATCCATCGAGGTCAAAGACCTTTGGAGAATTT
+TGATATAGATCTTGTAGATATCCTTTTAGAAAAGTCGAAAGAGATTGGCATACAGGTACA
+TCTTCAACATTCCGTTGAATCCATTGAAAAAGAACAAGGAAAGTTTCATGTGTACGCTCG
+AAAAAAAGAGGATATAACGCGGTTTGAAGCAGACATTGTTATTCATGGTGCTGGACGGGT
+CCCTGCCTTAGATATGAATCTTGAAAAAGGAAATATAGAAAGGAAAAAACATGGTGTCCA
+TGTTAATGAGTATTTGCAAAGTGTAAGTAACCCGAATGTCTATGCAGCTGGAGATGCTGC
+AGCAACGGATGGCTTGCCCCTCACACCTGTAGCCAGTGCAGATTCTCATGTCGTAGCATC
+TAATTTATTGAAAGGGAACAGCAAAAAAATTGAATATCCCGTGATTCCATCTGCTGTATT
+TACCGTACCTAAAATGGCATCGGTAGGTATGAGCGAGGAGGAAGCCAAAAACTCTGGCCG
+GAATATTAAAGTAAAGCAGAAAAACATCTCCGACTGGTTTACGTATAAACGGACAAATGA
+GGACTTTGCTGCGTTTAAAGTGCTAATTGACGAGGATAGTGATCAAGTTGTCGGTGCTCA
+TTTGATTAGTAATGAAGCCGATGAACTAATTAACCACTTTGCAACAGCCATTCGCTTTGG
+AATTTCAACCAAAGAATTGAAACAAATGATATTTGCCTATCCAACGGCAGCTTCGGACAT
+TGCACACATGTTGTAAGTTTGCGTTTTGTGAGATGTTTATAAACCACTTTATCGTCTAAT
+CTTGTTATATGATCTTAGAATCAAAAAGAAAATAACTTTTTTGACAGCCACATTTTTCAA
+CGGAAGAATGTGGCTTCTTGGCGTGAAGAGCAGATATCTTTATTCTTAAACTTCTAAAAA
+AGCTTATGTGAACACTTGATAAATAAGGTTTTTTATCTGACCTATTTTATAAGATTATTC
+TATAAAAGAAAAAATAATGTATGACTTGACCGTGTACTATGGTACAGGGTTTATACTTTT
+TATTGAGGTGACAATATGGAGATGAAAATCAGTGAATTGGCTAAAGCGTGTGATGTGAAT
+AAAGAAACCGTTCGGTATTACGAGCGGAAAGGATTGATAGCCGGGCCTCCCAGAAACGAA
+TCAGGGTATCGAATATATTCAGAGGAAACAGCAGATCGGGTACGGTTTATTAAACGAATG
+AAGGAATTGGATTTCTCGCTAAAGGAAATCCACCTGTTGTTTGGTGTGGTTGATCAAGAT
+GGGGAGAGATGTAAAGATATGTACGCCTTTACCGTTCAAAAAACCAAAGAAATCGAGCGG
+AAAGTGCAGGATTTGTTACGAATCCAACGGTTATTAGAGGAATTAAAAGAAAAGTGTCCA
+GATGAAAAGGCGATATATACCTGTCCTATTATTGAAACGTTAATGGGAGGGCCTGATAAA
+TAAATGGGGGAAGATTTGAATGAAAAAACGCATTTCCTTCACCGCTATAATGACGGTGTT
+GTTAATCGGTTTAACAGCTTGTGGAGCAGAATCTGATACCGCGAATGAATCAAAGGTTCA
+AGACATTCAAGGAAATCCAGTCAGCCTACCTAATGAGAAACCCACACTCATTTATTTTAT
+GGCAACCTGGTGTCCATCTTGTATATACAATGAGGAAATCTTTAAGGAAATTCATCAACT
+AAACCCGAACGATGTTCAATTGATCACAGTTAGTTTAGACCCTAACACAGATACAAAAGA
+AAGCTTTGCGAAATTTAAACAGGATTATGGCGGGGATTGGCCCCATGTTTTAAAGATAGG
+AGTGGAATTATGAGTTTTTCGTTTCTCTTCATTCTGACCGCTGGAATGGTTGCGGCCTTT
+AATCCTTGTGGTATCGCCTTGCTTCCTTCTTATATCTCCTATTTAATTGGAGGCGAAACA
+AAGGATCATTCGTTCCGCTATGCAATTTTTAAAGGATTAGGGCTTGGTGGAGCGATGACC
+ACGGGGTTTTTAACGATTTTTGTATTGGCTGGTTTGTTGATAGGAGGATTGGGAAGCGCA
+CTAACAGGGATTTTTCCGATTCTTTCATTGGTTATGGGTATACTCATTGCTTTATTGGGG
+TTGGGCATGCTATTTGGGAAGCATTTGCCGATTAAAATAGGATCTTTTCAAGTCAAGCCA
+GGGAAATGGTCTATCTATTTTTACGGAATAGCCTATGCCGTGACATCACTTGGTTGTACC
+TTGCCAGCCTTTATGTTGGTGGTCTCTGCATCGCTGAATGACAATAGCGTAACGGCCGTG
+ATCATCAAGTTCATCATCTACTCCCTTGGTATGGGAATTGTGGTGACAGCGATCACGATG
+GTCTCATTGATTTCACGACAATTGGTACAGAAGTTTCTGCACAACTATATGGGTTCTATC
+CAAAAAATAGCAGCTGTTGTGATTTTCCTCTCCGTTTTGTACATGGCTTATTACTGGTAT
+TTCGGTTCTGGTGGCATTTGTACATTTTAAAATCCAACCGATCAGGTGTAACAAAAAATA
+GATGAAAGATGTAAAAAAGCTAAACGAACAAATTTCAAGTTAGGCTATAGGCCATGTATG
+TACCTTAACCAAAGAATAAAATTTTTTTTAGAAAGAGTGGTGAGAATGATGGATGAGAAT
+CGCTCGAAAGGTAACCGCTGGGGTGTTTGGGCCTTTTTCGGAATATTATTGGTTCCTTTA
+TTGGTTCCTTTACTTTGTTGCGCAGGACCGATTCTCCTTGTTGCATTAGGGAGCACAGGT
+ATTGGTGCCCTCTTTGCTGGTGCGACAGGAAATTGGTGGTTGACCGGCATTTTTGCAGCA
+TTGGCCATTGTTATGATTGCTCTGATCCTCAGCAAGTTGTTGAAGAACAAATACAATTCT
+CCTGAAGGCAATGGAAAAACAAAAAATAAAACGGATTGCTGTACGCCTCCAGAGAGCGTG
+GATCGGAAACATGAGACAAGATAAATATGAGATAAATGTACAGAACTGTCTATCAAACTT
+TAAATAGAAAGAGGGATTCAAATGACTCAAAATTCATATAAAATACCCATTCAAGGCATG
+ACATGCACAGGCTGTGAAGAACATGTAACCGAAGCATTGGAACAAGCCGGAGCTAAAGAT
+GTTTCGGCCGATTTCCGACGCGGTGAGGCCATTTTTGAACTCAGCGATGATCAGATCGAA
+AAGGCTAAGCAAAATATTTCGGCAGCCGGCTATCAACCCGGAGAGGAAGAAAGCCAGCCC
+TCTGAAAACAGTGTAGATTTCAATCGGGATGGCGATTACGATCTTCTGATTATTGGTTCC
+GGCGGTGCGGCGTTTTCTGCAGCTATCAAGGCCAATGAAAACGGGGCGAAAGTGGCCATG
+GTAGAACGGGGAACCGTCGGGGGGACCTGCGTTAACATCGGTTGTGTACCGTCAAAAACC
+ATGCTTCGTGCCGGTGAAATAAACGGTCTCGCCCAAAACAATCCGTTTACCGGACTTCAA
+ACGAGTACCGGTGCTGCGGACCTTGCCCAATTGACCGAACAAAAAGATGGATTAGTCAGT
+CAAATGCGTCAAGAAAAATATATAGACTTGATCGAAGAATATGGATTTGATCTCATTCGT
+GGCGAGGCCTCGTTTATCGACGATAAGACGATACAAGTGAATGGACAAAACATCACGTCT
+AAAAGCTTTTTAATCGCAACGGGGGCTTCTCCGGCTGTTCCGGAAATCCCGGGAATGAAT
+GAGGTTGATTATTTAACAAGTACATCCGCACTCGAATTAAAAGAGGTTCCACAACGATTG
+GCAGTGATCGGTTCTGGCTATATCGCAGCGGAATTAGGTCAAATGTTTCACAACCTCGGA
+ACAGAAGTGACTCTCATGCAAAGAAGCGAGCGTCTGTTTAAAACCTACGATCCTGAAATT
+TCCGAAGCCATCGATGAATCCTTAACTGAGCAAGGACTTAACCTGATCACTGGGGTCACT
+TATCAAAAGGTTGAGCAAAACGGTAAGTCGACAAGCATTTATATTGAAGTGAACGGTCAA
+GAACAAGTCATCGAAGCCGATCAAGTCCTCGTGGCAACAGGAAGAAAGCCGAACACAGAG
+ACTTTAAACCTTGAATCAGCAGGTGTGAAAACAGGGAAAAAAGGCGAAGTGCTGACCAAT
+GAATATTTGCAAACGTCGAATAACCGAATATATGCCGCGGGCGATGTGACCCTCGGTCCG
+CAATTCGTTTATGTTGCAGCTTATGAAGGCGGGATTGTGGCAAATAATGCGTTGGGTCTA
+GCGAAACGCAAAATCGATCTTCGCTTTGTTCCCGGCGTAACCTTCACCAATCCATCGATC
+GCCACAGTCGGCTTGACTGAACAACAGGCAAAAGAAAAAGGTTACGATGTCAAAACATCG
+GTCCTTCCGTTGGACGCTGTACCGCGGGCCTTAGTCAATCACGAAACAACAGGGGTCTAT
+AAACTTGTAGTCAACGCCCAAACCCAGAAATTGATCGGAGCGCACATTGTGAGTGAAAAT
+GCTGGAGATGTGATTTATGCGGCAACGTTAGCGGTTCAATTTGGATTGACCATTGAAGAC
+CTTACGGATAGCTTTGCGCCTTATTTAACGATGGCTGAAGGATTAAAGCTTGCAGCCTTG
+ACGTTTGATAAAGACGTATCGAAATTATCTTGTTGTGCAGGCTAATGGTTCCTTTTGATT
+CTAATGCTATGTTGCAGGAGGCACTTAAAACAATGAAGTGGAGAAAATATAAGGAGGAAT
+AAGCTTATGAAAAATATTTCAGAATTCTCAGCCCAACTTGATCAAACTTTTGATCAAGGG
+GAAGCCGTCTCTATGGAGTGGTTATTCCGTCCGTTGCTAAAAATGCTGGCGGAGGGCGAT
+CCAGTCCCCGTTGAGGACATCGCGGCGGAGACCGGGAAGCCCGTCGAGGAAGTTAAGCAA
+GTCCTACAGACTCTACCTAGTGTGGAACTTGATGAGCAGGGCCGTGTCGTCGGTTATGGC
+CTCACACTGTTCCCTACCCCCCATCGCTTCGAGGTTGATGGGAAGCAACTATATGCATGG
+TGCGCCCTTGACACACTTATGTTCCCAGCACTCATCGGCCGGACGGTCCACATCGCTTCG
+CCTTGTCACGGCACCGGTAAGTCCGTCCGGTTGACGGTGGAACCGGACCGCGTTGTAAGC
+GTCGAGCCTTCAACAGCCGTTGTCTCGATTGTTACACCAGATGAAATGGCCTCGGTTCGG
+TCGGCCTTCTGTAACGACGTTCACTTTTTCAGTTCACCGAGTGCAGCCCAAGACTGGCTT
+AACCAACACCCTGAGTCGAGCGTTTTGCCCGTTGAAGATGCCTTTGAACTGGGTCGCCAT
+TTGGGAGCGCGTTATGAGGAGTCAGGACCTACTAATGGGTCCTGTTGTAACATTTAATCT
+TAGGCAATTACGCCTGCGTCAATCTTGGCCTTACGATGATGTCCTGTAACCGAAGCTCTA
+TCTAGTGAAACCAATTTTATGGGAAACCAAATAAATAAAAAGATCAATTGCTTGTGCCTA
+TATCGGGGAGTTAATAAAGCGAGAAAGTGGATTCTTGAATATAGGAGTAAATAAGGTGCC
+AAAATGGCACCTTATTTAAAATATGTAACGCCAAGGTCTGCCGTATTATATTGCATTGGA
+AAAAGAAAACCTTCTGTATAAGGAGATGTTATATGATATTTGGTAAACTGTTCGGCAGTT
+TGGGCGTAGAAAGCTTTTGCTCCTTGAACATCACGTTTGCCAGTTACAATGTCATTTAAC
+AAGTTTAAAGATAAAAAATTCATCGCTTCCTCATGACACTTTGCTGATGCCTCACCTGTA
+GTTCGATCTAAGTAGACACTTCCATCAAAAGCGGCAATCGCATCATATAAGTGTACGGGC
+ACTTTATAATCGATGGTCTGCTTAAGGAAATCAAGGTGAGGGGTAGGGAAGTTATGAGGG
+ACTGGATCCTTATATACTATCGTGCGTTTCCATGGCCCGCTATTGTACCAAATTAATCGA
+CTCATTGTTGCTTCCTGGGGATATCCATACTTACTAATTATGGTTTTTGCCCCTTCCAAC
+GGTGGTCCCTGCCAATAGGACAAAATGTGATTTAAATGACTATCCATTGCCATACCTCCT
+AAACATTTGCCTAAAAGCATTGTATGCCCAATAAATGAATTTTAGGGGTTCTGTTGCAAA
+GTAAAAAAATATAGCTAACCACTAATTTATCATGTCAGTGTTCGCTTAACTTGCTAGCAT
+GATGCTAATTTCGTGGCATGGCGAAAATCCGTAGATCTGAAGAGACCTGCGGTTCTTTTT
+ATATAGAGTGTAAATACATTCAATACCTTTTAAAGTATTCTTTGCTGTATTGATACTTTG
+ATACCTTGTCTTTCTTACTTTAATATGACGGTGATCTTGCTCAATGAGGTTATTCAGATA
+TTTCGATGTACAATGACAGTCAGGTTTAAGTTTAAAAGCTTTAATTACTTTAGCCATTGC
+TACCTTCGTTGAAGGTGCCTGATCTGTAATTACCTTTTGAGGTTTACCAAATTGTTTAAT
+GAGACGTTTGATAAACGCATATGCTGAATGATTATCTCGTTGCTTACGCAACCAAATATC
+TAATGTATGTCCCTCTGCATCAATGGCACGATATAAATAGCTCCATTTTCCTTTTATTTT
+GATGTACGTCTCATCAATACGCCATTTGTAATAAGCTTTTTTATGCTTTTTCTTCCAAAT
+TTGATACAAAATTGGGGCATATTCTTGAACCCAACGGTAGACCGTTGAATGATGAACGTT
+TACACCACGTTCCCTTAATATTTCAGATATATCACGATAACTCAATGCATATCTTAGATA
+GTAGCCAACGGCTACAGTGATAACATCCTTGTTAAATTGTTTATATCTGAAATAGTTCAT
+ACAGAAGACTCCTTTTTGTTAAAATTATACTATAAATTCAACTTTGCAACAGAACCTTAT
+TGCATATCTTTTTAGCCATATCACTGATAGGGTGAAGCGTACCACAAATGATGCGGTTTT
+TTATCCAGTTTTTTGTTTAATGAACAAGGTAAATTACGAGATAATATTTGAAGAAAACAA
+TAAAGTAGAGATGGATTTCCATATCCTCTTTAGTAGCGGTTTTTATCTGTAAGGTTTATT
+AATAATTAAATAAATAGGCGGGATAGTTATATATAGCTTATTAATGAAAGAATATGATTA
+TTAATTTAGTATTATATTTTAATATTAAAAAGAAGATATGAAATAATTATTCATACCTTC
+CACCTTACAATAATTAGTTTTCAATCGAATATTAAGATTATTAGTAGTCTTAAAAGTTAA
+GACTTCCTTATATTAATGACCTAATTTATTATTTGCCTCATGAATTATCTTTTTATTTCT
+TTGATATGTCCCAAACCACATCGTGATATACACTACAATAAATATTATGATGAAACTAAT
+AATATTCTCAAAGTTCAGATGGAACCAACCTGCTAGAATAGCGAGTGGGAAGAATAGGAT
+TATCATCAATATAAAGTGAACTACAGTCTGTTTTGTTATACTCCAATCGGTATCTGTAAA
+TATCAAATTACCATAAGTAAACAAAATTCCAATCAATGCCCATAGTGCTACACATATTAG
+CATAATAACCGCTTCATTAAAGTTTTCATAATAAATTTTACCCATAAAAGAATCTGGATA
+TAGTGGTACATATTTATCCCTTGAAAAAAATAAGTGAAGTAATGACAGAAATCATAAGAC
+CAGTGAACGCACCTTTTTGAACAGCGTGGAATAATTTTTTCATAGTGAGATGGACCATTC
+CATTTGTTTCTAACTTCAAGTGATCAATGTAATTTAGATTGATAATTTCTGATTTTGAAA
+TACGCACGAATATTGAACCGACAAGCTCTTCAATTTGGTAAAGTCGCTGATAAAGTTTTA
+AAGCTTTATTATTCATTGTTATCGCATACCTGTTTATCTTCTACTATGAACTGTGCAATT
+TGTTCTAGATCAATTGGGTAAACATGATGGTTCTGTTGCAAAGTAAAAAAATATAGCTAA
+CCACTAATTTATCATGTCAGTGTTCGCTTAACTTGCTAGCATGATGCTAATTTCGTGGCA
+TGGCGAAAATCCGTAGATCTGATGAGACCTGCGGTTCTTTTTATATAGAGCGTAAATACA
+TTCAATACCTTTTAAAGTATTCTTTGCTGTATTGATACTTTGATACCTTGTCTTTCTTAC
+TTTAATATGACGGTGATCTTGCTCAATGAGGTTATTCAGATATTTCGATGTACAATGACA
+GTCAGGTTTAAGTTTAAAAGCTTTAATTACTTTAGCCATTGCTACCTTCGTTGAAGGTGC
+CTGATCTGTAATTACCTTTTGAGGTTTACCAAATTGTTTAATGAGACGTTTGATAAACGC
+ATATGCTGAATGATTATCTCGTTGCTTACGCAACCAAATATCTAATGTATGTCCCTCTGC
+ATCAATGGCACGATATAAATAGCTCCATTTTCCTTTTATTTTGATGTACGTCTCATCAAT
+ACGCCATTTGTAATAAGCTTTTTTATGCTTTTTCTTCCAAATTTGATACAAAATTGGGGC
+ATATTCTTGAACCCAACGGTAGACCGTTGAATGATGAACGTTTACACCACGTTCCCTTAA
+TATTTCAGATATATCACGATAACTCAATGTATATCTTAGATAGTAGCCAACGGCTACAGT
+GATAACATCCTTGTTAAATTGTTTATATCTGAAATAGTTCATACAGAAGACTCCTTTTTG
+TTAAAATTATACTATAAATTCAACTTTGCAACAGAACCACAAAAATGATATATTTAAACT
+ATTCTAATTTAGGAGGATTTTTTTATGAAGTGTCTATTTAAAAATTTGGGGAATTTATAT
+GAGGTGAAAGAATAATTTACCCCTATAAACTTTAGTCACCTCAAGTAAAGAGGTAAAATT
+GTTTAGTTTATATAAAAAATTTAAAGGTTTGTTTTATAGCGTTTTATTTTGGCTTTGTAT
+TCTTTCATTTTTTAGTGTATTAAATGAAATGGTTTTAAATGTTTCTTTACCTGATATTGC
+AAATCATTTTAATACTACTCCTGGAATTACAAACTGGGTAAACACTGCATATATGTTAAC
+TTTTTCGATAGGAACAGCAGTATATGGAAAATTATCTGATTATATAAATATAAAAAAATT
+GTTAATTATTGGTATTAGTTTGAGCTGTCTTGGTTCATTGATTGCTTTTATTGGTCACAA
+TCACTTTTTTATTTTGATTTTTGGTAGGTTAGTACAAGGAGTAGGATCTGCTGCATTCCC
+TTCACTGATTATGGTGGTTGTAGCTAGAAATATTACAAGAAAAAAACAAGGCAAAGCCTT
+TGGTTTTATAGGATCAATTGTAGCTTTAGGTGAAGGGTTAGGTCCTTCAATAGGGGGAAT
+AATAGCACATTATATTCATTGGTCTTACCTACTTATACTTCCTATGATTACAATAGTAAC
+TATACCTTTTCTTATTAAAGTAATGGTACCTGGTAAATCAACAAAAAATACATTAGATAT
+CGTAGGTATTGTTTTAATGTCTATAAGTATTATATGTTTTATGTTATTTACGACAAATTA
+TAATTGGACTTTTTTAATACTCTTCACAATCTTTTTTGTGATTTTTATTAAACATATTTC
+AAGAGTTTCTAACCCTTTTATTAATCCTAAACTAGGGAAAAACATTCCGTTTATGCTTGG
+TTTGTTTTCTGGTGGGCTAATATTTTCTATAGTAGCTGGTTTTATATCAATGGTGCCTTA
+TATGATGAAAACTATTTATCATGTAAATGTAGCGACAATAGGTAATAGTGTTATTTTTCC
+TGGAACCATGAGTGTTATTGTTTTTGGTTATTTTGGTGGTTTTTTAGTGGATAGAAAAGG
+ATCATTATTTGTTTTTATTTTAGGATCATTGTCTATCTCTATAAGTTTTTTAACTATTGC
+ATTTTTTGTTGAGTTTAGTATGTGGTTGACTACTTTTATGTTTATATTTGTTATGGGCGG
+ATTATCTTTTACTAAAACAGTTATATCAAAAATAGTATCAAGTAGTCTTTCTGAAGAAGA
+AGTTGCTTCTGGAATGAGTTTGCTAAATTTCACAAGTTTTTTATCAGAGGGAACAGGTAT
+AGCAATTGTAGGAGGTTTATTGTCACTACAATTGATTAATCGTAAACTAGTTCTGGAATT
+TATAAATTATTCTTCTGGAGTGTATAGTAATATTCTTGTAGCCATGGCTATCCTTATTAT
+TTTATGTTGTCTTTTGACGATTATTGTATTTAAACGTTCTGAAAAGCAGTTTGAATAGTT
+ATATTATATTTTGGTTTAGAACTATGAGTGGCTAGCATTTTGCCACTCATTTTTTGCGTT
+AGCAAAAACAGGTTTAAGCCTCGCAGAGCACACGTATTAACGACTTATTAAAAATAAGTC
+TAGTGTGTTATTAGACTTAAACTATTAAATACACATGAAACCTTTGTGCTTAGGAGTGAT
+TTTTATATGTCTTATTCCATTGTTAGAGTTTCAAAAGTTAAATCTGGAACAAATACAACG
+GGCATACAAAAACATGTTCAAAGAGAAAATAATAATTATGAAAATGAAGATATAGACCAT
+AGTAAAACTTACTTAAATTATGATTTGGTAAATGCTAATAAACAGAATTTTAATAACTTG
+ATTGATGAAAAAATCGAACAGAATTATACAGGCAAAAGAAAAATTAGAACAGACGCGATT
+AAACACATTGATGGTTTAATTACATCAGACAATGATTTCTTTGATAATCAAACGCCAGAA
+GATACAAAGCAGTTTTTTGAATATGCTAAAGAGTTTTTAGAACAAGAATACGGTAAAGAT
+AATTTATTATATGCAACAGTTCACATGGACGAAAAAACACCACATATGCATTATGGCGTT
+GTTCCAATAACTGATGATGGTCGTTTAAGTGCTAAAGAAGTTGTAGGTAATAAAAAAGCT
+TTAACAGCGTTTCAAGATAGATTTAATGAGCATGTTAAACAACGAGGATATGATTTAGAA
+CGTGGGCAATCAAGACAAGTAACAAATGCTAAACATGAGCAAATAAGTCAGTATAAACAA
+AAAACAGAATATCATAAGCAAGAATATGAACGTGAGAGCCAAAAAACAGACCATATAAAG
+CAAAAGAACGATAAATTAATGCAAGAGTACCAAAAATCGTTAAATACGCTTAAAAAGCCT
+ATAAATGTTCCGTATGAGCAAGAAACTGAAAAAGTAGGTGGTTTATTTAGCAAAGAAATA
+CAAGAAACTGGAAATGTTGTAATAAGCCAAAAAGATTTCAATGAATTTCAGAAACAGATA
+AAAGCTGCTCAAGATATTTCGGAAGATTACGAGTATATAAAGTCTGGTAGAGCCTTAGAT
+GATAAAGATAAGGAAATACGAGAGAAAGATGATTTATTAAATAAAGCAGTTGAGCGTATT
+GAAAACGCAGACGATAATTTTAACCAACTTTACGAAAATGCAAAGCCACTTAAAGAGAAT
+ATAGAAATAGCGTTAAAGCTTTTAAAAATCTTACTAAAAGAGTTAGAACGAGTTTTAGGA
+AGAAATACCTTTGCGGAAAGAGTTAATAAGTTAACAGAAGATGAACCAAAACTAAATGGT
+TTAGCAGGAAACTTAGATAAAAAAATGAATCCAGAATTATATTCAGAACAGGAACAGCAA
+CAAGAACAACAAAAGAATCAAAAACGAGATAGAGGTATGCACTTATAGAACATGCATTTA
+TGCCGAGAAAACTTATTGGTTGGAATGGGCTATGTGTTAGCTAACTTGTTAGCGAGTTGG
+TTGGACTTGAATTGGGATTAATCCCAAGAAAGTACCAACTCAACAACACATAAAGCCCTG
+TAGGTTCCGACCAATAAGGAAATTGGAATAAAGCAATAAAAGGAGTTGAAGAAATGAAAT
+TCAGAGAAGCCTTTGAGAATTTTATAACAAGTAAGTATGTACTTGGTGTTTTAGTAGTTT
+TAACTGTTTACCAGATAATACAAATGCTTAAATAAAAAAAGACTTGATCTGATTAGACCA
+AGTCTTTTGATAGTGTTATATTAATAACAAAATAAAAAGGAGTCGCTCACGCCCTGACCA
+AAGTTTGTGAACGACATCATTCAAAGAAAAAAACACTGAGTTGTTTTTATAATCTTGTAT
+ATTTAGATATTAAACGATATTTAAATATACATCAAGATATATATTTGGGTGAGCGATTCC
+TTAAACGAAATTGAGATTAAGGAGTCGATTTTTTATGTATAAAAACAATCATGCAAATCA
+TTCAAATCATTTGGAAAATCACGATTTAGACAATTTTTCTAAAACCGGCTACTCTAATAG
+CCGGTAATAGCCGGTTGGACGCACATACTGTGTGCATATCTGATCCAAAATTAAGTTTTG
+ATGCAATGACGATCGTTGGAAATCTCAACCGAGACAACGCTCAAGCCCTTTCTAAATTTA
+TGAGTGTAGAGCCCCAAATAAGACTTTGGGATATTCTTCAAACAAAGTTTAAAGCTAAAG
+CACTTCAAGAAAAAGTTTATATTGAATATGACAAAGTGAAAGCAGATAGTTGGGATAGAC
+GTAATATGCGTATTGAATTTAATCCAAACAAACTTACACGAGATGAAATGATTTGGTTAA
+AACAAAATATAATAAGCTACATGGAAGATGACGGTTTTACAAGATTAGATTTAGCCTTTG
+ATTTTGAAGATGATTTGAGTGACTACTATGCAATGTCTGATAAAGCAGTTAAGAAAACTA
+TTTTTTATGGTCGTAATGGTAAGCCAGAAACAAAATATTTTGGCGTGAGAGATAGTAATA
+GATTTATTAGAATTTATAATAAAAAGCAAGAACGTAAAGATAATGCAGATGCTGAAGTTA
+TGTCTGAACATTTATGGCGTGTAGAAATCGAACTTAAAAGAGATATGGTGGATTACTGGA
+ATGATTGCTTTAGTGATTTACATATCTTGCAACCAGATTGGAAAACTATCCAACGCACTG
+CGGATAGAGCAATAGTTTTTATGTTATTGAGTGATGAAGAAGAATGGGGAAAGCTTCACA
+GAAATTCTAGAACAAAATATAAGAATTTGATAAAAGAAATTTCGCCAGTCGATTTAACGG
+ACTTAATGAAATCGACTTTAAAAGCGAACGAAAAACAATTGCAAAAACAAATCGATTTTT
+GGCAACATGAATTTAAATTTTGGAAATAGTGTACATATTAATATTACTGAACAAAAATGG
+TTCTGTTGCAAAGTAAAAAAATATAGCTAACCACTAATTTATCATGTCAGTGTTCGCTTA
+ACTTGCTAGCATGATGCTAATTTCGTGGCATGGCGAAAATCCGTAGATCTGAAGAGACCT
+GCGGTTCTTTTTATATAGAGCGTAAATACATTCAATACCTTTTAAAGTATTCTTTGCTGT
+ATTGATACTTTGATACCTTGTCTTTCTTACTTTAATATGACGGTGATCTTGCTCAATGAG
+GTTATTCAGATATTTCGATGTACAATGACAGTCAGGTTTAAGTTTAAAAGCTTTAATTAC
+TTTAGCCATTGCTACCTTCGTTGAAGGTGCCTGATCTGTAATTACCTTTTGAGGTTTACC
+AAATTGTTTAATGAGACGTTTGATAAACGCATATGCTGAATGATTATCTCGTTGCTTACG
+CAACCAAATATCTAATGTATGTCCCTCTGCATCAATGGCACGATATAAATAGCTCCATTT
+TCCTTTTATTTTGATGTACGTCTCATCAATACGCCATTTGTAATAAGCTTTTTTATGCTT
+TTTCTTCCAAATTTGATACAAAATTGGGGCATATTCTTGAACCCAACGGTAGACCGTTGA
+ATGATGAACGTTTACACCACGTTCCCTTAATATTTCAGATATATCACGATAACTCAATGT
+ATATCTTAGATAGTAGCCAACGGCTACAGTGATAACATCCTTGTTAAATTGTTTATATCT
+GAAATAGTTCATACAGAAGACTCCTTTTTGTTAAAATTATACTATAAATTCAACTTTGCA
+ACAGAACCGTATTATGGAATAGAGATGTTGGTAACATTTATACAGGATCATTATACTTAA
+GTTTAATTTCGTTATTACAGAACCACACATTCCAACCAGAAGAGAAAGTATGTCTATTTA
+GTTATGGTTCAGGAGCAGTAGGAGAAATCTTTAGTGGTTCAATCGTTAAAGGATATGACA
+AAGCATTAGATAAAGAGAAACACTTAAATATGCTAGAATCTAGAGAGCAATTATCAGTCG
+AAGAATACGAAACATTCTTTAACAGATTTGATAATCAAGAATTTGATTTCGAACGTGAAT
+TGACACAAGATCCATATTCAAAAGTATACTTATACAGTATAGAAGACCATATCAGAACAT
+ATAAGATAGAGAAATAAACTAGTGGCCGATTGTGCTTGATGAGCTTGGGACATAAATCCT
+AACTCGAAATAAATAAGCATATCACTAAACTGATTTTTTAAAGTTTACAGTGATATGCTT
+ATTTTTTTATCTTACGATTTTGTACGTGCATGCTTGCCTAGGGGTATGGCTCGAGCCATT
+AGTCTCTCGCACATACTATTCCCTCAGGCGTCAGCACTTACAAAATCGGTTGTAATTTTC
+ATTTTTATACGCATTCTTACTGAGATTATACTAATAAGAGGAATAGTAAAAGCAATTCTA
+AGTAAAATTGCAGATAAGAGGTAAGTTAAAAGCAGTTCTAAGTAAAATTGCAGATAAGAG
+GTTTGTTAAAAGCAGTTCTCAGTAAAATTGCAGATAAGAGGTACGTTAAAAGCAATTCCA
+TGCAAAATTGCTGATAAGGGGTAAGTTAAAAGCAGTTCTCAGTAAAATTGCAGATAAGAG
+GTACGTTAAAAGCAATTCCATGCAAAATTGCTGATAAGGGGTAAGTTAAAAGCAGTTCTC
+AGTAAAATTGCAGATAAGAGGTACGTTAAAAGCAGTTCTAGGCAAAATTGCAGATAAGAG
+GTAAGTTAAAAGCAGTTCTAAGTAAAATTGCTGATAAGGGGTAAGTTAAAAGCAATCCTA
+AGTAAAATTGCAGATAAGAGGTAAGTTAAAAGCAATCCTAAGTAAAATTGCAGATAAGGG
+GTACAGAAAAACTAGACTTGATTACAAAATGGAGCTTGGGACATAAATGATTTTTTAAAA
+ATGAGATGAGACGTAGATTAACTCCATAATCAATACGAATCTATCGACTTCTTTATTTAT
+GATATTCATCTCTTTTTAATGGAAATAAAAGTGCGATTAATGTGATAATACAGTTACGTT
+AATTAAAAAAATAAAAATGCAAGGAGAGGTAATATGCTAACTGTATATGGACATAGAGGA
+TTACCTAGTAAAGCTCCGGAAAATACAATTGCATCATTTAAAGCTGCTTCAGAAGTAGAA
+GGTATAAACTGGTTGGAGTTAGATGTTGCAATTACAAAAGATGAACAACTGATTATCATT
+CATGATGATTATTTAGAACGGACTACAAATATGTCCGGGGAAATAACTGAATTGAATTAT
+GATGAAATTAAAGATGCTTCTGCAGGATCTTGGTTTGGTGAAAAATTCAAAGATGAACAT
+TTGCCAACTTTCGATGATGTAGTAAAAATAGCAAATGAATATAATATGAATTTAAATGTA
+GAATTAAAAGGTATTACTGGACCGAATGGACTAGCACTTTCTAAAAGTATGGTTAAGCAA
+GTGGAAGAACAATTAACAAACTTAAATCAGAATCAAGAAGTGCTCATTTCAAGCTTTAAT
+GTTGTGCTTGTTAAACTTGCAGAAGAAATCATGCCACAATATAACAGAGCAGTTATATTC
+CATACAACTTCGTTTCGTGAAGACTGGAGAACACTTTTAGATTACTGTAATGCTAAAATA
+GTAAACACTGAAGATGCCAAACTTACTAAAGCAAAAGTAAAAATGGTAAAAGAAGCGGGT
+TATGAATTGAACGTATGGACTGTAAACAAACCAGCACGTGCAAACCAACTTGCTAATTGG
+GGAGTTGATGGTATCTTTACAGACAATGCAGATAAAATGGTGCATTTGTCTCAATAGAAA
+GTTAGAGGTGAGTCTTACGTTTCAGTGACGGTAGACTTACCTTTAACATGTTACATACTA
+AAAAATTAATTTGAATAAGAAAGAGAGACATATATGAAATACGATGATTTTATAGTAGGA
+GAAACATTCAAAACAAAAAGCCTTCATATTACAGAAGAAGAAATTATCCAATTTGCAACA
+ACTTTTGATCCTCAATATATGCATATAGATAAAGAAAAAGCAGAACAAAGTAGATTTAAA
+GGTATCATTGCATCTGGCATGCATACACTTTCAATATCATTTAAATTATGGGTAGAAGAA
+GGTAAATACGGAGAAGAAGTTGTAGCAGGAACACAAATGAATAACGTTAAATTTATTAAA
+CCTGTATACCCAGGTAATACATTGTACGTTATCGCTGAAATTACAAATAAGAAATCCATA
+AAAAAAGAAAATGGACTCGTTACAGTGTCACTTTCAACATACAATGAAAATGAAGAAATT
+GTATTTAAGGGAGAAGTAACAGCACTTATTAATAATTCATAATAAAACAGTGAAGCAACC
+ATCGTTACGGATTGCTTCACTGTTTTGTTATTCATCTATATCGTATTTTTTATTACCGTT
+CTCATATAGCTCATCATACACTTTACCTGAGATTTTGGCATTGTAGCTAGCCATTCCTTT
+ATCTTGTACATCTTTAACATTAATAGCCATCATCATGTTTGGATTATCTTTATCATATGA
+TATAAACCACCCAATTTGTCTGCCAGTTTCTCCTTGTTTCATTTTGAGTTCTGCAGTACC
+GGATTTGCCAATTAAGTTTGCATAAGATCTATAAATATCTTCTTTATGTGTTTTATTTAC
+GACTTGTTGCATACCATCAGTTAATAGATTGATATTTTCTTTGGAAATAATATTTTTCTT
+CCAAACTTTGTTTTTCGTGTCTTTTAATAAGTGAGGTGCGTTAATATTGCCATTATTTTC
+TAATGCGCTATAGATTGAAAGGATCTGTACTGGGTTAATCAGTATTTCACCTTGTCCGTA
+ACCTGAATCAGCTAATAATATTTCATTATCTAAATTTTTGTTTGAAATTTGAGCATTATA
+AAATGGATAATCACTTGGTATATCTTCACCAACACCTAGTTTTTTCATGCCTTTTTCAAA
+TTTCTTACTGCCTAATTCGAGTGCTACTCTAGCAAAGAAAATGTTATCTGATGATTCTAT
+TGCTTGTTTTAAGTCGATATTACCATTTACCACTTCATATCTTGTAACGTTGTAACCACC
+CCAAGATTTATCTTTTTGCCAACCTTTACCATCGATTTTATAACTTGTTTTATCGTCTAA
+TGTTTTGTTATTTAACCCAATCATTGCTGTTAATATTTTTTGAGTTGAACCTGGTGAAGT
+TGTAATCTGGAACTTGTTGAGCAGAGGTTCTTTTTTATCTTCGGTTAATTTATTATATTC
+TTCGTTACTCATGCCATACATAAATGGATAGACGTCATATGAAGGTGTGCTTACAAGTGC
+TAATAATTCACCTGTTTGAGGGTGGATAGCAGTACCTGAGCCATAATCATTTTTCATGTT
+GTTATAAATACTCTTTTGAACTTTAGCATCAATAGTTAGTTGAATATCTTTGCCATCTTT
+TTTCTTTTTCTCTATTAATGTATGTGCGATTGTATTGCTATTATCGTCAACGATTGTGAC
+ACGATAGCCATCTTCATGTTGGAGCTTTTTATCGTAAAGTTTTTCGAGTCCCTTTTTACC
+AATAACTGCATCATCTTTATAGCCTTTATATTCTTTTTGTTTTAATTCTTCAGAGTTAAT
+GGGACCAACATAACCTAATAGATGTGAAGTCGCTTTTTCTAGAGGATAGTTACGACTTTC
+TGTTTCATTAGTTGTAAGATGAAATTTTTTTGCGAAATCACTTAAATATTCATCCATTTT
+TTTAACGGTTTTAAGTGGAACGAAGGTATCATCTTGTACCCACTTTTGATCCATTTGTTG
+TTTGATATAGTCTTCAGAAATACTTAGTTCTTTAGCGATTGCTTTATAATCTTTTTTAGA
+TACATTCTTTGGAACGATGCCTATCTCATATGCTGTTCCTGTATTGGCCAATTCCACATT
+GTTTCGGTCTAAAATTTTACCACGTTCTGATTTTAATTTTTCAATATGTATGCTTTGGTC
+TTTCTGCATTCCTGGAATAATGACGCTATGATCCCAATCTAACTTCCACATACCATCTTC
+TTTAACAAAATTAAATTGAACGTTGCGATCAATGTTACCGTAGTTTGTTTTAATTTTATA
+TTGAGCATCTACTCGTTTTTTATTTTTAGATACTTTTTTTATTTTACGATCCTGAATGTT
+TATATCTTTAACGCCTAAACTATTATATATTTTTATCGGACGTTCAGTCATTTCTACTTC
+ACCATTATCGCTTTTAGAAATATAACTGCTATCTTTATAAACTTGTTTGAAATTTTTATC
+TTCAATTGCATCAATAGTATTATTAATTTCTTTATCTTTTGAAGCATAAAAATATATACC
+AAACCCGACAACTACAACTATTAAAATAAGTGGAACAATTTTTATCTTTTTCATCAATAT
+CCTCCTTATATAAGACTACATTTGTAGTATATTACAAATGTAGTATTTATGTCAAAATAA
+TGTTATAATTTTTGTGATATGGAGGTGTAGAAGGTGTTATCATCTTTTTTAATGTTAAGT
+ATAATCAGTTCATTGCTCACGATATGTGTAATTTTTTTAGTGAGAATGCTCTATATAAAA
+TATACTCAAAATATTATGTCACATAAGATTTGGTTATTAGTGCTCGTCTCCACGTTAATT
+CCATTAATACCATTTTACAAAATATCGAATTTTACATTTTCAAAAGATATGATGAATCGA
+AATGTATCTGACACGACTTCTTCGGTTAGTCATATGTTAGATGGTCAACAATCATCTGTT
+ACGAAAGACTTAGCAATTAATGTTAATCAGTTTGAGACCTCAAATATAACGTATATGATT
+CTTTTGATATGGGTATTTGGTAGTTTGTTGTGCTTATTTTATATGATTAAGGCATTCCGA
+CAAATTGATGTTATTAAAAGTTCGTCATTGGAATCGTCATATCTTAATGAACGACTTAAA
+GTATGTCAAAGTAAGATGCAGTTCTACAAAAAGCATATAACAATTAGTTATAGTTCAAAC
+ATTGATAATCCGATGGTATTTGGTTTAGTGAAATCCCAAATTGTACTACCAACTGTCGTA
+GTCGAAACCATGAATGACAAAGAAATTGAATATATTATTCTACATGAACTATCACATGTG
+AAAAGTCATGACTTAATATTCAACCAGCTTTATGTTGTTTTTAAAATGATATTCTGGTTT
+AATCCTGCACTATATATAAGTAAAACAATGATGGACAATGACTGTGAAAAAGTATGTGAT
+AGAAACGTTTTAAAAATTTTGAATCGCCATGAACATATACGTTATGGTGAATCGATATTA
+AAATGCTCTATTTTAAAATCTCAGCACATAAATAATGTGGCAGCACAATATTTACTAGGT
+TTTAATTCAAATATTAAAGAACGTGTTAAGTATATTGCACTTTATGATTCAATGCCTAAA
+CCTAATCGAAACAAGCGTATTGTTGCGTATATTGTATGTAGTATATCGCTTTTAATACAA
+GCACCGTTACTATCTGCACATGTTCAACAAGACAAATATGAAACAAATGTATCATATAAA
+AAATTAAATCAACTAGCTCCGTATTTCAAAGGATTTGATGGAAGTTTTGTGCTTTATAAT
+GAACGGGAGCAAGCTTATTCTATTTATAATGAACCAGAAAGTAAACAACGATATTCACCT
+AATTCTACTTACAAAATTTATTTAGCGTTAATGGCATTCGACCAAAATTTACTCTCATTA
+AATCATACTGAACAACAATGGGATAAACATCAATATCCATTTAAAGAATGGAACCAAGAT
+CAAAATTTAAATTCTTCAATGAAATATTCAGTAAATTGGTATTACGAAAATTTAAACAAA
+CATTTAAGACAAGATGAGGTTAAATCTTATTTAGATCTAATTGAATATGGTAATGAAGAA
+ATATCAGGGAATGAAAATTATTGGAATGAATCTTCATTAAAAATTTCTGCAATAGAACAG
+GTTAATTTGTTGAAAAATATGAAACAACATAACATGCATTTTGATAATAAGGCTATTGAA
+AAAGTTGAAAATAGTATGACTTTGAAACAAAAAGATACTTATAAATATGTAGGTAAAACT
+GGAACAGGAATCGTGAATCACAAAGAAGCAAATGGATGGTTCGTAGGTTATGTTGAAACG
+AAAGATAATACGTATTATTTTGCTACACATTTAAAAGGCGAAGACAATGCGAATGGCGAA
+AAAGCACAACAAATTTCTGAGCGTATTTTAAAAGAAATGGAGTTAATATAATGGATAATA
+AAACGTATGAAATATCATCTGCAGAATGGGAAGTTATGAATATCATTTGGATGAAAAAAT
+ATGCAAGTGCGAATAATATAATAGAAGAAATACAAATGCAAAAGGACTGGAGTCCAAAAA
+CCATTCGTACACTTATAACGAGATTGTATAAAAAGGGATTTATAGATCGTAAAAAAGACA
+ATAAAATTTTTTAATATTACTCTCTTGTAGAAGAAAGTGATATAAAATATAAAACATCTA
+AAAACTTTATCAATAAAGTATACAAAGGCGGTTTCAATTCACTTGTCTTAAACTTTGTAG
+AAAAAGAAGATCTATCACAAGATGAAATAGAAGAATTGAGAAATATATTGAATAAAAAAT
+AAAATTGTTGTGTTTACAACAATACATAGAAAACAGAGGAAACAATCAAGTCGTTGAATA
+TTTCCTCTGTTTTTTAGTTGAAAAAATTAACCGAAAGCCTGAATGCAAGTCTTGATTAAA
+TCAATAATGCTTGTAATAACACCAGTGAAATCCATATGCATACCCTCTTTCTATTTAAGA
+TACATTAAGTATAATATCAAACAAATAAAAAATGTTAAAAATTCCCTAATTGGCTATTTA
+GATTGCATAAATGTCAAAAATTTGAAAAACATACAACGACTTTGCATAAAAAATCGTCAT
+ATTGGAAATACGTAATTTATTGAAATAATAAAAAAAATAAAAGAACGAAGATGATAACCT
+AAGTGAGGTTTTAAGTTGTTCTAAGGTTTAATTTAATTTATGTTAAAATAGTTGGTATAA
+AAATACATGATAAACTATAAACTAAATTCAAAATAACTTATGGGGTAGGCAATTATGGAA
+AATATTTTAAATATAAATGATAATGAAAAAAGAGTGCTAAGGGAAATTTATAACCATCAT
+AATATTTCGCGTACTCAAATATCTAAAAATCTTGAGATTAATAAGGCAACGATTTCTAGT
+ATTTTGAATAAGTTAAAGTATAAATCTCTTGTTAATGAGGTTGGTGAGGGTGATAGCACG
+AAGAGTGGTGGTAGAAAACCTATTCTTCTGAAGGTTAATCATCTTTATGGTTATTTTATT
+TCTTTGGATTTAACTTATAGTTCTGTTGAAGTGATGTACAATTATTTTGATGGTAATGTC
+ATTAAGCATGAATCTTATGATTTACCTGATGAAAAGGTTAGTAGTATATTAAGCATAATA
+AAAAAACATATTGATATTCAGGAGAAACTTGATACTTATAACGGACTATTAGGTGTGTCT
+GTTTCTATACATGGAGTTGTGGATAATGAGCAGCATGTGACATATTTACCATTCCATGAA
+ACTGAAGGAATTTCAATTGCTAAGAAAATAAAAGAAATTACTAATGTTCCAGTCGTAGTT
+GAAAATGAAGCGAATCTTTCAGCGTTATATGAACGTAATTTTAATCATAATTTATCCTAC
+AATAATCTTATTGCTTTAAGTATACATAAAGGTATTGGTGCTGGGCTTATTATTAATAAT
+CAATTGTATCGTGGTGCAAATGGGGAAGCGGGTGAAATTGGAAAAACACTTGTCTCAAAA
+GTTAGCGATAATGTGGAGATCTTTCATAAGATTGAAGATATTTTTTCACAAGAAGCTTTA
+CTGCATAATTTAAGTAATCAACTAAATGAGAAGATGACGCTTAGCAAATTAATTCAATTT
+TATAATGAAAAAAATCCAGTCGTAGTTGAAGAAATGGAACAATTTATAAATAAAATTGCT
+GTTTTAATACATAATTTAAACACCCAGTTTAATCCGAATGCAATTTACATTAACTGTCCA
+TTGTTCAATGAAATGCCTGAAATATTAGAAGCAATTAAGAACCAGTTCAAACAATATTCA
+CGTAACGAAATTCAAATAAAGTTAACATCTAATGTCAAATTTGCAACTTTGCTAGGTGGT
+ACATTAGCAATTATCCAAAAAGTACTACAGATTAATGATATTTACTTAGATATAAAAGCA
+TAAAAAACTAATTCAAATGAATAATCAAAGTTCGTAATTGTCTTTATAAAAAAATCCCTC
+AATCCGAATTGAATTTTCGGATTGAGGGATTTTTATAGTTCTATTGCAGAAGAAAACTAT
+TTTAAAAATGCTGGTAAATGTTGATAGCCACCTCTAACGTTAACAATATTCGTAAATCCT
+TTATATTCTAATATTCCTACCGCTATTGAACTTCTAACACCTGATTGACAATGTACATAA
+ATTAGGTCATTTTTATCGAAAGGTATATCTTCATTTAAAAGTTTACCGTGAGGAATATGA
+ATTGCTTGTTTTAAATGACCTTTACGCCATTCATCATCATTACGAACATCTAATACATTA
+TGTTCTTCACCAGTCATTTCAGAACTATGAATAGATGATGTGACGATATTTGTTTGTGGC
+AAACGGTAACTTTTTACATTTTCAAAACCAATTAATTGTAAAGCATGAATAGCTTGTTGA
+ACGGTAGATTTATCGCCAATTAATTCAATATCTTAGTCATAATCTAAATACCAACCAATT
+TGATTTATAAAAGTTTTATTAAAAGGAATATTGATAGTTCCATGCATATGACCACCATGG
+AATGCTTCTTTACTTCGAAGATCAAAAGCAGTTTGTGTATTGCTTGAACTAGGGTAAACA
+TTATATGGTTGGTACATTTGCATACCAAATTGATTTATTTTTTTCATTTGTGAAAAATGG
+TGTGGTGGAGCTGGCTGATTGAGTGTTAAAGTTTCGATAAATGAAGTTTCATCTTTAACA
+TTAAAAGCCCAGTTGTTTATTTTCTCATAACCCAAAGTAGTTGTAGGTAATGAACCTAGC
+GCTTTACCACAAGGACTCCCTGCACCATGACCTGGCCAAATTTGAATATAGTCTGGTAAT
+GTTGCAGCAAATTGTATGGACTGATACATTTGTTTTGCTCCGATTTTTGTAGAACCTTCA
+ACATTTACAGCTTTTTCTAATAGATCTGGTCTACCTACATCACCAACAAAGATGAAGTCA
+CCGCTAAATAATCCCATTGGTATACTGGAACCCCCACCTTCGTCAGTAAGTAAAAAACTA
+ATACTCTCAGGGGGATGGCCTGGAGTGTGTAAGACTTCTAATTTAATCTTTCCTAAATAG
+ATAATATCTTGATGCTTAACGAAATGTGTTTGTTTAGGCATATTTTTATAATTAAATTCA
+TCTTTACCTTCATCAGATACGTATATACTTGCATTCAATTTATTTGCCACATCTCTAATA
+CCTGAAGCAAAATCAGCATGAATATGTGTTTCTGCAGCTTTAGTAATTGTGAATCCTTCT
+TTATCTGCAACTTTTAAATATTTTGTTAAATCTCGTATAGGGTCAATAATCATTGCTTCT
+CCTGTACGTTGACATCCAATTAAATAAGATGCTTGTGAAAAATTGTCTTCATAAAATTGT
+TTGAAAAACAAAAAAACTCCTTTTTAAAATAGATTTTATTGATTAGATAAATAAGTTATG
+ATTTGCTTGCTCAGTATGTCCAATATAAGTACCTACGCCACCATAATCGACTTCATCTCT
+TAATTCTTCTTTTGAAATTCCCATAACATCCATACTCATGGTACAAGCAATTAACTTTAT
+ATCTTGATCGATTGCTTGATCGATAAGTGAGTATAAAGAATCAACATTTTTCTTGTTCAT
+TACATAACGCATCATAATATTACCTAGTCCAAACATATTCATTTTTGATAATGGCATATG
+TATTGGATCCTTAGGTAACATAAGGTCAAACATTTTGGAAATACCTTTCTTTTTAACGCG
+AGTTGATTGCGCTTTTTTTAATGCGTTGAGGCCCCAAAAAGTAAAGAAAATAGTTACATC
+TTTACCTGCTGCTTTAGCGCCATTTGCGATGATCATTGCTGCTACTGCCTTATCTAACTC
+ACCGCTAAATAAAACAATTGTTGTACCTGTAGCAGTGTCATTGATTTCAAATTCTTTTGG
+CTTTTCTTTTTGAATAATTGCATTAATTACATTTGCTTCTTCAGTAAGATTTACAAGGGT
+ATTCCCTGTTTGTTTCGCCCAACTTTTAATATCACTATTGAAACCAGGATCTGTAACTGT
+TACCTCGATTTGCTCACCCGTTGAAATATTGTTAATTTCTTTACTGATATTAACAATAGG
+TCCAGGGCACTGAAGACCTCTAAAATCAAATTGTTTACGATTCTCTTTGATTTCAATATC
+TTTTTCTATTAAAGGAGCACTATTGAAGTTCTTTGCTTCATAATCTTTATATCCACCCTT
+TAAATTCACGACATCATAACCTTGTTTGGCTAAATAATCGCAAGCTTTAGTGCTTCGGTT
+ACCGCTTTTACAATGTATATAATACGTTTTGTTGCTATTCTTATTGAATGATTTAATCTC
+TTCTACTGGGTGTAAAGTTGAACCGTTAATGTGTCCTAATTCATATTCTTCTTTTGTTCT
+AACATCAATCAATTGACCCATTTTTGCCAATTTTTCTAATTCTTCTTTGTTTAATGAATT
+AATGTGTACTTCTTTGTATTGTTCCATACTTACCTCCTATAAATACCTATGAGGGTATAA
+TAAAACGGATAGAATCATTTGCCAAATACCTATAGGGGTATTTGACAATTTTGTTTTAAT
+TTATTATTATTAACTTAATCAATTTATGTGGAGGAAATGAATATGACTTATGATAAAAAA
+ATGATTAATCGTATAAATAGAATACAAGGTCAATTAAATGGTGTCGTAAAAATGATGGAA
+GAAGAAAAAGATTGCAAAGATATAATTACGCAACTTAGTGCATCTAAAGGTTCTATACAA
+CGTTTAATGGGGATTATAATTAGTGAAAATTTAATAGAATGCGTTAAAACAGCAGAAGAA
+AATAATGAAAGTTCTCAAGAATTAATTAATGAAGCAGTTAATTTATTAGTTAAAAGTAAA
+TAATGGATATAGCAAATATGACTATTATGTTGCTAATTGGCGTACTGGGTGGATTTATAT
+CTGGATTAATAGGTATTGGGGGCGCAATTATTATTTACCCAGCTATTCTTATATTGCCAC
+CATTAATAGGTATACCTGCGTATAGTGCATATATTGCTTCGGGACTTACCTCTAGTCAAG
+TATTTTTCAGTACACTTAGTGGATCATTAAATGCAAGAAAACAACCAGCTTTCTCTCCTA
+AACTTGTTATATATATGGGAGGGGGTATGTTGATTGGAAGCATGTTAGGGGCAATTTTAG
+CTAGTTTGTTTAATGCTACTTTTGTAAATACGGTATATGTAATAATCGCCATACTTGCTT
+TAATATTGATGTTTATTAAAGTTAAACCTACTACACAAGAGACGAAATCTAAACCTTTGC
+TATTTATTATAGTTGGATTTGGAATTGGTGTAATTTCGGGAATTGTGGGTGCAGGTGGAG
+CATTTATCATCATTCCTGTATTATTAGCATTATTTAAATTACCAATGAATACGGTAGTGA
+ACAATAGCATAGCAATTGCTTTTATATCTTCAGTAGGGGCATTTTTTATAAAATTAATGC
+AAGGATATATACCAGTAGAAAGTGCAATTTTTTTGATAATTGAATGATGATCATTTTCTG
+AAAATATTATGTGGTCATATAATATAATGCCCATCATTTCACTAATCTCTTTTATTCTCT
+GAGTTATTTTGATATCTCCTGGAGAAGGTGTCGGATCTTATCAAGAGTAAATTATGAAAA
+AAATGGTTTAAATCAATGTTCTTACTTTAAGTACATGTGTTTAACGTAAATGATAATTAG
+TTAAATATAAAAAGGTTATCCCAATCAATAGGATAACCTCTTTATACTTTACTTTATGGT
+TTGGATTCGCCACTTCAAAGAAGAAATGAAATCAGAGCATTGAATGTTCCATTTTCAAAC
+AATATATAAATACCTAGCCCAATGAATACAATTGGTACAATCCAACGTTCATATTTCTCA
+ATTGTTTCCGATATAAAATCGAAGGAAGCTAGACGGTAACTGACATAGCACAAAACTCCA
+ACCATAATTAGAAAGACAATAGTGACAATAAAGATTTCAGACATACTTAAGGTCGTGAAG
+TACGGTATATAAATGGAAAAGTCATCCGCACTGGAAGCCAATACGATGAAAATCATCGTC
+AAAAATAACTGATTAAATTTTCCAGAGGAGAATAAAGATAAAATGCTACTTTCATCTTCA
+TCCTCTTCTCCTTTAATCCATATTTTCACGCCTAGGTAAAGTGGTAAAAGTCCAAGTAGT
+CCGATAACCCATTGCTGAGGAATTAAATTTACAACCCCCTGTGCAACTAAAAGACTTGCT
+CCTATCACAATTGCAGTCCCTATATATTGTCCTATCCAAATATGTTTTACCTGACCTTTT
+TTTACTTGCGAAAACAAAAGAATTAATATGACGAGATAATCAATTCCTGTTGCTACATAT
+ACCGCAGTAGCCGTCAGTATCGTCGCGATCATTTTATCATCTCCAAATATTTTAGGGATA
+GGACTTTTCTTCAAAATGAAAAGTCCTTCCGTAAATTGCACACATATAGTACTTATTTAT
+CCTTCACTCTCATCAGTCGCAAACTATTTAATGCTACCAAAATAGTGGCTCCCATATCGG
+AAAGAATCGCAATCCAAAGGGTTAGCCAGCCTGGAATAACCAATAGTAAGGCAATTATCT
+TAATTCCGATGGCAAACGTGATGTTCGCTTTGATGATATTTAGCGTTTTCCTGCTAAGTC
+TTACTGCAAATGGAAGCTTACTTAAATCATCTCCCATTAATGCAATATCAGCTGTCTCGA
+TGGCAGTATCTGTTCCAGCACCGCCCATTGCAATGCCAACAGTGGATGCAGCAAGTGCAG
+GAGCATCATTGACGCCATCGCCAATCATAGCTACATTACCATGCTCGGCTTTCATTTTTT
+TAATATAGTCCAACTTATCCTGTGGCAACAATTCGGACTGAATATCAGAAACGCCTACAT
+GAGCACCGATTGCTTCTGCGGTACCTTGATTATCACCTGTCAGCATAATTGTTTGCTTGA
+TTCCTAACTGATGAAGTTTTAGAATCACATTTTTACTTGTTTCGCGGACCTCATCTGCTA
+CAGCAATCACGCCGAGGATTGTTTGGTCCGTTCCAATAATCATGGCCGTTTTCCCTTGGT
+TTTGTAGGATTTTCACATTGTTTTCAAACCCAAGGCTAAAATCGGAAACATTTAATTCTT
+TAAAAAGCCTTGGACTGCCAATGTAATAGGTTGTTCCATCTATATTCCCTTGAATGCCCC
+GACCTGTAATAGAAGTGAAGTCCTTCACTCTAACATCGGAATAAGTAATATTATCTTGCT
+CTGCTTTCTTCATTATTGCTGAAGCAAGTGGATGTTGTGATCGATATTCTAAAGCTGTAA
+TAATGGAAAACAGCTCTTTTTCTTCCACTTGATCATTTAACACTTTAAAATCTGTTACCA
+CTGGTACACCTTTTGTCAGTGTTCCTGTTTTATCAAATGCGATTGCCTTAATGGCTCCTA
+ATTCCTCTAGATAGACACCGCCTTTAATCAACACACCTTTTTTAGCTGCATTTCCAATTG
+CCGAGACAATCGAGATTGGAGTAGTAATAACTAATGCACACGGACATCCAACTACAAGTA
+CCGCTAATCCTTGATAAACCCAAGTATCCCAACTTCCACCAAAGAATAAAGGTGGAACGA
+CTGCAACGAGCGCCGCAATAACCATAATGATCGGCGTATAATATTTCGCAAATTTATCTA
+CGAATGCTTGCGCTGGAGCGCGCTCCCCTTGTGCTTCCTCAACCAGATGAATAATCTTGG
+AGATAGTTGTATCCTCTACGTATTTGGTGATTTTTACTTCAAGTAGTCCCTCTTCGTTAA
+GCGTGCCTGCAAATACTTCATCATCTACCGTTTTGGCAACAGGGACAGATTCTCCTGTTA
+TAGCAGCCTGGTTGACAGCCGACACACCATTTATAATGATCCCATCCATGGCAATTTTCT
+CCCCTGGTTTGACGATCATAATATCACCCACGGCAATATCGTCCACATGGATCATTATTT
+CCTGACCATTCCGCCTAACAAGTGCTTCTTTTGGGGCAATATCCATCAATGAACGAATGG
+ACTGTCTTGCTCTATCCATAGAAAAACGTTCAAGTGCTTCACTGATTGCAAAGAGAATGA
+CAACAATGGACGCCTCTGCCCATTCACCAATGATGGCAGCTCCAATAACTGCAACGGTCA
+TCAGGGTTTTCATGTCGAAATCAAAGCGTATCAAATTTTGAAAACCAACTTTAAATAGTG
+AATATCCGCCAATTACAATCGAACTTACAAATAACATGGACGTTACAAGGTTATCTTCTC
+CATTTACAAAGTGAGAAAGGTAACCAAAAGCAATCAGTAATGTGGCAAACAGCAATGTGC
+TGTGTTTTTTATAAAACGGTATTTTCTCTTCTTTAGGAGCCTTAGTGTCTTCTTTGACCG
+CTTGTATCGATGGATTCGCCAGTTTTTCAGGAATTACCTTAAGATTCTCGAAAGCACCTG
+CTTTTTCAAGCTCTTCAACCGATGCGTTTCCATATACATCAATTTTAGAAGCGCCAAAGT
+TTACTTTTGCGTCCTGAACTCCAGCTAGTTGTTTTACATTTTTTTCAAACTTCCCAGCAC
+AGTTTGCGCAAGAAAATCCCTCCACACGGTAAACATTTTTATCTTCTGTTACCACTGGTT
+CGACCCTTCTTCTAGCCTTCTCTGGTGCCACTTTAAGATTCTCGAAAGCACCAGCCTTTT
+CCAGATCTTCAACGGTTGCACTGCCAAAGACATCAATTTTGGAAGCTCCGAAATTGACTT
+TAGCATCATGCACCCCTGATAGTTCTTTTACATTTTTTTCAAACTTCCCAGCACAATTCG
+CACACGAGAAACCCTCCACACGGTAAACCTGTTTATCTTCTGTTAATGTTTTTGTTGAAC
+TATCCAATACTAGCAACCTCCCTTTGATGCAAGAAAGCTTTTTCTACAAGCTGTTTAACA
+TGCTCATCATCTAGTGAATAATAGACTAATTTTCCTTCTTTACGGTATTTTGCTATACCT
+AAATTTTTCAATAATCTTAAATGATGGGATGCCGTAGCCGTTGAAGATTCAATGATATTA
+GCTACATCACAAACACATAACTCTCCCTCTAAAGACAAAACATAAGCAATTTTAACTCTT
+GTATCATCTGATAGAGCCTTAAAAACTTTCGCTACATCCATAGGATTCTGTTTAGCAAGG
+TCTTTTTTAGCCCTGTTTACCTTATCTTCATGAATATAGGTAACTTCACACATATCTTTT
+GTCATAATTACCCTCCTTATTCAAATGATTGTTTGAATGATATATAATTAATATTAAAAA
+GGATTGGTTTCTAATGTTAGAAACCAATCCTTTCGGAGATTTTAACCAAATTTTAAAGTA
+TCTTAAACATAACTGCCCCGTTAGTTTAAGTGCATCCTTTCACAATCTGTCTACAGATTA
+ATAATAAAAACTACTCTTTATTATACAGATCTCCATATAATTTTTGAATTTGGTTCTGTA
+ATTTTTTATTTTCTTTTTCTAATTCCATAACTCTTCTTTTTAAGGTTTTTATAAGGATTT
+CCTCCGAACGAGAACTTTTCTTGGGTTTTGAGACTACATTTGATGTTATTTGACGCTCAC
+GAAGGGATTCGATTCTTTGCCTAATATCGTGTTCCTTATAAAGCCATGATTTAGAAACAT
+TAGCTTCCTTTGCTATTGAATTAAAATTAATAGCTTTACCTTCAATCGAAAATTTAGAAA
+TCGCTTTGTCTACTTTTTCTCTTGTCTTTTGTGATTTCTGCTTCGCCAAACGTACAATTT
+CTGTTGTATTTCTAACTTGTTTATTCATTGATAATTACCCCGTTAAACTTCCAATGATTT
+GTTCTAAACGCTCTTTAACACGGCTATTAGTCTCTATTTGTCTTTGCCATTGTTTATCCT
+TTGCTATGGTTAATAACTCTTCTGTACGCTCTAACTGTTCTTCGTGCTGTGGTAAGAATT
+GCTTACTGGTACAGAAGTGAGTGCAATCTAAGCATGCATTCGCATGTGGACAACCACCTG
+CTATTACTGGCAATCTACAATAACCATTTGGAAGCACTTGTGCATTTATATTTTTCTTGA
+ACCATTGAAGCTCTACATCATCGACTTCACTATCATCATCTAGATTGAGCACATCTCCAT
+TATTGGTAACCAGTTTTTCTTGAAATTTAGTAAATTCATTTTTTAGAGTTTCATCAAAGA
+TATGAGCGTATCTGCTTGTCATTTCTGGGCTTTCATGTCCCAAAAATTTCTGCACAATAT
+GCTGGGGCACCCCGTTGTTAATCATTCTTGTTCCTACTGAATGGCGAAAGGCATGGGCAT
+GGAATCTATAAATCTCGCCTAATTTATCCACTATATTTTGCTCATAAGCTAATTTATTTA
+ATTCGCCTCTAAATGTTTTTTGTTTTAATGGCGATCCATCTTTTCTTGGAAAGAGGTATT
+CACTATCTGGAAATTCCTCTGAAACTTTATCTTCCCGAACTTTAATAAGTAAAACTACCT
+CTTTAGATATTGGAACTATATGCTCCTTTTTCATTTTCCATTGATAATACTTTAAAAAGT
+AATCTCCATCTTTGTCCTCTAATAAACAGCCTTTTTTCAAGGTGCACAATTCACTTATCC
+TCATTCCACATTCTTGAACAATCATAGTCATCGTAGCTATATATTCGGGTAATTTATCAA
+GATGACTGTTCAATTGCTCTAGAACGAATTCGTCTATAAAGCGAGGTTTTGCTCTTGGTA
+TTTTCGGATAGTCCTCGGGATAAATTAATAATTTGGAAGGAACATCATCCCATTCTAGCC
+TATGAAGGGTACTAAATAGTCCTTCCAATATAGAGATCCTCCCAGTTATTGTACTAGGTT
+TTATCCCCATCATGTTTAGTTCACTTAAATATGCTTCAATTTCCACTCTCGTTAATTGGT
+GTACTCTCTGAACGTGTTTAAACTTTATGTCCAGAAAATTAAAGAACTCTTTAAGTTTTT
+GGGCAATATCACTTACATAGGAAAAGCTATCCATGTTCAATCTTAACTTACAATATCTTT
+TTACAAGCTGTTTAAAATATGTATTCCGAAACCCTTTAAAGTTAATTGTATATTCATATT
+GTGTTGGGTTAACCTTATCATCTGGCAAAGGTAAGTTTCGTCTATCCCAAACGTCTTTAT
+CCCACTCCTCTCCATCAAAATAAAAGTTCTCATAAAACTCCATAAATTGTTTTAGATTAG
+TAACATAGTAGGAATTAGCTTTTACAGGTGTTTTTTCTTGATTAGCAGTAATCTTATAAT
+TAGTAGTGGTAATTCTAACACCCCGTTTTGTCAAATAAGTTCTATACTCCGTCATTGCTT
+TATCAATAGGAACTTCAGTAATTGAAGTAATGCTGGGATACTTTAAATCTAAAAAATCCA
+ACATTTTATTAATTACTGTTCCTTTTCTAATCCAGACAGTTTTTGCATTCCATATTCCAT
+TGTTTAAATGGTAAAAATAAAAATATTTCAATTCTGTTCTTAACCACAGATTTTTAACAC
+GTTCAAAACGAACCCAACGATTTCTTAAAGCAGGATTCTTACTTAATTCTATGGCAGAAG
+GATGTGGACATTTTCTTATATCCCAACTATTATTAGCCCAAAACCCTTGCATTTCTTCAT
+TCATTACAGCTATTTTTTTGCTGATCTCACTCTGACTGATAATTTTCCTTTTACTAGAAG
+CATTCATTTAGCTGGTATTCTTTATCTAGTAATAAATACAATGGATACGGCTTATTCTCC
+ACTTCTATCCTTTGAACCCTCACACGCGCCCCCCTCTTTAAACACTTTAAGTACTACAAA
+TTATAAACCTTGTTAATTTTTATTTAAAGTAAAATCTCCCTTTAACATCTCCTCCTGAAC
+TACTTTAACTACTATTATTTATTATACTATGGTTAATATGTCTCCACTTGGGTGGTTATG
+GCCAATAATCATACCCGTTGCGTTACTTAATATGGCTGTTTTAAATATTTCTCGAGGATG
+TATAACCGCAAAATTAATGGTTCCTATAGAGACGGTTTCAATATGTGTAGGTTCATTTTT
+GCTATTCAAGCAAATTAAAATGAAGTGTTCTCGGTCAGCATTTCCTATGAAGTCACGCAT
+AATATCAGCAGCGTCTTTTGGTTCTTCAATACGTCTTTTTAAATACCAAAGTGTATCTTC
+TTTAACCATTTGGACTTTGACAACATCTATTCTTTTTCTACTCATTATGGATAAGCTCTA
+TACTTTCTATTAAGTCAGGGTGAACAATGGATGTGATAGAATCATCATTCATATAAATGG
+AATATAGCTCATCTAATTCTGAATTATTTTTTTTGTTTGATGAAAAGGCGATAATGCCTT
+TAATAACATCGATGTGTGGTTGATGCATTAAATATTGGTATACTTCTTTCCATGTTTGAT
+TCATTCTATTTAGTCTCCTTTAATGGTTTAATTGTCCATGCCTTTCTAGCGTATGGATTT
+AATGGATGCATGATTTCATTTGTTTGAGGATTTGTTAATATACTGATTTTCTTACTGTGA
+GGTTTTAACATGTCTAATACTTCATTCACTCGATTTTCCACAAGAGGTTTTTTTCCGTAG
+GAACCCCAAGCCAATAAAACACTATCGGCTTCTTTGACAGCTTTCATAATGTGAATATCC
+GTGTGCTTGTCATGGCTGTTTTCGATATGTTTTAAATTAATGGGGGTATCAATATTTGAA
+AAAAGATTTATAAAATTAACGCCACCATATTCATCTTTTTCAGCTACTTTATTGACAATA
+AGTTGTGTTGTAAGGTCAACGTTGATAACACCATCATAATGAGGATACATCGTTATAATT
+GTAAGTACTTCTTTATCAATATCCCAAGTTTTCTTGAGAAGATAACGATGCATTTTATCC
+TGACTAAATATCGCTTCAGTTTCTAATACACTTTTGATTGATTTCATTTTATCTAACTCC
+TTTATTTAATATTCTTCAGGTAACAACATGACGTAATAAGAAAGGTCTACATCATCTTCT
+CGGATAATGTAGACCTTATTAATATTGATAGCTTTTGAATAATTTGCCTTATGAATTTTT
+ACGTACTCTGGACGTTCTTGCTTATGTTTGATATATAATTGACTATTATGCATATTGAAC
+TGGAATATATGAAAGTAATCAATCTCTTCTAGTTCCTTGAATTGTTCGTTTTCGCGTTGC
+GCTACAAGTTTCCATAACTGTTGCTGCAACATTGCTGGCAAGTAATTGGCAATACTACGT
+GTAATATAACGTTTCATGCTCATTTCTCCTTTTCTATATCTTTCATTATTGTAATAACTT
+CTGTAATGACTGTGACGCTTATCTGAGCTATGTGTATCCATTTATTCATTATTATAATTC
+TCCTTTTCAAGTAAGTGTCTTTGATCTAGTAGTGGCATAACTGTGTTATGAAGATATAAG
+AAGTCCATATCGTTTGTTTCATCAATATAACCAATCGCAATAAGTTGTTTTTGATAGTAG
+AGGATAAAGGGGTATATATGCCTTTCATGAAGTGTGTCAGAGTAGTAAGTATACGTATGA
+AGGATTTTGTTGGTAAGCGGACCAAGTCTGATATATTGATCAGGAAGGATATTATCTGCC
+ACTTCCTCGATAGATTCACATTCCCATTTTTCGTCCTTTGGCAGATTGAATAAGTTAGTT
+ATATACTCTTTGAGTTGTTTTTCTAGTGTCATGGTTATGACCTCCTATAATGTTTTTGAT
+GTATACATGTAATACACCATATAGATAATATATGCTTCAAAAAAATTTTGTTTCGTTTGT
+GAATCCCATTGTTATTAAGAAAATATCCCAATAGAAAATTATCACAATTGTTGATATGAC
+AAGGAAATCCCATTATCCCGCTCATTTCTCAGGAAATATAGCGATATATTTATATATCAT
+TTGGATTTGGTGGTGTCAGTACGACTTACTTTTTCTTTTTATATTATTTATTTATAAATA
+ATAATGGGATTTCGGGATTACGCTTGCGTAATCCTTATCCTACATGTATTTATCAAATCC
+CATTGCTATCCCGTTCATATTTTATTTTGGGATGTTCTTTCGTCATACAATATAAGCTTC
+ACATTGAGTTGTGACTTGTTAGTATGTTGAAAAGATTCGTTAGATGGGTGTTATTGAATG
+ACGAAAGGACAGTACATAGATATTAGATTTGAAGAAAGAGCGTTTGAGGCAAAAATAAAG
+ACGAAGTGCTGAGGAGCACTTCGTCGAGAGGGGTATTATTGAAAAGTTGTTTAATAATTT
+CATTATTGAGTTTTAGTGTAACGTAGAACTGTTTTTTATGATTACCGTCTTTACGAATAT
+CAATACGGTCAATGACTGTAAGATATAATGCTTTGAGTTGTGCTTTATCCATTGATTCTA
+TATTTTGAAATATTCGTTGTAATAGGGCAGCGATTTGTTTCGTATCATAAGATAGTTTCT
+CTTGATTTTGTTGCTGTTTGAGTTGATTCATTTGATTTGTAATGTCATTGAGTTGTGTTT
+CATATTGATGAATAGTTGCTTTCAATGCAGATGTTAGGTCCGGATTATCTTCAATGGTTT
+TAACTAAATTATGGAGTTTCCCGCTGACTTCATCGTATTGTTGTTGTTTATAAGCGATAT
+CGTGGTTCAATGCACCAATATCGACTTTATTTTCTTGATTGACACGTTCTAAGACTTGGT
+TAATGACTTTATCACTTTTGACAATTTCGAGTATTTGATCCATGACGTATTTTTCAATCA
+CATCAGCTCTAACGCTATTCGCAGAACATACTTTTGAGCCTTTGTTTCGGAAGTTACTGC
+AAGAATAATAACGTATTCGCTTCTTGGTACCATCTTTCAATGTGTTCGTTGTGTTACTAG
+CTGCCATTGGTGCACCACATTGTGGACAATGAACGATACCTGTTAATAGATTAGTTCCTT
+TACCGTGGACTTGAGGTTTTTGACTGACTTGTTTTTTACGTAATTGGACTTTATCCCATA
+AGTCTTGAATAATAATAGGGGAATGCTTACCTTCAGCTATTATTGGTTTATCATTCAGCC
+CTTTACGACGCTTTTCATTCCAATCTTTGTACTTTGCGAATTGAATTTTACCAACATAGA
+ATGGATTAGATAAGATATAGGTCACTGAACCAATACTGAAAGGCTTTCCTTTTTTAGTCA
+CGTATCCTTTGTGATTGAGTGCATTCGCAATTTTACGATATCCGTGGCCTTTAGCATATG
+ACTCAAATATATATTTGACAATATTCGCTTCATGTTGGTTTATCATGAGTTCATGCTTGC
+TATCCGGTATTTTGTCATAGCCCAGCGGCAAATTGCCTTGATAATAGCCTTCTTGAGCGC
+GTCGGGTTTGACCCATGAATACATTTTCGACAATATTATTTCTTTCAAATTCTGAAAAAC
+TCGCTAGAATTTGTAGCATCAATTTACCACTGCTTGTATTGACTTCCATACGCTCAGATA
+AGCTGAAGAATTCGACATTTTGACGATGAAGGTCTTCAACAATTTTGAGTAAGTCAGAAG
+TGTTACGTGCTAGTCGGTTTGTTTTGTAGACCATAACAGAATCAATCTGACCTTCGTTCG
+CATCTTTTAACAAACGTTGTAGTTCTGGTCGGTTCATAGATTTTCCAGAGATACCTCTAT
+CCGCGTATACATCTACAACAACAAAGTTATTGAAATCACAATATTCTCGAATTTGATTGA
+TTTGTCCATCGATACTATAGCCTTCAGTACTTTGGATTTCCGTTGATACACGAACATAGA
+TACCGACACGTTTTTGTTTGAGTTGTTGCATGATTTTTTCATCCTTTCTGATTAAGCAAT
+CGATGATTGCGAGGTTTGGTTCACAATGTTCAATGGTTCATTTTTGAAATAGATCCCAAC
+AAGGGCTTTATTTTTTGTAATGCGAATTTCATCAATATAGGGATGCAGCATGTTTAACGT
+GAAACTTTTCTGTATAACCTTTTGTAGTGATGTTTGTAACTGATTATCACTTATGGAGGA
+TATGGTTTTGTGCTTTTGATTCATCAAATGAGTCTGTTTTCTGAATGATTCAGCATCAAT
+CATACCTTTGGCAAGTTTATCTATCAGTTGTTCTTGAGTTAGCGTACTTTTAGCTTCTAT
+CACTCTTTGTTTTTTGAGGCGTTGATGAATTGCATTATTAATTTTTGAATAGAGCTGTTG
+GTTTTGAAAGAAGTTCTGACATGTAGCTAAGACTTGAACTTCTAATTTTTGTGCATTTAT
+TCCTTTGAATGAACAGACAAAGCGAGATTCATTCATATTTTTAGGACAAATATAATATCG
+CAATGTATGTTTTTTTCTTATTGTCATATTTGTCAGTGTTGAGTCACAACAAGGACATTT
+GATCTTTTGTTTCAGCTGATTCTCTGAAGGTATACAGTGAAGTTGCTTCTTATTACGGAT
+TGCTTGAGCATGTTCATATTTCGTTGCCGAAACAATAGGTGGTACCATATTGTTATATTG
+ACCATATTGATTGATGACACGACCACAATAATTTGGGTTCATAATTATATTTCGTACCTG
+ATAAGGCTTGCGGGTAATAAGTTTATTATCGTCTTCTAAATATTGTGCAATCTTCTTGTA
+GCCATATCCTTGAAGATAATAATTGAATACAGCTTTGACGGTAGGTGATTCATCATTATT
+AATGATGAAAGTACCATTTTGATAGTGATAACCGAAAGGCGCATGGGTCGTTATGAGTTT
+ACCTTGTTTTGCCTTTTCTCTAAGTCCATTTTTGACTTGTTCTCCAATATTATCGGATTC
+AAGTTCAGCCAGACTCATGAATATATTGAGTTTTAGGCGATCAAACGCTTTATCCATATC
+AAAATAGCCATCATGAACACTTAGAATATGAACATGATATTTTTGACAGAGTTTCATGAG
+TTTTAATGCATTTTTCAAGTTGCGATGAAGTCGATTCAAGCGATAACAACATAATACGTC
+ACATTGTCTTTGTTGGATGCGTTCGGTGACTTGTTGATAGCCTGTTCGATTATCTGTTCT
+GCCTGATTGCTTATCACTAATGTATTGGATATTTTGAATATTGTGCTTTGGAGCTAATAA
+TTCTATTGCTTGCTTTTGAGCTGGGAGTGATTGTTGTTTCGTTGTACTTTGGCGCAAATA
+ACCAATGGCTCGTTTCATAGTATTTCCTCCTTTCAAAGAGATAATATATATTTATGAACG
+AAATTATAGATAAGCCCAACACCAGTCGGGTGTTGGGCGGTATTATTAGTCATCAGCGTG
+ATTGATTTCTTCAATAACCAGATCGGCTAATAGTATGATTAATTCGTCCATGTATATCAC
+CTCATTATTCATAGTATTAACAACAATTCTTTAGTTGCATCTCAAAAGTAGTAACGAATT
+CGATATTCTTCTTTGAGCAAATTTTTTTAAATGAATGTAATCTTCATATTCTCCATATGC
+AACAATGGACGTAGGTTTGATTACTTTCTCCAAAATGTCATTTATTAACTTGTACTCCTC
+AGTGTAAGTGTTACTTATTTGACGACCTTCTTGTTTACAGCATTCCTTCACAGTATCTAG
+GGGTGTGCTTTCTAAGTATTCAAATCTTTCATCTTCAATTTCGTGAGCTAGTGCTACTGT
+ATTCATAGTACAATTCCTCCATTGATTTAATATTTGTGCTACAACACCTTTAAATAGGTG
+TTGTAGCAAATTTATTTAATAACATATTTTAAGCTTTAAAAGTCAATATCACCGTTTTTA
+TCCCATTCTCTTGCTTTTGAAATCATGTCTCGTAGTATTGGATGTTGGTGTTCAGAGATA
+AATGATAAGGGTATATTGAATTTACTTTTTTCAGATAGACCAAAAATAGGAGCGTATGAT
+TTATCAAGCTTAAGATGATAAAATACGATGGTTTTTGGTTTGCCTTCTTTGTCTTTGACA
+CTACGTTTTGTTGTTTTACGATTGGCGTCTGACTGGATGTAATCTTTATCCCTCAGTGCA
+TCAATGACATTATTTGTATCTTGGAAATTATGTTCTTTTAACATATTTTTAAAAACCGAG
+GCAATCATTTTCACCTGGATATGATCATCTTCAAGTGAAATCATTCCATAATTTTCAATA
+AGCGTTGATAACCTAGTGTCGTCAGAAAACTTACCACGATTTTGTGCTACAAATTGGACA
+ATGACTTCAATTGCTTTATCAGCTAGGCTTCGCTCACTAACAGAATCTAAATGATAGTTA
+ATAAGATAGTCCCTTACAGCATTCAAATCAACAGGTGTGGCAATGACACGTTCCAATATA
+CGTGCTGATGTTGTAATGGTTGCATAGCGTTTGAACATCCGAATTCCTGTATTGCTGGTT
+TCCTTTTCTAGTTGAGTTTTGAACCTTAGGTGCTCATTTTGGAACCATTTAATGACTTCT
+TGTTCACGATTGAGTAGATATTCAGCTACTAATGGCATGATATGACCATAATTAGCTGAT
+GTTGCTTTTTTAATAGTATCTGCGTTGTCAGCGTTAGTTGTAAAAGCTTCAGATATTTCA
+ATGGTACGTACATTCAAACCATCATTACGTGCACTATTATTGAAAATACTGTGTTCGGCA
+GTACTAATTACTGAGGTTCCCCAGTTTTTTAGTGACTTGACTTCTCCGTGTATATTAGAA
+CGTTGTCTTCCTTGACCTTCGGCAATTGAATAGAGCAAACCAGTTGTATCTTTAAAGGTT
+GCAGATGACAGTTCGTCCAATACAATAGGTACACCATAGTTGTTACTTAGATATCCTTCA
+AGCGCGTTTCTAGTGCCATTCCATGATCTAAACAGCGTATTACTACCTTTAGTAGGGTTG
+CCGGTTATTGAGACTCCTAAAGCCGCTGCAGTTGATTTACCCGTGCTTGAATTTCCCGTA
+AATGAGAAAATCGTACCTGCGAATTCAACCTCATGTTTTGTTTTTAAAAACGCAGTTACT
+AATGAAGAAATACCAAACACTACAGCAAGTTCGAGTAACAAGTTTCCTTTTACTTCATCA
+AGATACATTTGCCACCAGTCTTCAAAAGTGCCTTTAGGTTGTAGATCGTACTGTGTTTCA
+CAAATGATTTCATCCGCCTGCGACTGTGTAATTTCTTTTGAAAGATATGGTTCATCTAAT
+GAAATGACGACACCTTTATCAGTATTTAACACACCGACACCCGTATACAACGATGACAGA
+GGCAGTGATTGGCGCATTAATTGTAGTGCATTGCTTAATGATTTAATGTACTTCTCATTG
+ATGCTGAAGCCATACATGATTAGTGAAGGTAACTTTTGCGATGTTAAAATATCTGATGTT
+TCAATACGTTCAATATTTTGTCCGTTGGAAATAACTAGTTTCTCAACCCCAGATTTGGGG
+TCAAGAAACTTGTTTTTAATTAAAATTGGACTAGATAAGCGTATGGACTTTTGCTGATCA
+TTTTTACCTTTCGGTGGTATAACTTCATACCATGAATCTTCAGTAAGCCAGTATGGATAT
+TCACTAAAGATGATGTTAGTCATTAGTTGTTACCACCTTTCCAGTTATTTTGATGATTCA
+TCGGATTTGGTGCAGTTTTAAGGTAGAGCAAAGATGAACCTTTTTTTCCAACTACAATGA
+ATGGAAGGTTAGGTGTATATTTTACAAAATGTGCAAACCAACGACCAACATCTTGTTGAA
+TTTCAGTCGAGCACAAAACATTAGCCCTCACATTCAAATCGTGATACATAAACATGGTGC
+CTACAGGTAAATTAAATGCGATGCTTGTAACAGCACGTTTTAGTGTATAAAATTCTTTTT
+CTTTCATCATAAGTTCCTCCAAATAAGTCTTATTAGTCAATCAATACTGTAGATGCTTAA
+CACCTCAATGGTTGATTGCTATAATAAGCATAAATGAAGCATTTTAATTAGACGCGGAAC
+AAAAAATAGGGAGGGGGGTATATATGATACCTACGATAGAAGAAATTATTGACAAGTATG
+GCAGTTTAGTAGATTGTCTAAAGTTTGATATATCAGGTGAGGTTTATGAAGACTTATTGT
+TATTAAGAAGTTTAAGCGATTTAAATGAACACCAAAAGATGCATAGAGTTTCATTTATAC
+AAAAACACTTTAACCCTAATTTTGATTATTTGTTAGATGACTCAGAATTTAGAAGTATGA
+ATAAAATTTATAGAAATTTAAATACTATGACGTATATCAATAGTCAAAACAATGAATTTA
+AACTTAAACCATTTATAAATGAAGAACAATTAAAATCACTACTTGCGATAAAGAAAGTAG
+ATGAACATTTGAGTTATGACCCATCTATTACCTCAAAAGCATTAGCAGATATAAACAAGA
+CGCAAAAAAGATTGGTTACAAAGCCAAATATTCTCTATAATCGATCCAAAAAAGAAAATG
+AGTATGTACGGTTAGGAGGAAAAATATCATATACAAAGATGGAGAAGCATTGGGAATATT
+TACATAATGAGATTCAGTATTATAATCTTACTAATCAATTAATTAGTTATGTTGCTTTAG
+AAAAGGAATATGCATGGGCTTTTTTAAATGAATTATTTTATTTAATAGAATTATATTTGA
+AGGCATTTAAAGGACAAAAGAAAACTGGCCATGAATTTGAAGAAGGATTGAACGCATTTA
+TTCAATCATATGTCATTATTTTACTTATAGATATAAGATTACCGACTGTTAGGTTATATA
+TTATTAGGCGTATTGTGGATGAATGCGAAAAAGAATCAGATAATCAAAAAAGAATTAAAC
+TGATAGAGGAATCCATTAAAAAGTACAGATATGTAAAAGAACAGATTGAAAGATTTGGAA
+ATGCGTTGAAAGAAGAATTATCAATCGCGACTTTGTCTATTGAACAGAATATGTTAGAAG
+CTAAAATTGATTATTATAAGAATTACTACTATCCTAGAAAAAAAACAAAGCATAACAATA
+TTGAGTACAACGTATCAATGTTTTTTAAAGCTGTAGATTCTTTAAAGAAATAGTATTCGA
+CGGACAATATTTATAGATAATAATTAATTAGAGAGGTTTTAAGTTGTGTTTAGATTAAAA
+AAATGGTATTTAAAACAAAAAGGCTATTTTTGCCGTGTCGGTGAAAAGTGGGACAATAGT
+AATTTATCCCATGAAAATATACATAGTTATGTAGATAGAGTACTTGAATATGAGACTGAA
+ACACGTAGAAACGGCCAACCAACTGAAGAATATATATTAGCTAGTAGTGGGGAAAAAATA
+AATGAAGATTTAAGAAGTGGTACTAATGATCACAAAGAAATTCTAGAGGTATTTGATAAA
+TATAAAGTAAAAGAGGATATAACTACTTATAGAACGGTTAGTCCTCGGATATACAAATTA
+ATGGAGAAAAATGCTAAAAACTTAAATGGAGTAGATTTGTTTGAACTTGGAATTTTACAC
+ACTTCATTAATAAAAGGGTACGAATCAAGAGAAGAAGGTTACAAATTACGGGTAAAAGTA
+AAAAAAGGAACACCAGCTTTCTATGTAGGTAATTTAACAGGCGAAGAAAGCCATTATTAT
+GAGGTGATTGTAGTTAATAATTTAAAATTAAAAATCATATCTATTGAAGATTACTATATA
+AATTGTGAAGTAGTATAATTGGAATCAATTCTGTTAGTTGTTCATAATAAGCCAATTATT
+TTTTTAATGAACTTATTACTTAAAAACCGCATCATCAACTGATAAGCAGAAGCGTATCAT
+AAGTAGCGGAGGAGTTTTTTACCT

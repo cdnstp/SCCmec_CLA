@@ -1,0 +1,85 @@
+locus_tag	ftype	gene	EC_number	product
+HE579073_SCCmec_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+HE579073_SCCmec_00001	gene	rlmH
+HE579073_SCCmec_00001	mRNA	rlmH
+HE579073_SCCmec_00002	CDS	hypothetical protein
+HE579073_SCCmec_00002	gene
+HE579073_SCCmec_00002	mRNA
+HE579073_SCCmec_00003	CDS	hypothetical protein
+HE579073_SCCmec_00003	gene
+HE579073_SCCmec_00003	mRNA
+HE579073_SCCmec_00004	CDS	hypothetical protein
+HE579073_SCCmec_00004	gene
+HE579073_SCCmec_00004	mRNA
+HE579073_SCCmec_00005	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+HE579073_SCCmec_00005	gene	ugpQ
+HE579073_SCCmec_00005	mRNA	ugpQ
+HE579073_SCCmec_00006	CDS	paaZ	Bifunctional protein PaaZ
+HE579073_SCCmec_00006	gene	paaZ
+HE579073_SCCmec_00006	mRNA	paaZ
+HE579073_SCCmec_00007	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+HE579073_SCCmec_00007	gene	pbp
+HE579073_SCCmec_00007	mRNA	pbp
+HE579073_SCCmec_00008	CDS	mecR1	Methicillin resistance mecR1 protein
+HE579073_SCCmec_00008	gene	mecR1
+HE579073_SCCmec_00008	mRNA	mecR1
+HE579073_SCCmec_00009	CDS	hypothetical protein
+HE579073_SCCmec_00009	gene
+HE579073_SCCmec_00009	mRNA
+HE579073_SCCmec_00010	CDS	hypothetical protein
+HE579073_SCCmec_00010	gene
+HE579073_SCCmec_00010	mRNA
+HE579073_SCCmec_00011	CDS	hypothetical protein
+HE579073_SCCmec_00011	gene
+HE579073_SCCmec_00011	mRNA
+HE579073_SCCmec_00012	CDS	hypothetical protein
+HE579073_SCCmec_00012	gene
+HE579073_SCCmec_00012	mRNA
+HE579073_SCCmec_00013	CDS	hypothetical protein
+HE579073_SCCmec_00013	gene
+HE579073_SCCmec_00013	mRNA
+HE579073_SCCmec_00014	CDS	hypothetical protein
+HE579073_SCCmec_00014	gene
+HE579073_SCCmec_00014	mRNA
+HE579073_SCCmec_00015	CDS	hin_1	DNA-invertase hin
+HE579073_SCCmec_00015	gene	hin_1
+HE579073_SCCmec_00015	mRNA	hin_1
+HE579073_SCCmec_00016	CDS	hin_2	DNA-invertase hin
+HE579073_SCCmec_00016	gene	hin_2
+HE579073_SCCmec_00016	mRNA	hin_2
+HE579073_SCCmec_00017	CDS	hypothetical protein
+HE579073_SCCmec_00017	gene
+HE579073_SCCmec_00017	mRNA
+HE579073_SCCmec_00018	CDS	hypothetical protein
+HE579073_SCCmec_00018	gene
+HE579073_SCCmec_00018	mRNA
+HE579073_SCCmec_00019	CDS	hypothetical protein
+HE579073_SCCmec_00019	gene
+HE579073_SCCmec_00019	mRNA
+HE579073_SCCmec_00020	CDS	gloC	3.1.2.6	Hydroxyacylglutathione hydrolase GloC
+HE579073_SCCmec_00020	gene	gloC
+HE579073_SCCmec_00020	mRNA	gloC
+HE579073_SCCmec_00021	CDS	glpE	2.8.1.1	Thiosulfate sulfurtransferase GlpE
+HE579073_SCCmec_00021	gene	glpE
+HE579073_SCCmec_00021	mRNA	glpE
+HE579073_SCCmec_00022	CDS	ricR	Copper-sensing transcriptional repressor RicR
+HE579073_SCCmec_00022	gene	ricR
+HE579073_SCCmec_00022	mRNA	ricR
+HE579073_SCCmec_00023	CDS	hypothetical protein
+HE579073_SCCmec_00023	gene
+HE579073_SCCmec_00023	mRNA
+HE579073_SCCmec_00024	CDS	pls	Surface protein
+HE579073_SCCmec_00024	gene	pls
+HE579073_SCCmec_00024	mRNA	pls
+HE579073_SCCmec_00025	CDS	hypothetical protein
+HE579073_SCCmec_00025	gene
+HE579073_SCCmec_00025	mRNA
+HE579073_SCCmec_00026	CDS	tagE	2.4.1.52	Poly(glycerol-phosphate) alpha-glucosyltransferase
+HE579073_SCCmec_00026	gene	tagE
+HE579073_SCCmec_00026	mRNA	tagE
+HE579073_SCCmec_00027	CDS	murF_1	6.3.2.10	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase
+HE579073_SCCmec_00027	gene	murF_1
+HE579073_SCCmec_00027	mRNA	murF_1
+HE579073_SCCmec_00028	CDS	murF_2	6.3.2.10	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase
+HE579073_SCCmec_00028	gene	murF_2
+HE579073_SCCmec_00028	mRNA	murF_2

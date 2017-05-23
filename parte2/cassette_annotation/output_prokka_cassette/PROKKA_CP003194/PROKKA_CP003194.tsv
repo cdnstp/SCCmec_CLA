@@ -1,0 +1,154 @@
+locus_tag	ftype	gene	EC_number	product
+CP003194_SCCmec_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+CP003194_SCCmec_00001	gene	rlmH
+CP003194_SCCmec_00001	mRNA	rlmH
+CP003194_SCCmec_00002	CDS	hypothetical protein
+CP003194_SCCmec_00002	gene
+CP003194_SCCmec_00002	mRNA
+CP003194_SCCmec_00003	CDS	hypothetical protein
+CP003194_SCCmec_00003	gene
+CP003194_SCCmec_00003	mRNA
+CP003194_SCCmec_00004	CDS	hypothetical protein
+CP003194_SCCmec_00004	gene
+CP003194_SCCmec_00004	mRNA
+CP003194_SCCmec_00005	CDS	hypothetical protein
+CP003194_SCCmec_00005	gene
+CP003194_SCCmec_00005	mRNA
+CP003194_SCCmec_00006	CDS	hypothetical protein
+CP003194_SCCmec_00006	gene
+CP003194_SCCmec_00006	mRNA
+CP003194_SCCmec_00007	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+CP003194_SCCmec_00007	gene	ugpQ
+CP003194_SCCmec_00007	mRNA	ugpQ
+CP003194_SCCmec_00008	CDS	paaZ	Bifunctional protein PaaZ
+CP003194_SCCmec_00008	gene	paaZ
+CP003194_SCCmec_00008	mRNA	paaZ
+CP003194_SCCmec_00009	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+CP003194_SCCmec_00009	gene	pbp
+CP003194_SCCmec_00009	mRNA	pbp
+CP003194_SCCmec_00010	CDS	mecR1	Methicillin resistance mecR1 protein
+CP003194_SCCmec_00010	gene	mecR1
+CP003194_SCCmec_00010	mRNA	mecR1
+CP003194_SCCmec_00011	CDS	hypothetical protein
+CP003194_SCCmec_00011	gene
+CP003194_SCCmec_00011	mRNA
+CP003194_SCCmec_00012	CDS	hypothetical protein
+CP003194_SCCmec_00012	gene
+CP003194_SCCmec_00012	mRNA
+CP003194_SCCmec_00013	CDS	hypothetical protein
+CP003194_SCCmec_00013	gene
+CP003194_SCCmec_00013	mRNA
+CP003194_SCCmec_00014	CDS	hypothetical protein
+CP003194_SCCmec_00014	gene
+CP003194_SCCmec_00014	mRNA
+CP003194_SCCmec_00015	CDS	hypothetical protein
+CP003194_SCCmec_00015	gene
+CP003194_SCCmec_00015	mRNA
+CP003194_SCCmec_00016	CDS	hypothetical protein
+CP003194_SCCmec_00016	gene
+CP003194_SCCmec_00016	mRNA
+CP003194_SCCmec_00017	CDS	tnsB	Transposon Tn7 transposition protein TnsB
+CP003194_SCCmec_00017	gene	tnsB
+CP003194_SCCmec_00017	mRNA	tnsB
+CP003194_SCCmec_00018	CDS	hin_1	DNA-invertase hin
+CP003194_SCCmec_00018	gene	hin_1
+CP003194_SCCmec_00018	mRNA	hin_1
+CP003194_SCCmec_00019	CDS	blaI	Penicillinase repressor
+CP003194_SCCmec_00019	gene	blaI
+CP003194_SCCmec_00019	mRNA	blaI
+CP003194_SCCmec_00020	CDS	blaR1	Regulatory protein BlaR1
+CP003194_SCCmec_00020	gene	blaR1
+CP003194_SCCmec_00020	mRNA	blaR1
+CP003194_SCCmec_00021	CDS	blaZ	3.5.2.6	Beta-lactamase
+CP003194_SCCmec_00021	gene	blaZ
+CP003194_SCCmec_00021	mRNA	blaZ
+CP003194_SCCmec_00022	CDS	hypothetical protein
+CP003194_SCCmec_00022	gene
+CP003194_SCCmec_00022	mRNA
+CP003194_SCCmec_00023	CDS	ybiT	putative ABC transporter ATP-binding protein YbiT
+CP003194_SCCmec_00023	gene	ybiT
+CP003194_SCCmec_00023	mRNA	ybiT
+CP003194_SCCmec_00024	CDS	hypothetical protein
+CP003194_SCCmec_00024	gene
+CP003194_SCCmec_00024	mRNA
+CP003194_SCCmec_00025	CDS	hypothetical protein
+CP003194_SCCmec_00025	gene
+CP003194_SCCmec_00025	mRNA
+CP003194_SCCmec_00026	CDS	argO	Arginine exporter protein ArgO
+CP003194_SCCmec_00026	gene	argO
+CP003194_SCCmec_00026	mRNA	argO
+CP003194_SCCmec_00027	CDS	desA	1.14.19.6	Delta(12)-fatty-acid desaturase
+CP003194_SCCmec_00027	gene	desA
+CP003194_SCCmec_00027	mRNA	desA
+CP003194_SCCmec_00028	CDS	norG	HTH-type transcriptional regulator NorG
+CP003194_SCCmec_00028	gene	norG
+CP003194_SCCmec_00028	mRNA	norG
+CP003194_SCCmec_00029	CDS	hypothetical protein
+CP003194_SCCmec_00029	gene
+CP003194_SCCmec_00029	mRNA
+CP003194_SCCmec_00030	CDS	graR	Response regulator protein GraR
+CP003194_SCCmec_00030	gene	graR
+CP003194_SCCmec_00030	mRNA	graR
+CP003194_SCCmec_00031	CDS	graS	2.7.13.3	Sensor histidine kinase GraS
+CP003194_SCCmec_00031	gene	graS
+CP003194_SCCmec_00031	mRNA	graS
+CP003194_SCCmec_00032	CDS	yxlF	3.6.3.-	putative ABC transporter ATP-binding protein YxlF
+CP003194_SCCmec_00032	gene	yxlF
+CP003194_SCCmec_00032	mRNA	yxlF
+CP003194_SCCmec_00033	CDS	hypothetical protein
+CP003194_SCCmec_00033	gene
+CP003194_SCCmec_00033	mRNA
+CP003194_SCCmec_00034	CDS	uppP	3.6.1.27	Undecaprenyl-diphosphatase
+CP003194_SCCmec_00034	gene	uppP
+CP003194_SCCmec_00034	mRNA	uppP
+CP003194_SCCmec_00035	CDS	hypothetical protein
+CP003194_SCCmec_00035	gene
+CP003194_SCCmec_00035	mRNA
+CP003194_SCCmec_00036	CDS	aadK	2.7.7.-	Aminoglycoside 6-adenylyltransferase
+CP003194_SCCmec_00036	gene	aadK
+CP003194_SCCmec_00036	mRNA	aadK
+CP003194_SCCmec_00037	CDS	wecD	2.3.1.210	dTDP-fucosamine acetyltransferase
+CP003194_SCCmec_00037	gene	wecD
+CP003194_SCCmec_00037	mRNA	wecD
+CP003194_SCCmec_00038	CDS	aphA	2.7.1.95	Aminoglycoside 3'-phosphotransferase
+CP003194_SCCmec_00038	gene	aphA
+CP003194_SCCmec_00038	mRNA	aphA
+CP003194_SCCmec_00039	CDS	birA	6.3.4.15	Bifunctional ligase/repressor BirA
+CP003194_SCCmec_00039	gene	birA
+CP003194_SCCmec_00039	mRNA	birA
+CP003194_SCCmec_00040	CDS	hypothetical protein
+CP003194_SCCmec_00040	gene
+CP003194_SCCmec_00040	mRNA
+CP003194_SCCmec_00041	CDS	hypothetical protein
+CP003194_SCCmec_00041	gene
+CP003194_SCCmec_00041	mRNA
+CP003194_SCCmec_00042	CDS	hypothetical protein
+CP003194_SCCmec_00042	gene
+CP003194_SCCmec_00042	mRNA
+CP003194_SCCmec_00043	CDS	hypothetical protein
+CP003194_SCCmec_00043	gene
+CP003194_SCCmec_00043	mRNA
+CP003194_SCCmec_00044	CDS	hypothetical protein
+CP003194_SCCmec_00044	gene
+CP003194_SCCmec_00044	mRNA
+CP003194_SCCmec_00045	CDS	hin_2	DNA-invertase hin
+CP003194_SCCmec_00045	gene	hin_2
+CP003194_SCCmec_00045	mRNA	hin_2
+CP003194_SCCmec_00046	CDS	hin_3	DNA-invertase hin
+CP003194_SCCmec_00046	gene	hin_3
+CP003194_SCCmec_00046	mRNA	hin_3
+CP003194_SCCmec_00047	CDS	hypothetical protein
+CP003194_SCCmec_00047	gene
+CP003194_SCCmec_00047	mRNA
+CP003194_SCCmec_00048	CDS	hypothetical protein
+CP003194_SCCmec_00048	gene
+CP003194_SCCmec_00048	mRNA
+CP003194_SCCmec_00049	CDS	hypothetical protein
+CP003194_SCCmec_00049	gene
+CP003194_SCCmec_00049	mRNA
+CP003194_SCCmec_00050	CDS	hypothetical protein
+CP003194_SCCmec_00050	gene
+CP003194_SCCmec_00050	mRNA
+CP003194_SCCmec_00051	CDS	hypothetical protein
+CP003194_SCCmec_00051	gene
+CP003194_SCCmec_00051	mRNA

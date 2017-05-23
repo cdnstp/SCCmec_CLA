@@ -1,0 +1,124 @@
+locus_tag	ftype	gene	EC_number	product
+AB373032_SCCmec_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+AB373032_SCCmec_00001	gene	rlmH
+AB373032_SCCmec_00001	mRNA	rlmH
+AB373032_SCCmec_00002	CDS	hypothetical protein
+AB373032_SCCmec_00002	gene
+AB373032_SCCmec_00002	mRNA
+AB373032_SCCmec_00003	CDS	hypothetical protein
+AB373032_SCCmec_00003	gene
+AB373032_SCCmec_00003	mRNA
+AB373032_SCCmec_00004	CDS	hypothetical protein
+AB373032_SCCmec_00004	gene
+AB373032_SCCmec_00004	mRNA
+AB373032_SCCmec_00005	CDS	hypothetical protein
+AB373032_SCCmec_00005	gene
+AB373032_SCCmec_00005	mRNA
+AB373032_SCCmec_00006	CDS	hypothetical protein
+AB373032_SCCmec_00006	gene
+AB373032_SCCmec_00006	mRNA
+AB373032_SCCmec_00007	CDS	hypothetical protein
+AB373032_SCCmec_00007	gene
+AB373032_SCCmec_00007	mRNA
+AB373032_SCCmec_00008	CDS	hypothetical protein
+AB373032_SCCmec_00008	gene
+AB373032_SCCmec_00008	mRNA
+AB373032_SCCmec_00009	CDS	hin	DNA-invertase hin
+AB373032_SCCmec_00009	gene	hin
+AB373032_SCCmec_00009	mRNA	hin
+AB373032_SCCmec_00010	CDS	hypothetical protein
+AB373032_SCCmec_00010	gene
+AB373032_SCCmec_00010	mRNA
+AB373032_SCCmec_00011	CDS	hypothetical protein
+AB373032_SCCmec_00011	gene
+AB373032_SCCmec_00011	mRNA
+AB373032_SCCmec_00012	CDS	hypothetical protein
+AB373032_SCCmec_00012	gene
+AB373032_SCCmec_00012	mRNA
+AB373032_SCCmec_00013	CDS	hypothetical protein
+AB373032_SCCmec_00013	gene
+AB373032_SCCmec_00013	mRNA
+AB373032_SCCmec_00014	CDS	hypothetical protein
+AB373032_SCCmec_00014	gene
+AB373032_SCCmec_00014	mRNA
+AB373032_SCCmec_00015	CDS	hypothetical protein
+AB373032_SCCmec_00015	gene
+AB373032_SCCmec_00015	mRNA
+AB373032_SCCmec_00016	CDS	hypothetical protein
+AB373032_SCCmec_00016	gene
+AB373032_SCCmec_00016	mRNA
+AB373032_SCCmec_00017	CDS	hypothetical protein
+AB373032_SCCmec_00017	gene
+AB373032_SCCmec_00017	mRNA
+AB373032_SCCmec_00018	CDS	hypothetical protein
+AB373032_SCCmec_00018	gene
+AB373032_SCCmec_00018	mRNA
+AB373032_SCCmec_00019	CDS	hypothetical protein
+AB373032_SCCmec_00019	gene
+AB373032_SCCmec_00019	mRNA
+AB373032_SCCmec_00020	CDS	hypothetical protein
+AB373032_SCCmec_00020	gene
+AB373032_SCCmec_00020	mRNA
+AB373032_SCCmec_00021	CDS	hypothetical protein
+AB373032_SCCmec_00021	gene
+AB373032_SCCmec_00021	mRNA
+AB373032_SCCmec_00022	CDS	hsdR	3.1.21.3	Type-1 restriction enzyme R protein
+AB373032_SCCmec_00022	gene	hsdR
+AB373032_SCCmec_00022	mRNA	hsdR
+AB373032_SCCmec_00023	CDS	hypothetical protein
+AB373032_SCCmec_00023	gene
+AB373032_SCCmec_00023	mRNA
+AB373032_SCCmec_00024	CDS	hypothetical protein
+AB373032_SCCmec_00024	gene
+AB373032_SCCmec_00024	mRNA
+AB373032_SCCmec_00025	CDS	hypothetical protein
+AB373032_SCCmec_00025	gene
+AB373032_SCCmec_00025	mRNA
+AB373032_SCCmec_00026	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+AB373032_SCCmec_00026	gene	ugpQ
+AB373032_SCCmec_00026	mRNA	ugpQ
+AB373032_SCCmec_00027	CDS	paaZ	Bifunctional protein PaaZ
+AB373032_SCCmec_00027	gene	paaZ
+AB373032_SCCmec_00027	mRNA	paaZ
+AB373032_SCCmec_00028	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+AB373032_SCCmec_00028	gene	pbp
+AB373032_SCCmec_00028	mRNA	pbp
+AB373032_SCCmec_00029	CDS	mecR1	Methicillin resistance mecR1 protein
+AB373032_SCCmec_00029	gene	mecR1
+AB373032_SCCmec_00029	mRNA	mecR1
+AB373032_SCCmec_00030	CDS	hypothetical protein
+AB373032_SCCmec_00030	gene
+AB373032_SCCmec_00030	mRNA
+AB373032_SCCmec_00031	CDS	yheD	Endospore coat-associated protein YheD
+AB373032_SCCmec_00031	gene	yheD
+AB373032_SCCmec_00031	mRNA	yheD
+AB373032_SCCmec_00032	CDS	hypothetical protein
+AB373032_SCCmec_00032	gene
+AB373032_SCCmec_00032	mRNA
+AB373032_SCCmec_00033	CDS	hypothetical protein
+AB373032_SCCmec_00033	gene
+AB373032_SCCmec_00033	mRNA
+AB373032_SCCmec_00034	CDS	hypothetical protein
+AB373032_SCCmec_00034	gene
+AB373032_SCCmec_00034	mRNA
+AB373032_SCCmec_00035	CDS	hypothetical protein
+AB373032_SCCmec_00035	gene
+AB373032_SCCmec_00035	mRNA
+AB373032_SCCmec_00036	CDS	hypothetical protein
+AB373032_SCCmec_00036	gene
+AB373032_SCCmec_00036	mRNA
+AB373032_SCCmec_00037	CDS	hypothetical protein
+AB373032_SCCmec_00037	gene
+AB373032_SCCmec_00037	mRNA
+AB373032_SCCmec_00038	CDS	hypothetical protein
+AB373032_SCCmec_00038	gene
+AB373032_SCCmec_00038	mRNA
+AB373032_SCCmec_00039	CDS	hsdM	2.1.1.72	Type I restriction enzyme EcoKI M protein
+AB373032_SCCmec_00039	gene	hsdM
+AB373032_SCCmec_00039	mRNA	hsdM
+AB373032_SCCmec_00040	CDS	hypothetical protein
+AB373032_SCCmec_00040	gene
+AB373032_SCCmec_00040	mRNA
+AB373032_SCCmec_00041	CDS	hypothetical protein
+AB373032_SCCmec_00041	gene
+AB373032_SCCmec_00041	mRNA

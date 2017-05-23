@@ -1,0 +1,151 @@
+locus_tag	ftype	gene	EC_number	product
+NZ_CP012692_SCCmec_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+NZ_CP012692_SCCmec_00001	gene	rlmH
+NZ_CP012692_SCCmec_00001	mRNA	rlmH
+NZ_CP012692_SCCmec_00002	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00002	gene
+NZ_CP012692_SCCmec_00002	mRNA
+NZ_CP012692_SCCmec_00003	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00003	gene
+NZ_CP012692_SCCmec_00003	mRNA
+NZ_CP012692_SCCmec_00004	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00004	gene
+NZ_CP012692_SCCmec_00004	mRNA
+NZ_CP012692_SCCmec_00005	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00005	gene
+NZ_CP012692_SCCmec_00005	mRNA
+NZ_CP012692_SCCmec_00006	CDS	mecI	Methicillin resistance regulatory protein MecI
+NZ_CP012692_SCCmec_00006	gene	mecI
+NZ_CP012692_SCCmec_00006	mRNA	mecI
+NZ_CP012692_SCCmec_00007	CDS	mecR1	Methicillin resistance mecR1 protein
+NZ_CP012692_SCCmec_00007	gene	mecR1
+NZ_CP012692_SCCmec_00007	mRNA	mecR1
+NZ_CP012692_SCCmec_00008	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+NZ_CP012692_SCCmec_00008	gene	pbp
+NZ_CP012692_SCCmec_00008	mRNA	pbp
+NZ_CP012692_SCCmec_00009	CDS	paaZ	Bifunctional protein PaaZ
+NZ_CP012692_SCCmec_00009	gene	paaZ
+NZ_CP012692_SCCmec_00009	mRNA	paaZ
+NZ_CP012692_SCCmec_00010	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+NZ_CP012692_SCCmec_00010	gene	ugpQ
+NZ_CP012692_SCCmec_00010	mRNA	ugpQ
+NZ_CP012692_SCCmec_00011	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00011	gene
+NZ_CP012692_SCCmec_00011	mRNA
+NZ_CP012692_SCCmec_00012	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00012	gene
+NZ_CP012692_SCCmec_00012	mRNA
+NZ_CP012692_SCCmec_00013	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00013	gene
+NZ_CP012692_SCCmec_00013	mRNA
+NZ_CP012692_SCCmec_00014	CDS	nagC	N-acetylglucosamine repressor
+NZ_CP012692_SCCmec_00014	gene	nagC
+NZ_CP012692_SCCmec_00014	mRNA	nagC
+NZ_CP012692_SCCmec_00015	CDS	pspE_1	2.8.1.1	Thiosulfate sulfurtransferase PspE
+NZ_CP012692_SCCmec_00015	gene	pspE_1
+NZ_CP012692_SCCmec_00015	mRNA	pspE_1
+NZ_CP012692_SCCmec_00016	CDS	gloC	3.1.2.6	Hydroxyacylglutathione hydrolase GloC
+NZ_CP012692_SCCmec_00016	gene	gloC
+NZ_CP012692_SCCmec_00016	mRNA	gloC
+NZ_CP012692_SCCmec_00017	CDS	pspE_2	2.8.1.1	Thiosulfate sulfurtransferase PspE
+NZ_CP012692_SCCmec_00017	gene	pspE_2
+NZ_CP012692_SCCmec_00017	mRNA	pspE_2
+NZ_CP012692_SCCmec_00018	CDS	csoR	Copper-sensing transcriptional repressor CsoR
+NZ_CP012692_SCCmec_00018	gene	csoR
+NZ_CP012692_SCCmec_00018	mRNA	csoR
+NZ_CP012692_SCCmec_00019	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00019	gene
+NZ_CP012692_SCCmec_00019	mRNA
+NZ_CP012692_SCCmec_00020	CDS	ycgJ	2.1.1.-	putative methyltransferase YcgJ
+NZ_CP012692_SCCmec_00020	gene	ycgJ
+NZ_CP012692_SCCmec_00020	mRNA	ycgJ
+NZ_CP012692_SCCmec_00021	CDS	ermA1	2.1.1.184	rRNA adenine N-6-methyltransferase
+NZ_CP012692_SCCmec_00021	gene	ermA1
+NZ_CP012692_SCCmec_00021	mRNA	ermA1
+NZ_CP012692_SCCmec_00022	CDS	ant1	2.7.7.47	Streptomycin 3''-adenylyltransferase
+NZ_CP012692_SCCmec_00022	gene	ant1
+NZ_CP012692_SCCmec_00022	mRNA	ant1
+NZ_CP012692_SCCmec_00023	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00023	gene
+NZ_CP012692_SCCmec_00023	mRNA
+NZ_CP012692_SCCmec_00024	CDS	xerC_1	Tyrosine recombinase XerC
+NZ_CP012692_SCCmec_00024	gene	xerC_1
+NZ_CP012692_SCCmec_00024	mRNA	xerC_1
+NZ_CP012692_SCCmec_00025	CDS	xerC_2	Tyrosine recombinase XerC
+NZ_CP012692_SCCmec_00025	gene	xerC_2
+NZ_CP012692_SCCmec_00025	mRNA	xerC_2
+NZ_CP012692_SCCmec_00026	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00026	gene
+NZ_CP012692_SCCmec_00026	mRNA
+NZ_CP012692_SCCmec_00027	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00027	gene
+NZ_CP012692_SCCmec_00027	mRNA
+NZ_CP012692_SCCmec_00028	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00028	gene
+NZ_CP012692_SCCmec_00028	mRNA
+NZ_CP012692_SCCmec_00029	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00029	gene
+NZ_CP012692_SCCmec_00029	mRNA
+NZ_CP012692_SCCmec_00030	CDS	hin_1	DNA-invertase hin
+NZ_CP012692_SCCmec_00030	gene	hin_1
+NZ_CP012692_SCCmec_00030	mRNA	hin_1
+NZ_CP012692_SCCmec_00031	CDS	hin_2	DNA-invertase hin
+NZ_CP012692_SCCmec_00031	gene	hin_2
+NZ_CP012692_SCCmec_00031	mRNA	hin_2
+NZ_CP012692_SCCmec_00032	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00032	gene
+NZ_CP012692_SCCmec_00032	mRNA
+NZ_CP012692_SCCmec_00033	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00033	gene
+NZ_CP012692_SCCmec_00033	mRNA
+NZ_CP012692_SCCmec_00034	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00034	gene
+NZ_CP012692_SCCmec_00034	mRNA
+NZ_CP012692_SCCmec_00035	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00035	gene
+NZ_CP012692_SCCmec_00035	mRNA
+NZ_CP012692_SCCmec_00036	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00036	gene
+NZ_CP012692_SCCmec_00036	mRNA
+NZ_CP012692_SCCmec_00037	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00037	gene
+NZ_CP012692_SCCmec_00037	mRNA
+NZ_CP012692_SCCmec_00038	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00038	gene
+NZ_CP012692_SCCmec_00038	mRNA
+NZ_CP012692_SCCmec_00039	CDS	kdpE	KDP operon transcriptional regulatory protein KdpE
+NZ_CP012692_SCCmec_00039	gene	kdpE
+NZ_CP012692_SCCmec_00039	mRNA	kdpE
+NZ_CP012692_SCCmec_00040	CDS	kdpD	2.7.13.3	Sensor protein KdpD
+NZ_CP012692_SCCmec_00040	gene	kdpD
+NZ_CP012692_SCCmec_00040	mRNA	kdpD
+NZ_CP012692_SCCmec_00041	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00041	gene
+NZ_CP012692_SCCmec_00041	mRNA
+NZ_CP012692_SCCmec_00042	CDS	kdpA	Potassium-transporting ATPase potassium-binding subunit
+NZ_CP012692_SCCmec_00042	gene	kdpA
+NZ_CP012692_SCCmec_00042	mRNA	kdpA
+NZ_CP012692_SCCmec_00043	CDS	kdpB	3.6.3.12	Potassium-transporting ATPase ATP-binding subunit
+NZ_CP012692_SCCmec_00043	gene	kdpB
+NZ_CP012692_SCCmec_00043	mRNA	kdpB
+NZ_CP012692_SCCmec_00044	CDS	kdpC	Potassium-transporting ATPase KdpC subunit
+NZ_CP012692_SCCmec_00044	gene	kdpC
+NZ_CP012692_SCCmec_00044	mRNA	kdpC
+NZ_CP012692_SCCmec_00045	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00045	gene
+NZ_CP012692_SCCmec_00045	mRNA
+NZ_CP012692_SCCmec_00046	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00046	gene
+NZ_CP012692_SCCmec_00046	mRNA
+NZ_CP012692_SCCmec_00047	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00047	gene
+NZ_CP012692_SCCmec_00047	mRNA
+NZ_CP012692_SCCmec_00048	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00048	gene
+NZ_CP012692_SCCmec_00048	mRNA
+NZ_CP012692_SCCmec_00049	CDS	hypothetical protein
+NZ_CP012692_SCCmec_00049	gene
+NZ_CP012692_SCCmec_00049	mRNA
+NZ_CP012692_SCCmec_00050	CDS	prkC	2.7.11.1	Serine/threonine-protein kinase PrkC
+NZ_CP012692_SCCmec_00050	gene	prkC
+NZ_CP012692_SCCmec_00050	mRNA	prkC

@@ -1,0 +1,196 @@
+locus_tag	ftype	gene	EC_number	product
+AB505630_SCCmec_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+AB505630_SCCmec_00001	gene	rlmH
+AB505630_SCCmec_00001	mRNA	rlmH
+AB505630_SCCmec_00002	CDS	hypothetical protein
+AB505630_SCCmec_00002	gene
+AB505630_SCCmec_00002	mRNA
+AB505630_SCCmec_00003	CDS	hypothetical protein
+AB505630_SCCmec_00003	gene
+AB505630_SCCmec_00003	mRNA
+AB505630_SCCmec_00004	CDS	hypothetical protein
+AB505630_SCCmec_00004	gene
+AB505630_SCCmec_00004	mRNA
+AB505630_SCCmec_00005	CDS	arsC_1	1.20.4.1	Glutaredoxin arsenate reductase
+AB505630_SCCmec_00005	gene	arsC_1
+AB505630_SCCmec_00005	mRNA	arsC_1
+AB505630_SCCmec_00006	CDS	arsB_1	Arsenical pump membrane protein
+AB505630_SCCmec_00006	gene	arsB_1
+AB505630_SCCmec_00006	mRNA	arsB_1
+AB505630_SCCmec_00007	CDS	sdpR_1	Transcriptional repressor SdpR
+AB505630_SCCmec_00007	gene	sdpR_1
+AB505630_SCCmec_00007	mRNA	sdpR_1
+AB505630_SCCmec_00008	CDS	hypothetical protein
+AB505630_SCCmec_00008	gene
+AB505630_SCCmec_00008	mRNA
+AB505630_SCCmec_00009	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+AB505630_SCCmec_00009	gene	pbp
+AB505630_SCCmec_00009	mRNA	pbp
+AB505630_SCCmec_00010	CDS	paaZ	Bifunctional protein PaaZ
+AB505630_SCCmec_00010	gene	paaZ
+AB505630_SCCmec_00010	mRNA	paaZ
+AB505630_SCCmec_00011	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+AB505630_SCCmec_00011	gene	ugpQ
+AB505630_SCCmec_00011	mRNA	ugpQ
+AB505630_SCCmec_00012	CDS	hypothetical protein
+AB505630_SCCmec_00012	gene
+AB505630_SCCmec_00012	mRNA
+AB505630_SCCmec_00013	CDS	hypothetical protein
+AB505630_SCCmec_00013	gene
+AB505630_SCCmec_00013	mRNA
+AB505630_SCCmec_00014	CDS	hypothetical protein
+AB505630_SCCmec_00014	gene
+AB505630_SCCmec_00014	mRNA
+AB505630_SCCmec_00015	CDS	hypothetical protein
+AB505630_SCCmec_00015	gene
+AB505630_SCCmec_00015	mRNA
+AB505630_SCCmec_00016	CDS	bcgIA	3.1.21.-	Restriction enzyme BgcI subunit alpha
+AB505630_SCCmec_00016	gene	bcgIA
+AB505630_SCCmec_00016	mRNA	bcgIA
+AB505630_SCCmec_00017	CDS	hypothetical protein
+AB505630_SCCmec_00017	gene
+AB505630_SCCmec_00017	mRNA
+AB505630_SCCmec_00018	CDS	bcgIB	3.1.21.-	Restriction enzyme BgcI subunit beta
+AB505630_SCCmec_00018	gene	bcgIB
+AB505630_SCCmec_00018	mRNA	bcgIB
+AB505630_SCCmec_00019	CDS	hypothetical protein
+AB505630_SCCmec_00019	gene
+AB505630_SCCmec_00019	mRNA
+AB505630_SCCmec_00020	CDS	hypothetical protein
+AB505630_SCCmec_00020	gene
+AB505630_SCCmec_00020	mRNA
+AB505630_SCCmec_00021	CDS	hypothetical protein
+AB505630_SCCmec_00021	gene
+AB505630_SCCmec_00021	mRNA
+AB505630_SCCmec_00022	CDS	hypothetical protein
+AB505630_SCCmec_00022	gene
+AB505630_SCCmec_00022	mRNA
+AB505630_SCCmec_00023	CDS	hypothetical protein
+AB505630_SCCmec_00023	gene
+AB505630_SCCmec_00023	mRNA
+AB505630_SCCmec_00024	CDS	hin	DNA-invertase hin
+AB505630_SCCmec_00024	gene	hin
+AB505630_SCCmec_00024	mRNA	hin
+AB505630_SCCmec_00025	CDS	tnpR	Transposon gamma-delta resolvase
+AB505630_SCCmec_00025	gene	tnpR
+AB505630_SCCmec_00025	mRNA	tnpR
+AB505630_SCCmec_00026	CDS	hypothetical protein
+AB505630_SCCmec_00026	gene
+AB505630_SCCmec_00026	mRNA
+AB505630_SCCmec_00027	CDS	hypothetical protein
+AB505630_SCCmec_00027	gene
+AB505630_SCCmec_00027	mRNA
+AB505630_SCCmec_00028	CDS	hypothetical protein
+AB505630_SCCmec_00028	gene
+AB505630_SCCmec_00028	mRNA
+AB505630_SCCmec_00029	CDS	hypothetical protein
+AB505630_SCCmec_00029	gene
+AB505630_SCCmec_00029	mRNA
+AB505630_SCCmec_00030	CDS	hypothetical protein
+AB505630_SCCmec_00030	gene
+AB505630_SCCmec_00030	mRNA
+AB505630_SCCmec_00031	CDS	putative HTH-type transcriptional regulator
+AB505630_SCCmec_00031	gene
+AB505630_SCCmec_00031	mRNA
+AB505630_SCCmec_00032	CDS	hchA	4.2.1.130	Molecular chaperone Hsp31 and glyoxalase 3
+AB505630_SCCmec_00032	gene	hchA
+AB505630_SCCmec_00032	mRNA	hchA
+AB505630_SCCmec_00033	CDS	yhfK	4.-.-.-	putative sugar epimerase YhfK
+AB505630_SCCmec_00033	gene	yhfK
+AB505630_SCCmec_00033	mRNA	yhfK
+AB505630_SCCmec_00034	CDS	yfmJ	1.-.-.-	Putative NADP-dependent oxidoreductase YfmJ
+AB505630_SCCmec_00034	gene	yfmJ
+AB505630_SCCmec_00034	mRNA	yfmJ
+AB505630_SCCmec_00035	CDS	hypothetical protein
+AB505630_SCCmec_00035	gene
+AB505630_SCCmec_00035	mRNA
+AB505630_SCCmec_00036	CDS	hypothetical protein
+AB505630_SCCmec_00036	gene
+AB505630_SCCmec_00036	mRNA
+AB505630_SCCmec_00037	CDS	cadC	Cadmium resistance transcriptional regulatory protein CadC
+AB505630_SCCmec_00037	gene	cadC
+AB505630_SCCmec_00037	mRNA	cadC
+AB505630_SCCmec_00038	CDS	bcr	Bicyclomycin resistance protein
+AB505630_SCCmec_00038	gene	bcr
+AB505630_SCCmec_00038	mRNA	bcr
+AB505630_SCCmec_00039	CDS	yecD	3.-.-.-	Isochorismatase family protein YecD
+AB505630_SCCmec_00039	gene	yecD
+AB505630_SCCmec_00039	mRNA	yecD
+AB505630_SCCmec_00040	CDS	acrR	HTH-type transcriptional regulator AcrR
+AB505630_SCCmec_00040	gene	acrR
+AB505630_SCCmec_00040	mRNA	acrR
+AB505630_SCCmec_00041	CDS	hypothetical protein
+AB505630_SCCmec_00041	gene
+AB505630_SCCmec_00041	mRNA
+AB505630_SCCmec_00042	CDS	hypothetical protein
+AB505630_SCCmec_00042	gene
+AB505630_SCCmec_00042	mRNA
+AB505630_SCCmec_00043	CDS	geoA	1.1.1.347	Geraniol dehydrogenase
+AB505630_SCCmec_00043	gene	geoA
+AB505630_SCCmec_00043	mRNA	geoA
+AB505630_SCCmec_00044	CDS	1.1.1.306	S-(hydroxymethyl)mycothiol dehydrogenase
+AB505630_SCCmec_00044	gene
+AB505630_SCCmec_00044	mRNA
+AB505630_SCCmec_00045	CDS	xylB	1.1.1.90	Aryl-alcohol dehydrogenase
+AB505630_SCCmec_00045	gene	xylB
+AB505630_SCCmec_00045	mRNA	xylB
+AB505630_SCCmec_00046	CDS	hypothetical protein
+AB505630_SCCmec_00046	gene
+AB505630_SCCmec_00046	mRNA
+AB505630_SCCmec_00047	CDS	hypothetical protein
+AB505630_SCCmec_00047	gene
+AB505630_SCCmec_00047	mRNA
+AB505630_SCCmec_00048	CDS	emrY	putative multidrug resistance protein EmrY
+AB505630_SCCmec_00048	gene	emrY
+AB505630_SCCmec_00048	mRNA	emrY
+AB505630_SCCmec_00049	CDS	nhoA	2.3.1.118	N-hydroxyarylamine O-acetyltransferase
+AB505630_SCCmec_00049	gene	nhoA
+AB505630_SCCmec_00049	mRNA	nhoA
+AB505630_SCCmec_00050	CDS	yvdT	putative HTH-type transcriptional regulator YvdT
+AB505630_SCCmec_00050	gene	yvdT
+AB505630_SCCmec_00050	mRNA	yvdT
+AB505630_SCCmec_00051	CDS	lptB	3.6.3.-	Lipopolysaccharide export system ATP-binding protein LptB
+AB505630_SCCmec_00051	gene	lptB
+AB505630_SCCmec_00051	mRNA	lptB
+AB505630_SCCmec_00052	CDS	hypothetical protein
+AB505630_SCCmec_00052	gene
+AB505630_SCCmec_00052	mRNA
+AB505630_SCCmec_00053	CDS	hypothetical protein
+AB505630_SCCmec_00053	gene
+AB505630_SCCmec_00053	mRNA
+AB505630_SCCmec_00054	CDS	hypothetical protein
+AB505630_SCCmec_00054	gene
+AB505630_SCCmec_00054	mRNA
+AB505630_SCCmec_00055	CDS	hypothetical protein
+AB505630_SCCmec_00055	gene
+AB505630_SCCmec_00055	mRNA
+AB505630_SCCmec_00056	CDS	gloC	3.1.2.6	Hydroxyacylglutathione hydrolase GloC
+AB505630_SCCmec_00056	gene	gloC
+AB505630_SCCmec_00056	mRNA	gloC
+AB505630_SCCmec_00057	CDS	glpE	2.8.1.1	Thiosulfate sulfurtransferase GlpE
+AB505630_SCCmec_00057	gene	glpE
+AB505630_SCCmec_00057	mRNA	glpE
+AB505630_SCCmec_00058	CDS	ricR	Copper-sensing transcriptional repressor RicR
+AB505630_SCCmec_00058	gene	ricR
+AB505630_SCCmec_00058	mRNA	ricR
+AB505630_SCCmec_00059	CDS	hypothetical protein
+AB505630_SCCmec_00059	gene
+AB505630_SCCmec_00059	mRNA
+AB505630_SCCmec_00060	CDS	arsC_2	1.20.4.1	Glutaredoxin arsenate reductase
+AB505630_SCCmec_00060	gene	arsC_2
+AB505630_SCCmec_00060	mRNA	arsC_2
+AB505630_SCCmec_00061	CDS	arsB_2	Arsenical pump membrane protein
+AB505630_SCCmec_00061	gene	arsB_2
+AB505630_SCCmec_00061	mRNA	arsB_2
+AB505630_SCCmec_00062	CDS	sdpR_2	Transcriptional repressor SdpR
+AB505630_SCCmec_00062	gene	sdpR_2
+AB505630_SCCmec_00062	mRNA	sdpR_2
+AB505630_SCCmec_00063	CDS	copB	3.6.3.54	Copper-exporting P-type ATPase B
+AB505630_SCCmec_00063	gene	copB
+AB505630_SCCmec_00063	mRNA	copB
+AB505630_SCCmec_00064	CDS	mco	1.-.-.-	Multicopper oxidase mco
+AB505630_SCCmec_00064	gene	mco
+AB505630_SCCmec_00064	mRNA	mco
+AB505630_SCCmec_00065	CDS	hypothetical protein
+AB505630_SCCmec_00065	gene
+AB505630_SCCmec_00065	mRNA

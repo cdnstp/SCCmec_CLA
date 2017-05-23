@@ -1,0 +1,139 @@
+locus_tag	ftype	gene	EC_number	product
+AM990992_SCCmec_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+AM990992_SCCmec_00001	gene	rlmH
+AM990992_SCCmec_00001	mRNA	rlmH
+AM990992_SCCmec_00002	CDS	hypothetical protein
+AM990992_SCCmec_00002	gene
+AM990992_SCCmec_00002	mRNA
+AM990992_SCCmec_00003	CDS	hypothetical protein
+AM990992_SCCmec_00003	gene
+AM990992_SCCmec_00003	mRNA
+AM990992_SCCmec_00004	CDS	hypothetical protein
+AM990992_SCCmec_00004	gene
+AM990992_SCCmec_00004	mRNA
+AM990992_SCCmec_00005	CDS	hypothetical protein
+AM990992_SCCmec_00005	gene
+AM990992_SCCmec_00005	mRNA
+AM990992_SCCmec_00006	CDS	hypothetical protein
+AM990992_SCCmec_00006	gene
+AM990992_SCCmec_00006	mRNA
+AM990992_SCCmec_00007	CDS	hypothetical protein
+AM990992_SCCmec_00007	gene
+AM990992_SCCmec_00007	mRNA
+AM990992_SCCmec_00008	CDS	hypothetical protein
+AM990992_SCCmec_00008	gene
+AM990992_SCCmec_00008	mRNA
+AM990992_SCCmec_00009	CDS	hin_1	DNA-invertase hin
+AM990992_SCCmec_00009	gene	hin_1
+AM990992_SCCmec_00009	mRNA	hin_1
+AM990992_SCCmec_00010	CDS	hypothetical protein
+AM990992_SCCmec_00010	gene
+AM990992_SCCmec_00010	mRNA
+AM990992_SCCmec_00011	CDS	hypothetical protein
+AM990992_SCCmec_00011	gene
+AM990992_SCCmec_00011	mRNA
+AM990992_SCCmec_00012	CDS	hypothetical protein
+AM990992_SCCmec_00012	gene
+AM990992_SCCmec_00012	mRNA
+AM990992_SCCmec_00013	CDS	hypothetical protein
+AM990992_SCCmec_00013	gene
+AM990992_SCCmec_00013	mRNA
+AM990992_SCCmec_00014	CDS	hypothetical protein
+AM990992_SCCmec_00014	gene
+AM990992_SCCmec_00014	mRNA
+AM990992_SCCmec_00015	CDS	hypothetical protein
+AM990992_SCCmec_00015	gene
+AM990992_SCCmec_00015	mRNA
+AM990992_SCCmec_00016	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+AM990992_SCCmec_00016	gene	ugpQ
+AM990992_SCCmec_00016	mRNA	ugpQ
+AM990992_SCCmec_00017	CDS	paaZ	Bifunctional protein PaaZ
+AM990992_SCCmec_00017	gene	paaZ
+AM990992_SCCmec_00017	mRNA	paaZ
+AM990992_SCCmec_00018	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+AM990992_SCCmec_00018	gene	pbp
+AM990992_SCCmec_00018	mRNA	pbp
+AM990992_SCCmec_00019	CDS	hypothetical protein
+AM990992_SCCmec_00019	gene
+AM990992_SCCmec_00019	mRNA
+AM990992_SCCmec_00020	CDS	hypothetical protein
+AM990992_SCCmec_00020	gene
+AM990992_SCCmec_00020	mRNA
+AM990992_SCCmec_00021	CDS	hypothetical protein
+AM990992_SCCmec_00021	gene
+AM990992_SCCmec_00021	mRNA
+AM990992_SCCmec_00022	CDS	hypothetical protein
+AM990992_SCCmec_00022	gene
+AM990992_SCCmec_00022	mRNA
+AM990992_SCCmec_00023	CDS	hypothetical protein
+AM990992_SCCmec_00023	gene
+AM990992_SCCmec_00023	mRNA
+AM990992_SCCmec_00024	CDS	hypothetical protein
+AM990992_SCCmec_00024	gene
+AM990992_SCCmec_00024	mRNA
+AM990992_SCCmec_00025	CDS	hypothetical protein
+AM990992_SCCmec_00025	gene
+AM990992_SCCmec_00025	mRNA
+AM990992_SCCmec_00026	CDS	hypothetical protein
+AM990992_SCCmec_00026	gene
+AM990992_SCCmec_00026	mRNA
+AM990992_SCCmec_00027	CDS	hin_2	DNA-invertase hin
+AM990992_SCCmec_00027	gene	hin_2
+AM990992_SCCmec_00027	mRNA	hin_2
+AM990992_SCCmec_00028	CDS	hypothetical protein
+AM990992_SCCmec_00028	gene
+AM990992_SCCmec_00028	mRNA
+AM990992_SCCmec_00029	CDS	hypothetical protein
+AM990992_SCCmec_00029	gene
+AM990992_SCCmec_00029	mRNA
+AM990992_SCCmec_00030	CDS	hypothetical protein
+AM990992_SCCmec_00030	gene
+AM990992_SCCmec_00030	mRNA
+AM990992_SCCmec_00031	CDS	hypothetical protein
+AM990992_SCCmec_00031	gene
+AM990992_SCCmec_00031	mRNA
+AM990992_SCCmec_00032	CDS	topB	5.99.1.2	DNA topoisomerase 3
+AM990992_SCCmec_00032	gene	topB
+AM990992_SCCmec_00032	mRNA	topB
+AM990992_SCCmec_00033	CDS	hypothetical protein
+AM990992_SCCmec_00033	gene
+AM990992_SCCmec_00033	mRNA
+AM990992_SCCmec_00034	CDS	hypothetical protein
+AM990992_SCCmec_00034	gene
+AM990992_SCCmec_00034	mRNA
+AM990992_SCCmec_00035	CDS	hypothetical protein
+AM990992_SCCmec_00035	gene
+AM990992_SCCmec_00035	mRNA
+AM990992_SCCmec_00036	CDS	hypothetical protein
+AM990992_SCCmec_00036	gene
+AM990992_SCCmec_00036	mRNA
+AM990992_SCCmec_00037	CDS	czrA	HTH-type transcriptional repressor CzrA
+AM990992_SCCmec_00037	gene	czrA
+AM990992_SCCmec_00037	mRNA	czrA
+AM990992_SCCmec_00038	CDS	hypothetical protein
+AM990992_SCCmec_00038	gene
+AM990992_SCCmec_00038	mRNA
+AM990992_SCCmec_00039	CDS	zosA	3.6.3.-	Zinc-transporting ATPase
+AM990992_SCCmec_00039	gene	zosA
+AM990992_SCCmec_00039	mRNA	zosA
+AM990992_SCCmec_00040	CDS	glpE_1	2.8.1.1	Thiosulfate sulfurtransferase GlpE
+AM990992_SCCmec_00040	gene	glpE_1
+AM990992_SCCmec_00040	mRNA	glpE_1
+AM990992_SCCmec_00041	CDS	gloC	3.1.2.6	Hydroxyacylglutathione hydrolase GloC
+AM990992_SCCmec_00041	gene	gloC
+AM990992_SCCmec_00041	mRNA	gloC
+AM990992_SCCmec_00042	CDS	glpE_2	2.8.1.1	Thiosulfate sulfurtransferase GlpE
+AM990992_SCCmec_00042	gene	glpE_2
+AM990992_SCCmec_00042	mRNA	glpE_2
+AM990992_SCCmec_00043	CDS	ricR	Copper-sensing transcriptional repressor RicR
+AM990992_SCCmec_00043	gene	ricR
+AM990992_SCCmec_00043	mRNA	ricR
+AM990992_SCCmec_00044	CDS	hypothetical protein
+AM990992_SCCmec_00044	gene
+AM990992_SCCmec_00044	mRNA
+AM990992_SCCmec_00045	CDS	copB	3.6.3.54	Copper-exporting P-type ATPase B
+AM990992_SCCmec_00045	gene	copB
+AM990992_SCCmec_00045	mRNA	copB
+AM990992_SCCmec_00046	CDS	hypothetical protein
+AM990992_SCCmec_00046	gene
+AM990992_SCCmec_00046	mRNA

@@ -1,0 +1,117 @@
+[17:11:49] This is prokka 1.12
+[17:11:49] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[17:11:49] Homepage is https://github.com/tseemann/prokka
+[17:11:49] Local time is Mon May 15 17:11:49 2017
+[17:11:49] You are fsepulveda
+[17:11:49] Operating system is linux
+[17:11:49] You have BioPerl 1.006924
+[17:11:49] System has 4 cores.
+[17:11:49] Option --cpu asked for 8 cores, but system only has 4
+[17:11:49] Will use maximum of 4 cores.
+[17:11:49] Annotating as >>> Bacteria <<<
+[17:11:49] Creating new output folder: PROKKA_NC_010079
+[17:11:49] Running: mkdir -p PROKKA_NC_010079
+[17:11:49] Using filename prefix: PROKKA_NC_010079.XXX
+[17:11:49] Setting HMMER_NCPU=1
+[17:11:49] Writing log to: PROKKA_NC_010079/PROKKA_NC_010079.log
+[17:11:49] Command: /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/prokka --genus Staphylococcus --prefix PROKKA_NC_010079 --addgenes --addmrna --locustag NC_010079_SCCmec /home/fsepulveda/Documents/parte2/229_sccmec/sccmec_NC_010079.fasta
+[17:11:49] Appending to PATH: /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../binaries/linux
+[17:11:49] Appending to PATH: /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../binaries/linux/../common
+[17:11:49] Appending to PATH: /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin
+[17:11:49] Looking for 'aragorn' - found /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../binaries/linux/aragorn
+[17:11:49] Determined aragorn version is 1.2
+[17:11:49] Looking for 'blastp' - found /usr/bin/blastp
+[17:11:49] Determined blastp version is 2.2
+[17:11:49] Looking for 'cmpress' - found /usr/bin/cmpress
+[17:11:49] Determined cmpress version is 1.1
+[17:11:49] Looking for 'cmscan' - found /usr/bin/cmscan
+[17:11:49] Determined cmscan version is 1.1
+[17:11:49] Looking for 'egrep' - found /bin/egrep
+[17:11:49] Looking for 'find' - found /usr/bin/find
+[17:11:49] Looking for 'grep' - found /bin/grep
+[17:11:49] Looking for 'hmmpress' - found /usr/bin/hmmpress
+[17:11:49] Determined hmmpress version is 3.1
+[17:11:49] Looking for 'hmmscan' - found /usr/bin/hmmscan
+[17:11:49] Determined hmmscan version is 3.1
+[17:11:49] Looking for 'java' - found /usr/bin/java
+[17:11:49] Looking for 'less' - found /usr/bin/less
+[17:11:49] Looking for 'makeblastdb' - found /usr/bin/makeblastdb
+[17:11:49] Determined makeblastdb version is 2.2
+[17:11:49] Looking for 'minced' - found /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../binaries/linux/../common/minced
+[17:11:49] Determined minced version is 2.0
+[17:11:49] Looking for 'parallel' - found /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../binaries/linux/../common/parallel
+[17:11:50] Determined parallel version is 20150122
+[17:11:50] Looking for 'prodigal' - found /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../binaries/linux/prodigal
+[17:11:50] Determined prodigal version is 2.6
+[17:11:50] Looking for 'prokka-genbank_to_fasta_db' - found /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/prokka-genbank_to_fasta_db
+[17:11:50] Looking for 'sed' - found /bin/sed
+[17:11:50] Looking for 'tbl2asn' - found /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../binaries/linux/tbl2asn
+[17:11:50] Determined tbl2asn version is 25.3
+[17:11:50] Using genetic code table 11.
+[17:11:50] Loading and checking input file: /home/fsepulveda/Documents/parte2/229_sccmec/sccmec_NC_010079.fasta
+[17:11:50] Wrote 1 contigs totalling 55157 bp.
+[17:11:50] Predicting tRNAs and tmRNAs
+[17:11:50] Running: aragorn -l -gc11  -w PROKKA_NC_010079\/PROKKA_NC_010079\.fna
+[17:11:50] Found 0 tRNAs
+[17:11:50] Predicting Ribosomal RNAs
+[17:11:50] You need either Barrnap or RNAmmer installed to predict rRNAs!
+[17:11:50] Skipping ncRNA search, enable with --rfam if desired.
+[17:11:50] Total of 0 tRNA + rRNA features
+[17:11:50] Searching for CRISPR repeats
+[17:11:50] Found 0 CRISPRs
+[17:11:50] Predicting coding sequences
+[17:11:50] Contigs total 55157 bp, so using meta mode
+[17:11:50] Running: prodigal -i PROKKA_NC_010079\/PROKKA_NC_010079\.fna -c -m -g 11 -p meta -f sco -q
+[17:11:50] Found 56 CDS
+[17:11:50] Connecting features back to sequences
+[17:11:50] Not using genus-specific database. Try --usegenus to enable it.
+[17:11:50] Annotating CDS, please be patient.
+[17:11:50] Will use 4 CPUs for similarity searching.
+[17:11:50] There are still 56 unannotated CDS left (started with 56)
+[17:11:50] Will use blast to search against /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../db/kingdom/Bacteria/sprot with 4 CPUs
+[17:11:50] Running: cat PROKKA_NC_010079\/sprot\.faa | parallel --gnu --plain -j 4 --block 1812 --recstart '>' --pipe blastp -query - -db /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../db/kingdom/Bacteria/sprot -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > PROKKA_NC_010079\/sprot\.blast 2> /dev/null
+[17:11:52] Deleting unwanted file: PROKKA_NC_010079/sprot.faa
+[17:11:52] Deleting unwanted file: PROKKA_NC_010079/sprot.blast
+[17:11:52] There are still 33 unannotated CDS left (started with 56)
+[17:11:52] Will use hmmer3 to search against /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../db/hmm/HAMAP.hmm with 4 CPUs
+[17:11:52] Running: cat PROKKA_NC_010079\/HAMAP\.hmm\.faa | parallel --gnu --plain -j 4 --block 817 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/../db/hmm/HAMAP.hmm /dev/stdin > PROKKA_NC_010079\/HAMAP\.hmm\.hmmer3 2> /dev/null
+[17:11:53] Deleting unwanted file: PROKKA_NC_010079/HAMAP.hmm.faa
+[17:11:53] Deleting unwanted file: PROKKA_NC_010079/HAMAP.hmm.hmmer3
+[17:11:53] Labelling remaining 32 proteins as 'hypothetical protein'
+[17:11:53] Possible /pseudo 'DNA-invertase hin' at sccmec_saures_NC_010079_l55157 position 13831
+[17:11:53] Found 22 unique /gene codes.
+[17:11:53] Fixed 2 duplicate /gene - hin_1 hin_2
+[17:11:53] Fixed 1 colliding /gene names.
+[17:11:53] Adding /locus_tag identifiers
+[17:11:53] Assigned 56 locus_tags to CDS and RNA features.
+[17:11:53] Writing outputs to PROKKA_NC_010079/
+[17:11:53] Generating annotation statistics file
+[17:11:53] Generating Genbank and Sequin files
+[17:11:53] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.12 from https://github.com/tseemann/prokka' -Z PROKKA_NC_010079\/PROKKA_NC_010079\.err -i PROKKA_NC_010079\/PROKKA_NC_010079\.fsa 2> /dev/null
+[17:11:53] Deleting unwanted file: PROKKA_NC_010079/errorsummary.val
+[17:11:53] Deleting unwanted file: PROKKA_NC_010079/PROKKA_NC_010079.dr
+[17:11:53] Deleting unwanted file: PROKKA_NC_010079/PROKKA_NC_010079.fixedproducts
+[17:11:53] Deleting unwanted file: PROKKA_NC_010079/PROKKA_NC_010079.ecn
+[17:11:53] Deleting unwanted file: PROKKA_NC_010079/PROKKA_NC_010079.val
+[17:11:53] Repairing broken .GBK output that tbl2asn produces...
+[17:11:53] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < PROKKA_NC_010079\/PROKKA_NC_010079\.gbf > PROKKA_NC_010079\/PROKKA_NC_010079\.gbk
+[17:11:53] Deleting unwanted file: PROKKA_NC_010079/PROKKA_NC_010079.gbf
+[17:11:53] Output files:
+[17:11:53] PROKKA_NC_010079/PROKKA_NC_010079.fna
+[17:11:53] PROKKA_NC_010079/PROKKA_NC_010079.gff
+[17:11:53] PROKKA_NC_010079/PROKKA_NC_010079.faa
+[17:11:53] PROKKA_NC_010079/PROKKA_NC_010079.tsv
+[17:11:53] PROKKA_NC_010079/PROKKA_NC_010079.err
+[17:11:53] PROKKA_NC_010079/PROKKA_NC_010079.ffn
+[17:11:53] PROKKA_NC_010079/PROKKA_NC_010079.txt
+[17:11:53] PROKKA_NC_010079/PROKKA_NC_010079.tbl
+[17:11:53] PROKKA_NC_010079/PROKKA_NC_010079.log
+[17:11:53] PROKKA_NC_010079/PROKKA_NC_010079.gbk
+[17:11:53] PROKKA_NC_010079/PROKKA_NC_010079.sqn
+[17:11:53] PROKKA_NC_010079/PROKKA_NC_010079.fsa
+[17:11:53] Annotation finished successfully.
+[17:11:53] Walltime used: 0.07 minutes
+[17:11:53] If you use this result please cite the Prokka paper:
+[17:11:53] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[17:11:53] Type 'prokka --citation' for more details.
+[17:11:53] Thank you, come again.
