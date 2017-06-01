@@ -1,0 +1,157 @@
+locus_tag	ftype	gene	EC_number	product
+SCCmec_AB037671_Type-III_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+SCCmec_AB037671_Type-III_00001	gene	rlmH
+SCCmec_AB037671_Type-III_00002	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00002	gene
+SCCmec_AB037671_Type-III_00003	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00003	gene
+SCCmec_AB037671_Type-III_00004	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00004	gene
+SCCmec_AB037671_Type-III_00005	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00005	gene
+SCCmec_AB037671_Type-III_00006	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00006	gene
+SCCmec_AB037671_Type-III_00007	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00007	gene
+SCCmec_AB037671_Type-III_00008	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00008	gene
+SCCmec_AB037671_Type-III_00009	CDS	hin_1	DNA-invertase hin
+SCCmec_AB037671_Type-III_00009	gene	hin_1
+SCCmec_AB037671_Type-III_00010	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00010	gene
+SCCmec_AB037671_Type-III_00011	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00011	gene
+SCCmec_AB037671_Type-III_00012	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00012	gene
+SCCmec_AB037671_Type-III_00013	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00013	gene
+SCCmec_AB037671_Type-III_00014	CDS	xerC_1	Tyrosine recombinase XerC
+SCCmec_AB037671_Type-III_00014	gene	xerC_1
+SCCmec_AB037671_Type-III_00015	CDS	xerC_2	Tyrosine recombinase XerC
+SCCmec_AB037671_Type-III_00015	gene	xerC_2
+SCCmec_AB037671_Type-III_00016	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00016	gene
+SCCmec_AB037671_Type-III_00017	CDS	ant1_1	2.7.7.47	Streptomycin 3''-adenylyltransferase
+SCCmec_AB037671_Type-III_00017	gene	ant1_1
+SCCmec_AB037671_Type-III_00018	CDS	ant1_2	2.7.7.47	Streptomycin 3''-adenylyltransferase
+SCCmec_AB037671_Type-III_00018	gene	ant1_2
+SCCmec_AB037671_Type-III_00019	CDS	ermA1	2.1.1.184	rRNA adenine N-6-methyltransferase
+SCCmec_AB037671_Type-III_00019	gene	ermA1
+SCCmec_AB037671_Type-III_00020	CDS	ycgJ	2.1.1.-	putative methyltransferase YcgJ
+SCCmec_AB037671_Type-III_00020	gene	ycgJ
+SCCmec_AB037671_Type-III_00021	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00021	gene
+SCCmec_AB037671_Type-III_00022	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00022	gene
+SCCmec_AB037671_Type-III_00023	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00023	gene
+SCCmec_AB037671_Type-III_00024	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00024	gene
+SCCmec_AB037671_Type-III_00025	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00025	gene
+SCCmec_AB037671_Type-III_00026	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00026	gene
+SCCmec_AB037671_Type-III_00027	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00027	gene
+SCCmec_AB037671_Type-III_00028	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00028	gene
+SCCmec_AB037671_Type-III_00029	CDS	hsdR	3.1.21.3	Type-1 restriction enzyme R protein
+SCCmec_AB037671_Type-III_00029	gene	hsdR
+SCCmec_AB037671_Type-III_00030	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00030	gene
+SCCmec_AB037671_Type-III_00031	CDS	garB	1.8.1.16	Glutathione amide reductase
+SCCmec_AB037671_Type-III_00031	gene	garB
+SCCmec_AB037671_Type-III_00032	CDS	merR1	Mercuric resistance operon regulatory protein
+SCCmec_AB037671_Type-III_00032	gene	merR1
+SCCmec_AB037671_Type-III_00033	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00033	gene
+SCCmec_AB037671_Type-III_00034	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00034	gene
+SCCmec_AB037671_Type-III_00035	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00035	gene
+SCCmec_AB037671_Type-III_00036	CDS	merA	1.16.1.1	Mercuric reductase
+SCCmec_AB037671_Type-III_00036	gene	merA
+SCCmec_AB037671_Type-III_00037	CDS	merB	4.99.1.2	Alkylmercury lyase
+SCCmec_AB037671_Type-III_00037	gene	merB
+SCCmec_AB037671_Type-III_00038	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00038	gene
+SCCmec_AB037671_Type-III_00039	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00039	gene
+SCCmec_AB037671_Type-III_00040	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00040	gene
+SCCmec_AB037671_Type-III_00041	CDS	putative HTH-type transcriptional regulator
+SCCmec_AB037671_Type-III_00041	gene
+SCCmec_AB037671_Type-III_00042	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00042	gene
+SCCmec_AB037671_Type-III_00043	CDS	hsrA	putative transport protein HsrA
+SCCmec_AB037671_Type-III_00043	gene	hsrA
+SCCmec_AB037671_Type-III_00044	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00044	gene
+SCCmec_AB037671_Type-III_00045	CDS	pre	Plasmid recombination enzyme
+SCCmec_AB037671_Type-III_00045	gene	pre
+SCCmec_AB037671_Type-III_00046	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00046	gene
+SCCmec_AB037671_Type-III_00047	CDS	repN	Replication initiation protein
+SCCmec_AB037671_Type-III_00047	gene	repN
+SCCmec_AB037671_Type-III_00048	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00048	gene
+SCCmec_AB037671_Type-III_00049	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00049	gene
+SCCmec_AB037671_Type-III_00050	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00050	gene
+SCCmec_AB037671_Type-III_00051	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+SCCmec_AB037671_Type-III_00051	gene	ugpQ
+SCCmec_AB037671_Type-III_00052	CDS	paaZ	Bifunctional protein PaaZ
+SCCmec_AB037671_Type-III_00052	gene	paaZ
+SCCmec_AB037671_Type-III_00053	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+SCCmec_AB037671_Type-III_00053	gene	pbp
+SCCmec_AB037671_Type-III_00054	CDS	mecR1	Methicillin resistance mecR1 protein
+SCCmec_AB037671_Type-III_00054	gene	mecR1
+SCCmec_AB037671_Type-III_00055	CDS	mecI	Methicillin resistance regulatory protein MecI
+SCCmec_AB037671_Type-III_00055	gene	mecI
+SCCmec_AB037671_Type-III_00056	CDS	nagC	N-acetylglucosamine repressor
+SCCmec_AB037671_Type-III_00056	gene	nagC
+SCCmec_AB037671_Type-III_00057	CDS	pspE_1	2.8.1.1	Thiosulfate sulfurtransferase PspE
+SCCmec_AB037671_Type-III_00057	gene	pspE_1
+SCCmec_AB037671_Type-III_00058	CDS	gloC	3.1.2.6	Hydroxyacylglutathione hydrolase GloC
+SCCmec_AB037671_Type-III_00058	gene	gloC
+SCCmec_AB037671_Type-III_00059	CDS	pspE_2	2.8.1.1	Thiosulfate sulfurtransferase PspE
+SCCmec_AB037671_Type-III_00059	gene	pspE_2
+SCCmec_AB037671_Type-III_00060	CDS	csoR	Copper-sensing transcriptional repressor CsoR
+SCCmec_AB037671_Type-III_00060	gene	csoR
+SCCmec_AB037671_Type-III_00061	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00061	gene
+SCCmec_AB037671_Type-III_00062	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00062	gene
+SCCmec_AB037671_Type-III_00063	CDS	cadA	3.6.3.3	putative cadmium-transporting ATPase
+SCCmec_AB037671_Type-III_00063	gene	cadA
+SCCmec_AB037671_Type-III_00064	CDS	cadC	Cadmium resistance transcriptional regulatory protein CadC
+SCCmec_AB037671_Type-III_00064	gene	cadC
+SCCmec_AB037671_Type-III_00065	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00065	gene
+SCCmec_AB037671_Type-III_00066	CDS	xerD	Tyrosine recombinase XerD
+SCCmec_AB037671_Type-III_00066	gene	xerD
+SCCmec_AB037671_Type-III_00067	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00067	gene
+SCCmec_AB037671_Type-III_00068	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00068	gene
+SCCmec_AB037671_Type-III_00069	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00069	gene
+SCCmec_AB037671_Type-III_00070	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00070	gene
+SCCmec_AB037671_Type-III_00071	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00071	gene
+SCCmec_AB037671_Type-III_00072	CDS	hin_2	DNA-invertase hin
+SCCmec_AB037671_Type-III_00072	gene	hin_2
+SCCmec_AB037671_Type-III_00073	CDS	tnpR	Transposon gamma-delta resolvase
+SCCmec_AB037671_Type-III_00073	gene	tnpR
+SCCmec_AB037671_Type-III_00074	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00074	gene
+SCCmec_AB037671_Type-III_00075	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00075	gene
+SCCmec_AB037671_Type-III_00076	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00076	gene
+SCCmec_AB037671_Type-III_00077	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00077	gene
+SCCmec_AB037671_Type-III_00078	CDS	hypothetical protein
+SCCmec_AB037671_Type-III_00078	gene

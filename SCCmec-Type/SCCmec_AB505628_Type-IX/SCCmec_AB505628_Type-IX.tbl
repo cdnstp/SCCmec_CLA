@@ -1,0 +1,427 @@
+>Feature gnl|10|SCCmec_AB505628_Type-IX_1
+1	480	CDS
+			EC_number	2.1.1.177
+			gene	rlmH
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0C1V0
+			locus_tag	SCCmec_AB505628_Type-IX_00001
+			product	Ribosomal RNA large subunit methyltransferase H
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00001
+1	480	gene
+			gene	rlmH
+			locus_tag	SCCmec_AB505628_Type-IX_00001
+830	1741	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00002
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00002
+830	1741	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00002
+1831	5445	CDS
+			EC_number	2.1.1.72
+			gene	taqIM
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P14385
+			locus_tag	SCCmec_AB505628_Type-IX_00003
+			product	Modification methylase TaqI
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00003
+1831	5445	gene
+			gene	taqIM
+			locus_tag	SCCmec_AB505628_Type-IX_00003
+6255	5566	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00004
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00004
+6255	5566	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00004
+6959	6456	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00005
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00005
+6959	6456	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00005
+7291	6980	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00006
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00006
+7291	6980	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00006
+7383	7294	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00007
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00007
+7383	7294	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00007
+7726	7376	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00008
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00008
+7726	7376	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00008
+9066	8296	CDS
+			EC_number	1.1.1.53
+			gene	fabG3
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P9WGT1
+			locus_tag	SCCmec_AB505628_Type-IX_00009
+			product	3-alpha-(or 20-beta)-hydroxysteroid dehydrogenase
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00009
+9066	8296	gene
+			gene	fabG3
+			locus_tag	SCCmec_AB505628_Type-IX_00009
+10743	9118	CDS
+			gene	hin
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P03013
+			locus_tag	SCCmec_AB505628_Type-IX_00010
+			product	DNA-invertase hin
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00010
+10743	9118	gene
+			gene	hin
+			locus_tag	SCCmec_AB505628_Type-IX_00010
+12114	10765	CDS
+			gene	tnpR
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P03012
+			locus_tag	SCCmec_AB505628_Type-IX_00011
+			product	Transposon gamma-delta resolvase
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00011
+12114	10765	gene
+			gene	tnpR
+			locus_tag	SCCmec_AB505628_Type-IX_00011
+12583	12305	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00012
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00012
+12583	12305	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00012
+13780	12653	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00013
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00013
+13780	12653	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00013
+14453	13803	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00014
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00014
+14453	13803	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00014
+15965	14580	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00015
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00015
+15965	14580	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00015
+16203	17387	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00016
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00016
+16203	17387	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00016
+17751	18668	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00017
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00017
+17751	18668	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00017
+19257	19069	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00018
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00018
+19257	19069	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00018
+19414	19713	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00019
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00019
+19414	19713	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00019
+19968	19840	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00020
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00020
+19968	19840	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00020
+20564	19947	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00021
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00021
+20564	19947	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00021
+20822	20989	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00022
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00022
+20822	20989	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00022
+21087	21317	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00023
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00023
+21087	21317	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00023
+21906	22649	CDS
+			EC_number	3.1.4.46
+			gene	ugpQ
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P10908
+			locus_tag	SCCmec_AB505628_Type-IX_00024
+			product	Glycerophosphodiester phosphodiesterase, cytoplasmic
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00024
+21906	22649	gene
+			gene	ugpQ
+			locus_tag	SCCmec_AB505628_Type-IX_00024
+22746	23174	CDS
+			gene	paaZ
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P77455
+			locus_tag	SCCmec_AB505628_Type-IX_00025
+			product	Bifunctional protein PaaZ
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00025
+22746	23174	gene
+			gene	paaZ
+			locus_tag	SCCmec_AB505628_Type-IX_00025
+25226	23220	CDS
+			gene	pbp
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P07944
+			locus_tag	SCCmec_AB505628_Type-IX_00026
+			product	Beta-lactam-inducible penicillin-binding protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00026
+25226	23220	gene
+			gene	pbp
+			locus_tag	SCCmec_AB505628_Type-IX_00026
+25474	26148	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00027
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00027
+25474	26148	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00027
+27004	26657	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P44558
+			locus_tag	SCCmec_AB505628_Type-IX_00028
+			product	putative HTH-type transcriptional regulator
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00028
+27004	26657	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00028
+27082	27765	CDS
+			EC_number	4.2.1.130
+			gene	hchA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	protein motif:HAMAP:MF_01046
+			locus_tag	SCCmec_AB505628_Type-IX_00029
+			product	Molecular chaperone Hsp31 and glyoxalase 3
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00029
+27082	27765	gene
+			gene	hchA
+			locus_tag	SCCmec_AB505628_Type-IX_00029
+27787	28452	CDS
+			EC_number	4.-.-.-
+			gene	yhfK
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:O07609
+			locus_tag	SCCmec_AB505628_Type-IX_00030
+			product	putative sugar epimerase YhfK
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00030
+27787	28452	gene
+			gene	yhfK
+			locus_tag	SCCmec_AB505628_Type-IX_00030
+28456	29460	CDS
+			EC_number	1.-.-.-
+			gene	yfmJ
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:O34812
+			locus_tag	SCCmec_AB505628_Type-IX_00031
+			product	Putative NADP-dependent oxidoreductase YfmJ
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00031
+28456	29460	gene
+			gene	yfmJ
+			locus_tag	SCCmec_AB505628_Type-IX_00031
+29469	29834	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00032
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00032
+29469	29834	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00032
+30370	30987	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00033
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00033
+30370	30987	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00033
+31006	31347	CDS
+			gene	cadC
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P20047
+			locus_tag	SCCmec_AB505628_Type-IX_00034
+			product	Cadmium resistance transcriptional regulatory protein CadC
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00034
+31006	31347	gene
+			gene	cadC
+			locus_tag	SCCmec_AB505628_Type-IX_00034
+31768	31367	CDS
+			EC_number	1.20.4.1
+			gene	arsC_1
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P74313
+			locus_tag	SCCmec_AB505628_Type-IX_00035
+			product	Glutaredoxin arsenate reductase
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00035
+31768	31367	gene
+			gene	arsC_1
+			locus_tag	SCCmec_AB505628_Type-IX_00035
+33075	31786	CDS
+			gene	arsB_1
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0AB93
+			locus_tag	SCCmec_AB505628_Type-IX_00036
+			product	Arsenical pump membrane protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00036
+33075	31786	gene
+			gene	arsB_1
+			locus_tag	SCCmec_AB505628_Type-IX_00036
+33392	33075	CDS
+			gene	sdpR_1
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:O32242
+			locus_tag	SCCmec_AB505628_Type-IX_00037
+			product	Transcriptional repressor SdpR
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00037
+33392	33075	gene
+			gene	sdpR_1
+			locus_tag	SCCmec_AB505628_Type-IX_00037
+33645	35708	CDS
+			EC_number	3.6.3.54
+			gene	copB
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P05425
+			locus_tag	SCCmec_AB505628_Type-IX_00038
+			product	Copper-exporting P-type ATPase B
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00038
+33645	35708	gene
+			gene	copB
+			locus_tag	SCCmec_AB505628_Type-IX_00038
+35723	37156	CDS
+			EC_number	1.-.-.-
+			gene	mco
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q69HT9
+			locus_tag	SCCmec_AB505628_Type-IX_00039
+			product	Multicopper oxidase mco
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00039
+35723	37156	gene
+			gene	mco
+			locus_tag	SCCmec_AB505628_Type-IX_00039
+37176	37658	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00040
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00040
+37176	37658	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00040
+38259	37864	CDS
+			EC_number	1.20.4.1
+			gene	arsC_2
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P74313
+			locus_tag	SCCmec_AB505628_Type-IX_00041
+			product	Glutaredoxin arsenate reductase
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00041
+38259	37864	gene
+			gene	arsC_2
+			locus_tag	SCCmec_AB505628_Type-IX_00041
+39570	38278	CDS
+			gene	arsB_2
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P0AB93
+			locus_tag	SCCmec_AB505628_Type-IX_00042
+			product	Arsenical pump membrane protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00042
+39570	38278	gene
+			gene	arsB_2
+			locus_tag	SCCmec_AB505628_Type-IX_00042
+39884	39570	CDS
+			gene	sdpR_2
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:O32242
+			locus_tag	SCCmec_AB505628_Type-IX_00043
+			product	Transcriptional repressor SdpR
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00043
+39884	39570	gene
+			gene	sdpR_2
+			locus_tag	SCCmec_AB505628_Type-IX_00043
+41769	40024	CDS
+			EC_number	3.6.3.16
+			gene	arsA
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P08690
+			locus_tag	SCCmec_AB505628_Type-IX_00044
+			product	Arsenical pump-driving ATPase
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00044
+41769	40024	gene
+			gene	arsA
+			locus_tag	SCCmec_AB505628_Type-IX_00044
+42082	41735	CDS
+			gene	arsD
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P46003
+			locus_tag	SCCmec_AB505628_Type-IX_00045
+			product	Arsenical resistance operon trans-acting repressor ArsD
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00045
+42082	41735	gene
+			gene	arsD
+			locus_tag	SCCmec_AB505628_Type-IX_00045
+42289	42489	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00046
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00046
+42289	42489	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00046
+42522	42842	CDS
+			gene	arsR
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:P45949
+			locus_tag	SCCmec_AB505628_Type-IX_00047
+			product	Arsenical resistance operon repressor
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00047
+42522	42842	gene
+			gene	arsR
+			locus_tag	SCCmec_AB505628_Type-IX_00047
+42930	43814	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			inference	similar to AA sequence:UniProtKB:Q8DUY3
+			locus_tag	SCCmec_AB505628_Type-IX_00048
+			product	Putative two-component membrane permease complex subunit SMU_747c
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00048
+42930	43814	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00048
+43828	43956	CDS
+			inference	ab initio prediction:Prodigal:2.6
+			locus_tag	SCCmec_AB505628_Type-IX_00049
+			product	hypothetical protein
+			protein_id	gnl|10|SCCmec_AB505628_Type-IX_00049
+43828	43956	gene
+			locus_tag	SCCmec_AB505628_Type-IX_00049

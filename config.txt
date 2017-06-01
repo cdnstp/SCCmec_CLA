@@ -7,13 +7,13 @@
 
 
 [configuration]
-prokka = /home/fsepulveda/Desktop/tesis/sccmec_classification/prokka-1.12/bin/prokka
+prokka = /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/prokka
 blastn = /usr/bin/blastn
 blastp = /usr/bin/blastp
 makeblastdb = /usr/bin/makeblastdb
-input = /home/fsepulveda/Desktop/working_dir/input
+input = /home/fsepulveda/Desktop/workingspace/input
 attr_db = attr_database/attr_database
-seqFile = sa3459.fasta
+seqFile = Sa3923.fasta
 orfX = orfx.fasta
 mecA = mecA_prot.fasta
-ccr = ccr_all.fasta
+ccr = ccr.fasta

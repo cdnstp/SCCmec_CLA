@@ -1,0 +1,77 @@
+locus_tag	ftype	gene	EC_number	product
+SCCmec_FJ670542_Type-VIII_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+SCCmec_FJ670542_Type-VIII_00001	gene	rlmH
+SCCmec_FJ670542_Type-VIII_00002	CDS	hypothetical protein
+SCCmec_FJ670542_Type-VIII_00002	gene
+SCCmec_FJ670542_Type-VIII_00003	CDS	hypothetical protein
+SCCmec_FJ670542_Type-VIII_00003	gene
+SCCmec_FJ670542_Type-VIII_00004	CDS	hypothetical protein
+SCCmec_FJ670542_Type-VIII_00004	gene
+SCCmec_FJ670542_Type-VIII_00005	CDS	hypothetical protein
+SCCmec_FJ670542_Type-VIII_00005	gene
+SCCmec_FJ670542_Type-VIII_00006	CDS	hypothetical protein
+SCCmec_FJ670542_Type-VIII_00006	gene
+SCCmec_FJ670542_Type-VIII_00007	CDS	hypothetical protein
+SCCmec_FJ670542_Type-VIII_00007	gene
+SCCmec_FJ670542_Type-VIII_00008	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+SCCmec_FJ670542_Type-VIII_00008	gene	ugpQ
+SCCmec_FJ670542_Type-VIII_00009	CDS	paaZ	Bifunctional protein PaaZ
+SCCmec_FJ670542_Type-VIII_00009	gene	paaZ
+SCCmec_FJ670542_Type-VIII_00010	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+SCCmec_FJ670542_Type-VIII_00010	gene	pbp
+SCCmec_FJ670542_Type-VIII_00011	CDS	mecR1	Methicillin resistance mecR1 protein
+SCCmec_FJ670542_Type-VIII_00011	gene	mecR1
+SCCmec_FJ670542_Type-VIII_00012	CDS	mecI_1	Methicillin resistance regulatory protein MecI
+SCCmec_FJ670542_Type-VIII_00012	gene	mecI_1
+SCCmec_FJ670542_Type-VIII_00013	CDS	mecI_2	Methicillin resistance regulatory protein MecI
+SCCmec_FJ670542_Type-VIII_00013	gene	mecI_2
+SCCmec_FJ670542_Type-VIII_00014	CDS	nagC	N-acetylglucosamine repressor
+SCCmec_FJ670542_Type-VIII_00014	gene	nagC
+SCCmec_FJ670542_Type-VIII_00015	CDS	pspE_1	2.8.1.1	Thiosulfate sulfurtransferase PspE
+SCCmec_FJ670542_Type-VIII_00015	gene	pspE_1
+SCCmec_FJ670542_Type-VIII_00016	CDS	gloC	3.1.2.6	Hydroxyacylglutathione hydrolase GloC
+SCCmec_FJ670542_Type-VIII_00016	gene	gloC
+SCCmec_FJ670542_Type-VIII_00017	CDS	pspE_2	2.8.1.1	Thiosulfate sulfurtransferase PspE
+SCCmec_FJ670542_Type-VIII_00017	gene	pspE_2
+SCCmec_FJ670542_Type-VIII_00018	CDS	csoR	Copper-sensing transcriptional repressor CsoR
+SCCmec_FJ670542_Type-VIII_00018	gene	csoR
+SCCmec_FJ670542_Type-VIII_00019	CDS	hypothetical protein
+SCCmec_FJ670542_Type-VIII_00019	gene
+SCCmec_FJ670542_Type-VIII_00020	CDS	ycgJ	2.1.1.-	putative methyltransferase YcgJ
+SCCmec_FJ670542_Type-VIII_00020	gene	ycgJ
+SCCmec_FJ670542_Type-VIII_00021	CDS	ermA1	2.1.1.184	rRNA adenine N-6-methyltransferase
+SCCmec_FJ670542_Type-VIII_00021	gene	ermA1
+SCCmec_FJ670542_Type-VIII_00022	CDS	ant1	2.7.7.47	Streptomycin 3''-adenylyltransferase
+SCCmec_FJ670542_Type-VIII_00022	gene	ant1
+SCCmec_FJ670542_Type-VIII_00023	CDS	hypothetical protein
+SCCmec_FJ670542_Type-VIII_00023	gene
+SCCmec_FJ670542_Type-VIII_00024	CDS	xerC_1	Tyrosine recombinase XerC
+SCCmec_FJ670542_Type-VIII_00024	gene	xerC_1
+SCCmec_FJ670542_Type-VIII_00025	CDS	xerC_2	Tyrosine recombinase XerC
+SCCmec_FJ670542_Type-VIII_00025	gene	xerC_2
+SCCmec_FJ670542_Type-VIII_00026	CDS	hypothetical protein
+SCCmec_FJ670542_Type-VIII_00026	gene
+SCCmec_FJ670542_Type-VIII_00027	CDS	hypothetical protein
+SCCmec_FJ670542_Type-VIII_00027	gene
+SCCmec_FJ670542_Type-VIII_00028	CDS	hypothetical protein
+SCCmec_FJ670542_Type-VIII_00028	gene
+SCCmec_FJ670542_Type-VIII_00029	CDS	hypothetical protein
+SCCmec_FJ670542_Type-VIII_00029	gene
+SCCmec_FJ670542_Type-VIII_00030	CDS	hypothetical protein
+SCCmec_FJ670542_Type-VIII_00030	gene
+SCCmec_FJ670542_Type-VIII_00031	CDS	hin	DNA-invertase hin
+SCCmec_FJ670542_Type-VIII_00031	gene	hin
+SCCmec_FJ670542_Type-VIII_00032	CDS	hypothetical protein
+SCCmec_FJ670542_Type-VIII_00032	gene
+SCCmec_FJ670542_Type-VIII_00033	CDS	hypothetical protein
+SCCmec_FJ670542_Type-VIII_00033	gene
+SCCmec_FJ670542_Type-VIII_00034	CDS	hypothetical protein
+SCCmec_FJ670542_Type-VIII_00034	gene
+SCCmec_FJ670542_Type-VIII_00035	CDS	hypothetical protein
+SCCmec_FJ670542_Type-VIII_00035	gene
+SCCmec_FJ670542_Type-VIII_00036	CDS	czrA	HTH-type transcriptional repressor CzrA
+SCCmec_FJ670542_Type-VIII_00036	gene	czrA
+SCCmec_FJ670542_Type-VIII_00037	CDS	hypothetical protein
+SCCmec_FJ670542_Type-VIII_00037	gene
+SCCmec_FJ670542_Type-VIII_00038	CDS	zosA	3.6.3.-	Zinc-transporting ATPase
+SCCmec_FJ670542_Type-VIII_00038	gene	zosA

@@ -1,0 +1,118 @@
+[00:27:57] This is prokka 1.12
+[00:27:57] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[00:27:57] Homepage is https://github.com/tseemann/prokka
+[00:27:57] Local time is Wed May 31 00:27:57 2017
+[00:27:57] You are fsepulveda
+[00:27:57] Operating system is linux
+[00:27:57] You have BioPerl 1.006924
+[00:27:57] System has 4 cores.
+[00:27:57] Option --cpu asked for 8 cores, but system only has 4
+[00:27:57] Will use maximum of 4 cores.
+[00:27:57] Annotating as >>> Bacteria <<<
+[00:27:57] Enabling options to ensure Genbank/ENA/DDJB submission compliance.
+[00:27:57] Creating new output folder: SCCmec_NC_007793_Type-IV
+[00:27:57] Running: mkdir -p SCCmec_NC_007793_Type\-IV
+[00:27:57] Using filename prefix: SCCmec_NC_007793_Type-IV.XXX
+[00:27:57] Setting HMMER_NCPU=1
+[00:27:57] Writing log to: SCCmec_NC_007793_Type-IV/SCCmec_NC_007793_Type-IV.log
+[00:27:57] Command: /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/prokka --kingdom Bacteria --outdir SCCmec_NC_007793_Type-IV --quiet --genus Staphylococcus --locustag SCCmec_NC_007793_Type-IV --centre 10 --compliant --prefix SCCmec_NC_007793_Type-IV --force SCCmec_NC_007793_Type-IV.fasta
+[00:27:57] Appending to PATH: /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/../binaries/linux
+[00:27:57] Appending to PATH: /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/../binaries/linux/../common
+[00:27:57] Appending to PATH: /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin
+[00:27:57] Looking for 'aragorn' - found /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/../binaries/linux/aragorn
+[00:27:57] Determined aragorn version is 1.2
+[00:27:57] Looking for 'blastp' - found /usr/bin/blastp
+[00:27:57] Determined blastp version is 2.2
+[00:27:57] Looking for 'cmpress' - found /usr/bin/cmpress
+[00:27:57] Determined cmpress version is 1.1
+[00:27:57] Looking for 'cmscan' - found /usr/bin/cmscan
+[00:27:57] Determined cmscan version is 1.1
+[00:27:57] Looking for 'egrep' - found /bin/egrep
+[00:27:57] Looking for 'find' - found /usr/bin/find
+[00:27:57] Looking for 'grep' - found /bin/grep
+[00:27:57] Looking for 'hmmpress' - found /usr/bin/hmmpress
+[00:27:57] Determined hmmpress version is 3.1
+[00:27:57] Looking for 'hmmscan' - found /usr/bin/hmmscan
+[00:27:57] Determined hmmscan version is 3.1
+[00:27:57] Looking for 'java' - found /usr/bin/java
+[00:27:57] Looking for 'less' - found /usr/bin/less
+[00:27:57] Looking for 'makeblastdb' - found /usr/bin/makeblastdb
+[00:27:57] Determined makeblastdb version is 2.2
+[00:27:57] Looking for 'minced' - found /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/../binaries/linux/../common/minced
+[00:27:57] Determined minced version is 2.0
+[00:27:57] Looking for 'parallel' - found /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/../binaries/linux/../common/parallel
+[00:27:57] Determined parallel version is 20150122
+[00:27:57] Looking for 'prodigal' - found /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/../binaries/linux/prodigal
+[00:27:57] Determined prodigal version is 2.6
+[00:27:57] Looking for 'prokka-genbank_to_fasta_db' - found /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/prokka-genbank_to_fasta_db
+[00:27:57] Looking for 'sed' - found /bin/sed
+[00:27:57] Looking for 'tbl2asn' - found /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/../binaries/linux/tbl2asn
+[00:27:57] Determined tbl2asn version is 25.3
+[00:27:57] Using genetic code table 11.
+[00:27:57] Loading and checking input file: SCCmec_NC_007793_Type-IV.fasta
+[00:27:57] Wrote 1 contigs totalling 55211 bp.
+[00:27:57] Predicting tRNAs and tmRNAs
+[00:27:57] Running: aragorn -l -gc11  -w SCCmec_NC_007793_Type\-IV\/SCCmec_NC_007793_Type\-IV\.fna
+[00:27:57] Found 0 tRNAs
+[00:27:57] Predicting Ribosomal RNAs
+[00:27:57] You need either Barrnap or RNAmmer installed to predict rRNAs!
+[00:27:57] Skipping ncRNA search, enable with --rfam if desired.
+[00:27:57] Total of 0 tRNA + rRNA features
+[00:27:57] Searching for CRISPR repeats
+[00:27:57] Found 0 CRISPRs
+[00:27:57] Predicting coding sequences
+[00:27:57] Contigs total 55211 bp, so using meta mode
+[00:27:57] Running: prodigal -i SCCmec_NC_007793_Type\-IV\/SCCmec_NC_007793_Type\-IV\.fna -c -m -g 11 -p meta -f sco -q
+[00:27:57] Found 56 CDS
+[00:27:57] Connecting features back to sequences
+[00:27:57] Not using genus-specific database. Try --usegenus to enable it.
+[00:27:57] Annotating CDS, please be patient.
+[00:27:57] Will use 4 CPUs for similarity searching.
+[00:27:57] There are still 56 unannotated CDS left (started with 56)
+[00:27:57] Will use blast to search against /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/../db/kingdom/Bacteria/sprot with 4 CPUs
+[00:27:57] Running: cat SCCmec_NC_007793_Type\-IV\/sprot\.faa | parallel --gnu --plain -j 4 --block 1812 --recstart '>' --pipe blastp -query - -db /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/../db/kingdom/Bacteria/sprot -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > SCCmec_NC_007793_Type\-IV\/sprot\.blast 2> /dev/null
+[00:27:59] Deleting unwanted file: SCCmec_NC_007793_Type-IV/sprot.faa
+[00:27:59] Deleting unwanted file: SCCmec_NC_007793_Type-IV/sprot.blast
+[00:27:59] There are still 33 unannotated CDS left (started with 56)
+[00:27:59] Will use hmmer3 to search against /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/../db/hmm/HAMAP.hmm with 4 CPUs
+[00:27:59] Running: cat SCCmec_NC_007793_Type\-IV\/HAMAP\.hmm\.faa | parallel --gnu --plain -j 4 --block 817 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/../db/hmm/HAMAP.hmm /dev/stdin > SCCmec_NC_007793_Type\-IV\/HAMAP\.hmm\.hmmer3 2> /dev/null
+[00:27:59] Deleting unwanted file: SCCmec_NC_007793_Type-IV/HAMAP.hmm.faa
+[00:27:59] Deleting unwanted file: SCCmec_NC_007793_Type-IV/HAMAP.hmm.hmmer3
+[00:27:59] Labelling remaining 32 proteins as 'hypothetical protein'
+[00:27:59] Possible /pseudo 'DNA-invertase hin' at gnl|10|SCCmec_NC_007793_Type-IV_1 position 13831
+[00:27:59] Found 22 unique /gene codes.
+[00:27:59] Fixed 2 duplicate /gene - hin_1 hin_2
+[00:27:59] Fixed 1 colliding /gene names.
+[00:27:59] Adding /locus_tag identifiers
+[00:27:59] Assigned 56 locus_tags to CDS and RNA features.
+[00:27:59] Writing outputs to SCCmec_NC_007793_Type-IV/
+[00:27:59] Generating annotation statistics file
+[00:27:59] Generating Genbank and Sequin files
+[00:27:59] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.12 from https://github.com/tseemann/prokka' -Z SCCmec_NC_007793_Type\-IV\/SCCmec_NC_007793_Type\-IV\.err -i SCCmec_NC_007793_Type\-IV\/SCCmec_NC_007793_Type\-IV\.fsa 2> /dev/null
+[00:28:00] Deleting unwanted file: SCCmec_NC_007793_Type-IV/errorsummary.val
+[00:28:00] Deleting unwanted file: SCCmec_NC_007793_Type-IV/SCCmec_NC_007793_Type-IV.dr
+[00:28:00] Deleting unwanted file: SCCmec_NC_007793_Type-IV/SCCmec_NC_007793_Type-IV.fixedproducts
+[00:28:00] Deleting unwanted file: SCCmec_NC_007793_Type-IV/SCCmec_NC_007793_Type-IV.ecn
+[00:28:00] Deleting unwanted file: SCCmec_NC_007793_Type-IV/SCCmec_NC_007793_Type-IV.val
+[00:28:00] Repairing broken .GBK output that tbl2asn produces...
+[00:28:00] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < SCCmec_NC_007793_Type\-IV\/SCCmec_NC_007793_Type\-IV\.gbf > SCCmec_NC_007793_Type\-IV\/SCCmec_NC_007793_Type\-IV\.gbk
+[00:28:00] Deleting unwanted file: SCCmec_NC_007793_Type-IV/SCCmec_NC_007793_Type-IV.gbf
+[00:28:00] Output files:
+[00:28:00] SCCmec_NC_007793_Type-IV/SCCmec_NC_007793_Type-IV.fna
+[00:28:00] SCCmec_NC_007793_Type-IV/SCCmec_NC_007793_Type-IV.tbl
+[00:28:00] SCCmec_NC_007793_Type-IV/SCCmec_NC_007793_Type-IV.txt
+[00:28:00] SCCmec_NC_007793_Type-IV/SCCmec_NC_007793_Type-IV.faa
+[00:28:00] SCCmec_NC_007793_Type-IV/SCCmec_NC_007793_Type-IV.fsa
+[00:28:00] SCCmec_NC_007793_Type-IV/SCCmec_NC_007793_Type-IV.ffn
+[00:28:00] SCCmec_NC_007793_Type-IV/SCCmec_NC_007793_Type-IV.log
+[00:28:00] SCCmec_NC_007793_Type-IV/SCCmec_NC_007793_Type-IV.gff
+[00:28:00] SCCmec_NC_007793_Type-IV/SCCmec_NC_007793_Type-IV.sqn
+[00:28:00] SCCmec_NC_007793_Type-IV/SCCmec_NC_007793_Type-IV.gbk
+[00:28:00] SCCmec_NC_007793_Type-IV/SCCmec_NC_007793_Type-IV.tsv
+[00:28:00] SCCmec_NC_007793_Type-IV/SCCmec_NC_007793_Type-IV.err
+[00:28:00] Annotation finished successfully.
+[00:28:00] Walltime used: 0.05 minutes
+[00:28:00] If you use this result please cite the Prokka paper:
+[00:28:00] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[00:28:00] Type 'prokka --citation' for more details.
+[00:28:00] Share and enjoy!

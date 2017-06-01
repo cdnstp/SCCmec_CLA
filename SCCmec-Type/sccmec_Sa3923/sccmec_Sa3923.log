@@ -1,0 +1,119 @@
+[10:18:58] This is prokka 1.12
+[10:18:58] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[10:18:58] Homepage is https://github.com/tseemann/prokka
+[10:18:58] Local time is Thu Jun  1 10:18:58 2017
+[10:18:58] You are fsepulveda
+[10:18:58] Operating system is linux
+[10:18:58] You have BioPerl 1.006924
+[10:18:58] System has 4 cores.
+[10:18:58] Option --cpu asked for 8 cores, but system only has 4
+[10:18:58] Will use maximum of 4 cores.
+[10:18:58] Annotating as >>> Bacteria <<<
+[10:18:58] Enabling options to ensure Genbank/ENA/DDJB submission compliance.
+[10:18:58] Creating new output folder: sccmec_Sa3923
+[10:18:58] Running: mkdir -p sccmec_Sa3923
+[10:18:58] Using filename prefix: sccmec_Sa3923.XXX
+[10:18:58] Setting HMMER_NCPU=1
+[10:18:58] Writing log to: sccmec_Sa3923/sccmec_Sa3923.log
+[10:18:58] Command: /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/prokka --kingdom Bacteria --outdir sccmec_Sa3923 --quiet --genus Staphylococcus --locustag sccmec_Sa3923 --centre 10 --compliant --prefix sccmec_Sa3923 --force sccmec_Sa3923.fasta
+[10:18:58] Appending to PATH: /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/../binaries/linux
+[10:18:58] Appending to PATH: /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/../binaries/linux/../common
+[10:18:58] Appending to PATH: /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin
+[10:18:58] Looking for 'aragorn' - found /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/../binaries/linux/aragorn
+[10:18:58] Determined aragorn version is 1.2
+[10:18:58] Looking for 'blastp' - found /usr/bin/blastp
+[10:18:58] Determined blastp version is 2.2
+[10:18:58] Looking for 'cmpress' - found /usr/bin/cmpress
+[10:18:58] Determined cmpress version is 1.1
+[10:18:58] Looking for 'cmscan' - found /usr/bin/cmscan
+[10:18:58] Determined cmscan version is 1.1
+[10:18:58] Looking for 'egrep' - found /bin/egrep
+[10:18:58] Looking for 'find' - found /usr/bin/find
+[10:18:58] Looking for 'grep' - found /bin/grep
+[10:18:58] Looking for 'hmmpress' - found /usr/bin/hmmpress
+[10:18:58] Determined hmmpress version is 3.1
+[10:18:58] Looking for 'hmmscan' - found /usr/bin/hmmscan
+[10:18:58] Determined hmmscan version is 3.1
+[10:18:58] Looking for 'java' - found /usr/bin/java
+[10:18:58] Looking for 'less' - found /usr/bin/less
+[10:18:58] Looking for 'makeblastdb' - found /usr/bin/makeblastdb
+[10:18:58] Determined makeblastdb version is 2.2
+[10:18:58] Looking for 'minced' - found /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/../binaries/linux/../common/minced
+[10:18:58] Determined minced version is 2.0
+[10:18:58] Looking for 'parallel' - found /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/../binaries/linux/../common/parallel
+[10:18:58] Determined parallel version is 20150122
+[10:18:58] Looking for 'prodigal' - found /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/../binaries/linux/prodigal
+[10:18:58] Determined prodigal version is 2.6
+[10:18:58] Looking for 'prokka-genbank_to_fasta_db' - found /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/prokka-genbank_to_fasta_db
+[10:18:58] Looking for 'sed' - found /bin/sed
+[10:18:58] Looking for 'tbl2asn' - found /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/../binaries/linux/tbl2asn
+[10:18:58] Determined tbl2asn version is 25.3
+[10:18:58] Using genetic code table 11.
+[10:18:58] Loading and checking input file: sccmec_Sa3923.fasta
+[10:18:58] Wrote 1 contigs totalling 35384 bp.
+[10:18:58] Predicting tRNAs and tmRNAs
+[10:18:58] Running: aragorn -l -gc11  -w sccmec_Sa3923\/sccmec_Sa3923\.fna
+[10:18:58] Found 0 tRNAs
+[10:18:58] Predicting Ribosomal RNAs
+[10:18:58] You need either Barrnap or RNAmmer installed to predict rRNAs!
+[10:18:58] Skipping ncRNA search, enable with --rfam if desired.
+[10:18:58] Total of 0 tRNA + rRNA features
+[10:18:58] Searching for CRISPR repeats
+[10:18:58] Found 0 CRISPRs
+[10:18:58] Predicting coding sequences
+[10:18:58] Contigs total 35384 bp, so using meta mode
+[10:18:58] Running: prodigal -i sccmec_Sa3923\/sccmec_Sa3923\.fna -c -m -g 11 -p meta -f sco -q
+[10:18:59] Found 38 CDS
+[10:18:59] Connecting features back to sequences
+[10:18:59] Not using genus-specific database. Try --usegenus to enable it.
+[10:18:59] Annotating CDS, please be patient.
+[10:18:59] Will use 4 CPUs for similarity searching.
+[10:18:59] There are still 38 unannotated CDS left (started with 38)
+[10:18:59] Will use blast to search against /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/../db/kingdom/Bacteria/sprot with 4 CPUs
+[10:18:59] Running: cat sccmec_Sa3923\/sprot\.faa | parallel --gnu --plain -j 4 --block 1190 --recstart '>' --pipe blastp -query - -db /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/../db/kingdom/Bacteria/sprot -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > sccmec_Sa3923\/sprot\.blast 2> /dev/null
+[10:19:01] Modify product: Uncharacterized lipoprotein SAOUHSC_00053 => putative lipoprotein
+[10:19:01] Modify product: Uncharacterized ABC transporter ATP-binding protein YxlF => putative ABC transporter ATP-binding protein YxlF
+[10:19:01] Cleaned 2 /product names
+[10:19:01] Deleting unwanted file: sccmec_Sa3923/sprot.faa
+[10:19:01] Deleting unwanted file: sccmec_Sa3923/sprot.blast
+[10:19:01] There are still 22 unannotated CDS left (started with 38)
+[10:19:01] Will use hmmer3 to search against /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/../db/hmm/HAMAP.hmm with 4 CPUs
+[10:19:01] Running: cat sccmec_Sa3923\/HAMAP\.hmm\.faa | parallel --gnu --plain -j 4 --block 501 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /home/fsepulveda/Documents/PROGRAMS/prokka-1.12/bin/../db/hmm/HAMAP.hmm /dev/stdin > sccmec_Sa3923\/HAMAP\.hmm\.hmmer3 2> /dev/null
+[10:19:01] Deleting unwanted file: sccmec_Sa3923/HAMAP.hmm.faa
+[10:19:01] Deleting unwanted file: sccmec_Sa3923/HAMAP.hmm.hmmer3
+[10:19:01] Labelling remaining 22 proteins as 'hypothetical protein'
+[10:19:01] Found 15 unique /gene codes.
+[10:19:01] Fixed 0 colliding /gene names.
+[10:19:01] Adding /locus_tag identifiers
+[10:19:01] Assigned 38 locus_tags to CDS and RNA features.
+[10:19:01] Writing outputs to sccmec_Sa3923/
+[10:19:01] Generating annotation statistics file
+[10:19:01] Generating Genbank and Sequin files
+[10:19:01] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.12 from https://github.com/tseemann/prokka' -Z sccmec_Sa3923\/sccmec_Sa3923\.err -i sccmec_Sa3923\/sccmec_Sa3923\.fsa 2> /dev/null
+[10:19:01] Deleting unwanted file: sccmec_Sa3923/errorsummary.val
+[10:19:01] Deleting unwanted file: sccmec_Sa3923/sccmec_Sa3923.dr
+[10:19:01] Deleting unwanted file: sccmec_Sa3923/sccmec_Sa3923.fixedproducts
+[10:19:01] Deleting unwanted file: sccmec_Sa3923/sccmec_Sa3923.ecn
+[10:19:01] Deleting unwanted file: sccmec_Sa3923/sccmec_Sa3923.val
+[10:19:01] Repairing broken .GBK output that tbl2asn produces...
+[10:19:01] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < sccmec_Sa3923\/sccmec_Sa3923\.gbf > sccmec_Sa3923\/sccmec_Sa3923\.gbk
+[10:19:01] Deleting unwanted file: sccmec_Sa3923/sccmec_Sa3923.gbf
+[10:19:01] Output files:
+[10:19:01] sccmec_Sa3923/sccmec_Sa3923.tsv
+[10:19:01] sccmec_Sa3923/sccmec_Sa3923.faa
+[10:19:01] sccmec_Sa3923/sccmec_Sa3923.gff
+[10:19:01] sccmec_Sa3923/sccmec_Sa3923.ffn
+[10:19:01] sccmec_Sa3923/sccmec_Sa3923.fsa
+[10:19:01] sccmec_Sa3923/sccmec_Sa3923.log
+[10:19:01] sccmec_Sa3923/sccmec_Sa3923.fna
+[10:19:01] sccmec_Sa3923/sccmec_Sa3923.err
+[10:19:01] sccmec_Sa3923/sccmec_Sa3923.gbk
+[10:19:01] sccmec_Sa3923/sccmec_Sa3923.tbl
+[10:19:01] sccmec_Sa3923/sccmec_Sa3923.txt
+[10:19:01] sccmec_Sa3923/sccmec_Sa3923.sqn
+[10:19:01] Annotation finished successfully.
+[10:19:01] Walltime used: 0.05 minutes
+[10:19:01] If you use this result please cite the Prokka paper:
+[10:19:01] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[10:19:01] Type 'prokka --citation' for more details.
+[10:19:01] Share and enjoy!

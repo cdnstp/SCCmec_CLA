@@ -1,0 +1,63 @@
+locus_tag	ftype	gene	EC_number	product
+SCCmec_NC_017349_Type-XI_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+SCCmec_NC_017349_Type-XI_00001	gene	rlmH
+SCCmec_NC_017349_Type-XI_00002	CDS	blaZ	3.5.2.6	Beta-lactamase
+SCCmec_NC_017349_Type-XI_00002	gene	blaZ
+SCCmec_NC_017349_Type-XI_00003	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+SCCmec_NC_017349_Type-XI_00003	gene	pbp
+SCCmec_NC_017349_Type-XI_00004	CDS	mecR1	Methicillin resistance mecR1 protein
+SCCmec_NC_017349_Type-XI_00004	gene	mecR1
+SCCmec_NC_017349_Type-XI_00005	CDS	mecI	Methicillin resistance regulatory protein MecI
+SCCmec_NC_017349_Type-XI_00005	gene	mecI
+SCCmec_NC_017349_Type-XI_00006	CDS	hypothetical protein
+SCCmec_NC_017349_Type-XI_00006	gene
+SCCmec_NC_017349_Type-XI_00007	CDS	hypothetical protein
+SCCmec_NC_017349_Type-XI_00007	gene
+SCCmec_NC_017349_Type-XI_00008	CDS	hypothetical protein
+SCCmec_NC_017349_Type-XI_00008	gene
+SCCmec_NC_017349_Type-XI_00009	CDS	hypothetical protein
+SCCmec_NC_017349_Type-XI_00009	gene
+SCCmec_NC_017349_Type-XI_00010	CDS	hypothetical protein
+SCCmec_NC_017349_Type-XI_00010	gene
+SCCmec_NC_017349_Type-XI_00011	CDS	hypothetical protein
+SCCmec_NC_017349_Type-XI_00011	gene
+SCCmec_NC_017349_Type-XI_00012	CDS	hypothetical protein
+SCCmec_NC_017349_Type-XI_00012	gene
+SCCmec_NC_017349_Type-XI_00013	CDS	hypothetical protein
+SCCmec_NC_017349_Type-XI_00013	gene
+SCCmec_NC_017349_Type-XI_00014	CDS	hypothetical protein
+SCCmec_NC_017349_Type-XI_00014	gene
+SCCmec_NC_017349_Type-XI_00015	CDS	hin_1	DNA-invertase hin
+SCCmec_NC_017349_Type-XI_00015	gene	hin_1
+SCCmec_NC_017349_Type-XI_00016	CDS	hin_2	DNA-invertase hin
+SCCmec_NC_017349_Type-XI_00016	gene	hin_2
+SCCmec_NC_017349_Type-XI_00017	CDS	hypothetical protein
+SCCmec_NC_017349_Type-XI_00017	gene
+SCCmec_NC_017349_Type-XI_00018	CDS	hypothetical protein
+SCCmec_NC_017349_Type-XI_00018	gene
+SCCmec_NC_017349_Type-XI_00019	CDS	hypothetical protein
+SCCmec_NC_017349_Type-XI_00019	gene
+SCCmec_NC_017349_Type-XI_00020	CDS	hypothetical protein
+SCCmec_NC_017349_Type-XI_00020	gene
+SCCmec_NC_017349_Type-XI_00021	CDS	dinG	3.6.4.12	putative ATP-dependent helicase DinG 
+SCCmec_NC_017349_Type-XI_00021	gene	dinG
+SCCmec_NC_017349_Type-XI_00022	CDS	hypothetical protein
+SCCmec_NC_017349_Type-XI_00022	gene
+SCCmec_NC_017349_Type-XI_00023	CDS	lip	3.1.1.3	Lipase
+SCCmec_NC_017349_Type-XI_00023	gene	lip
+SCCmec_NC_017349_Type-XI_00024	CDS	hypothetical protein
+SCCmec_NC_017349_Type-XI_00024	gene
+SCCmec_NC_017349_Type-XI_00025	CDS	1.3.99.-	KsdD-like steroid dehydrogenase
+SCCmec_NC_017349_Type-XI_00025	gene
+SCCmec_NC_017349_Type-XI_00026	CDS	putative ABC transporter permease
+SCCmec_NC_017349_Type-XI_00026	gene
+SCCmec_NC_017349_Type-XI_00027	CDS	yxdL	ABC transporter ATP-binding protein YxdL
+SCCmec_NC_017349_Type-XI_00027	gene	yxdL
+SCCmec_NC_017349_Type-XI_00028	CDS	hypothetical protein
+SCCmec_NC_017349_Type-XI_00028	gene
+SCCmec_NC_017349_Type-XI_00029	CDS	arsC	1.20.4.1	Glutaredoxin arsenate reductase
+SCCmec_NC_017349_Type-XI_00029	gene	arsC
+SCCmec_NC_017349_Type-XI_00030	CDS	arsB	Arsenical pump membrane protein
+SCCmec_NC_017349_Type-XI_00030	gene	arsB
+SCCmec_NC_017349_Type-XI_00031	CDS	sdpR	Transcriptional repressor SdpR
+SCCmec_NC_017349_Type-XI_00031	gene	sdpR

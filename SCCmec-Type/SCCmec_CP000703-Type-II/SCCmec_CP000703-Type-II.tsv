@@ -1,0 +1,95 @@
+locus_tag	ftype	gene	EC_number	product
+SCCmec_CP000703-Type-II_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+SCCmec_CP000703-Type-II_00001	gene	rlmH
+SCCmec_CP000703-Type-II_00002	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00002	gene
+SCCmec_CP000703-Type-II_00003	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00003	gene
+SCCmec_CP000703-Type-II_00004	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00004	gene
+SCCmec_CP000703-Type-II_00005	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+SCCmec_CP000703-Type-II_00005	gene	ugpQ
+SCCmec_CP000703-Type-II_00006	CDS	paaZ	Bifunctional protein PaaZ
+SCCmec_CP000703-Type-II_00006	gene	paaZ
+SCCmec_CP000703-Type-II_00007	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+SCCmec_CP000703-Type-II_00007	gene	pbp
+SCCmec_CP000703-Type-II_00008	CDS	mecR1	Methicillin resistance mecR1 protein
+SCCmec_CP000703-Type-II_00008	gene	mecR1
+SCCmec_CP000703-Type-II_00009	CDS	mecI	Methicillin resistance regulatory protein MecI
+SCCmec_CP000703-Type-II_00009	gene	mecI
+SCCmec_CP000703-Type-II_00010	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00010	gene
+SCCmec_CP000703-Type-II_00011	CDS	nagC	N-acetylglucosamine repressor
+SCCmec_CP000703-Type-II_00011	gene	nagC
+SCCmec_CP000703-Type-II_00012	CDS	pspE_1	2.8.1.1	Thiosulfate sulfurtransferase PspE
+SCCmec_CP000703-Type-II_00012	gene	pspE_1
+SCCmec_CP000703-Type-II_00013	CDS	gloC	3.1.2.6	Hydroxyacylglutathione hydrolase GloC
+SCCmec_CP000703-Type-II_00013	gene	gloC
+SCCmec_CP000703-Type-II_00014	CDS	pspE_2	2.8.1.1	Thiosulfate sulfurtransferase PspE
+SCCmec_CP000703-Type-II_00014	gene	pspE_2
+SCCmec_CP000703-Type-II_00015	CDS	csoR	Copper-sensing transcriptional repressor CsoR
+SCCmec_CP000703-Type-II_00015	gene	csoR
+SCCmec_CP000703-Type-II_00016	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00016	gene
+SCCmec_CP000703-Type-II_00017	CDS	ycgJ	2.1.1.-	putative methyltransferase YcgJ
+SCCmec_CP000703-Type-II_00017	gene	ycgJ
+SCCmec_CP000703-Type-II_00018	CDS	ermA1	2.1.1.184	rRNA adenine N-6-methyltransferase
+SCCmec_CP000703-Type-II_00018	gene	ermA1
+SCCmec_CP000703-Type-II_00019	CDS	ant1	2.7.7.47	Streptomycin 3''-adenylyltransferase
+SCCmec_CP000703-Type-II_00019	gene	ant1
+SCCmec_CP000703-Type-II_00020	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00020	gene
+SCCmec_CP000703-Type-II_00021	CDS	xerC_1	Tyrosine recombinase XerC
+SCCmec_CP000703-Type-II_00021	gene	xerC_1
+SCCmec_CP000703-Type-II_00022	CDS	xerC_2	Tyrosine recombinase XerC
+SCCmec_CP000703-Type-II_00022	gene	xerC_2
+SCCmec_CP000703-Type-II_00023	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00023	gene
+SCCmec_CP000703-Type-II_00024	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00024	gene
+SCCmec_CP000703-Type-II_00025	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00025	gene
+SCCmec_CP000703-Type-II_00026	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00026	gene
+SCCmec_CP000703-Type-II_00027	CDS	hin_1	DNA-invertase hin
+SCCmec_CP000703-Type-II_00027	gene	hin_1
+SCCmec_CP000703-Type-II_00028	CDS	hin_2	DNA-invertase hin
+SCCmec_CP000703-Type-II_00028	gene	hin_2
+SCCmec_CP000703-Type-II_00029	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00029	gene
+SCCmec_CP000703-Type-II_00030	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00030	gene
+SCCmec_CP000703-Type-II_00031	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00031	gene
+SCCmec_CP000703-Type-II_00032	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00032	gene
+SCCmec_CP000703-Type-II_00033	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00033	gene
+SCCmec_CP000703-Type-II_00034	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00034	gene
+SCCmec_CP000703-Type-II_00035	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00035	gene
+SCCmec_CP000703-Type-II_00036	CDS	kdpE	KDP operon transcriptional regulatory protein KdpE
+SCCmec_CP000703-Type-II_00036	gene	kdpE
+SCCmec_CP000703-Type-II_00037	CDS	kdpD	2.7.13.3	Sensor protein KdpD
+SCCmec_CP000703-Type-II_00037	gene	kdpD
+SCCmec_CP000703-Type-II_00038	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00038	gene
+SCCmec_CP000703-Type-II_00039	CDS	kdpA	Potassium-transporting ATPase potassium-binding subunit
+SCCmec_CP000703-Type-II_00039	gene	kdpA
+SCCmec_CP000703-Type-II_00040	CDS	kdpB	3.6.3.12	Potassium-transporting ATPase ATP-binding subunit
+SCCmec_CP000703-Type-II_00040	gene	kdpB
+SCCmec_CP000703-Type-II_00041	CDS	kdpC	Potassium-transporting ATPase KdpC subunit
+SCCmec_CP000703-Type-II_00041	gene	kdpC
+SCCmec_CP000703-Type-II_00042	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00042	gene
+SCCmec_CP000703-Type-II_00043	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00043	gene
+SCCmec_CP000703-Type-II_00044	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00044	gene
+SCCmec_CP000703-Type-II_00045	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00045	gene
+SCCmec_CP000703-Type-II_00046	CDS	hypothetical protein
+SCCmec_CP000703-Type-II_00046	gene
+SCCmec_CP000703-Type-II_00047	CDS	prkC	2.7.11.1	Serine/threonine-protein kinase PrkC
+SCCmec_CP000703-Type-II_00047	gene	prkC

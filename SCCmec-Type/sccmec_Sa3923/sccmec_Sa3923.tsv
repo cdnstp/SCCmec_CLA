@@ -1,0 +1,77 @@
+locus_tag	ftype	gene	EC_number	product
+sccmec_Sa3923_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+sccmec_Sa3923_00001	gene	rlmH
+sccmec_Sa3923_00002	CDS	hypothetical protein
+sccmec_Sa3923_00002	gene
+sccmec_Sa3923_00003	CDS	hypothetical protein
+sccmec_Sa3923_00003	gene
+sccmec_Sa3923_00004	CDS	hypothetical protein
+sccmec_Sa3923_00004	gene
+sccmec_Sa3923_00005	CDS	hypothetical protein
+sccmec_Sa3923_00005	gene
+sccmec_Sa3923_00006	CDS	hypothetical protein
+sccmec_Sa3923_00006	gene
+sccmec_Sa3923_00007	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+sccmec_Sa3923_00007	gene	ugpQ
+sccmec_Sa3923_00008	CDS	paaZ	Bifunctional protein PaaZ
+sccmec_Sa3923_00008	gene	paaZ
+sccmec_Sa3923_00009	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+sccmec_Sa3923_00009	gene	pbp
+sccmec_Sa3923_00010	CDS	mecR1	Methicillin resistance mecR1 protein
+sccmec_Sa3923_00010	gene	mecR1
+sccmec_Sa3923_00011	CDS	hypothetical protein
+sccmec_Sa3923_00011	gene
+sccmec_Sa3923_00012	CDS	hypothetical protein
+sccmec_Sa3923_00012	gene
+sccmec_Sa3923_00013	CDS	hypothetical protein
+sccmec_Sa3923_00013	gene
+sccmec_Sa3923_00014	CDS	hypothetical protein
+sccmec_Sa3923_00014	gene
+sccmec_Sa3923_00015	CDS	hypothetical protein
+sccmec_Sa3923_00015	gene
+sccmec_Sa3923_00016	CDS	hypothetical protein
+sccmec_Sa3923_00016	gene
+sccmec_Sa3923_00017	CDS	hin	DNA-invertase hin
+sccmec_Sa3923_00017	gene	hin
+sccmec_Sa3923_00018	CDS	hypothetical protein
+sccmec_Sa3923_00018	gene
+sccmec_Sa3923_00019	CDS	hypothetical protein
+sccmec_Sa3923_00019	gene
+sccmec_Sa3923_00020	CDS	hypothetical protein
+sccmec_Sa3923_00020	gene
+sccmec_Sa3923_00021	CDS	hypothetical protein
+sccmec_Sa3923_00021	gene
+sccmec_Sa3923_00022	CDS	czrA	HTH-type transcriptional repressor CzrA
+sccmec_Sa3923_00022	gene	czrA
+sccmec_Sa3923_00023	CDS	hypothetical protein
+sccmec_Sa3923_00023	gene
+sccmec_Sa3923_00024	CDS	zosA	3.6.3.-	Zinc-transporting ATPase
+sccmec_Sa3923_00024	gene	zosA
+sccmec_Sa3923_00025	CDS	putative lipoprotein
+sccmec_Sa3923_00025	gene
+sccmec_Sa3923_00026	CDS	albA	1.21.98.-	Antilisterial bacteriocin subtilosin biosynthesis protein AlbA
+sccmec_Sa3923_00026	gene	albA
+sccmec_Sa3923_00027	CDS	hypothetical protein
+sccmec_Sa3923_00027	gene
+sccmec_Sa3923_00028	CDS	yxlF	3.6.3.-	putative ABC transporter ATP-binding protein YxlF
+sccmec_Sa3923_00028	gene	yxlF
+sccmec_Sa3923_00029	CDS	hypothetical protein
+sccmec_Sa3923_00029	gene
+sccmec_Sa3923_00030	CDS	hypothetical protein
+sccmec_Sa3923_00030	gene
+sccmec_Sa3923_00031	CDS	arlR	Response regulator ArlR
+sccmec_Sa3923_00031	gene	arlR
+sccmec_Sa3923_00032	CDS	phoR	2.7.13.3	Phosphate regulon sensor protein PhoR
+sccmec_Sa3923_00032	gene	phoR
+sccmec_Sa3923_00033	CDS	hypothetical protein
+sccmec_Sa3923_00033	gene
+sccmec_Sa3923_00034	CDS	hypothetical protein
+sccmec_Sa3923_00034	gene
+sccmec_Sa3923_00035	CDS	isaB	Immunodominant staphylococcal antigen B
+sccmec_Sa3923_00035	gene	isaB
+sccmec_Sa3923_00036	CDS	copB	3.6.3.54	Copper-exporting P-type ATPase B
+sccmec_Sa3923_00036	gene	copB
+sccmec_Sa3923_00037	CDS	mco	1.-.-.-	Multicopper oxidase mco
+sccmec_Sa3923_00037	gene	mco
+sccmec_Sa3923_00038	CDS	hypothetical protein
+sccmec_Sa3923_00038	gene

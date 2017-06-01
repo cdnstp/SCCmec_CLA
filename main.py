@@ -1,7 +1,5 @@
-from basic_helpers import *
-from blast_helpers import *
-from prokka_helpers import *
-from attachment import * 
+from helpers import *
+
 
 def config():
 	import ConfigParser
@@ -27,7 +25,7 @@ def config():
 
 
 def main():
-	import sys
+
 # ------------------------------------------------------------------------- #
 #                      CONFIGURATION, OUTPUT SET UP                         #
 
@@ -198,7 +196,8 @@ def main():
 			# ------------------------------------------------------------------------- #
 			#        Crear archivo con la secuencia SCCmec desde attL hasta attR        #
 
-			with open("sccmec_"+nombre+".fasta", "w") as f:
+			sccmec_file_name = "sccmec_"+nombre+".fasta" 
+			with open(sccmec_file_name, "w") as f:
 				f.write(">sccmec_"+nombre+"_l"+str(len(sccmec))+"\n")
 				for i in range(0, len(sccmec), 60):
 					f.write(sccmec[i:i+60]+'\n')
@@ -294,8 +293,8 @@ def main():
 
 			# ------------------------------------------------------------------------- #
 			#        Crear archivo con la secuencia SCCmec desde attL hasta attR        #
-
-			with open("sccmec_"+nombre+".fasta", "w") as f:
+			sccmec_file_name = "sccmec_"+nombre+".fasta" 
+			with open(sccmec_file_name, "w") as f:
 				f.write(">sccmec_"+nombre+"_l"+str(len(sccmec))+"\n")
 				for i in range(0, len(sccmec), 60):
 					f.write(sccmec[i:i+60]+'\n')
@@ -353,7 +352,8 @@ def main():
 			# ------------------------------------------------------------------------- #
 			#        Crear archivo con la secuencia SCCmec desde attL hasta attR        #
 
-			with open("sccmec_"+nombre+".fasta", "w") as f:
+			sccmec_file_name = "sccmec_"+nombre+".fasta" 
+			with open(sccmec_file_name, "w") as f:
 				f.write(">sccmec_"+nombre+"_l"+str(len(sccmec))+"\n")
 				for i in range(0, len(sccmec), 60):
 					f.write(sccmec[i:i+60]+'\n')
@@ -384,5 +384,8 @@ def main():
 
 
 
+
+
+
 if __name__ == '__main__':
-        main()
+	main()

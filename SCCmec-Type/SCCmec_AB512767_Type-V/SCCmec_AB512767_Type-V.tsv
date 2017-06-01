@@ -1,0 +1,85 @@
+locus_tag	ftype	gene	EC_number	product
+SCCmec_AB512767_Type-V_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+SCCmec_AB512767_Type-V_00001	gene	rlmH
+SCCmec_AB512767_Type-V_00002	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00002	gene
+SCCmec_AB512767_Type-V_00003	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00003	gene
+SCCmec_AB512767_Type-V_00004	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00004	gene
+SCCmec_AB512767_Type-V_00005	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00005	gene
+SCCmec_AB512767_Type-V_00006	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00006	gene
+SCCmec_AB512767_Type-V_00007	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00007	gene
+SCCmec_AB512767_Type-V_00008	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00008	gene
+SCCmec_AB512767_Type-V_00009	CDS	hin_1	DNA-invertase hin
+SCCmec_AB512767_Type-V_00009	gene	hin_1
+SCCmec_AB512767_Type-V_00010	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00010	gene
+SCCmec_AB512767_Type-V_00011	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00011	gene
+SCCmec_AB512767_Type-V_00012	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00012	gene
+SCCmec_AB512767_Type-V_00013	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00013	gene
+SCCmec_AB512767_Type-V_00014	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00014	gene
+SCCmec_AB512767_Type-V_00015	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00015	gene
+SCCmec_AB512767_Type-V_00016	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+SCCmec_AB512767_Type-V_00016	gene	ugpQ
+SCCmec_AB512767_Type-V_00017	CDS	paaZ	Bifunctional protein PaaZ
+SCCmec_AB512767_Type-V_00017	gene	paaZ
+SCCmec_AB512767_Type-V_00018	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+SCCmec_AB512767_Type-V_00018	gene	pbp
+SCCmec_AB512767_Type-V_00019	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00019	gene
+SCCmec_AB512767_Type-V_00020	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00020	gene
+SCCmec_AB512767_Type-V_00021	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00021	gene
+SCCmec_AB512767_Type-V_00022	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00022	gene
+SCCmec_AB512767_Type-V_00023	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00023	gene
+SCCmec_AB512767_Type-V_00024	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00024	gene
+SCCmec_AB512767_Type-V_00025	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00025	gene
+SCCmec_AB512767_Type-V_00026	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00026	gene
+SCCmec_AB512767_Type-V_00027	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00027	gene
+SCCmec_AB512767_Type-V_00028	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00028	gene
+SCCmec_AB512767_Type-V_00029	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00029	gene
+SCCmec_AB512767_Type-V_00030	CDS	hin_2	DNA-invertase hin
+SCCmec_AB512767_Type-V_00030	gene	hin_2
+SCCmec_AB512767_Type-V_00031	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00031	gene
+SCCmec_AB512767_Type-V_00032	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00032	gene
+SCCmec_AB512767_Type-V_00033	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00033	gene
+SCCmec_AB512767_Type-V_00034	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00034	gene
+SCCmec_AB512767_Type-V_00035	CDS	hsdR	3.1.21.3	Type-1 restriction enzyme R protein
+SCCmec_AB512767_Type-V_00035	gene	hsdR
+SCCmec_AB512767_Type-V_00036	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00036	gene
+SCCmec_AB512767_Type-V_00037	CDS	hsdM	2.1.1.72	Type I restriction enzyme EcoKI M protein
+SCCmec_AB512767_Type-V_00037	gene	hsdM
+SCCmec_AB512767_Type-V_00038	CDS	3.6.1.-	ATP/GTP phosphatase
+SCCmec_AB512767_Type-V_00038	gene
+SCCmec_AB512767_Type-V_00039	CDS	pcrA	3.6.4.12	ATP-dependent DNA helicase PcrA
+SCCmec_AB512767_Type-V_00039	gene	pcrA
+SCCmec_AB512767_Type-V_00040	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00040	gene
+SCCmec_AB512767_Type-V_00041	CDS	ddc	4.1.1.86	L-2,4-diaminobutyrate decarboxylase
+SCCmec_AB512767_Type-V_00041	gene	ddc
+SCCmec_AB512767_Type-V_00042	CDS	hypothetical protein
+SCCmec_AB512767_Type-V_00042	gene

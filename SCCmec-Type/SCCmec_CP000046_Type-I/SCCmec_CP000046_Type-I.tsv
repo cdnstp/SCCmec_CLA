@@ -1,0 +1,60 @@
+locus_tag	ftype	gene	EC_number	product
+SCCmec_CP000046_Type-I_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+SCCmec_CP000046_Type-I_00001	gene	rlmH
+SCCmec_CP000046_Type-I_00002	CDS	hypothetical protein
+SCCmec_CP000046_Type-I_00002	gene
+SCCmec_CP000046_Type-I_00003	CDS	hypothetical protein
+SCCmec_CP000046_Type-I_00003	gene
+SCCmec_CP000046_Type-I_00004	CDS	hypothetical protein
+SCCmec_CP000046_Type-I_00004	gene
+SCCmec_CP000046_Type-I_00005	CDS	hypothetical protein
+SCCmec_CP000046_Type-I_00005	gene
+SCCmec_CP000046_Type-I_00006	CDS	hypothetical protein
+SCCmec_CP000046_Type-I_00006	gene
+SCCmec_CP000046_Type-I_00007	CDS	hypothetical protein
+SCCmec_CP000046_Type-I_00007	gene
+SCCmec_CP000046_Type-I_00008	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+SCCmec_CP000046_Type-I_00008	gene	ugpQ
+SCCmec_CP000046_Type-I_00009	CDS	paaZ	Bifunctional protein PaaZ
+SCCmec_CP000046_Type-I_00009	gene	paaZ
+SCCmec_CP000046_Type-I_00010	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+SCCmec_CP000046_Type-I_00010	gene	pbp
+SCCmec_CP000046_Type-I_00011	CDS	mecR1	Methicillin resistance mecR1 protein
+SCCmec_CP000046_Type-I_00011	gene	mecR1
+SCCmec_CP000046_Type-I_00012	CDS	hypothetical protein
+SCCmec_CP000046_Type-I_00012	gene
+SCCmec_CP000046_Type-I_00013	CDS	hypothetical protein
+SCCmec_CP000046_Type-I_00013	gene
+SCCmec_CP000046_Type-I_00014	CDS	hypothetical protein
+SCCmec_CP000046_Type-I_00014	gene
+SCCmec_CP000046_Type-I_00015	CDS	hypothetical protein
+SCCmec_CP000046_Type-I_00015	gene
+SCCmec_CP000046_Type-I_00016	CDS	hypothetical protein
+SCCmec_CP000046_Type-I_00016	gene
+SCCmec_CP000046_Type-I_00017	CDS	hin	DNA-invertase hin
+SCCmec_CP000046_Type-I_00017	gene	hin
+SCCmec_CP000046_Type-I_00018	CDS	tnpR	Transposon gamma-delta resolvase
+SCCmec_CP000046_Type-I_00018	gene	tnpR
+SCCmec_CP000046_Type-I_00019	CDS	hypothetical protein
+SCCmec_CP000046_Type-I_00019	gene
+SCCmec_CP000046_Type-I_00020	CDS	hypothetical protein
+SCCmec_CP000046_Type-I_00020	gene
+SCCmec_CP000046_Type-I_00021	CDS	hypothetical protein
+SCCmec_CP000046_Type-I_00021	gene
+SCCmec_CP000046_Type-I_00022	CDS	gloC	3.1.2.6	Hydroxyacylglutathione hydrolase GloC
+SCCmec_CP000046_Type-I_00022	gene	gloC
+SCCmec_CP000046_Type-I_00023	CDS	glpE	2.8.1.1	Thiosulfate sulfurtransferase GlpE
+SCCmec_CP000046_Type-I_00023	gene	glpE
+SCCmec_CP000046_Type-I_00024	CDS	ricR	Copper-sensing transcriptional repressor RicR
+SCCmec_CP000046_Type-I_00024	gene	ricR
+SCCmec_CP000046_Type-I_00025	CDS	hypothetical protein
+SCCmec_CP000046_Type-I_00025	gene
+repeat_region
+SCCmec_CP000046_Type-I_00026	CDS	hypothetical protein
+SCCmec_CP000046_Type-I_00026	gene
+SCCmec_CP000046_Type-I_00027	CDS	tagE	2.4.1.52	Poly(glycerol-phosphate) alpha-glucosyltransferase
+SCCmec_CP000046_Type-I_00027	gene	tagE
+SCCmec_CP000046_Type-I_00028	CDS	murF_1	6.3.2.10	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase
+SCCmec_CP000046_Type-I_00028	gene	murF_1
+SCCmec_CP000046_Type-I_00029	CDS	murF_2	6.3.2.10	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase
+SCCmec_CP000046_Type-I_00029	gene	murF_2

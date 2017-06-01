@@ -1,0 +1,45 @@
+locus_tag	ftype	gene	EC_number	product
+saureus_00001	CDS	rlmH	2.1.1.177	Ribosomal RNA large subunit methyltransferase H
+saureus_00001	gene	rlmH
+saureus_00002	CDS	hypothetical protein
+saureus_00002	gene
+saureus_00003	CDS	hypothetical protein
+saureus_00003	gene
+saureus_00004	CDS	hypothetical protein
+saureus_00004	gene
+saureus_00005	CDS	hypothetical protein
+saureus_00005	gene
+saureus_00006	CDS	hypothetical protein
+saureus_00006	gene
+saureus_00007	CDS	ugpQ	3.1.4.46	Glycerophosphodiester phosphodiesterase, cytoplasmic
+saureus_00007	gene	ugpQ
+saureus_00008	CDS	paaZ	Bifunctional protein PaaZ
+saureus_00008	gene	paaZ
+saureus_00009	CDS	pbp	Beta-lactam-inducible penicillin-binding protein
+saureus_00009	gene	pbp
+saureus_00010	CDS	mecR1	Methicillin resistance mecR1 protein
+saureus_00010	gene	mecR1
+saureus_00011	CDS	hypothetical protein
+saureus_00011	gene
+saureus_00012	CDS	hypothetical protein
+saureus_00012	gene
+saureus_00013	CDS	hypothetical protein
+saureus_00013	gene
+saureus_00014	CDS	hypothetical protein
+saureus_00014	gene
+saureus_00015	CDS	hypothetical protein
+saureus_00015	gene
+saureus_00016	CDS	hin_1	DNA-invertase hin
+saureus_00016	gene	hin_1
+saureus_00017	CDS	hin_2	DNA-invertase hin
+saureus_00017	gene	hin_2
+saureus_00018	CDS	hypothetical protein
+saureus_00018	gene
+saureus_00019	CDS	hypothetical protein
+saureus_00019	gene
+saureus_00020	CDS	hypothetical protein
+saureus_00020	gene
+saureus_00021	CDS	hypothetical protein
+saureus_00021	gene
+saureus_00022	CDS	hypothetical protein
+saureus_00022	gene
