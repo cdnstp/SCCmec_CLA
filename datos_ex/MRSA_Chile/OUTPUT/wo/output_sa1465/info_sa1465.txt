@@ -1,9 +1,0 @@
-Contig_ID:['gnl|10|saureus_10', 'gnl|10|saureus_10', 'gnl|10|saureus_2']
-Contig_length:537003
-SCCmec_length:40656
-attR_match:attR_sa1465_25936-25994
-(+) orfX located_at:0-480
-(-) PBP2a located_at:7003-4996
-(-) ccr located_at:19896-18546
-Location:0-40656
-Quality:B

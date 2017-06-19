@@ -1,8 +1,0 @@
-Core Elements
-orfX
-IS431
-mecA
-mecR1-Truncated
-IS1272-Truncated
-ccrB4
-ccrA4

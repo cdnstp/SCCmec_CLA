@@ -1,3 +1,0 @@
-input_dir=data/input/
-output_dir=data/output/
-data=output_mash_s1000_k23_sim.txt

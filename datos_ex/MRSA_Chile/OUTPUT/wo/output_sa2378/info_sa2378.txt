@@ -1,4 +1,0 @@
-Not MRSA
-OrfX: saureus_00686
-PBP2a: saureus_02602
-CCR: None

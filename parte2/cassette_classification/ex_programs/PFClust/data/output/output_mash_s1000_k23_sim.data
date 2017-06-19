@@ -1,9 +1,0 @@
-numclust	sil	dunn	threshold
-Clusters = 93	Silhouette = 0.869	Dunn = 0	Threshold = 1
-Clusters = 33	Silhouette = 0.867	Dunn = 2.423	Threshold = 0.997
-Clusters = 93	Silhouette = 0.869	Dunn = 0	Threshold = 1
-Clusters = 93	Silhouette = 0.869	Dunn = 0	Threshold = 1
-Clusters = 93	Silhouette = 0.869	Dunn = 0	Threshold = 1
-Clusters = 93	Silhouette = 0.869	Dunn = 0	Threshold = 1
-Clusters = 33	Silhouette = 0.867	Dunn = 2.423	Threshold = 0.997
-Clusters = 93	Silhouette = 0.869	Dunn = 0	Threshold = 1

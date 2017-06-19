@@ -1,7 +1,0 @@
-organism: Staphylococcus species strain 
-contigs: 122
-bases: 2916180
-gene: 2814
-tmRNA: 1
-tRNA: 61
-CDS: 2752

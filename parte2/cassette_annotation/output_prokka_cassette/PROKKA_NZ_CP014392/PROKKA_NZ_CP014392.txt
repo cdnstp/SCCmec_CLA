@@ -1,6 +1,0 @@
-organism: Staphylococcus species strain 
-contigs: 1
-bases: 54966
-CDS: 56
-mRNA: 56
-gene: 56
