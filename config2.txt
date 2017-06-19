@@ -1,0 +1,20 @@
+# SET UP 
+
+[configuration]
+# external programs
+prokka = helpers/programs/prokka-1.12/bin/prokka
+blastn = helpers/programs/ncbi-blast-2.6.0+/bin/blastn
+blastp = helpers/programs/ncbi-blast-2.6.0+/bin/blastp
+makeblastdb = helpers/programs/ncbi-blast-2.6.0+/bin/makeblastdb
+
+# support databases
+attr_db = helpers/support_data/attr_database/attr_database
+orfX = helpers/support_data/orfx.fasta
+pbp2a = helpers/support_data/pbp2a.fasta
+ccr = helpers/support_data/ccr.fasta
+
+# dir with sequence(s) to analize
+input = /INPUT/
+# outputs
+output =/OUTPUT/
+
