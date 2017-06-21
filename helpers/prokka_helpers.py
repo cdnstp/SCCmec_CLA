@@ -20,24 +20,28 @@ def prokka_files(location):
 
 # ------------------------------------------------------------------------- #
 
-def execute_prokka(prokka_exe, output_prokka, contigs):
+def execute_prokka(prokka_exe, output_prokka, contigs, name):
 	""" RUN PROKKA parametros especiales para s aureus """
+	#					" --force " + \
+	# falta agregar --force
 	kingdom = "Bacteria"
 	genus = "Staphylococcus"
-	locustag = "saureus"
-	cmd_prokka = prokka_exe+" --kingdom "+kingdom+ \
-					" --outdir "+output_prokka+ \
+
+	prefix_locus = name
+	cmd_prokka = prokka_exe+" --kingdom " + kingdom + \
+					" --outdir " + output_prokka + \
 					" --quiet "+ \
-					" --genus "+genus+ \
-					" --locustag "+locustag+ \
-					" --centre 10 --compliant"+ \
-					' '+contigs
+					" --genus "+ genus + \
+					" --locustag "+ prefix_locus + \
+					" --centre 10 --compliant" + \
+					" --prefix "+ prefix_locus + \
+					' '+ contigs
 	os.system(cmd_prokka)
 
 
 # ------------------------------------------------------------------------- #
 
-def get_contig(gff, query):
+def get_region(gff, query):
 	""" Entrega el ID del contig en el que esta el query """
 	with open(gff) as f:
 		header = []

@@ -32,7 +32,6 @@ def create_dir(base_path, dir_name):
 		os.makedirs(new_dir)
 	return new_dir
 
-
 # ------------------------------------------------------------------------- #
 
 def fasta2dict(file):
@@ -92,8 +91,8 @@ def ordenar_contigs(orfx, mec, ccr):
 
 # ------------------------------------------------------------------------- #
 
-def checkContig(lst):
-	""" Comparar lista (de contigs) para saber si son los mismos """
+def check_region_id(lst):
+	""" Comparar lista (de region_id) para saber si son los mismos """
 	return lst[1:] == lst[:-1]
 
 

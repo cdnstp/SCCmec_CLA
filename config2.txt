@@ -14,7 +14,8 @@ pbp2a = helpers/support_data/pbp2a.fasta
 ccr = helpers/support_data/ccr.fasta
 
 # dir with sequence(s) to analize
-input = /INPUT/
+input_dir = INPUT/
 # outputs
-output =/OUTPUT/
+output =OUTPUT/
+prefix_output = output_
 

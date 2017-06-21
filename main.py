@@ -1,8 +1,6 @@
 from helpers import *
 
 
-
-
 def config():
 	import ConfigParser
 	config = ConfigParser.ConfigParser()
@@ -50,8 +48,8 @@ def main():
 	execute_prokka(prokka_exe, output_prokka, contigs)
 	ffn, gff, fna, faa = prokka_files(output_prokka)
 
-	contigs_dict = fasta2dict(fna)
-	nucl_dict = fasta2dict(ffn)
+	fna_dict = fasta2dict(fna)
+	ffn_dict = fasta2dict(ffn)
 
 # ------------------------------------------------------------------------- #
 #                       Check if is MRSA                                    #
@@ -100,9 +98,9 @@ def main():
 		print("CORE ELEMENTS ARE PRESENT "+"\n")
 
 
-		contig_id_orfx = get_contig(gff, orfx_nucl_hit)
-		contig_id_mecA = get_contig(gff, mecA_hit)
-		contig_id_ccr = get_contig(gff, ccr_hit)
+		contig_id_orfx = get_region(gff, orfx_nucl_hit)
+		contig_id_mecA = get_region(gff, mecA_hit)
+		contig_id_ccr = get_region(gff, ccr_hit)
 
 		contig_ids = [contig_id_orfx, contig_id_mecA, contig_id_ccr]
 
@@ -121,7 +119,7 @@ def main():
 			f.write("PBP2a: "+str(core_elements[1])+'\n')
 			f.write("CCR: "+str(core_elements[2])+'\n')
 		if core_elements[0] is not None:
-			actual_orfx = get_sequence(nucl_dict, orfx_nucl_hit)
+			actual_orfx = get_sequence(ffn_dict, orfx_nucl_hit)
 			att_actual_orfx = actual_orfx[len(actual_orfx)-21:]
 			with open("attB_"+nombre+".fasta", "w") as f:
 				f.write(">attB_"+nombre+"\n")
@@ -131,13 +129,13 @@ def main():
 # ------------------------------------------------------------------------- #
 #            Check if CORE ELEMENTS are in the same contig                  #
 
-	actual_orfx = get_sequence(nucl_dict, orfx_nucl_hit)
-	actual_mecA = get_sequence(nucl_dict, mecA_hit)
-	actual_ccr = get_sequence(nucl_dict, ccr_hit)
+	actual_orfx = get_sequence(ffn_dict, orfx_nucl_hit)
+	actual_mecA = get_sequence(ffn_dict, mecA_hit)
+	actual_ccr = get_sequence(ffn_dict, ccr_hit)
 	
-	if checkContig(contig_ids):
+	if check_region_id(contig_ids):
 		os.chdir(raw_data)
-		template_dna = get_sequence(contigs_dict, contig_id_orfx)
+		template_dna = get_sequence(fna_dict, contig_id_orfx)
 
 		print("TEMPLATE DNA LENGTH: ", len(template_dna))
 
@@ -234,8 +232,8 @@ def main():
 		# ------------------------------------------------------------------------- #
 
 		contig_left, contig_right = ordenar_contigs(contig_id_orfx, contig_id_mecA, contig_id_ccr)
-		sequence_contig_left = get_sequence(contigs_dict, contig_left)
-		sequence_contig_right = get_sequence(contigs_dict, contig_right)
+		sequence_contig_left = get_sequence(fna_dict, contig_left)
+		sequence_contig_right = get_sequence(fna_dict, contig_right)
 
 		sequence_contig_left = checkSense(actual_orfx, sequence_contig_left)
 		texto_orfx, inicio_orfx, final_orfx = sequence_position(sequence_contig_left, actual_orfx, "orfX")
