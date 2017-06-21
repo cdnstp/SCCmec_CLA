@@ -58,8 +58,8 @@ def main():
 		print output_folder
 
 # ------------------------------------------------------------------------- #
-#       IMPORTANTE
 		os.chdir(output_folder)
+# ------------------------------------------------------------------------- #
 
 # ------------------------------------------------------------------------- #
 #       b. Run prokka & set up files                                        # 
@@ -87,17 +87,17 @@ def main():
 
 		orfx_nucl_hit, err = simpleBlast(blastn_exe, nucl_db_path, orfx_base, 'orfX')
 		orfx_nucl_hit = simpleBlastParser(orfx_nucl_hit)
-		pbp2a_hit, err = simpleBlast(blastp_exe, prot_db_path, pbp2a_base, 'PBP2a')
-		pbp2a_hit = simpleBlastParser(pbp2a_hit)
+		mec_hit, err = simpleBlast(blastp_exe, prot_db_path, pbp2a_base, 'PBP2a')
+		mec_hit = simpleBlastParser(mec_hit)
 		ccr_hit, err = simpleBlast(blastp_exe, prot_db_path, ccr_base, 'ccr')
 		ccr_hit = simpleBlastParser(ccr_hit)
 
 		print
 		print('orfX Hit: ', orfx_nucl_hit)
-		print('PBP2a Hit: ', pbp2a_hit)
+		print('PBP2a Hit: ', mec_hit)
 		print('ccr Hit: ', ccr_hit)
 
-		core_elements = [orfx_nucl_hit, pbp2a_hit, ccr_hit]
+		core_elements = [orfx_nucl_hit, mec_hit, ccr_hit]
 
 		if not all(core_elements):
 			print('It\'s not MRSA')
@@ -121,12 +121,27 @@ def main():
 		print
 		print('It\'s MRSA'+'\n')
 # ------------------------------------------------------------------------- #
-#       Check if CORE ELEMENTS are in the same contig                       #
+		os.chdir(output_folder)
+# ------------------------------------------------------------------------- #
 
-		
+		actual_orfx = get_sequence(ffn_dict, orfx_nucl_hit)
+		actual_mec = get_sequence(ffn_dict, mec_hit)
+		actual_ccr = get_sequence(ffn_dict, ccr_hit)
+
+		# Extraer y Guardar attL
+		att_actual_orfx = actual_orfx[len(actual_orfx)-60:]
+		attL_datafile = 'attL_{0}.fasta'.format(filename)
+		with open(attL_datafile, 'w') as f:
+			f.write('>attL_{0}\n'.format(filename))
+			f.write(att_actual_orfx+'\n')
+
+# ------------------------------------------------------------------------- #
+#       e. Check if CORE ELEMENTS are in the same contig                    #
+
 		seq_region_id_orfx = get_region(gff, orfx_nucl_hit)
-		seq_region_id_pbp2a = get_region(gff, pbp2a_hit)
+		seq_region_id_pbp2a = get_region(gff, mec_hit)
 		seq_region_id_ccr = get_region(gff, ccr_hit)
+
 		region_ids = [seq_region_id_orfx, seq_region_id_pbp2a, seq_region_id_ccr]
 
 		print('orfX in: ', seq_region_id_orfx)
@@ -134,10 +149,21 @@ def main():
 		print('ccr in: ', seq_region_id_ccr)
 		print('\n'+'-'*78+'\n')
 
-
 		if check_region_id(region_ids):
-			print region_ids
+# ------------------------------------------------------------------------- #
+#       	f. If all core elements in the same fna sequence                #
 
+			# Invertir o Conservar sentido de la secuencia para que attL quede a la izq #
+			fna_sequence = get_sequence(fna_dict, seq_region_id_orfx)
+			fna_sequence = checkSense(actual_orfx, fna_sequence)
+			print('Contig Length', len(fna_sequence))
+
+
+			# Continuar utilizando fna_sequence desde orfx
+			texto_orfx, inicio_orfx, final_orfx = get_orfX_pos(fna_sequence, actual_orfx, "orfX")
+			print("ORFX INFO: ", texto_orfx, inicio_orfx, final_orfx)
+
+			template_dna = fna_sequence[inicio_orfx:]
 
 
 

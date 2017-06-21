@@ -102,7 +102,7 @@ def check_region_id(lst):
 
 def checkSense(sequence, contig):
 	import re
-	""" Return always attL-attR left to right """
+	""" Return always attL-attR => left to right """
 	if re.findall("{pattern}".format(pattern=sequence), contig):
 		return contig
 
