@@ -333,8 +333,9 @@ def main():
 # ------------------------------------------------------------------------- #
 # ------------------------------------------------------------------------- #
 # ------------------------------------------------------------------------- #
-#		Luego de extraer el cassette exitosamente continua con la           #
+#       Luego de extraer el cassette exitosamente continua con la           #
 #       clasificacion segun estandar (IWG-SCC) y nuestro clasificacion      #
+
 
 		print cassette_path
 
