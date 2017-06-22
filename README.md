@@ -2,8 +2,8 @@
 
 ## Prerequisites
 
-python 2.7 (2.7.12)
-virtualenv
+* python 2.7 (2.7.12)
+* virtualenv
 
 ## Installing
 
