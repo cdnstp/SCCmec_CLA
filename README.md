@@ -9,12 +9,15 @@
 
 ```
 $ mkdir workingspace
+```
 
+###
 ```
 $ cd workingspace
-
+###
 ```
 $ virtualenv sccmec_cla
+###
 
 ```
 $ source ./sccmec_cla/bin/activate
