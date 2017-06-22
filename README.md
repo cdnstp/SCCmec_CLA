@@ -9,18 +9,25 @@
 
 ```
 $ mkdir workingspace
+
 ```
 $ cd workingspace
+
 ```
 $ virtualenv sccmec_cla
+
 ```
 $ source ./sccmec_cla/bin/activate
+
 ```
 $ unzip SCCmec_CLA-master.zip
+
 ```
 $ cd SCCmec_CLA-master
+
 ```
 $ ./helpers/programs/prokka-1.12/bin/prokka --setupdb
+
 ```
 $ pip install -r requirements.txt
 ```
