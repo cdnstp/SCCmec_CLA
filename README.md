@@ -1,6 +1,4 @@
-# Project Title
-
-Framework for Staphylococcal Cassette Chromosome mec Classification 
+# Framework for Staphylococcal Cassette Chromosome *mec* Classification 
 
 ### Prerequisites
 
