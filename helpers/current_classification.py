@@ -28,16 +28,18 @@ def execute_prokka_sccmec(prokka_exe, output_prokka, contigs):
 	kingdom = "Bacteria"
 	genus = "Staphylococcus"
 	locustag = output_prokka
+	out_folder_prokka = 'output_prokka_{0}'.format(output_prokka)
 	cmd_prokka = prokka_exe+" --kingdom " + kingdom + \
-					" --outdir " + output_prokka + \
+					" --outdir " + out_folder_prokka + \
 					" --quiet "+ \
 					" --genus "+ genus + \
 					" --locustag "+ locustag + \
 					" --centre 10 --compliant" + \
-					" --prefix "+ output_prokka + \
+					" --prefix "+ out_folder_prokka + \
 					" --force " + \
 					' '+ contigs
 	os.system(cmd_prokka)
+	return out_folder_prokka
 
 
 def fasta2dict(file):
@@ -296,23 +298,21 @@ sccmec_dict = {
 	"1CR": "X",
 	"8E": "XI"
 }
+
 # ------------------------------------------------------------------------- #
 # ------------------------------------------------------------------------- #
 # ------------------------------------------------------------------------- #
 
 
-def current_annotation(sccmec_file, blast_exe, prokka_exe, core_database):
+def current_annotation(sccmec_file, blast_exe, prokka_exe, core_database, output_folder):
 
 	sccmec_id = sccmec_file.split(".")[0].split('/')[-1]
 
-	execute_prokka_sccmec(prokka_exe, sccmec_id, sccmec_file)
-	ffn, gff, fna, faa, gbk = prokka_files_sccmec(sccmec_id)
+	out_folder_prokka = execute_prokka_sccmec(prokka_exe, sccmec_id, sccmec_file)
+	ffn, gff, fna, faa, gbk = prokka_files_sccmec(out_folder_prokka)
 	faa_dict = fasta2dict(faa)
 
 	position_dict = locationGenbank(gbk)
-
-	print("\n"+"-"*42)
-	print sccmec_id
 
 	ordered_keys = []
 	for key in faa_dict.keys():
@@ -343,7 +343,7 @@ def current_annotation(sccmec_file, blast_exe, prokka_exe, core_database):
 			gene.append(match)
 
 		else:
-			match = "NN"
+			match = 'NN'
 			#print k, sense, start, end, size, largo, match
 			locus.append(k)
 			sentido.append(sense)
@@ -365,30 +365,44 @@ def current_annotation(sccmec_file, blast_exe, prokka_exe, core_database):
 		"Gene": gene
 		}, columns=columns)
 
-	os.chdir(sccmec_id)
+# ------------------------------------------------------------------------- #
+	os.chdir(output_folder)
+# ------------------------------------------------------------------------- #
+# ------------------------------------------------------------------------- #
+#   save annotation based on our database 
 
-	file_name = "annotation_"+sccmec_id+".txt"
+	file_name = 'annotation_table_{0}.txt'.format(sccmec_id)
 	data.to_csv(file_name, sep='\t', encoding='utf-8', index=False)
 
-	gene = [x for x in gene if x != "NN"]
+	gene = [x for x in gene if x != 'NN']
 
 	print gene
-	core_elements = pd.DataFrame({"Core Elements": gene})
-	file_name = "core_elements_"+sccmec_id+".txt"
+
+	core_elements = pd.DataFrame({'Core Elements': gene})
+	file_name = 'core_elements_{0}.txt'.format(sccmec_id)
 	core_elements.to_csv(file_name, sep='\t', encoding='utf-8', index=False)
 
 	clase = mecClass2(gene)
 	alotipo = ccrAllotype(gene)
 	code = (alotipo+clase)
 
+
+# ------------------------------------------------------------------------- #
+#   save SCCmec type information 
 	try: 
 		print sccmec_dict[code]
-		file_name = "type_"+sccmec_id+".txt"
+		file_name = '{0}_type.txt'.format(sccmec_id)
 		with open(file_name, "w") as f:
-			f.write(sccmec_dict[code]+'\n')
+			f.write('{0}\n'.format(sccmec_dict[code]))
 	except KeyError:
 		print code
-		file_name = "type_"+sccmec_id+".txt"
+		file_name = '{0}_type.txt'.format(sccmec_id)
 		with open(file_name, "w") as f:
-			f.write(code+'\n')
+			f.write('{0}\n'.format(code))
 
+
+	print('SCCmec ID: ', sccmec_id)
+	return sccmec_id
+	
+# ------------------------------------------------------------------------- # 
+# ------------------------------------------------------------------------- #
