@@ -7,44 +7,38 @@
 
 ## Installing
 
-```
-$ mkdir workingspace
-```
+### Create working dir
 
 ```
+$ mkdir workingspace
 $ cd workingspace
 ```
 
+### Create a virtualenv & activate it
 ```
 $ virtualenv sccmec_cla
-
-```
-
-```
 $ source ./sccmec_cla/bin/activate
 
 ```
 
+### Download and unzip 
 ```
 $ unzip SCCmec_CLA-master.zip
-
-```
-
-```
 $ cd SCCmec_CLA-master
 
 ```
-
+### Setup PROKKA database
 ```
 $ ./helpers/programs/prokka-1.12/bin/prokka --setupdb
 
 ```
-
+### Install requirements
 ```
 $ pip install -r requirements.txt
 ```
 
 ## Usage
+### Put sequences (contigs files) inside INPUT folder and run
 
 ```
 $ python sccmec_classification.py
