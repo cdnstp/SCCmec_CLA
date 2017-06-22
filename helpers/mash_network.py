@@ -175,6 +175,7 @@ def draw_network(graph, node):
 
 	# guardar figura
 	plt.savefig('fig.png', dpi=300, orientation='landscape')
+	plt.close()
 
 
 

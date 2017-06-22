@@ -155,7 +155,7 @@ def main():
 
 		if check_region_id(region_ids):
 # ------------------------------------------------------------------------- #
-#       	f. If all core elements in the same fna sequence                #
+#       f. If all core elements in the same fna sequence                    #
 
 			# Invertir o Conservar sentido de la secuencia para que attL quede a la izq #
 			fna_sequence = get_sequence(fna_dict, seq_region_id_orfx)
@@ -170,7 +170,7 @@ def main():
 			template_dna = fna_sequence[inicio_orfx:]
 
 # ------------------------------------------------------------------------- #
-#           g. Encontrar attR                                               #
+#       g. Encontrar attR                                                   #
 			params = get_attchment(filename, 
 								output_folder, 
 								template_dna, 
@@ -194,8 +194,11 @@ def main():
 				mec_text, mec_s, mec_e = sequence_position(cassette, actual_mec, "PBP2a")
 				ccr_text, ccr_s, ccr_e = sequence_position(cassette, actual_ccr, "ccr")
 
+
 # ------------------------------------------------------------------------- #
-#        Crear archivo con la secuencia SCCmec desde attL hasta attR        #
+#       h. Crear archivo con la secuencia SCCmec desde attL hasta attR      #
+#		   Listo para anotacion y clasificacion                             #
+# ------------------------------------------------------------------------- #
 
 				cassette_filename = 'sccmec_{0}.fasta'.format(filename) 
 				with open(cassette_filename, 'w') as f:
@@ -213,12 +216,15 @@ def main():
 
 				
 # ------------------------------------------------------------------------- #
-#    De no encontrar secuencia attR pasa al siguiente archivo a analizar    #
+#    	i. Si no encuentra un attR en el mismo fna en el que estan los core #
+#          elements se detiene y pasa al siguiente contig en INPUT          #
+# ------------------------------------------------------------------------- #
 			else:
 				info_file = 'attr_not_found_{0}.txt'.format(filename)
 				with open(info_file, 'w') as f:
 					f.write('attr not found\n')
 				continue
+# ------------------------------------------------------------------------- #
 # ------------------------------------------------------------------------- #
 
 		else:
@@ -312,7 +318,11 @@ def main():
 
 						cassette_path = os.path.join(output_folder, cassette_filename)
 # ------------------------------------------------------------------------- #
-#    De no encontrar secuencia attR pasa al siguiente archivo a analizar    #
+# ------------------------------------------------------------------------- #
+
+# ------------------------------------------------------------------------- #
+#       i'. Si no encuentra attR al buscar en ambos sentidos (5'-3' o 3'-5')#
+#           se detiene y pasa al siguiente contig en INPUT                  #
 					else:
 						info_file = 'attr_not_found_{0}.txt'.format(filename)
 						with open(info_file, 'w') as f:
@@ -320,8 +330,11 @@ def main():
 						continue
 # ------------------------------------------------------------------------- #
 
-#		Luego de extraer el cassette exitosamente, continuar con 
-#       clasificacion segun IWG y nuestro clasificacion 
+# ------------------------------------------------------------------------- #
+# ------------------------------------------------------------------------- #
+# ------------------------------------------------------------------------- #
+#		Luego de extraer el cassette exitosamente continua con la           #
+#       clasificacion segun estandar (IWG-SCC) y nuestro clasificacion      #
 
 		print cassette_path
 
@@ -335,6 +348,8 @@ def main():
 		
 		network_classification(threshold, base_network_path, mash_path, chunk_path, cassette_path, sccmec_id)
 
+
+	sys.exit('done')
 
 if __name__ == '__main__':
 	main()
