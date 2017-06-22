@@ -44,6 +44,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Ulab (add link)
-
+* Ulab [ugaldelab](https://github.com/ugaldelab) 
 
