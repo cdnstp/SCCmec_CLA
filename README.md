@@ -1,17 +1,27 @@
 # Framework for Staphylococcal Cassette Chromosome *mec* Classification 
 
-### Prerequisites
+## Prerequisites
 
-Instalar requirements.txt
+python 2.7 (2.7.12)
+virtualenv
 
-### Installing
+## Installing
 
 ```
 $ mkdir workingspace
 $ cd workingspace
 $ virtualenv sccmec_cla
-$ descargar desde github
+$ source ./sccmec_cla/bin/activate
+$ unzip SCCmec_CLA-master.zip
+$ cd SCCmec_CLA-master
+$ ./helpers/programs/prokka-1.12/bin/prokka --setupdb
 $ pip install -r requirements.txt
+```
+
+## Usage
+
+```
+$ python sccmec_classification.py
 ```
 
 ## Built With

@@ -238,3 +238,4 @@ def network_classification(T, base_network, mash_path, chunk, sccmec_file, node)
 		_ = related_cassettes(ccn, node)
 
 
+#run ./helpers/programs/prokka-1.12/bin/prokka --setupdb
