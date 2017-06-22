@@ -46,16 +46,16 @@ $ python sccmec_classification.py
 
 ## OUTPUT
 
-* attL_<FILENAME>.fasta <- left end sccmec
-* attR_<FILENAME>.fasta <- right end sccmec
-* sccmec_<FILENAME>.fasta <- cassette fasta format
-* sccmec_<FILENAME>_type.txt <- current format annotation
-* core_elements_sccmec_<FILENAME>.txt <- detail current format annotation
-* annotation_table_sccmec_<FILENAME>.txt <- sccmec annotation table 
-* sccmec_<FILENAME>_neighbors_cassettes.txt <- close related cassettes
+* attL_<CONTIG_FILENAME>.fasta <- left end sccmec
+* attR_<CONTIG_FILENAME>.fasta <- right end sccmec
+* sccmec_<CONTIG_FILENAME>.fasta <- cassette fasta format
+* sccmec_<CONTIG_FILENAME>_type.txt <- current format annotation
+* core_elements_sccmec_<CONTIG_FILENAME>.txt <- detail current format annotation
+* annotation_table_sccmec_<CONTIG_FILENAME>.txt <- sccmec annotation table 
+* sccmec_<CONTIG_FILENAME>_neighbors_cassettes.txt <- close related cassettes
 * fig.png <- network viz using matplotlib
-* sccmec_<FILENAME>_cytoscape_network.sif <- Cytoscape format files
-* sccmec_<FILENAME>_cytoscape_network.eda <- Cytoscape format files 
+* sccmec_<CONTIG_FILENAME>_cytoscape_network.sif <- Cytoscape format files
+* sccmec_<CONTIG_FILENAME>_cytoscape_network.eda <- Cytoscape format files 
 
 
 
