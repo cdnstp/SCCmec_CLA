@@ -8,9 +8,6 @@ Instalar requirements.txt
 
 ### Installing
 
-
-Crear una carpeta en la se utilizará este framework
-
 ```
 $ mkdir workingspace
 $ cd workingspace

@@ -1,4 +1,0 @@
-Gene	Locus
-orfX	CP012593_00026
-PBP2a	None
-ccr	None
