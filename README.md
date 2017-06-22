@@ -9,12 +9,19 @@
 
 ```
 $ mkdir workingspace
+```
 $ cd workingspace
+```
 $ virtualenv sccmec_cla
+```
 $ source ./sccmec_cla/bin/activate
+```
 $ unzip SCCmec_CLA-master.zip
+```
 $ cd SCCmec_CLA-master
+```
 $ ./helpers/programs/prokka-1.12/bin/prokka --setupdb
+```
 $ pip install -r requirements.txt
 ```
 
@@ -27,7 +34,7 @@ $ python sccmec_classification.py
 ## Built With
 
 * [prokka](add link) - Used to annotation
-* [BLAST](add link) - Used to find homologues
+* [BLAST](add link) - Used to identified core elements
 * [mash](add link) - Used to generate similarity networks
 
 ## Contributing
@@ -44,5 +51,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Ulab [ugaldelab](https://github.com/ugaldelab) 
+* **Ulab** [ugaldelab](https://github.com/ugaldelab) 
 
