@@ -44,6 +44,21 @@ $ pip install -r requirements.txt
 $ python sccmec_classification.py
 ```
 
+## OUTPUT
+
+* attL_<filename>.fasta <- left end sccmec
+* attR_<filename>.fasta <- right end sccmec
+* sccmec_<filename>.fasta <- cassette fasta format
+* sccmec_<filename>_type.txt <- current format annotation
+* core_elements_sccmec_<filename>.txt <- detail current format annotation
+* annotation_table_sccmec_<filename>.txt <- sccmec annotation table 
+* sccmec_<filename>_neighbors_cassettes.txt <- close related cassettes
+* fig.png <- network viz using matplotlib
+* sccmec_<filename>_cytoscape_network.sif <- Cytoscape format files
+* sccmec_<filename>_cytoscape_network.eda <- Cytoscape format files 
+
+
+
 ## Built With
 
 * [prokka](add link) - Used to annotation
