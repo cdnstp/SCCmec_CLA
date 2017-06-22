@@ -1,9 +1,44 @@
-# Parte 1 SCCmec Class
+# Project Title
 
-Extraer SCCmec
+Framework for Staphylococcal Cassette Chromosome mec Classification 
 
-Editar CONFIG FILE (config.txt)
+### Prerequisites
 
-Usage:
-	python main.py / 
-	cat "file_with_path" | while read line; do python megaloop.py $line; done
+Instalar requirements.txt
+
+### Installing
+
+
+Crear una carpeta en la se utilizará este framework
+
+```
+$ mkdir workingspace
+$ cd workingspace
+$ virtualenv sccmec_cla
+$ descargar desde github
+$ pip install -r requirements.txt
+```
+
+## Built With
+
+* [prokka](add link) - Used to annotation
+* [BLAST](add link) - Used to find homologues
+* [mash](add link) - Used to generate similarity networks
+
+## Contributing
+
+## Versioning
+
+## Author
+
+* **Felipe Sepúlveda** - *Initial work* - [fesepc](https://github.com/fesepc)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Ulab (add link)
+
+

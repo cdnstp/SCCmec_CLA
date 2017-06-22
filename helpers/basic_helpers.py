@@ -64,7 +64,7 @@ def get_sequence(sequences_dict, sequence_id):
 
 # ------------------------------------------------------------------------- #
 
-def ordenar_contigs(orfx, mec, ccr):
+def sort_fna(orfx, mec, ccr):
 	""" Si core-elements en diferentes contigs, saber cual es el primero (left, orfx)"""
 	ids = [orfx, mec, ccr]
 	print len(set(ids))
@@ -85,8 +85,7 @@ def ordenar_contigs(orfx, mec, ccr):
 			print("mec + ccr")
 			return contig_one, contig_two
 	else:
-		print("Cannot be sorted")
-		sys.exit()
+		return ids
 
 
 # ------------------------------------------------------------------------- #
@@ -136,14 +135,14 @@ def sequence_position(sequence, query, name):
 	if sentido is not None:
 		texto = "(+) {0} located_at:".format(name)
 		inicio, final = sentido.span()[0], sentido.span()[1] 
-		print texto, inicio, final
+		#print texto, inicio, final
 		return texto, inicio, final
 
 	antisentido = re.search(reverse_complement(query), sequence)
 	if antisentido is not None:
 		texto = "(-) {0} located_at:".format(name)
 		inicio, final = antisentido.span()[1], antisentido.span()[0]
-		print texto, inicio, final
+		#print texto, inicio, final
 		return texto, inicio, final
 	else:
 		print(name, "Not Found")

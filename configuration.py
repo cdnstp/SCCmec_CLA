@@ -22,7 +22,7 @@ def main():
 	input_dir = config.get('configuration', 'input_dir')
 	output_data = config.get('configuration', 'output')
 	prefix = config.get('configuration', 'prefix_output')
-
+	core_db = config.get('configuration', 'core_db')
 	basedir = os.path.dirname(os.path.abspath(sys.argv[0]))
 
 	makeblastdb_exe = os.path.join(basedir, makedb)
@@ -35,6 +35,8 @@ def main():
 	pbp2a_base = os.path.join(basedir, pbp2a)
 	global_output_dir = create_dir(basedir, output_data)
 	attr_database_path = os.path.join(basedir, attr_db)
+	core_db_path = os.path.join(basedir, core_db)
+
 
 
 # ------------------------------------------------------------------------- #
@@ -128,12 +130,7 @@ def main():
 		actual_mec = get_sequence(ffn_dict, mec_hit)
 		actual_ccr = get_sequence(ffn_dict, ccr_hit)
 
-		# Extraer y Guardar attL
-		att_actual_orfx = actual_orfx[len(actual_orfx)-60:]
-		attL_datafile = 'attL_{0}.fasta'.format(filename)
-		with open(attL_datafile, 'w') as f:
-			f.write('>attL_{0}\n'.format(filename))
-			f.write(att_actual_orfx+'\n')
+
 
 # ------------------------------------------------------------------------- #
 #       e. Check if CORE ELEMENTS are in the same contig                    #
@@ -165,8 +162,162 @@ def main():
 
 			template_dna = fna_sequence[inicio_orfx:]
 
+# ------------------------------------------------------------------------- #
+#           g. Encontrar attR                                               #
+			params = get_attchment(filename, 
+								output_folder, 
+								template_dna, 
+								attr_database_path, 
+								blastn_exe)
+
+			if params:
+				attr_s, attr_e, hit = params
+				orfx_text, orfx_s, orfx_e = sequence_position(template_dna, actual_orfx, "orfX")
+				# Extraer y Guardar attL
+				att_actual_orfx = actual_orfx[len(actual_orfx)-60:]
+				attL_datafile = 'attL_{0}.fasta'.format(filename)
+				with open(attL_datafile, 'w') as f:
+					f.write('>attL_{0}_{1}_{2}\n'.format(filename, orfx_s, orfx_e))
+					f.write(att_actual_orfx+'\n')
+
+				# cassette from orfX start to attR end
+				cassette = template_dna[orfx_s:attr_e]
+
+				### MUST FIX THIS TO AVOID FUTURE BUGS ###
+				mec_text, mec_s, mec_e = sequence_position(cassette, actual_mec, "PBP2a")
+				ccr_text, ccr_s, ccr_e = sequence_position(cassette, actual_ccr, "ccr")
+
+# ------------------------------------------------------------------------- #
+#        Crear archivo con la secuencia SCCmec desde attL hasta attR        #
+
+				cassette_filename = 'sccmec_{0}.fasta'.format(filename) 
+				with open(cassette_filename, 'w') as f:
+					f.write('>sccmec_{0}_l{1}\n'.format(filename, str(len(cassette))))
+					for i in range(0, len(cassette), 60):
+						f.write(cassette[i:i+60]+'\n')
+
+				info_file = 'MRSA_{0}.txt'.format(filename)
+				with open(info_file, 'w') as f:
+					f.write('fna length\t{0}\n'.format(str(len(template_dna))))
+					f.write('SCCmec length\t{0}\n'.format(str(len(cassette))))				
+					f.write('Quality\tA\n')
+
+				cassette_path = os.path.join(output_folder, cassette_filename)
+
+				
+
+			else:
+# ------------------------------------------------------------------------- #
+#    De no encontrar secuencia attR pasa al siguiente archivo a analizar    #
+				info_file = 'attr_not_found_{0}.txt'.format(filename)
+				with open(info_file, 'w') as f:
+					f.write('attr not found\n')
+				continue
 
 
+		else:
+			print('more than one fna contains core elements')
+			fnas = sort_fna(seq_region_id_orfx, seq_region_id_pbp2a, seq_region_id_ccr)
+
+			if len(fnas) == 3: 
+				info_file = 'separated_core_elements_{0}.txt'.format(filename)
+				with open(info_file, 'w') as f:
+					f.write('each core elements in differents fna\n')
+				continue
+
+			else:
+				os.chdir(output_folder)
+
+				contig_left, contig_right = fnas
+				sequence_contig_left = get_sequence(fna_dict, contig_left)
+				sequence_contig_right = get_sequence(fna_dict, contig_right)
+
+				sequence_contig_left = checkSense(actual_orfx, sequence_contig_left)
+				orfx_text, orfx_s, orfx_e = sequence_position(sequence_contig_left, actual_orfx, "orfX")
+				
+				# Extraer y Guardar attL
+				att_actual_orfx = actual_orfx[len(actual_orfx)-60:]
+				attL_datafile = 'attL_{0}.fasta'.format(filename)
+				with open(attL_datafile, 'w') as f:
+					f.write('>attL_{0}_{1}_{2}\n'.format(filename, orfx_s, orfx_e))
+					f.write(att_actual_orfx+'\n')
+
+				cassette_left_end = sequence_contig_left[orfx_s:]
+
+				params = get_attchment(filename, 
+									output_folder, 
+									sequence_contig_right, 
+									attr_database_path, 
+									blastn_exe)
+				if params:
+					attr_s, attr_e, hit = params
+					cassette_right_end = sequence_contig_right[:attr_e]
+
+					cassette = ''.join([cassette_left_end, cassette_right_end])
+					### MUST FIX THIS TO AVOID FUTURE BUGS ###
+					mec_text, mec_s, mec_e = sequence_position(cassette, actual_mec, "PBP2a")
+					ccr_text, ccr_s, ccr_e = sequence_position(cassette, actual_ccr, "ccr")
+
+
+					cassette_filename = 'sccmec_{0}.fasta'.format(filename) 
+					with open(cassette_filename, 'w') as f:
+						f.write('>sccmec_{0}_l{1}\n'.format(filename, str(len(cassette))))
+						for i in range(0, len(cassette), 60):
+							f.write(cassette[i:i+60]+'\n')
+
+					info_file = 'MRSA_{0}.txt'.format(filename)
+					with open(info_file, 'w') as f:
+						f.write('fna-L length\t{0}\n'.format(str(len(sequence_contig_left))))
+						f.write('fna-R length\t{0}\n'.format(str(len(sequence_contig_right))))
+						f.write('SCCmec length\t{0}\n'.format(str(len(cassette))))				
+						f.write('Quality\tB\n')
+
+					cassette_path = os.path.join(output_folder, cassette_filename)
+
+				else:
+					sequence_contig_right = reverse_complement(sequence_contig_right)
+					params = get_attchment(filename, 
+										output_folder, 
+										sequence_contig_right, 
+										attr_database_path, 
+										blastn_exe)
+					if params:
+						attr_s, attr_e, hit = params
+						cassette_right_end = sequence_contig_right[:attr_e]
+
+						cassette = ''.join([cassette_left_end, cassette_right_end])
+						### MUST FIX THIS TO AVOID FUTURE BUGS ###
+						mec_text, mec_s, mec_e = sequence_position(cassette, actual_mec, "PBP2a")
+						ccr_text, ccr_s, ccr_e = sequence_position(cassette, actual_ccr, "ccr")
+
+
+						cassette_filename = 'sccmec_{0}.fasta'.format(filename) 
+						with open(cassette_filename, 'w') as f:
+							f.write('>sccmec_{0}_l{1}\n'.format(filename, str(len(cassette))))
+							for i in range(0, len(cassette), 60):
+								f.write(cassette[i:i+60]+'\n')
+
+						info_file = 'MRSA_{0}.txt'.format(filename)
+						with open(info_file, 'w') as f:
+							f.write('fna-L length\t{0}\n'.format(str(len(sequence_contig_left))))
+							f.write('fna-R length\t{0}\n'.format(str(len(sequence_contig_right))))
+							f.write('SCCmec length\t{0}\n'.format(str(len(cassette))))				
+							f.write('Quality\tC\n')
+
+						cassette_path = os.path.join(output_folder, cassette_filename)
+
+					else:
+						info_file = 'attr_not_found_{0}.txt'.format(filename)
+						with open(info_file, 'w') as f:
+							f.write('attr not found\n')
+						continue
+
+		###
+		print cassette_path
+
+		print('CURRENT ANNOTATION\n')
+
+		current_annotation(cassette_path, blastp_exe, prokka_exe, core_db_path)
 
 if __name__ == '__main__':
 	main()
