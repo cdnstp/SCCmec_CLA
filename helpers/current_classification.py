@@ -96,15 +96,15 @@ def annotation_blast_parser(out):
 		for line in lines:
 			args = [arg for arg in line]
 
-			porcentaje_query = float("{0:.2f}".format(((float(args[5])-float(args[4]))+1)/float(args[1])*100))
-			porcentaje_subject = float("{0:.2f}".format(((float(args[7])-float(args[6]))+1)/float(args[3])*100))
+			query_coverage = float("{0:.2f}".format(((float(args[5])-float(args[4]))+1)/float(args[1])*100))
+			subject_coverage = float("{0:.2f}".format(((float(args[7])-float(args[6]))+1)/float(args[3])*100))
 
-			#print args, porcentaje_query, porcentaje_subject
+			#print args, query_coverage, subject_coverage
+			# subject_coverage menor en caso de que la seq este truncada
+			if query_coverage >= 70.0 and subject_coverage >= 40.0:
 
-			if porcentaje_query >= 70.0 and porcentaje_subject >= 40.0:
-
-				args.append(str(porcentaje_query))
-				args.append(str(porcentaje_subject))
+				args.append(str(query_coverage))
+				args.append(str(subject_coverage))
 				salida += "\t".join([x for x in args])+'\n'
 	else:
 		return None
