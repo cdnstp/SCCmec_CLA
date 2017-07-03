@@ -51,7 +51,7 @@ def main():
 # ------------------------------------------------------------------------- #
 
 	contigs_to_analize = [f for f in os.listdir(input_contigs) if f.endswith('.fasta')]
-
+	print(contigs_to_analize)
 	print os.getcwd()
 
 	for contig in contigs_to_analize:
@@ -97,9 +97,9 @@ def main():
 		orfx_nucl_hit, err = simpleBlast(blastn_exe, nucl_db_path, orfx_base, 'orfX')
 		orfx_nucl_hit = simpleBlastParser(orfx_nucl_hit)
 		mec_hit, err = simpleBlast(blastp_exe, prot_db_path, pbp2a_base, 'PBP2a')
-		mec_hit = simpleBlastParser(mec_hit)
+		mec_hit = blast_mec_parser(mec_hit)
 		ccr_hit, err = simpleBlast(blastp_exe, prot_db_path, ccr_base, 'ccr')
-		ccr_hit = simpleBlastParser(ccr_hit)
+		ccr_hit = blast_ccr_parser(ccr_hit)
 
 		print
 		print('orfX Hit: ', orfx_nucl_hit)
@@ -148,9 +148,9 @@ def main():
 
 		region_ids = [seq_region_id_orfx, seq_region_id_pbp2a, seq_region_id_ccr]
 
-		print('orfX in: ', seq_region_id_orfx)
-		print('PBP2a in: ', seq_region_id_pbp2a)
-		print('ccr in: ', seq_region_id_ccr)
+		print('orfX in: ', seq_region_id_orfx, len(get_sequence(fna_dict, seq_region_id_orfx)))
+		print('PBP2a in: ', seq_region_id_pbp2a, len(get_sequence(fna_dict, seq_region_id_pbp2a)))
+		print('ccr in: ', seq_region_id_ccr, len(get_sequence(fna_dict, seq_region_id_ccr)))
 		print('\n'+'-'*78+'\n')
 
 		if check_region_id(region_ids):
@@ -225,18 +225,22 @@ def main():
 					f.write('attr not found\n')
 				continue
 # ------------------------------------------------------------------------- #
-# ------------------------------------------------------------------------- #
 
 		else:
 			print('core elements contained in more than one fna')
 			fnas = sort_fna(seq_region_id_orfx, seq_region_id_pbp2a, seq_region_id_ccr)
 
-			if len(fnas) == 3: 
+			if len(fnas) == 3:
+# ------------------------------------------------------------------------- #
+# ------------------------------------------------------------------------- #
+# ------------------------------------------------------------------------- #
 				info_file = 'separated_core_elements_{0}.txt'.format(filename)
 				with open(info_file, 'w') as f:
 					f.write('each core elements in differents fna\n')
 				continue
-
+# ------------------------------------------------------------------------- #
+# ------------------------------------------------------------------------- #
+# ------------------------------------------------------------------------- #
 			else:
 				os.chdir(output_folder)
 
@@ -262,7 +266,9 @@ def main():
 									attr_database_path, 
 									blastn_exe)
 				if params:
+					print('get attR 1')
 					attr_s, attr_e, hit = params
+					print(hit)
 					cassette_right_end = sequence_contig_right[:attr_e]
 
 					cassette = ''.join([cassette_left_end, cassette_right_end])
@@ -271,13 +277,15 @@ def main():
 					ccr_text, ccr_s, ccr_e = sequence_position(cassette, actual_ccr, "ccr")
 
 
-					cassette_filename = 'sccmec_{0}.fasta'.format(filename) 
+					cassette_filename = 'sccmec_{0}.fasta'.format(filename)
+
 					with open(cassette_filename, 'w') as f:
 						f.write('>sccmec_{0}_l{1}\n'.format(filename, str(len(cassette))))
 						for i in range(0, len(cassette), 60):
 							f.write(cassette[i:i+60]+'\n')
 
 					info_file = 'MRSA_{0}.txt'.format(filename)
+
 					with open(info_file, 'w') as f:
 						f.write('fna-L length\t{0}\n'.format(str(len(sequence_contig_left))))
 						f.write('fna-R length\t{0}\n'.format(str(len(sequence_contig_right))))
@@ -285,8 +293,10 @@ def main():
 						f.write('Quality\tB\n')
 
 					cassette_path = os.path.join(output_folder, cassette_filename)
+					
 
 				else:
+					print('get attR 2')
 					sequence_contig_right = reverse_complement(sequence_contig_right)
 					params = get_attchment(filename, 
 										output_folder, 
@@ -295,6 +305,7 @@ def main():
 										blastn_exe)
 					if params:
 						attr_s, attr_e, hit = params
+						print(hit)
 						cassette_right_end = sequence_contig_right[:attr_e]
 
 						cassette = ''.join([cassette_left_end, cassette_right_end])
@@ -337,17 +348,17 @@ def main():
 #       clasificacion segun estandar (IWG-SCC) y nuestro clasificacion      #
 
 
-		print cassette_path
+		print(cassette_path)
 
 		print('\n{0} annotation using current methods\n'.format(filename))
 
 		sccmec_id = current_annotation(cassette_path, blastp_exe, prokka_exe, core_db_path, output_folder)
 
-		print base_network_path
+		#print(base_network_path)
 
-		print('\n{0} annotation using network classification\n'.format(filename))
+		#print('\n{0} annotation using network classification\n'.format(filename))
 		
-		network_classification(threshold, base_network_path, mash_path, chunk_path, cassette_path, sccmec_id)
+		#network_classification(threshold, base_network_path, mash_path, chunk_path, cassette_path, sccmec_id)
 
 
 	sys.exit('done')

@@ -9,7 +9,7 @@ makeblastdb = helpers/programs/ncbi-blast-2.6.0+/bin/makeblastdb
 mash = helpers/programs/mash-Linux64-v1.1.1/mash
 
 # support databases
-attr_db = helpers/support_data/attr_database/attr_database
+attr_db = helpers/support_data/attr_database/update_attR_database
 orfX = helpers/support_data/orfx.fasta
 pbp2a = helpers/support_data/pbp2a.fasta
 ccr = helpers/support_data/ccr.fasta

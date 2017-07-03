@@ -237,49 +237,68 @@ def ccrAllotype(lst):
 def mecClass2(lst):
 	for i in range(len(lst)):
 		if lst[i] == "mecA":
-
-			if lst[i+1] == "mecR1":
-				if lst[i+2] == "MecI":
-					return "A"
-			if lst[i+1] == "mecR1":
-				if lst[i+2] == "MecI-Truncated":
-					return "A"
-			if lst[i+1] == "mecR1-Truncated":
-				if lst[i+2] == "MecI":
-					return "A"
-			if lst[i+1] == "mecR1-Truncated":
-				if lst[i+2] == "MecI-Truncated":
-					return "A"
-
-			if lst[i+1] == "mecR1-Truncated":
-				if lst[i+2] == "IS1272":
-					if lst[i-1] == "IS431":
-						return "B"
-
-
-			if lst[i-1] == "IS431":
+			try:
+				if lst[i+1] == "mecR1":
+					if lst[i+2] == "MecI":
+						return "A"
+			except IndexError:
+				pass
+			try:
+				if lst[i+1] == "mecR1":
+					if lst[i+2] == "MecI-Truncated":
+						return "A"
+			except IndexError:
+				pass
+			try:
 				if lst[i+1] == "mecR1-Truncated":
-					if lst[i+2] == "IS431":
-						return "C1"
+					if lst[i+2] == "MecI":
+						return "A"
+			except IndexError:
+				pass
+			try:
+				if lst[i+1] == "mecR1-Truncated":
+					if lst[i+2] == "MecI-Truncated":
+						return "A"
+			except IndexError:
+				pass
+			try:
+				if lst[i+1] == "mecR1-Truncated":
+					if lst[i+2] == "IS1272":
+						if lst[i-1] == "IS431":
+							return "B"
+			except IndexError:
+				pass
 
-			if lst[i-1] == "IS431" or lst[i-1] == "IS431-Truncated":
-				if lst[i+1] == "IS431" or lst[i+1] == "IS431-Truncated":
+			try:
+				if lst[i-1] == "IS431":
+					if lst[i+1] == "mecR1-Truncated":
+						if lst[i+2] == "IS431":
+							return "C1"
+			except IndexError:
+				pass
+			try:
+				if lst[i-1] == "IS431" or lst[i-1] == "IS431-Truncated":
+					if lst[i+1] == "IS431" or lst[i+1] == "IS431-Truncated":
 
-					try:
-						if "ccrA" in lst[i-2] or "ccrB" in lst[i-2]:
-							return "CL"
-						if "ccrA" in lst[i+2] or "ccrB" in lst[i+2]:
-							return "CR"
-					except IndexError:
-						pass
+						try:
+							if "ccrA" in lst[i-2] or "ccrB" in lst[i-2]:
+								return "CL"
+							if "ccrA" in lst[i+2] or "ccrB" in lst[i+2]:
+								return "CR"
+						except IndexError:
+							pass
 
-				return "C"
+					return "C"
+			except IndexError:
+				pass
 
-
-		if lst[i] == "mecC":
-			if lst[i+1] == "mecR1":
-				if lst[i+2] == "MecI":
-					return "E"
+		try:
+			if lst[i] == "mecC":
+				if lst[i+1] == "mecR1":
+					if lst[i+2] == "MecI":
+						return "E"
+		except IndexError:
+			pass
 
 	else:
 		return "N"

@@ -6,3 +6,6 @@ parte2/*
 datos_ex/*
 OUTPUT/*
 helpers/*.pyc
+helpers/programs/mash-Linux64-v1.1.1/*
+helpers/programs/prokka-1.12/*
+helpers/programs/ncbi-blast-2.6.0+/*

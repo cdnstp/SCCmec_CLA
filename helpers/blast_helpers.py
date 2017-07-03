@@ -31,6 +31,49 @@ def simpleBlast(blast_exe, database, query, qname):
 
 # ------------------------------------------------------------------------- #
 
+def blast_mec_parser(out):
+	blast_hits = []
+	if out:
+		hits = [line.split('\t') for line in out.split('\n')]
+		hits = [line for line in hits if line != [""]]
+		for hit in hits:
+			coverage = (((float(hit[5])-float(hit[4]))+1)/float(hit[1]))*100
+			if (coverage >= 70.0) and (float(hit[10]) >= 50.0):
+				hit.append(str(format(coverage, '.2f')))
+				blast_hits.append(hit)
+	else:
+		return None
+
+	if blast_hits != []:
+		sorted_matches = sorted(blast_hits, key=lambda x: [float(x[12]), float(x[10])], reverse=True)
+		best_hit = sorted_matches[0]
+		print('mecA best hit: ', best_hit)
+		return best_hit[2]
+	else:
+		return None
+
+def blast_ccr_parser(out):
+	blast_hits = []
+	if out:
+		hits = [line.split('\t') for line in out.split('\n')]
+		hits = [line for line in hits if line != [""]]
+		for hit in hits:
+			coverage = (((float(hit[5])-float(hit[4]))+1)/float(hit[1]))*100
+			if (coverage >= 70.0):
+				hit.append(str(format(coverage, '.2f')))
+				blast_hits.append(hit)
+	else:
+		return None
+
+	if blast_hits != []:
+		sorted_matches = sorted(blast_hits, key=lambda x: [float(x[12]), float(x[10])], reverse=True)
+		best_hit = sorted_matches[0]
+		print('ccr best hit: ', best_hit)
+		return best_hit[2]
+	else:
+		return None
+
+
 def simpleBlastParser(out):
 	""" Get Best Hit If Any """
 	salida = ""
