@@ -354,11 +354,16 @@ def main():
 
 		sccmec_id = current_annotation(cassette_path, blastp_exe, prokka_exe, core_db_path, output_folder)
 
-		#print(base_network_path)
+		print(base_network_path)
 
-		#print('\n{0} annotation using network classification\n'.format(filename))
+		print('\n{0} annotation using network classification\n'.format(filename))
 		
-		#network_classification(threshold, base_network_path, mash_path, chunk_path, cassette_path, sccmec_id)
+		close_cassette = network_classification(threshold, base_network_path, 
+								mash_path, chunk_path, 
+								cassette_path, sccmec_id)
+
+		# implementing vis_sccmec ...
+		print close_cassette
 
 
 	sys.exit('done')
