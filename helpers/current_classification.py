@@ -386,6 +386,8 @@ def current_annotation(sccmec_file, blast_exe, prokka_exe, core_database, output
 
 # ------------------------------------------------------------------------- #
 	os.chdir(output_folder)
+	print(output_folder)
+	faa_file_sccmec = os.path.join(output_folder, faa)
 # ------------------------------------------------------------------------- #
 # ------------------------------------------------------------------------- #
 #   save annotation based on our database 
@@ -421,7 +423,7 @@ def current_annotation(sccmec_file, blast_exe, prokka_exe, core_database, output
 
 
 	print('SCCmec ID: ', sccmec_id)
-	return sccmec_id
+	return sccmec_id, faa_file_sccmec
 	
 # ------------------------------------------------------------------------- # 
 # ------------------------------------------------------------------------- #

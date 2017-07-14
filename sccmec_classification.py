@@ -352,7 +352,8 @@ def main():
 
 		print('\n{0} annotation using current methods\n'.format(filename))
 
-		sccmec_id = current_annotation(cassette_path, blastp_exe, prokka_exe, core_db_path, output_folder)
+		sccmec_id, faa_file_sccmec = current_annotation(cassette_path, blastp_exe, 
+										prokka_exe, core_db_path, output_folder)
 
 		print(base_network_path)
 
@@ -363,7 +364,13 @@ def main():
 								cassette_path, sccmec_id)
 
 		# implementing vis_sccmec ...
-		print close_cassette
+		print(close_cassette)
+
+		length_cassette = len(cassette)
+
+		print(length_cassette)
+
+		print(faa_file_sccmec)
 
 
 	sys.exit('done')
