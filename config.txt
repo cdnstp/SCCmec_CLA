@@ -18,6 +18,10 @@ base_network = helpers/support_data/264_SCCmec_edafile.eda
 chunk = helpers/support_data/chunk_264_SCCmec_s1000_k21.msh
 threshold = 0.979000
 
+# core analysis
+core_proteins_sccmec = helpers/support_data/core_proteins/info.txt
+core_dir = helpers/support_data/core_proteins/
+
 # dir with sequence(s) to analize
 input_dir = INPUT/
 # outputs

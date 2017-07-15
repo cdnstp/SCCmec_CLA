@@ -26,9 +26,16 @@ def main():
 	base_network = config.get('configuration', 'base_network')
 	chunk = config.get('configuration', 'chunk')
 	mash = config.get('configuration', 'mash')
+	core_dir = config.get('configuration', 'core_dir')
+	core_proteins_sccmec = config.get('configuration', 'core_proteins_sccmec')
 
 	basedir = os.path.dirname(os.path.abspath(sys.argv[0]))
 
+	core_dir_path = os.path.join(basedir, core_dir)
+	core_dict_file = os.path.join(basedir, core_proteins_sccmec)
+	core_proteins_sccmec = {}
+	with open(core_dict_file) as fileobj:
+		core_proteins_sccmec = dict(line.strip().split(',', 1) for line in fileobj)
 	mash_path = os.path.join(basedir, mash)
 	makeblastdb_exe = os.path.join(basedir, makedb)
 	prokka_exe = blastp_exe = os.path.join(basedir, prokka)
@@ -364,16 +371,18 @@ def main():
 								cassette_path, sccmec_id)
 
 		# implementing vis_sccmec ...
-		print(close_cassette)
 
 		length_cassette = len(cassette)
 
-		print(length_cassette)
-		print(faa_file_sccmec)
-		print(annotation_file)
+		core_proteins_file = core_proteins_sccmec.get(close_cassette)
+
+		selected_core_proteins = os.path.join(core_dir_path, core_proteins_file)
+
+		vis_sccmec(faa_file_sccmec, annotation_file, length_cassette, selected_core_proteins, blastp_exe)
 
 
 	sys.exit('done')
+
 
 if __name__ == '__main__':
 	main()
