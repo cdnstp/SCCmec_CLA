@@ -170,3 +170,4 @@ def vis_sccmec(faa_file_sccmec, annotation_file, length_sccmec, core_proteins, b
 
 
 
+

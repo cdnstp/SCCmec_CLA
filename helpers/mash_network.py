@@ -115,6 +115,10 @@ def draw_network(graph, node):
 	import matplotlib.pyplot as plt
 	import matplotlib.patches as mpatches
 
+	# HACK
+	plt.close()
+	# HACK
+	
 	# fijar color rojo para nodo (cassette) analizado y gris
 	# para los demas
 

@@ -376,11 +376,12 @@ def main():
 
 		core_proteins_file = core_proteins_sccmec.get(close_cassette)
 
-		selected_core_proteins = os.path.join(core_dir_path, core_proteins_file)
+		if core_proteins_file:
+			selected_core_proteins = os.path.join(core_dir_path, core_proteins_file)
 
-		vis_sccmec(faa_file_sccmec, annotation_file, length_cassette, selected_core_proteins, blastp_exe)
+			vis_sccmec(faa_file_sccmec, annotation_file, length_cassette, selected_core_proteins, blastp_exe)
 
-
+		
 	sys.exit('done')
 
 
