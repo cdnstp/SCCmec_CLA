@@ -55,15 +55,17 @@ $ python sccmec_classification.py
 * sccmec_<CONTIG_FILENAME>_neighbors_cassettes.txt <- close related cassettes
 * fig.png <- network viz using matplotlib
 * sccmec_<CONTIG_FILENAME>_cytoscape_network.sif <- Cytoscape format files
-* sccmec_<CONTIG_FILENAME>_cytoscape_network.eda <- Cytoscape format files 
+* sccmec_<CONTIG_FILENAME>_cytoscape_network.eda <- Cytoscape format files
+* SCCmec_<CONTIG_FILENAME>.png <- Graphical Representation 
 
 
 
 ## Built With
 
-* [prokka](add link) - Used to annotation
-* [BLAST](add link) - Used to identified core elements
+* [prokka](add link) - Used to make annotation
+* [BLAST](add link) - Used to identify core elements
 * [mash](add link) - Used to generate similarity networks
+* [DnaFeaturesViewer](add link) - Used create a graphical representation
 
 ## Contributing
 
