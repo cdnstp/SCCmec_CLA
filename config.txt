@@ -1,0 +1,26 @@
+# SET UP 
+
+[configuration]
+# external programs
+prokka = helpers/programs/prokka-1.12/bin/prokka
+blastn = helpers/programs/ncbi-blast-2.6.0+/bin/blastn
+blastp = helpers/programs/ncbi-blast-2.6.0+/bin/blastp
+makeblastdb = helpers/programs/ncbi-blast-2.6.0+/bin/makeblastdb
+mash = helpers/programs/mash-Linux64-v1.1.1/mash
+
+# support databases
+attr_db = helpers/support_data/attr_database/update_attR_database
+orfX = helpers/support_data/orfx.fasta
+pbp2a = helpers/support_data/pbp2a.fasta
+ccr = helpers/support_data/ccr.fasta
+core_db = helpers/support_data/core_database/core_db
+base_network = helpers/support_data/264_SCCmec_edafile.eda
+chunk = helpers/support_data/chunk_264_SCCmec_s1000_k21.msh
+threshold = 0.979000
+
+# dir with sequence(s) to analize
+input_dir = INPUT/
+# outputs
+output =OUTPUT/
+prefix_output = output
+
