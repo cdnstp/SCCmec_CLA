@@ -14,9 +14,9 @@ orfX = helpers/support_data/orfx.fasta
 pbp2a = helpers/support_data/pbp2a.fasta
 ccr = helpers/support_data/ccr.fasta
 core_db = helpers/support_data/core_database/core_db
-base_network = helpers/support_data/264_SCCmec_edafile.eda
-chunk = helpers/support_data/chunk_264_SCCmec_s1000_k21.msh
-threshold = 0.979000
+base_network = helpers/support_data/network_k32_s100000_267_SCCmec.eda
+chunk = helpers/support_data/267_SCCmec_k32_s100000.msh
+threshold = 0.9860
 
 # core analysis
 core_proteins_sccmec = helpers/support_data/core_proteins/info.txt

@@ -10,11 +10,13 @@ colors = {
 	'ccrA3': 'yellow', 'ccrA4': 'yellow', 'ccrA7': 'yellow', 
 	'ccrB1': 'yellow', 'ccrB1': 'yellow', 'ccrB2': 'yellow', 
 	'ccrB2': 'yellow', 'ccrB3': 'yellow', 'ccrB4': 'yellow', 
-	'NN': '#0d0d0d', 
+	'NN': '#0d0d0d', 'mecR1-Truncated': 'red', 'MecI-Truncated': 'red',
 }
 
 labels = {
 	'NN': None,
+	'mecR1-Truncated': 'mecR1-Truncated',
+	'MecI-Truncated': 'mecI-Truncated',
 	'MecI': 'mecI',
 	'mecR1': 'mecR1',
 	'ccrB3': 'ccrB3',
@@ -145,9 +147,14 @@ def vis_sccmec(faa_file_sccmec, annotation_file, length_sccmec, core_proteins, b
 			color = '#ff8848'
 			label = None
 		else:
-			color = colors[gene]
-			label = labels[gene]
-
+			try:
+				color = colors[gene]
+			except KeyError:
+				color = 'grey'
+			try:
+				label = labels[gene]
+			except KeyError:
+				label = None
 		if '-' in sense:
 			features.append(GraphicFeature(start=int(start), end=int(end), strand=-1,
 											color=color, label=label))

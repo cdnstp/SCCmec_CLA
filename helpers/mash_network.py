@@ -231,7 +231,10 @@ def network_classification(T, base_network, mash_path, chunk, sccmec_file, node)
 			threshold -= 0.001000
 
 	else:
-		if float(T) != threshold: print('new type')
+		if float(T) != threshold:
+			exist = True
+		else:
+			exist = False
 		ccn = connected_components_network(subgraph_con, G)
 		cytoscape_files(ccn, node)
 		draw_network(ccn, node)
@@ -240,4 +243,4 @@ def network_classification(T, base_network, mash_path, chunk, sccmec_file, node)
 
 		sorted_sim = related_cassettes(ccn, node)
 
-	return sorted_sim[1][0]
+		return sorted_sim[1][0], exist

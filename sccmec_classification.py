@@ -366,20 +366,28 @@ def main():
 
 		print('\n{0} annotation using network classification\n'.format(filename))
 		
-		close_cassette = network_classification(threshold, base_network_path, 
+		close_cassette, bool_type = network_classification(threshold, base_network_path, 
 								mash_path, chunk_path, 
 								cassette_path, sccmec_id)
 
 		# implementing vis_sccmec ...
+		print(close_cassette)
 
 		length_cassette = len(cassette)
 
-		core_proteins_file = core_proteins_sccmec.get(close_cassette)
+		core_proteins_file, tipo = core_proteins_sccmec.get(close_cassette).split(',')
 
-		if core_proteins_file:
-			selected_core_proteins = os.path.join(core_dir_path, core_proteins_file)
+		with open('sccmec_cla_type_{0}.txt'.format(sccmec_id), 'w') as f:
+			if bool_type:
+				f.write('new-type\n')
+			else:
+				f.write('{}\n'.format(tipo))
 
-			vis_sccmec(faa_file_sccmec, annotation_file, length_cassette, selected_core_proteins, blastp_exe)
+		print(core_proteins_file)
+
+		selected_core_proteins = os.path.join(core_dir_path, core_proteins_file)
+
+		vis_sccmec(faa_file_sccmec, annotation_file, length_cassette, selected_core_proteins, blastp_exe)
 
 		
 	sys.exit('done')
