@@ -392,8 +392,10 @@ def current_annotation(sccmec_file, blast_exe, prokka_exe, core_database, output
 # ------------------------------------------------------------------------- #
 #   save annotation based on our database 
 
-	file_name = 'annotation_table_{0}.txt'.format(sccmec_id)
-	data.to_csv(file_name, sep='\t', encoding='utf-8', index=False)
+	annotation_file_name = 'annotation_table_{0}.txt'.format(sccmec_id)
+	annotation_file = os.path.join(output_folder, annotation_file_name)
+
+	data.to_csv(annotation_file_name, sep='\t', encoding='utf-8', index=False)
 
 	gene = [x for x in gene if x != 'NN']
 
@@ -423,7 +425,7 @@ def current_annotation(sccmec_file, blast_exe, prokka_exe, core_database, output
 
 
 	print('SCCmec ID: ', sccmec_id)
-	return sccmec_id, faa_file_sccmec
+	return sccmec_id, faa_file_sccmec, annotation_file
 	
 # ------------------------------------------------------------------------- # 
 # ------------------------------------------------------------------------- #
