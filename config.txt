@@ -28,3 +28,7 @@ input_dir = INPUT/
 output =OUTPUT/
 prefix_output = output
 
+# kNN data
+features = helpers/support_data/output_mash_distance_columns.txt
+labels = helpers/support_data/sccmec_specific_type_labels.txt
+

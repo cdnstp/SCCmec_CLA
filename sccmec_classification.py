@@ -33,8 +33,13 @@ def main():
     core_dir = config.get('configuration', 'core_dir')
     core_proteins_sccmec = config.get('configuration', 
         'core_proteins_sccmec')
+    features = config.get('configuration', 'features')
+    labels = config.get('configuration', 'labels')
 
     basedir = os.path.dirname(os.path.abspath(sys.argv[0]))
+    
+    mash_distances = os.path.join(basedir, features)
+    sccmectypes = os.path.join(basedir, labels)
 
     core_dir_path = os.path.join(basedir, core_dir)
     core_dict_file = os.path.join(basedir, core_proteins_sccmec)
@@ -541,8 +546,6 @@ def main():
 
         print(base_network_path)
 
-        mash_distances = "/home/fsepulveda/python_snippets/KNN/ml_revisado/output_mash_distance_columns.txt"
-        sccmectypes = "/home/fsepulveda/python_snippets/KNN/ml_revisado/sccmec_specific_type_labels.txt"
 
         close_cassette, bool_type, predicted = network_classification(
             threshold, 
