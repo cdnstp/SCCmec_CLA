@@ -1,6 +1,12 @@
 import sys
 import networkx as nx
 
+import pandas as pd 
+import numpy as np
+from sklearn.neighbors import KNeighborsClassifier
+
+
+
 
 def input_network(file):
 	""" toma archivo *.eda y lo transforma en una lista
@@ -193,6 +199,7 @@ def mash_exe(mash, chunk, sccmec_file):
 
 def mash_parser(output_mash):
 	data = []
+	array = []
 	for line in output_mash.split('\n'):
 		if not line:
 			continue
@@ -200,13 +207,30 @@ def mash_parser(output_mash):
 		cassette_a = file_a.split('/')[-1].split('.')[0]
 		cassette_b = file_b.split('/')[-1].split('.')[0]
 		sim = '{:.6f}'.format(1 - float(value))
+		array.append('{:.6f}'.format(float(value))) #kNN en base a la distancia de mash, no similitud usada en red
 		data.append([cassette_a, cassette_b, sim])
-	return data
+	#print(array)
+	np_array = np.array(array).astype(np.float)
+	#print(np_array)
+	return data, np_array
 
 #data = mash_parser(output_mash)
 
 
-def network_classification(T, base_network, mash_path, chunk, sccmec_file, node):
+def network_classification(T, base_network, mash_path, chunk, sccmec_file, node, mash_distances, sccmectypes):
+
+	X = pd.read_csv(mash_distances, sep=',', header=None)
+
+	with open(sccmectypes) as f:
+		datafile = []
+		for line in f:
+			line = line.strip()
+			if not line: continue
+			datafile.append(line)
+	y = np.array(datafile)
+	knn = KNeighborsClassifier(n_neighbors=5)
+	knn.fit(X, y)
+
 # -------------------------------------------------------------------------- #
 #   Setup graph database
 	data = input_network(base_network)
@@ -214,7 +238,13 @@ def network_classification(T, base_network, mash_path, chunk, sccmec_file, node)
 # -------------------------------------------------------------------------- #
 #	Add new nodes/edges based on mash comparison 
 	output_mash = mash_exe(mash_path, chunk, sccmec_file)
-	data = mash_parser(output_mash)
+	
+	data, sccmec_distance_columns = mash_parser(output_mash)
+	
+	prediction = knn.predict(sccmec_distance_columns)
+	#print(prediction[0])
+
+	
 	for row in data:
 		G.add_edge(row[0], row[1], weight=row[2])
 
@@ -243,4 +273,4 @@ def network_classification(T, base_network, mash_path, chunk, sccmec_file, node)
 
 		sorted_sim = related_cassettes(ccn, node)
 
-		return sorted_sim[1][0], exist
+		return sorted_sim[1][0], exist, prediction[0]

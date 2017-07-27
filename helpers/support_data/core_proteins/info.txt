@@ -89,6 +89,7 @@ sccmec_NZ_CP012018,core_proteins_III.fasta,III
 sccmec_NZ_CP013957,core_proteins_III.fasta,III
 sccmec_HF937103,core_proteins_outside_IV.fasta,IV-out
 sccmec_NC_021059,core_proteins_outside_IV.fasta,IV-out
+sccmec_AJ810121,core_proteins_open_IV.fasta,IV-open
 sccmec_AB063172,core_proteins_open_IV.fasta,IV-open
 sccmec_AB063173,core_proteins_open_IV.fasta,IV-open
 sccmec_AB096217,core_proteins_open_IV.fasta,IV-open

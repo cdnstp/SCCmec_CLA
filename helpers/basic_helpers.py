@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 # ------------------------------------------------------------------------- #
 # ------------------------------------------------------------------------- #
 
@@ -14,7 +15,7 @@ def simple_sequence(file):
 
 def reverse_complement(sequence):
 	""" Transforma la secuencia nucl en su reverso complementario """
-	complement = {'A': 'T', 'C': 'G', 'G': 'C', 'T': 'A'}
+	complement = {'A': 'T', 'C': 'G', 'G': 'C', 'T': 'A', 'N': 'N'}
 	bases = list(sequence)
 	bases = [complement[base] for base in bases]
 	complement = ''.join(bases)
@@ -124,7 +125,7 @@ def get_orfX_pos(sequence, query, name):
 			#print texto, inicio, final
 			return texto, inicio, final
 	else:
-		sys.exit("Error")
+		sys.exit("Error") #No se cuando pueda pasar este error por lo que se quedará así hasta que ocurra.
 
 
 # ------------------------------------------------------------------------- #
@@ -146,8 +147,7 @@ def sequence_position(sequence, query, name):
 		return texto, inicio, final
 	else:
 		print(name, "Not Found")
-		import sys
-		sys.exit()
+		return None
 
 
 # ------------------------------------------------------------------------- #

@@ -1,5 +1,7 @@
-import sys
+# -*- coding: UTF-8 -*-
 import os
+import sys
+import shutil
 import ConfigParser
 from helpers import *
 
@@ -131,10 +133,18 @@ def main():
         print('PBP2a Hit: ', mec_hit)
         print('ccr Hit: ', ccr_hit)
 
+        print(nucl_db_dir)
+        print(prot_db_dir)
+        prokkk = os.path.join(output_folder, output_prokka)
+        print(prokkk)
         core_elements = [orfx_nucl_hit, mec_hit, ccr_hit]
 
         if not all(core_elements):
             print('It\'s not MRSA')
+
+            shutil.rmtree(nucl_db_dir, ignore_errors=False, onerror=None)
+            shutil.rmtree(prot_db_dir, ignore_errors=False, onerror=None)
+            shutil.rmtree(prokkk, ignore_errors=False, onerror=None)
             os.chdir(output_folder)
             info_file = 'MSSA_{0}.txt'.format(filename)
             with open(info_file, "w") as f:
@@ -246,11 +256,30 @@ def main():
                 # variable "cassette" posee los tres elementos
                 # creo que lo obvie porque tenemos cerca de 200 secuencias
                 # attR, pero si aparece un cassette muy divergente vamos
-                # a tener problemas 
-                mec_text, mec_s, mec_e = sequence_position(cassette, 
-                    actual_mec, "PBP2a")
-                ccr_text, ccr_s, ccr_e = sequence_position(cassette, 
-                    actual_ccr, "ccr")
+                # a tener problemas
+                try: 
+                    mec_text, mec_s, mec_e = sequence_position(cassette, 
+                        actual_mec, "PBP2a")
+                except TypeError:
+                    info_file = 'MRSA_{0}_wo_mecA.txt'.format(filename)
+                    with open(info_file, 'w') as f:
+                        f.write('mecA out of selected range\n')
+                    shutil.rmtree(nucl_db_dir, ignore_errors=False, onerror=None)
+                    shutil.rmtree(prot_db_dir, ignore_errors=False, onerror=None)
+                    shutil.rmtree(prokkk, ignore_errors=False, onerror=None)
+                    continue
+
+                try:
+                    ccr_text, ccr_s, ccr_e = sequence_position(cassette, 
+                        actual_ccr, "ccr")
+                except TypeError:
+                    info_file = 'MRSA_{0}_wo_ccr.txt'.format(filename)
+                    with open(info_file, 'w') as f:
+                        f.write('ccr out of selected range\n')
+                    shutil.rmtree(nucl_db_dir, ignore_errors=False, onerror=None)
+                    shutil.rmtree(prot_db_dir, ignore_errors=False, onerror=None)
+                    shutil.rmtree(prokkk, ignore_errors=False, onerror=None)
+                    continue
 #############################################################################
 
 # ------------------------------------------------------------------------- #
@@ -286,6 +315,10 @@ def main():
 #       (very unlikely scenario)                                            #
 # ------------------------------------------------------------------------- #
             else:
+                shutil.rmtree(nucl_db_dir, ignore_errors=False, onerror=None)
+                shutil.rmtree(prot_db_dir, ignore_errors=False, onerror=None)
+                shutil.rmtree(prokkk, ignore_errors=False, onerror=None)
+                
                 info_file = 'attr_not_found_{0}.txt'.format(filename)
                 with open(info_file, 'w') as f:
                     f.write('attr not found\n')
@@ -309,6 +342,10 @@ def main():
                 seq_region_id_ccr)
             info_file = 'separated_core_elements_{0}.txt'.format(filename)
             if len(fnas) == 3:
+                shutil.rmtree(nucl_db_dir, ignore_errors=False, onerror=None)
+                shutil.rmtree(prot_db_dir, ignore_errors=False, onerror=None)
+                shutil.rmtree(prokkk, ignore_errors=False, onerror=None)
+                
                 with open(info_file, 'w') as f:
                     f.write('each core elements in differents fna\n')
                 continue
@@ -359,13 +396,29 @@ def main():
                     cassette = ''.join([cassette_left_end, 
                         cassette_right_end])
 #################################-BUG-PRONE-#################################
+                    try: 
+                        mec_text, mec_s, mec_e = sequence_position(cassette, 
+                            actual_mec, "PBP2a")
+                    except TypeError:
+                        info_file = 'MRSA_{0}_wo_mecA.txt'.format(filename)
+                        with open(info_file, 'w') as f:
+                            f.write('mecA out of selected range\n')
+                        shutil.rmtree(nucl_db_dir, ignore_errors=False, onerror=None)
+                        shutil.rmtree(prot_db_dir, ignore_errors=False, onerror=None)
+                        shutil.rmtree(prokkk, ignore_errors=False, onerror=None)
+                        continue
 
-                    mec_text, mec_s, mec_e = sequence_position(cassette, 
-                        actual_mec, "PBP2a")
-                    ccr_text, ccr_s, ccr_e = sequence_position(cassette, 
-                        actual_ccr, "ccr")
-
-
+                    try:
+                        ccr_text, ccr_s, ccr_e = sequence_position(cassette, 
+                            actual_ccr, "ccr")
+                    except TypeError:
+                        info_file = 'MRSA_{0}_wo_ccr.txt'.format(filename)
+                        with open(info_file, 'w') as f:
+                            f.write('ccr out of selected range\n')
+                        shutil.rmtree(nucl_db_dir, ignore_errors=False, onerror=None)
+                        shutil.rmtree(prot_db_dir, ignore_errors=False, onerror=None)
+                        shutil.rmtree(prokkk, ignore_errors=False, onerror=None)
+                        continue
 
 
                     with open(cassette_filename, 'w') as f:
@@ -409,10 +462,29 @@ def main():
 
 #################################-BUG-PRONE-#################################
 
-                        mec_text, mec_s, mec_e = sequence_position(cassette, 
-                            actual_mec, "PBP2a")
-                        ccr_text, ccr_s, ccr_e = sequence_position(cassette, 
-                            actual_ccr, "ccr")
+                        try: 
+                            mec_text, mec_s, mec_e = sequence_position(cassette, 
+                                actual_mec, "PBP2a")
+                        except TypeError:
+                            info_file = 'MRSA_{0}_wo_mecA.txt'.format(filename)
+                            with open(info_file, 'w') as f:
+                                f.write('mecA out of selected range\n')
+                            shutil.rmtree(nucl_db_dir, ignore_errors=False, onerror=None)
+                            shutil.rmtree(prot_db_dir, ignore_errors=False, onerror=None)
+                            shutil.rmtree(prokkk, ignore_errors=False, onerror=None)
+                            continue
+
+                        try:
+                            ccr_text, ccr_s, ccr_e = sequence_position(cassette, 
+                                actual_ccr, "ccr")
+                        except TypeError:
+                            info_file = 'MRSA_{0}_wo_ccr.txt'.format(filename)
+                            with open(info_file, 'w') as f:
+                                f.write('ccr out of selected range\n')
+                            shutil.rmtree(nucl_db_dir, ignore_errors=False, onerror=None)
+                            shutil.rmtree(prot_db_dir, ignore_errors=False, onerror=None)
+                            shutil.rmtree(prokkk, ignore_errors=False, onerror=None)
+                            continue
 
 
                         with open(cassette_filename, 'w') as f:
@@ -439,6 +511,9 @@ def main():
 #       O. If attR is not found in either of both sense (5'-3' o 3'-5')     #
 #       the script continue with the next file to analize                   #
                     else:
+                        shutil.rmtree(nucl_db_dir, ignore_errors=False, onerror=None)
+                        shutil.rmtree(prot_db_dir, ignore_errors=False, onerror=None)
+                        shutil.rmtree(prokkk, ignore_errors=False, onerror=None)
                         info_file = 'attr_not_found_{0}.txt'.format(
                             filename)
                         with open(info_file, 'w') as f:
@@ -466,29 +541,36 @@ def main():
 
         print(base_network_path)
 
-        
-        close_cassette, bool_type = network_classification(
+        mash_distances = "/home/fsepulveda/python_snippets/KNN/ml_revisado/output_mash_distance_columns.txt"
+        sccmectypes = "/home/fsepulveda/python_snippets/KNN/ml_revisado/sccmec_specific_type_labels.txt"
+
+        close_cassette, bool_type, predicted = network_classification(
             threshold, 
             base_network_path, 
             mash_path, 
             chunk_path, 
             cassette_path, 
-            sccmec_id)
+            sccmec_id,
+            mash_distances,
+            sccmectypes,)
 
 
         length_cassette = len(cassette)
-
-
+        print(close_cassette)
         core_annotation = core_proteins_sccmec.get(close_cassette)
+        print(core_annotation)
         core_proteins_file, tipo = core_annotation.split(',')
 
-
+        print(tipo, predicted)
         sccmec_type_file = 'sccmec_cla_type_{0}.txt'.format(sccmec_id) 
+
         with open(sccmec_type_file, 'w') as f:
             if bool_type:
                 f.write('new-type\n')
+                f.write('related to group {0}, specific type {1}\n'.format(tipo, predicted))
             else:
-                f.write('{}\n'.format(tipo))
+                f.write('add-type\n')
+                f.write('related to group {0}, specific type {1}\n'.format(tipo, predicted))
 
         print(core_proteins_file)
 
@@ -498,6 +580,10 @@ def main():
 
         vis_sccmec(faa_file_sccmec, annotation_file, 
             length_cassette, selected_core_proteins, blastp_exe)
+
+        shutil.rmtree(nucl_db_dir, ignore_errors=False, onerror=None)
+        shutil.rmtree(prot_db_dir, ignore_errors=False, onerror=None)
+        shutil.rmtree(prokkk, ignore_errors=False, onerror=None)
 
         
     sys.exit('done')

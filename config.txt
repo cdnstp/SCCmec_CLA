@@ -15,7 +15,7 @@ pbp2a = helpers/support_data/pbp2a.fasta
 ccr = helpers/support_data/ccr.fasta
 core_db = helpers/support_data/core_database/core_db
 base_network = helpers/support_data/network_k32_s100000_267_SCCmec.eda
-chunk = helpers/support_data/267_SCCmec_k32_s100000.msh
+chunk = helpers/support_data/sketch_mash_268.msh
 threshold = 0.9860
 
 # core analysis
