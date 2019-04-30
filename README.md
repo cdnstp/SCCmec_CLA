@@ -1,4 +1,4 @@
-# Framework for Staphylococcal Cassette Chromosome *mec* Classification 
+# Pipeline for Staphylococcal Cassette Chromosome *mec* Classification 
 
 ## Prerequisites
 
