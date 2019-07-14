@@ -4,129 +4,131 @@ import subprocess
 import pandas as pd
 
 def prokka_files_sccmec(location):
-	""" ubicacion de archivos prokka a utilizar """
-	for file in os.listdir(location):
-		if file.endswith(".ffn"):
-			ffn = os.path.join(location, file)
-		if file.endswith(".gff"):
-			gff = os.path.join(location, file)
-		if file.endswith(".fna"):
-			fna = os.path.join(location, file)
-		if file.endswith(".faa"):
-			faa = os.path.join(location, file)
-		if file.endswith(".gbk"):
-			gbk= os.path.join(location, file)
+    """ ubicacion de archivos prokka a utilizar """
+    for file in os.listdir(location):
+        if file.endswith(".ffn"):
+            ffn = os.path.join(location, file)
+        if file.endswith(".gff"):
+            gff = os.path.join(location, file)
+        if file.endswith(".fna"):
+            fna = os.path.join(location, file)
+        if file.endswith(".faa"):
+            faa = os.path.join(location, file)
+        if file.endswith(".gbk"):
+            gbk = os.path.join(location, file)
+        if file.endswith(".gbf"):
+            gbk = os.path.join(location, file)  
 
-	return ffn, gff, fna, faa, gbk
+    return ffn, gff, fna, faa, gbk
 
 
 # ------------------------------------------------------------------------- #
 
 def execute_prokka_sccmec(prokka_exe, output_prokka, contigs):
-	""" RUN PROKKA parametros especiales para s aureus """
-	#print output_prokka
-	kingdom = "Bacteria"
-	genus = "Staphylococcus"
-	locustag = output_prokka
-	out_folder_prokka = 'output_prokka_{0}'.format(output_prokka)
-	cmd_prokka = prokka_exe+" --kingdom " + kingdom + \
-					" --outdir " + out_folder_prokka + \
-					" --quiet "+ \
-					" --genus "+ genus + \
-					" --locustag "+ locustag + \
-					" --centre 10 --compliant" + \
-					" --prefix "+ out_folder_prokka + \
-					" --force " + \
-					' '+ contigs
-	os.system(cmd_prokka)
-	return out_folder_prokka
+    """ RUN PROKKA parametros especiales para s aureus """
+    #print output_prokka
+    kingdom = "Bacteria"
+    genus = "Staphylococcus"
+    locustag = output_prokka
+    out_folder_prokka = 'output_prokka_{0}'.format(output_prokka)
+    cmd_prokka = prokka_exe+" --kingdom " + kingdom + \
+                    " --outdir " + out_folder_prokka + \
+                    " --quiet "+ \
+                    " --genus "+ genus + \
+                    " --locustag "+ locustag + \
+                    " --centre 10 --compliant" + \
+                    " --prefix "+ out_folder_prokka + \
+                    " --force " + \
+                    ' '+ contigs
+    os.system(cmd_prokka)
+    return out_folder_prokka
 
 
 def fasta2dict(file):
-	""" Transforma archivos multi-fasta en un dict de python """
-	fastadict = {}
-	with open(file) as file_one:
-		for line in file_one:
-			line = line.strip()
-			if not line:
-				continue
-			if line.startswith(">"):
-				active_sequence_name = str(line.split()[0][1:])
-				if active_sequence_name not in fastadict:
-					fastadict[active_sequence_name] = []
-				continue
-			sequence = line
-			fastadict[active_sequence_name].append(sequence)
-	return fastadict
+    """ Transforma archivos multi-fasta en un dict de python """
+    fastadict = {}
+    with open(file) as file_one:
+        for line in file_one:
+            line = line.strip()
+            if not line:
+                continue
+            if line.startswith(">"):
+                active_sequence_name = str(line.split()[0][1:])
+                if active_sequence_name not in fastadict:
+                    fastadict[active_sequence_name] = []
+                continue
+            sequence = line
+            fastadict[active_sequence_name].append(sequence)
+    return fastadict
 
 
 # ------------------------------------------------------------------------- #
 
 def get_sequence(sequences_dict, sequence_id):
-	""" Obtiene secuencia desde dict-seq usando la key """
-	sequence = ""
-	for i in sequences_dict.get(sequence_id)[:]:
-		sequence += ''.join(i)
-	return sequence
+    """ Obtiene secuencia desde dict-seq usando la key """
+    sequence = ""
+    for i in sequences_dict.get(sequence_id)[:]:
+        sequence += ''.join(i)
+    return sequence
 
 # ------------------------------------------------------------------------- #
 
 def sBLAST(blast_exe, database, query):
-	""" Ejecuta BLAST usando database+string """
-	outfmt = "6 qseqid qlen sseqid slen qstart qend sstart send length nident pident evalue"
+    """ Ejecuta BLAST usando database+string """
+    outfmt = "6 qseqid qlen sseqid slen qstart qend sstart send length nident pident evalue"
 
-	cmd = [blast_exe, "-outfmt", outfmt, "-db", database]
+    cmd = [blast_exe, "-outfmt", outfmt, "-db", database]
 
-	proc = subprocess.Popen(cmd, stdin=subprocess.PIPE,
-								stdout=subprocess.PIPE,
-								stderr=subprocess.STDOUT)
-	
-	results, err = proc.communicate(query)
+    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE,
+                                stdout=subprocess.PIPE,
+                                stderr=subprocess.STDOUT)
+    
+    results, err = proc.communicate(query)
 
-	return results, err
+    return results, err
 
 # ------------------------------------------------------------------------- #
 
 def annotation_blast_parser(out):
-	""" Get Best Hit If Any """
-	salida = ""
-	if out:
-		row = [s.split('\t') for s in out.split('\n')]
-		lines = [x for x in row if x != [""]]
-		for line in lines:
-			args = [arg for arg in line]
+    """ Get Best Hit If Any """
+    salida = ""
+    if out:
+        row = [s.split('\t') for s in out.split('\n')]
+        lines = [x for x in row if x != [""]]
+        for line in lines:
+            args = [arg for arg in line]
 
-			query_coverage = float("{0:.2f}".format(((float(args[5])-float(args[4]))+1)/float(args[1])*100))
-			subject_coverage = float("{0:.2f}".format(((float(args[7])-float(args[6]))+1)/float(args[3])*100))
+            query_coverage = float("{0:.2f}".format(((float(args[5])-float(args[4]))+1)/float(args[1])*100))
+            subject_coverage = float("{0:.2f}".format(((float(args[7])-float(args[6]))+1)/float(args[3])*100))
 
-			#print args, query_coverage, subject_coverage
-			# subject_coverage menor en caso de que la seq este truncada
-			if query_coverage >= 70.0 and subject_coverage >= 40.0:
+            #print args, query_coverage, subject_coverage
+            # subject_coverage menor en caso de que la seq este truncada
+            if query_coverage >= 70.0 and subject_coverage >= 40.0:
 
-				args.append(str(query_coverage))
-				args.append(str(subject_coverage))
-				salida += "\t".join([x for x in args])+'\n'
-	else:
-		return None
+                args.append(str(query_coverage))
+                args.append(str(subject_coverage))
+                salida += "\t".join([x for x in args])+'\n'
+    else:
+        return None
 
-	if salida:
-		lines = [s.split('\t') for s in salida.split('\n')]
-		list2 = [x for x in lines if x != [""]]
+    if salida:
+        lines = [s.split('\t') for s in salida.split('\n')]
+        list2 = [x for x in lines if x != [""]]
 
-		list2.sort(key=lambda x: float(x[10]), reverse=True)
-		
-		#print("Best Hit: ", list2[0])
-		if float(list2[0][13]) < 60.0:
-			saureus_id = list2[0][2]+"-Truncated"
-			return saureus_id
-		else:
+        list2.sort(key=lambda x: float(x[10]), reverse=True)
+        
+        #print("Best Hit: ", list2[0])
+        if float(list2[0][13]) < 60.0:
+            saureus_id = list2[0][2]+"-Truncated"
+            return saureus_id
+        else:
 
-			saureus_id = list2[0][2]
-			return saureus_id 
+            saureus_id = list2[0][2]
+            return saureus_id 
 
-	else:
+    else:
 
-		return None
+        return None
 
 # ------------------------------------------------------------------------- #
 
@@ -196,126 +198,126 @@ ccrC = ["ccrC"]
 ccrA1B3 = ["ccrA1", "ccrB3"]
 
 def ccrAllotype(lst):
-	if all(gene in lst for gene in ccrA1B1):
-		return "1"
-	if all(gene in lst for gene in ccrA1B1_):
-		return "1"	
-	if all(gene in lst for gene in ccrA1B1__):
-		return "1"
+    if all(gene in lst for gene in ccrA1B1):
+        return "1"
+    if all(gene in lst for gene in ccrA1B1_):
+        return "1"  
+    if all(gene in lst for gene in ccrA1B1__):
+        return "1"
 
-	if all(gene in lst for gene in ccrA2B2):
-		return "2"
-	if all(gene in lst for gene in ccrA2B2_):
-		return "2"
-	if all(gene in lst for gene in ccrA2B2__):
-		return "2"
+    if all(gene in lst for gene in ccrA2B2):
+        return "2"
+    if all(gene in lst for gene in ccrA2B2_):
+        return "2"
+    if all(gene in lst for gene in ccrA2B2__):
+        return "2"
 
-	if all(gene in lst for gene in ccrA3B3):
-		return "3"
-	if all(gene in lst for gene in ccrA3B3_):
-		return "3"
-	if all(gene in lst for gene in ccrA3B3__):
-		return "3"
+    if all(gene in lst for gene in ccrA3B3):
+        return "3"
+    if all(gene in lst for gene in ccrA3B3_):
+        return "3"
+    if all(gene in lst for gene in ccrA3B3__):
+        return "3"
 
-	if all(gene in lst for gene in ccrA4B4):
-		return "4"
-	if all(gene in lst for gene in ccrA4B4_):
-		return "4"
-	if all(gene in lst for gene in ccrA4B4__):
-		return "4"
+    if all(gene in lst for gene in ccrA4B4):
+        return "4"
+    if all(gene in lst for gene in ccrA4B4_):
+        return "4"
+    if all(gene in lst for gene in ccrA4B4__):
+        return "4"
 
-	if all(gene in lst for gene in ccrC):
-		return "5"	
+    if all(gene in lst for gene in ccrC):
+        return "5"  
 
-	if all(gene in lst for gene in ccrA1B3):
-		return "8"
+    if all(gene in lst for gene in ccrA1B3):
+        return "8"
 
-	else:
-		return "N"
+    else:
+        return "N"
 
 
 def mecClass2(lst):
-	for i in range(len(lst)):
-		if lst[i] == "mecA":
-			try:
-				if lst[i+1] == "mecR1":
-					if lst[i+2] == "MecI":
-						return "A"
-			except IndexError:
-				pass
-			try:
-				if lst[i+1] == "mecR1":
-					if lst[i+2] == "MecI-Truncated":
-						return "A"
-			except IndexError:
-				pass
-			try:
-				if lst[i+1] == "mecR1-Truncated":
-					if lst[i+2] == "MecI":
-						return "A"
-			except IndexError:
-				pass
-			try:
-				if lst[i+1] == "mecR1-Truncated":
-					if lst[i+2] == "MecI-Truncated":
-						return "A"
-			except IndexError:
-				pass
-			try:
-				if lst[i+1] == "mecR1-Truncated":
-					if lst[i+2] == "IS1272":
-						if lst[i-1] == "IS431":
-							return "B"
-			except IndexError:
-				pass
+    for i in range(len(lst)):
+        if lst[i] == "mecA":
+            try:
+                if lst[i+1] == "mecR1":
+                    if lst[i+2] == "MecI":
+                        return "A"
+            except IndexError:
+                pass
+            try:
+                if lst[i+1] == "mecR1":
+                    if lst[i+2] == "MecI-Truncated":
+                        return "A"
+            except IndexError:
+                pass
+            try:
+                if lst[i+1] == "mecR1-Truncated":
+                    if lst[i+2] == "MecI":
+                        return "A"
+            except IndexError:
+                pass
+            try:
+                if lst[i+1] == "mecR1-Truncated":
+                    if lst[i+2] == "MecI-Truncated":
+                        return "A"
+            except IndexError:
+                pass
+            try:
+                if lst[i+1] == "mecR1-Truncated":
+                    if lst[i+2] == "IS1272":
+                        if lst[i-1] == "IS431":
+                            return "B"
+            except IndexError:
+                pass
 
-			try:
-				if lst[i-1] == "IS431":
-					if lst[i+1] == "mecR1-Truncated":
-						if lst[i+2] == "IS431":
-							return "C1"
-			except IndexError:
-				pass
-			try:
-				if lst[i-1] == "IS431" or lst[i-1] == "IS431-Truncated":
-					if lst[i+1] == "IS431" or lst[i+1] == "IS431-Truncated":
+            try:
+                if lst[i-1] == "IS431":
+                    if lst[i+1] == "mecR1-Truncated":
+                        if lst[i+2] == "IS431":
+                            return "C1"
+            except IndexError:
+                pass
+            try:
+                if lst[i-1] == "IS431" or lst[i-1] == "IS431-Truncated":
+                    if lst[i+1] == "IS431" or lst[i+1] == "IS431-Truncated":
 
-						try:
-							if "ccrA" in lst[i-2] or "ccrB" in lst[i-2]:
-								return "CL"
-							if "ccrA" in lst[i+2] or "ccrB" in lst[i+2]:
-								return "CR"
-						except IndexError:
-							pass
+                        try:
+                            if "ccrA" in lst[i-2] or "ccrB" in lst[i-2]:
+                                return "CL"
+                            if "ccrA" in lst[i+2] or "ccrB" in lst[i+2]:
+                                return "CR"
+                        except IndexError:
+                            pass
 
-					return "C"
-			except IndexError:
-				pass
+                    return "C"
+            except IndexError:
+                pass
 
-		try:
-			if lst[i] == "mecC":
-				if lst[i+1] == "mecR1":
-					if lst[i+2] == "MecI":
-						return "E"
-		except IndexError:
-			pass
+        try:
+            if lst[i] == "mecC":
+                if lst[i+1] == "mecR1":
+                    if lst[i+2] == "MecI":
+                        return "E"
+        except IndexError:
+            pass
 
-	else:
-		return "N"
+    else:
+        return "N"
 
 
 sccmec_dict = {
-	"1B": "I",
-	"2A": "II",
-	"3A": "III",
-	"2B": "IV",
-	"5C": "V",
-	"4B": "VI",
-	"5C1": "VII",
-	"4A": "VIII",
-	"1CL": "IX",
-	"1CR": "X",
-	"8E": "XI"
+    "1B": "I",
+    "2A": "II",
+    "3A": "III",
+    "2B": "IV",
+    "5C": "V",
+    "4B": "VI",
+    "5C1": "VII",
+    "4A": "VIII",
+    "1CL": "IX",
+    "1CR": "X",
+    "8E": "XI"
 }
 
 # ------------------------------------------------------------------------- #
@@ -325,107 +327,109 @@ sccmec_dict = {
 
 def current_annotation(sccmec_file, blast_exe, prokka_exe, core_database, output_folder):
 
-	sccmec_id = sccmec_file.split(".")[0].split('/')[-1]
-
-	out_folder_prokka = execute_prokka_sccmec(prokka_exe, sccmec_id, sccmec_file)
-	ffn, gff, fna, faa, gbk = prokka_files_sccmec(out_folder_prokka)
-	faa_dict = fasta2dict(faa)
-
-	position_dict = locationGenbank(gbk)
-
-	ordered_keys = []
-	for key in faa_dict.keys():
-		ordered_keys.append(key)
+    sccmec_id = sccmec_file.split(".")[0].split('/')[-1]
 
 
-	ordered_keys = sorted(ordered_keys)
+    out_folder_prokka = execute_prokka_sccmec(prokka_exe, sccmec_id, sccmec_file)
 
-	locus, sentido, inicio, fin, nucl, prot, gene = ([] for i in range(7))
-	for k in ordered_keys:
-		sequence = get_sequence(faa_dict, k)
-		largo = str(len(sequence))
-		results, err = sBLAST(blast_exe, core_database, sequence)
-		match = annotation_blast_parser(results)
+    ffn, gff, fna, faa, gbk = prokka_files_sccmec(out_folder_prokka)
+    faa_dict = fasta2dict(faa)
 
-		#print position_dict[k]
-		sense, start, end, size = position_dict[k].split()
+    position_dict = locationGenbank(gbk)
 
-		if match:
-			match = match.split("_")[-1]
-			#print k, sense, start, end, size, largo, match
-			locus.append(k)
-			sentido.append(sense)
-			inicio.append(start)
-			fin.append(end)
-			nucl.append(size)
-			prot.append(largo)
-			gene.append(match)
+    ordered_keys = []
+    for key in faa_dict.keys():
+        ordered_keys.append(key)
 
-		else:
-			match = 'NN'
-			#print k, sense, start, end, size, largo, match
-			locus.append(k)
-			sentido.append(sense)
-			inicio.append(start)
-			fin.append(end)
-			nucl.append(size)
-			prot.append(largo)
-			gene.append(match)
-			continue
 
-	columns = ["Locus", "Sense", "Start", "End", "Size", "Length", "Gene"]
-	data = pd.DataFrame({
-		"Locus": locus,
-		"Sense": sentido,
-		"Start": inicio,
-		"End": fin,
-		"Size": nucl,
-		"Length": prot,
-		"Gene": gene
-		}, columns=columns)
+    ordered_keys = sorted(ordered_keys)
+
+    locus, sentido, inicio, fin, nucl, prot, gene = ([] for i in range(7))
+    for k in ordered_keys:
+        sequence = get_sequence(faa_dict, k)
+        largo = str(len(sequence))
+        results, err = sBLAST(blast_exe, core_database, sequence)
+        match = annotation_blast_parser(results)
+
+        #print position_dict[k]
+        sense, start, end, size = position_dict[k].split()
+
+        if match:
+            match = match.split("_")[-1]
+            #print k, sense, start, end, size, largo, match
+            locus.append(k)
+            sentido.append(sense)
+            inicio.append(start)
+            fin.append(end)
+            nucl.append(size)
+            prot.append(largo)
+            gene.append(match)
+
+        else:
+            match = 'NN'
+            #print k, sense, start, end, size, largo, match
+            locus.append(k)
+            sentido.append(sense)
+            inicio.append(start)
+            fin.append(end)
+            nucl.append(size)
+            prot.append(largo)
+            gene.append(match)
+            continue
+
+    columns = ["Locus", "Sense", "Start", "End", "Size", "Length", "Gene"]
+    data = pd.DataFrame({
+        "Locus": locus,
+        "Sense": sentido,
+        "Start": inicio,
+        "End": fin,
+        "Size": nucl,
+        "Length": prot,
+        "Gene": gene
+        }, columns=columns)
 
 # ------------------------------------------------------------------------- #
-	os.chdir(output_folder)
-	print(output_folder)
-	faa_file_sccmec = os.path.join(output_folder, faa)
+    os.chdir(output_folder)
+    print(output_folder)
+    faa_file_sccmec = os.path.join(output_folder, faa)
 # ------------------------------------------------------------------------- #
 # ------------------------------------------------------------------------- #
 #   save annotation based on our database 
 
-	annotation_file_name = 'annotation_table_{0}.txt'.format(sccmec_id)
-	annotation_file = os.path.join(output_folder, annotation_file_name)
+    annotation_file_name = 'annotation_table_{0}.txt'.format(sccmec_id)
+    annotation_file = os.path.join(output_folder, annotation_file_name)
 
-	data.to_csv(annotation_file_name, sep='\t', encoding='utf-8', index=False)
+    data.to_csv(annotation_file_name, sep='\t', encoding='utf-8', index=False)
 
-	gene = [x for x in gene if x != 'NN']
+    gene = [x for x in gene if x != 'NN']
 
-	print gene
+    print gene
 
-	core_elements = pd.DataFrame({'Core Elements': gene})
-	file_name = 'core_elements_{0}.txt'.format(sccmec_id)
-	core_elements.to_csv(file_name, sep='\t', encoding='utf-8', index=False)
+    core_elements = pd.DataFrame({'Core Elements': gene})
+    file_name = 'core_elements_{0}.txt'.format(sccmec_id)
+    core_elements.to_csv(file_name, sep='\t', encoding='utf-8', index=False)
 
-	clase = mecClass2(gene)
-	alotipo = ccrAllotype(gene)
-	code = (alotipo+clase)
+    clase = mecClass2(gene)
+    alotipo = ccrAllotype(gene)
+    code = (alotipo+clase)
 
 
 # ------------------------------------------------------------------------- #
 #   save SCCmec type information 
-	try: 
-		print sccmec_dict[code]
-		file_name = '{0}_type.txt'.format(sccmec_id)
-		with open(file_name, "w") as f:
-			f.write('{0}\n'.format(sccmec_dict[code]))
-	except KeyError:
-		print code
-		file_name = '{0}_type.txt'.format(sccmec_id)
-		with open(file_name, "w") as f:
-			f.write('{0}\n'.format(code))
+    try: 
+        print sccmec_dict[code]
+        file_name = '{0}_type.txt'.format(sccmec_id)
+        with open(file_name, "w") as f:
+            f.write('{0}\n'.format(sccmec_dict[code]))
+    except KeyError:
+        print code
+        file_name = '{0}_type.txt'.format(sccmec_id)
+        with open(file_name, "w") as f:
+            f.write('{0}\n'.format(code))
 
 
-	print('SCCmec ID: ', sccmec_id)
-	return sccmec_id, faa_file_sccmec, annotation_file
-	
+    print('SCCmec ID: ', sccmec_id)
+    return sccmec_id, faa_file_sccmec, annotation_file
+    
 # ------------------------------------------------------------------------- # 
 # ------------------------------------------------------------------------- #

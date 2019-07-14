@@ -7,11 +7,12 @@ from helpers import *
 
 
 
+
 def main():
 # ------------------------------------------------------------------------- #
 #       1. CONFIGURATION & OUTPUT SET UP                                    #
 # ------------------------------------------------------------------------- #
-
+    
     config = ConfigParser.ConfigParser()
     config.readfp(open(r'config.txt'))
 
