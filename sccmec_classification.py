@@ -2,7 +2,8 @@
 import os
 import sys
 import shutil
-import ConfigParser
+#import ConfigParser
+import configparser
 from helpers import *
 
 
@@ -13,7 +14,8 @@ def main():
 #       1. CONFIGURATION & OUTPUT SET UP                                    #
 # ------------------------------------------------------------------------- #
     
-    config = ConfigParser.ConfigParser()
+#    config = ConfigParser.ConfigParser()
+    config = configparser.ConfigParser()
     config.readfp(open(r'config.txt'))
 
     prokka = config.get('configuration', 'prokka')

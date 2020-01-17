@@ -83,7 +83,7 @@ def sBLAST(blast_exe, database, query):
                                 stdout=subprocess.PIPE,
                                 stderr=subprocess.STDOUT)
     
-    results, err = proc.communicate(query)
+    results, err = proc.communicate(query.encode())
 
     return results, err
 
@@ -93,6 +93,7 @@ def annotation_blast_parser(out):
     """ Get Best Hit If Any """
     salida = ""
     if out:
+        out = out.decode('utf8')
         row = [s.split('\t') for s in out.split('\n')]
         lines = [x for x in row if x != [""]]
         for line in lines:
@@ -403,7 +404,7 @@ def current_annotation(sccmec_file, blast_exe, prokka_exe, core_database, output
 
     gene = [x for x in gene if x != 'NN']
 
-    print gene
+    print(gene)
 
     core_elements = pd.DataFrame({'Core Elements': gene})
     file_name = 'core_elements_{0}.txt'.format(sccmec_id)
@@ -417,12 +418,12 @@ def current_annotation(sccmec_file, blast_exe, prokka_exe, core_database, output
 # ------------------------------------------------------------------------- #
 #   save SCCmec type information 
     try: 
-        print sccmec_dict[code]
+        print(sccmec_dict[code])
         file_name = '{0}_type.txt'.format(sccmec_id)
         with open(file_name, "w") as f:
             f.write('{0}\n'.format(sccmec_dict[code]))
     except KeyError:
-        print code
+        print(code)
         file_name = '{0}_type.txt'.format(sccmec_id)
         with open(file_name, "w") as f:
             f.write('{0}\n'.format(code))

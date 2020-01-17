@@ -68,7 +68,7 @@ def get_sequence(sequences_dict, sequence_id):
 def sort_fna(orfx, mec, ccr):
 	""" Si core-elements en diferentes contigs, saber cual es el primero (left, orfx)"""
 	ids = [orfx, mec, ccr]
-	print len(set(ids))
+	print(len(set(ids)))
 	if not len(set(ids)) > 2:
 		if orfx == mec:
 			contig_one = orfx

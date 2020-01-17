@@ -53,6 +53,7 @@ def get_subgraph(graph, node):
     """ Entrega una lista de tuples con los pares de nodos
     del cluster en el que se encuentra un nodo dado """
     graphs = list(nx.connected_component_subgraphs(graph))
+    #graphs = list(nx.connected_components(graph))
 
     for subgraph in graphs:
         for nodes in subgraph:
@@ -203,7 +204,7 @@ def mash_exe(mash, chunk, sccmec_file):
 def mash_parser(output_mash):
     data = []
     array = []
-    for line in output_mash.split('\n'):
+    for line in output_mash.decode('utf8').split('\n'):
         if not line:
             continue
         file_a, file_b, value, _, _ = line.split('\t')
@@ -276,7 +277,7 @@ def network_classification(T, base_network, mash_path, chunk, sccmec_file, node,
         cytoscape_files(ccn, node)
         draw_network(ccn, node)
 
-        print len(ccn.nodes())
+        print(len(ccn.nodes()))
 
         sorted_sim = related_cassettes(ccn, node)
 

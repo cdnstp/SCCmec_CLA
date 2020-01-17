@@ -34,6 +34,7 @@ def simpleBlast(blast_exe, database, query, qname):
 def blast_mec_parser(out):
 	blast_hits = []
 	if out:
+		out = out.decode('utf8')
 		hits = [line.split('\t') for line in out.split('\n')]
 		hits = [line for line in hits if line != [""]]
 		for hit in hits:
@@ -55,6 +56,7 @@ def blast_mec_parser(out):
 def blast_ccr_parser(out):
 	blast_hits = []
 	if out:
+		out = out.decode('utf8')
 		hits = [line.split('\t') for line in out.split('\n')]
 		hits = [line for line in hits if line != [""]]
 		for hit in hits:
@@ -78,6 +80,7 @@ def simpleBlastParser(out):
 	""" Get Best Hit If Any """
 	salida = ""
 	if out:
+		out = out.decode('utf8')
 		row = [s.split('\t') for s in out.split('\n')]
 		lines = [x for x in row if x != [""]]
 		for line in lines:

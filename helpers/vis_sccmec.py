@@ -68,7 +68,7 @@ def run_blastp(blastp, subject, query):
 				stdin=subprocess.PIPE,
 				stdout=subprocess.PIPE,
 				stderr=subprocess.STDOUT)
-	out, err = process.communicate(query)
+	out, err = process.communicate(query.encode())
 
 	return out, err
 
@@ -90,6 +90,7 @@ def annotation_data(file):
 # ------------------------------------------------------------------------- #
 def output_blastp(out):
 	besthit = []
+	out = out.decode('utf8')
 	hits = [hit.split('\t') for hit in out.split('\n')]
 	for hit in hits:
 		if [''] == hit: continue
